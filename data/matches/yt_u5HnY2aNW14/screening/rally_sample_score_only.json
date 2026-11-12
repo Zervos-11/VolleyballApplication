@@ -1,0 +1,348 @@
+{
+  "status": "score_only_sample_frozen_from_candidate_register_pending_source_review",
+  "video_id": "u5HnY2aNW14",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "point_register_sha256": "10b2a872e6246263519538f660a0f51f1bdd1ae5a8e688cc30e820c460d4c273",
+  "seed": 20261102,
+  "sampling_rule": "simple random sampling without replacement: 3 visible score changes per set and scoreboard winner side",
+  "strata": [
+    {
+      "set": 1,
+      "winner_scoreboard_side": "left",
+      "eligible_count": 24,
+      "selected_count": 3,
+      "selection_probability": 0.125
+    },
+    {
+      "set": 1,
+      "winner_scoreboard_side": "right",
+      "eligible_count": 13,
+      "selected_count": 3,
+      "selection_probability": 0.23076923076923078
+    },
+    {
+      "set": 2,
+      "winner_scoreboard_side": "left",
+      "eligible_count": 24,
+      "selected_count": 3,
+      "selection_probability": 0.125
+    },
+    {
+      "set": 2,
+      "winner_scoreboard_side": "right",
+      "eligible_count": 20,
+      "selected_count": 3,
+      "selection_probability": 0.15
+    },
+    {
+      "set": 3,
+      "winner_scoreboard_side": "left",
+      "eligible_count": 24,
+      "selected_count": 3,
+      "selection_probability": 0.125
+    },
+    {
+      "set": 3,
+      "winner_scoreboard_side": "right",
+      "eligible_count": 17,
+      "selected_count": 3,
+      "selection_probability": 0.17647058823529413
+    }
+  ],
+  "selected_events": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "score_before": [
+        2,
+        2
+      ],
+      "score_after": [
+        3,
+        2
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 54,
+      "score_change_previous_sample_second": 53,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "score_before": [
+        3,
+        2
+      ],
+      "score_after": [
+        3,
+        3
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 66,
+      "score_change_previous_sample_second": 65,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "score_before": [
+        12,
+        5
+      ],
+      "score_after": [
+        13,
+        5
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 183,
+      "score_change_previous_sample_second": 182,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "score_before": [
+        18,
+        8
+      ],
+      "score_after": [
+        19,
+        8
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 251,
+      "score_change_previous_sample_second": 250,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "score_before": [
+        23,
+        10
+      ],
+      "score_after": [
+        23,
+        11
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 330,
+      "score_change_previous_sample_second": 329,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "score_before": [
+        24,
+        12
+      ],
+      "score_after": [
+        24,
+        13
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 369,
+      "score_change_previous_sample_second": 368,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "score_before": [
+        1,
+        0
+      ],
+      "score_after": [
+        2,
+        0
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 416,
+      "score_change_previous_sample_second": 415,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "score_before": [
+        3,
+        2
+      ],
+      "score_after": [
+        4,
+        2
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 462,
+      "score_change_previous_sample_second": 461,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "score_before": [
+        7,
+        6
+      ],
+      "score_after": [
+        7,
+        7
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 539,
+      "score_change_previous_sample_second": 538,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "score_before": [
+        13,
+        12
+      ],
+      "score_after": [
+        14,
+        12
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 640,
+      "score_change_previous_sample_second": 639,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "score_before": [
+        15,
+        12
+      ],
+      "score_after": [
+        15,
+        13
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 655,
+      "score_change_previous_sample_second": 654,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "score_before": [
+        20,
+        16
+      ],
+      "score_after": [
+        20,
+        17
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 744,
+      "score_change_previous_sample_second": 743,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "score_before": [
+        5,
+        5
+      ],
+      "score_after": [
+        5,
+        6
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 983,
+      "score_change_previous_sample_second": 982,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "score_before": [
+        6,
+        6
+      ],
+      "score_after": [
+        7,
+        6
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 1004,
+      "score_change_previous_sample_second": 1003,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "score_before": [
+        14,
+        8
+      ],
+      "score_after": [
+        15,
+        8
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 1096,
+      "score_change_previous_sample_second": 1095,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "score_before": [
+        17,
+        9
+      ],
+      "score_after": [
+        17,
+        10
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 1144,
+      "score_change_previous_sample_second": 1143,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "score_before": [
+        19,
+        13
+      ],
+      "score_after": [
+        20,
+        13
+      ],
+      "winner_scoreboard_side": "left",
+      "score_change_first_sample_second": 1198,
+      "score_change_previous_sample_second": 1197,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "score_before": [
+        20,
+        13
+      ],
+      "score_after": [
+        20,
+        14
+      ],
+      "winner_scoreboard_side": "right",
+      "score_change_first_sample_second": 1208,
+      "score_change_previous_sample_second": 1207,
+      "rally_end_status": "unknown_score_update_is_after_play"
+    }
+  ],
+  "restrictions": [
+    "Selections precede spatial inspection of these points.",
+    "The sampled second is a score-display change, not the rally end.",
+    "Exact point intervals, player-side mapping and team identities remain to be source-reviewed.",
+    "If an event fails review, record its exclusion; do not silently replace it with an easier rally."
+  ]
+}

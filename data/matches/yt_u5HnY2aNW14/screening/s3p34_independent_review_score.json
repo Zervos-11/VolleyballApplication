@@ -1,0 +1,11 @@
+{
+  "status": "awaiting_independent_review",
+  "point": "S3 P34",
+  "pack_manifest_sha256": "2e795fada7ad0edf27b460a0f2a12ac170416f5c78013d91f57094f2de1e1cbd",
+  "missing_completed_forms": [
+    "player",
+    "event",
+    "court"
+  ],
+  "strict_approved": false
+}

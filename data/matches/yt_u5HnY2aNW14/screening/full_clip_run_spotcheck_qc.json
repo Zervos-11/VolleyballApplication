@@ -1,0 +1,29 @@
+{
+  "review_type": "single_reviewer_bounded_source_frame_spotcheck",
+  "manifest": "full_clip_run_spotcheck/manifest.json",
+  "reviewed_run_rule": "Two longest 18-sample same-six-raw-ID full-clip runs; inspect first, middle and last sampled source images with boxes and IDs.",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "reviewed_source_frames": [1326, 1380, 1428],
+      "observed_team_membership": "six_boxes_on_near_ucla_team_at_all_three_displayed_frames",
+      "observed_identity_issue": "none_obvious_at_three_displayed_frames",
+      "exact_live_play_phase_certified": false,
+      "entire_run_identity_certified": false,
+      "court_floor_path_certified": false,
+      "note": "The three displayed frames show all six boxes on blue UCLA teammates. This does not inspect the intervening sampled or unsampled frames, and does not establish grounded positions or exact live-play timing."
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "reviewed_source_frames": [36000, 36054, 36102],
+      "observed_team_membership": "six_boxes_on_near_ucla_team_including_white_libero_28_at_all_three_displayed_frames",
+      "observed_identity_issue": "none_obvious_at_three_displayed_frames_raw_id_8_is_white_jersey_28_throughout",
+      "exact_live_play_phase_certified": false,
+      "entire_run_identity_certified": false,
+      "court_floor_path_certified": false,
+      "note": "Close crops confirm raw ID 8 labels the same white jersey #28 at all three displayed frames. The white jersey is the near-side libero, not a far-side opponent. These frames support a candidate run but do not certify intervening identity, exact live phase or grounded court positions."
+    }
+  ]
+}

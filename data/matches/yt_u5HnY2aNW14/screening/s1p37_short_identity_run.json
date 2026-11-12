@@ -1,0 +1,36 @@
+{
+  "status": "single_reviewer_short_source_identity_run_not_whole_rally_or_floor_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "gallery_index_sha256": "3351d5924ea7454bdd6b02bef95fc2d7e452cdf0e9329eba1b5cee6fc6f0e81f",
+  "bracketed_qc_sha256": "ee54857ac9509773a57d4615d007e99332ca3fbc5aa56002fb5ea6b8f571f932",
+  "set": 1,
+  "point_number": 37,
+  "near_team": "UCLA",
+  "sampled_source_frames": [
+    10476,
+    10482,
+    10488,
+    10494,
+    10500,
+    10506,
+    10512,
+    10518,
+    10524,
+    10530
+  ],
+  "sample_rate_hz": 5,
+  "duration_between_first_last_sample_s": 1.8,
+  "source_reviewed_raw_id_to_jersey": {
+    "2": "UCLA_libero_28",
+    "3": "UCLA_19",
+    "4": "UCLA_21",
+    "9": "UCLA_1",
+    "11": "UCLA_7",
+    "18": "UCLA_12"
+  },
+  "maximum_consecutive_box_bottom_displacement_m": 0.709,
+  "median_consecutive_box_bottom_displacement_m": 0.209,
+  "ground_position_validation": "pending",
+  "interpretation": "All ten 5 Hz images in the source gallery show the same five blue UCLA players and white libero #28 as near-side players. The detector retains their six raw IDs over this 1.8 s span. Box-bottom movement is a continuity diagnostic, not measured floor displacement. No inference is made for the rest of this point."
+}

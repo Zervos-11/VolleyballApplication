@@ -1,0 +1,1673 @@
+{
+  "status": "single_frame_shoe_level_review_pack_not_position_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "bracketed_source_qc_sha256": "ee54857ac9509773a57d4615d007e99332ca3fbc5aa56002fb5ea6b8f571f932",
+  "entries": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame": 1422,
+      "path": "s1_p05_f1422.jpg",
+      "sha256": "f7303983b4b0c8130675bbcd8715231fef4f958eba10186f021750b053519303",
+      "boxes": [
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            308.9,
+            261.8,
+            360.6,
+            431.8
+          ],
+          "box_bottom_court_m": [
+            0.659,
+            5.463
+          ],
+          "crop_origin_px": [
+            225,
+            277
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            398.3,
+            366.9,
+            504.8,
+            528.5
+          ],
+          "box_bottom_court_m": [
+            2.068,
+            2.878
+          ],
+          "crop_origin_px": [
+            342,
+            374
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            415.8,
+            279.4,
+            478.0,
+            413.8
+          ],
+          "box_bottom_court_m": [
+            1.908,
+            5.969
+          ],
+          "crop_origin_px": [
+            337,
+            259
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            641.4,
+            383.9,
+            742.9,
+            519.3
+          ],
+          "box_bottom_court_m": [
+            4.664,
+            3.115
+          ],
+          "crop_origin_px": [
+            582,
+            364
+          ]
+        },
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            840.4,
+            358.7,
+            944.8,
+            506.8
+          ],
+          "box_bottom_court_m": [
+            6.851,
+            3.437
+          ],
+          "crop_origin_px": [
+            783,
+            352
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            990.7,
+            293.2,
+            1047.6,
+            462.8
+          ],
+          "box_bottom_court_m": [
+            8.323,
+            4.608
+          ],
+          "crop_origin_px": [
+            909,
+            308
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_frame": 1758,
+      "path": "s1_p06_f1758.jpg",
+      "sha256": "9f836538476ebfee1194ac7593991fc9f74cb4853cb9304f2d4e54455d21055d",
+      "boxes": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            344.4,
+            339.5,
+            432.2,
+            475.2
+          ],
+          "box_bottom_court_m": [
+            1.32,
+            4.272
+          ],
+          "crop_origin_px": [
+            278,
+            320
+          ]
+        },
+        {
+          "raw_track_id": 14,
+          "bbox_px": [
+            459.7,
+            195.9,
+            525.9,
+            348.3
+          ],
+          "box_bottom_court_m": [
+            2.382,
+            7.902
+          ],
+          "crop_origin_px": [
+            383,
+            193
+          ]
+        },
+        {
+          "raw_track_id": 15,
+          "bbox_px": [
+            534.5,
+            189.0,
+            610.4,
+            337.6
+          ],
+          "box_bottom_court_m": [
+            3.317,
+            8.231
+          ],
+          "crop_origin_px": [
+            462,
+            183
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            662.5,
+            394.5,
+            728.8,
+            585.7
+          ],
+          "box_bottom_court_m": [
+            4.676,
+            1.46
+          ],
+          "crop_origin_px": [
+            586,
+            431
+          ]
+        },
+        {
+          "raw_track_id": 23,
+          "bbox_px": [
+            754.6,
+            179.5,
+            837.0,
+            339.8
+          ],
+          "box_bottom_court_m": [
+            5.964,
+            8.163
+          ],
+          "crop_origin_px": [
+            686,
+            185
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            856.8,
+            312.1,
+            917.0,
+            485.3
+          ],
+          "box_bottom_court_m": [
+            6.819,
+            4.004
+          ],
+          "crop_origin_px": [
+            777,
+            330
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "source_frame": 7344,
+      "path": "s1_p27_f7344.jpg",
+      "sha256": "fa6d1d39de802ade652d8a6030b603ad2ccb0ec8a436aedfd639fcc886b9e0e0",
+      "boxes": [
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            282.4,
+            318.8,
+            353.0,
+            503.3
+          ],
+          "box_bottom_court_m": [
+            0.585,
+            3.529
+          ],
+          "crop_origin_px": [
+            208,
+            348
+          ]
+        },
+        {
+          "raw_track_id": 37,
+          "bbox_px": [
+            475.4,
+            309.1,
+            541.0,
+            489.0
+          ],
+          "box_bottom_court_m": [
+            2.654,
+            3.903
+          ],
+          "crop_origin_px": [
+            398,
+            334
+          ]
+        },
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            539.0,
+            378.9,
+            643.1,
+            561.4
+          ],
+          "box_bottom_court_m": [
+            3.576,
+            2.055
+          ],
+          "crop_origin_px": [
+            481,
+            406
+          ]
+        },
+        {
+          "raw_track_id": 36,
+          "bbox_px": [
+            782.8,
+            419.3,
+            881.9,
+            578.3
+          ],
+          "box_bottom_court_m": [
+            6.118,
+            1.641
+          ],
+          "crop_origin_px": [
+            722,
+            423
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            881.7,
+            211.7,
+            934.3,
+            351.6
+          ],
+          "box_bottom_court_m": [
+            7.272,
+            7.801
+          ],
+          "crop_origin_px": [
+            798,
+            197
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            909.7,
+            361.6,
+            986.2,
+            537.6
+          ],
+          "box_bottom_court_m": [
+            7.401,
+            2.649
+          ],
+          "crop_origin_px": [
+            838,
+            383
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "path": "s1_p34_f9702.jpg",
+      "sha256": "9f3e803aa0305d925a035dba8fc66b322cf2a5835c9484dd4f13475e0749fc75",
+      "boxes": [
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            370.9,
+            347.9,
+            445.0,
+            514.3
+          ],
+          "box_bottom_court_m": [
+            1.582,
+            3.243
+          ],
+          "crop_origin_px": [
+            298,
+            359
+          ]
+        },
+        {
+          "raw_track_id": 59,
+          "bbox_px": [
+            587.8,
+            174.6,
+            703.8,
+            340.0
+          ],
+          "box_bottom_court_m": [
+            4.187,
+            8.157
+          ],
+          "crop_origin_px": [
+            536,
+            185
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            648.3,
+            421.2,
+            709.5,
+            615.1
+          ],
+          "box_bottom_court_m": [
+            4.493,
+            0.761
+          ],
+          "crop_origin_px": [
+            569,
+            460
+          ]
+        },
+        {
+          "raw_track_id": 16,
+          "bbox_px": [
+            730.0,
+            174.8,
+            795.9,
+            330.9
+          ],
+          "box_bottom_court_m": [
+            5.582,
+            8.437
+          ],
+          "crop_origin_px": [
+            653,
+            176
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            815.1,
+            172.8,
+            870.8,
+            338.6
+          ],
+          "box_bottom_court_m": [
+            6.524,
+            8.2
+          ],
+          "crop_origin_px": [
+            733,
+            184
+          ]
+        },
+        {
+          "raw_track_id": 44,
+          "bbox_px": [
+            898.1,
+            291.6,
+            983.9,
+            473.6
+          ],
+          "box_bottom_court_m": [
+            7.435,
+            4.316
+          ],
+          "crop_origin_px": [
+            831,
+            319
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "source_frame": 10488,
+      "path": "s1_p37_f10488.jpg",
+      "sha256": "b1970400134f79a0ffc4999de818bf80beb33fe5d693ebaada940ed0434aaeeb",
+      "boxes": [
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            517.6,
+            275.2,
+            594.8,
+            425.8
+          ],
+          "box_bottom_court_m": [
+            3.159,
+            5.63
+          ],
+          "crop_origin_px": [
+            446,
+            271
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            560.4,
+            181.5,
+            617.7,
+            344.3
+          ],
+          "box_bottom_court_m": [
+            3.515,
+            8.025
+          ],
+          "crop_origin_px": [
+            479,
+            189
+          ]
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            646.1,
+            174.9,
+            706.3,
+            329.7
+          ],
+          "box_bottom_court_m": [
+            4.551,
+            8.475
+          ],
+          "crop_origin_px": [
+            566,
+            175
+          ]
+        },
+        {
+          "raw_track_id": 18,
+          "bbox_px": [
+            783.4,
+            327.4,
+            832.5,
+            477.7
+          ],
+          "box_bottom_court_m": [
+            5.958,
+            4.205
+          ],
+          "crop_origin_px": [
+            698,
+            323
+          ]
+        },
+        {
+          "raw_track_id": 11,
+          "bbox_px": [
+            792.8,
+            173.9,
+            863.1,
+            338.9
+          ],
+          "box_bottom_court_m": [
+            6.346,
+            8.19
+          ],
+          "crop_origin_px": [
+            718,
+            184
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            884.3,
+            267.1,
+            956.2,
+            447.6
+          ],
+          "box_bottom_court_m": [
+            7.248,
+            5.023
+          ],
+          "crop_origin_px": [
+            810,
+            293
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "source_frame": 12306,
+      "path": "s2_p02_f12306.jpg",
+      "sha256": "af490619faaab5f1d98ff37e75f26b43ea8d5176d7d79c89fd48f75d6c639197",
+      "boxes": [
+        {
+          "raw_track_id": 112,
+          "bbox_px": [
+            358.2,
+            342.9,
+            441.9,
+            490.2
+          ],
+          "box_bottom_court_m": [
+            1.468,
+            3.873
+          ],
+          "crop_origin_px": [
+            290,
+            335
+          ]
+        },
+        {
+          "raw_track_id": 26,
+          "bbox_px": [
+            512.0,
+            181.4,
+            587.0,
+            336.7
+          ],
+          "box_bottom_court_m": [
+            3.045,
+            8.258
+          ],
+          "crop_origin_px": [
+            440,
+            182
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            629.2,
+            386.0,
+            719.1,
+            542.3
+          ],
+          "box_bottom_court_m": [
+            4.462,
+            2.529
+          ],
+          "crop_origin_px": [
+            564,
+            387
+          ]
+        },
+        {
+          "raw_track_id": 43,
+          "bbox_px": [
+            634.2,
+            176.3,
+            705.0,
+            332.6
+          ],
+          "box_bottom_court_m": [
+            4.471,
+            8.384
+          ],
+          "crop_origin_px": [
+            560,
+            178
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            808.1,
+            183.0,
+            871.4,
+            338.2
+          ],
+          "box_bottom_court_m": [
+            6.487,
+            8.214
+          ],
+          "crop_origin_px": [
+            730,
+            183
+          ]
+        },
+        {
+          "raw_track_id": 107,
+          "bbox_px": [
+            917.4,
+            288.6,
+            1024.9,
+            461.7
+          ],
+          "box_bottom_court_m": [
+            7.791,
+            4.636
+          ],
+          "crop_origin_px": [
+            861,
+            307
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_frame": 13566,
+      "path": "s2_p06_f13566.jpg",
+      "sha256": "88f32ef9969f8a373bd8407f54669a1151efa88b15ce4c8def8426974c73afeb",
+      "boxes": [
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            332.7,
+            335.6,
+            411.0,
+            484.9
+          ],
+          "box_bottom_court_m": [
+            1.151,
+            4.013
+          ],
+          "crop_origin_px": [
+            262,
+            330
+          ]
+        },
+        {
+          "raw_track_id": 121,
+          "bbox_px": [
+            545.5,
+            178.8,
+            632.1,
+            334.2
+          ],
+          "box_bottom_court_m": [
+            3.51,
+            8.336
+          ],
+          "crop_origin_px": [
+            479,
+            179
+          ]
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            640.1,
+            170.7,
+            726.2,
+            331.6
+          ],
+          "box_bottom_court_m": [
+            4.633,
+            8.416
+          ],
+          "crop_origin_px": [
+            573,
+            177
+          ]
+        },
+        {
+          "raw_track_id": 76,
+          "bbox_px": [
+            669.7,
+            383.6,
+            770.5,
+            570.1
+          ],
+          "box_bottom_court_m": [
+            4.94,
+            1.841
+          ],
+          "crop_origin_px": [
+            610,
+            415
+          ]
+        },
+        {
+          "raw_track_id": 126,
+          "bbox_px": [
+            777.0,
+            184.4,
+            854.0,
+            339.9
+          ],
+          "box_bottom_court_m": [
+            6.198,
+            8.159
+          ],
+          "crop_origin_px": [
+            706,
+            185
+          ]
+        },
+        {
+          "raw_track_id": 87,
+          "bbox_px": [
+            902.1,
+            282.7,
+            980.0,
+            454.0
+          ],
+          "box_bottom_court_m": [
+            7.47,
+            4.848
+          ],
+          "crop_origin_px": [
+            831,
+            299
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_frame": 18936,
+      "path": "s2_p26_f18936.jpg",
+      "sha256": "c9bed891db02dbd28825002807e610143ccd5956d5234a2983382bab6c8c2c3b",
+      "boxes": [
+        {
+          "raw_track_id": 42,
+          "bbox_px": [
+            281.7,
+            324.6,
+            393.3,
+            501.0
+          ],
+          "box_bottom_court_m": [
+            0.798,
+            3.588
+          ],
+          "crop_origin_px": [
+            228,
+            346
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            605.0,
+            414.5,
+            674.5,
+            597.1
+          ],
+          "box_bottom_court_m": [
+            4.089,
+            1.188
+          ],
+          "crop_origin_px": [
+            530,
+            442
+          ]
+        },
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            636.6,
+            188.1,
+            693.9,
+            334.2
+          ],
+          "box_bottom_court_m": [
+            4.419,
+            8.335
+          ],
+          "crop_origin_px": [
+            555,
+            179
+          ]
+        },
+        {
+          "raw_track_id": 12,
+          "bbox_px": [
+            709.3,
+            174.2,
+            786.8,
+            339.1
+          ],
+          "box_bottom_court_m": [
+            5.399,
+            8.184
+          ],
+          "crop_origin_px": [
+            638,
+            184
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            835.5,
+            185.8,
+            899.5,
+            338.7
+          ],
+          "box_bottom_court_m": [
+            6.815,
+            8.197
+          ],
+          "crop_origin_px": [
+            758,
+            184
+          ]
+        },
+        {
+          "raw_track_id": 35,
+          "bbox_px": [
+            961.8,
+            319.8,
+            1053.9,
+            492.8
+          ],
+          "box_bottom_court_m": [
+            8.135,
+            3.805
+          ],
+          "crop_origin_px": [
+            898,
+            338
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "path": "s2_p28_f19536.jpg",
+      "sha256": "034b1de6af82b1d0f217d6a5c223f5230c9e7f196faaf13d9f284411c5a4f2f7",
+      "boxes": [
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            395.6,
+            252.2,
+            471.0,
+            413.0
+          ],
+          "box_bottom_court_m": [
+            1.753,
+            5.994
+          ],
+          "crop_origin_px": [
+            323,
+            258
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            437.5,
+            410.6,
+            532.3,
+            557.4
+          ],
+          "box_bottom_court_m": [
+            2.447,
+            2.153
+          ],
+          "crop_origin_px": [
+            375,
+            402
+          ]
+        },
+        {
+          "raw_track_id": 12,
+          "bbox_px": [
+            604.1,
+            239.7,
+            670.1,
+            397.1
+          ],
+          "box_bottom_court_m": [
+            4.078,
+            6.45
+          ],
+          "crop_origin_px": [
+            527,
+            242
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            633.5,
+            437.9,
+            723.0,
+            586.4
+          ],
+          "box_bottom_court_m": [
+            4.494,
+            1.445
+          ],
+          "crop_origin_px": [
+            568,
+            431
+          ]
+        },
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            823.4,
+            427.6,
+            930.3,
+            575.4
+          ],
+          "box_bottom_court_m": [
+            6.59,
+            1.711
+          ],
+          "crop_origin_px": [
+            767,
+            420
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            998.2,
+            331.4,
+            1060.2,
+            485.7
+          ],
+          "box_bottom_court_m": [
+            8.384,
+            3.992
+          ],
+          "crop_origin_px": [
+            919,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "source_frame": 22140,
+      "path": "s2_p37_f22140.jpg",
+      "sha256": "1a33fccf6153113a33c459def9d56eced4d2381104f5cec6bff51089467fb439",
+      "boxes": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            267.9,
+            363.5,
+            408.2,
+            553.0
+          ],
+          "box_bottom_court_m": [
+            0.88,
+            2.262
+          ],
+          "crop_origin_px": [
+            228,
+            398
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            354.2,
+            264.7,
+            452.3,
+            429.7
+          ],
+          "box_bottom_court_m": [
+            1.43,
+            5.521
+          ],
+          "crop_origin_px": [
+            293,
+            275
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            604.0,
+            424.4,
+            696.9,
+            616.7
+          ],
+          "box_bottom_court_m": [
+            4.198,
+            0.723
+          ],
+          "crop_origin_px": [
+            540,
+            462
+          ]
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            688.0,
+            441.0,
+            804.7,
+            610.3
+          ],
+          "box_bottom_court_m": [
+            5.193,
+            0.875
+          ],
+          "crop_origin_px": [
+            636,
+            455
+          ]
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            791.1,
+            193.0,
+            850.5,
+            317.4
+          ],
+          "box_bottom_court_m": [
+            6.288,
+            8.862
+          ],
+          "crop_origin_px": [
+            711,
+            162
+          ]
+        },
+        {
+          "raw_track_id": 20,
+          "bbox_px": [
+            941.8,
+            449.2,
+            1023.6,
+            630.7
+          ],
+          "box_bottom_court_m": [
+            7.609,
+            0.397
+          ],
+          "crop_origin_px": [
+            873,
+            476
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "source_frame": 29280,
+      "path": "s3_p11_f29280.jpg",
+      "sha256": "13c21c8af0ffadb58ad9f4dcd9b79cf957cec046dc518b512a04cfe2fb40441a",
+      "boxes": [
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            392.2,
+            244.9,
+            452.3,
+            411.8
+          ],
+          "box_bottom_court_m": [
+            1.625,
+            6.029
+          ],
+          "crop_origin_px": [
+            312,
+            257
+          ]
+        },
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            401.7,
+            414.9,
+            505.8,
+            567.0
+          ],
+          "box_bottom_court_m": [
+            2.124,
+            1.917
+          ],
+          "crop_origin_px": [
+            344,
+            412
+          ]
+        },
+        {
+          "raw_track_id": 14,
+          "bbox_px": [
+            466.9,
+            184.5,
+            521.7,
+            327.4
+          ],
+          "box_bottom_court_m": [
+            2.382,
+            8.548
+          ],
+          "crop_origin_px": [
+            384,
+            172
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            565.7,
+            423.3,
+            680.2,
+            570.8
+          ],
+          "box_bottom_court_m": [
+            3.914,
+            1.823
+          ],
+          "crop_origin_px": [
+            513,
+            416
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            787.4,
+            431.5,
+            870.4,
+            562.2
+          ],
+          "box_bottom_court_m": [
+            6.098,
+            2.034
+          ],
+          "crop_origin_px": [
+            719,
+            407
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            1023.8,
+            440.6,
+            1121.3,
+            625.9
+          ],
+          "box_bottom_court_m": [
+            8.542,
+            0.508
+          ],
+          "crop_origin_px": [
+            963,
+            471
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "path": "s3_p13_f29940.jpg",
+      "sha256": "e52b462d61bd545446084bfa3440a2e3d5ca85c87722f8487e153c7921f49d35",
+      "boxes": [
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            361.3,
+            365.8,
+            424.6,
+            513.7
+          ],
+          "box_bottom_court_m": [
+            1.418,
+            3.259
+          ],
+          "crop_origin_px": [
+            283,
+            359
+          ]
+        },
+        {
+          "raw_track_id": 14,
+          "bbox_px": [
+            552.0,
+            181.5,
+            624.9,
+            323.2
+          ],
+          "box_bottom_court_m": [
+            3.504,
+            8.679
+          ],
+          "crop_origin_px": [
+            478,
+            168
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            655.4,
+            369.8,
+            748.3,
+            548.2
+          ],
+          "box_bottom_court_m": [
+            4.757,
+            2.383
+          ],
+          "crop_origin_px": [
+            592,
+            393
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            681.8,
+            184.0,
+            745.4,
+            329.8
+          ],
+          "box_bottom_court_m": [
+            4.996,
+            8.471
+          ],
+          "crop_origin_px": [
+            604,
+            175
+          ]
+        },
+        {
+          "raw_track_id": 10,
+          "bbox_px": [
+            835.3,
+            177.2,
+            887.1,
+            342.1
+          ],
+          "box_bottom_court_m": [
+            6.735,
+            8.093
+          ],
+          "crop_origin_px": [
+            751,
+            187
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            885.6,
+            297.2,
+            961.0,
+            464.2
+          ],
+          "box_bottom_court_m": [
+            7.255,
+            4.569
+          ],
+          "crop_origin_px": [
+            813,
+            309
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_frame": 34122,
+      "path": "s3_p27_f34122.jpg",
+      "sha256": "6053b13d658aecb7b6063aa0318654aba554e1e326b05b9458a5c7bb304da8cd",
+      "boxes": [
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            379.4,
+            360.7,
+            464.7,
+            522.8
+          ],
+          "box_bottom_court_m": [
+            1.744,
+            3.025
+          ],
+          "crop_origin_px": [
+            312,
+            368
+          ]
+        },
+        {
+          "raw_track_id": 14,
+          "bbox_px": [
+            575.7,
+            178.5,
+            634.4,
+            344.3
+          ],
+          "box_bottom_court_m": [
+            3.705,
+            8.026
+          ],
+          "crop_origin_px": [
+            495,
+            189
+          ]
+        },
+        {
+          "raw_track_id": 21,
+          "bbox_px": [
+            662.3,
+            436.6,
+            747.0,
+            633.2
+          ],
+          "box_bottom_court_m": [
+            4.752,
+            0.34
+          ],
+          "crop_origin_px": [
+            595,
+            478
+          ]
+        },
+        {
+          "raw_track_id": 17,
+          "bbox_px": [
+            700.5,
+            183.8,
+            782.1,
+            336.6
+          ],
+          "box_bottom_court_m": [
+            5.32,
+            8.261
+          ],
+          "crop_origin_px": [
+            631,
+            182
+          ]
+        },
+        {
+          "raw_track_id": 44,
+          "bbox_px": [
+            819.2,
+            187.3,
+            903.5,
+            355.6
+          ],
+          "box_bottom_court_m": [
+            6.717,
+            7.679
+          ],
+          "crop_origin_px": [
+            751,
+            201
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            908.6,
+            316.2,
+            966.5,
+            496.0
+          ],
+          "box_bottom_court_m": [
+            7.358,
+            3.719
+          ],
+          "crop_origin_px": [
+            828,
+            341
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "source_frame": 35844,
+      "path": "s3_p33_f35844.jpg",
+      "sha256": "da184cbcae86624a800bde6d19a77ee2f5ca7435b6adbe75b1b6a44dee9f234b",
+      "boxes": [
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            348.0,
+            321.0,
+            430.1,
+            481.2
+          ],
+          "box_bottom_court_m": [
+            1.336,
+            4.113
+          ],
+          "crop_origin_px": [
+            279,
+            326
+          ]
+        },
+        {
+          "raw_track_id": 25,
+          "bbox_px": [
+            352.7,
+            183.0,
+            429.7,
+            344.0
+          ],
+          "box_bottom_court_m": [
+            1.177,
+            8.035
+          ],
+          "crop_origin_px": [
+            281,
+            189
+          ]
+        },
+        {
+          "raw_track_id": 11,
+          "bbox_px": [
+            539.7,
+            184.3,
+            603.0,
+            319.6
+          ],
+          "box_bottom_court_m": [
+            3.299,
+            8.792
+          ],
+          "crop_origin_px": [
+            461,
+            165
+          ]
+        },
+        {
+          "raw_track_id": 38,
+          "bbox_px": [
+            622.3,
+            173.3,
+            710.5,
+            333.0
+          ],
+          "box_bottom_court_m": [
+            4.433,
+            8.372
+          ],
+          "crop_origin_px": [
+            556,
+            178
+          ]
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            762.0,
+            228.7,
+            823.4,
+            402.7
+          ],
+          "box_bottom_court_m": [
+            5.862,
+            6.289
+          ],
+          "crop_origin_px": [
+            683,
+            248
+          ]
+        },
+        {
+          "raw_track_id": 51,
+          "bbox_px": [
+            895.1,
+            279.2,
+            979.0,
+            464.8
+          ],
+          "box_bottom_court_m": [
+            7.406,
+            4.551
+          ],
+          "crop_origin_px": [
+            827,
+            310
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "path": "s3_p34_f36072.jpg",
+      "sha256": "a474a14b62b3b337b37e721002cf2d08f8e904bf6fe7725e66e56d4419d81b2d",
+      "boxes": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            294.8,
+            393.6,
+            391.7,
+            535.7
+          ],
+          "box_bottom_court_m": [
+            0.911,
+            2.695
+          ],
+          "crop_origin_px": [
+            233,
+            381
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            510.6,
+            186.5,
+            574.0,
+            347.2
+          ],
+          "box_bottom_court_m": [
+            2.964,
+            7.936
+          ],
+          "crop_origin_px": [
+            432,
+            192
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            598.8,
+            400.5,
+            749.8,
+            585.5
+          ],
+          "box_bottom_court_m": [
+            4.452,
+            1.467
+          ],
+          "crop_origin_px": [
+            564,
+            430
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            658.6,
+            186.6,
+            724.9,
+            346.5
+          ],
+          "box_bottom_court_m": [
+            4.729,
+            7.958
+          ],
+          "crop_origin_px": [
+            582,
+            192
+          ]
+        },
+        {
+          "raw_track_id": 10,
+          "bbox_px": [
+            781.4,
+            176.0,
+            846.6,
+            337.3
+          ],
+          "box_bottom_court_m": [
+            6.183,
+            8.241
+          ],
+          "crop_origin_px": [
+            704,
+            182
+          ]
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            849.2,
+            306.8,
+            909.1,
+            475.0
+          ],
+          "box_bottom_court_m": [
+            6.749,
+            4.278
+          ],
+          "crop_origin_px": [
+            769,
+            320
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "excluded_from_six_player_reference_one_foot_raised_for_jersey_7",
+  "source_frame": 36132,
+  "set": 3,
+  "point_number": 34,
+  "source_image": "screening/s3p34_validation_review/source_36132.png",
+  "rule": "Exploratory marks excluded from the six-player reference because UCLA #7 has only one clear planted shoe; averaging both shoe image locations would project an airborne shoe onto the floor. UCLA #7 uses corrected raw ID 78 after the tracker ID change.",
+  "rows": [
+    {"jersey": "28", "shoe_centres_px": [[411, 523], [491, 545]], "midpoint_px": [451, 534]},
+    {"jersey": "21", "shoe_centres_px": [[556, 328], [592, 322]], "midpoint_px": [574, 325]},
+    {"jersey": "15", "shoe_centres_px": [[654, 318], [684, 318]], "midpoint_px": [669, 318]},
+    {"jersey": "7", "shoe_centres_px": [[829, 320], [867, 362]], "midpoint_px": [848, 341]},
+    {"jersey": "19", "shoe_centres_px": [[835, 515], [915, 511]], "midpoint_px": [875, 513]},
+    {"jersey": "12", "shoe_centres_px": [[591, 564], [689, 552]], "midpoint_px": [640, 558]}
+  ]
+}

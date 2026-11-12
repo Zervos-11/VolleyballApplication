@@ -1,0 +1,1 @@
+match_id,rally_id,set_number,rally_index,start_frame,end_frame_exclusive,eligible,exclusion_reason,difficulty,stratum,selection_probability,sample_seed,selected,dataset_stage,split,annotator_id,reviewer_id,review_status,notes

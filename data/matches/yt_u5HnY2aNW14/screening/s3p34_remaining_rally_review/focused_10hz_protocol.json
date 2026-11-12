@@ -1,0 +1,16 @@
+{
+  "status": "frozen_before_interleaved_source_review",
+  "purpose": "Estimate source-reviewed whole-interval tracking availability on a systematic 10-Hz grid without requiring 30-fps shoe clicks",
+  "interval_inclusive": [36001, 36138],
+  "original_review_grid_rule": "source_frame modulo 6 equals 0; 23 prior frames within interval",
+  "new_interleaved_grid_rule": "source_frame modulo 6 equals 3; 23 frames within interval",
+  "new_interleaved_grid": [36003, 36009, 36015, 36021, 36027, 36033, 36039, 36045, 36051, 36057, 36063, 36069, 36075, 36081, 36087, 36093, 36099, 36105, 36111, 36117, 36123, 36129, 36135],
+  "already_human_reviewed_on_interleaved_grid": [36069, 36075, 36081, 36087, 36093, 36099],
+  "new_frames_to_review": [36003, 36009, 36015, 36021, 36027, 36033, 36039, 36045, 36051, 36057, 36063, 36105, 36111, 36117, 36123, 36129, 36135],
+  "new_slots_to_review": 102,
+  "primary_denominator_after_completion": "46 systematically spaced frames x six players = 276 player slots",
+  "selection_uses_detector_availability": false,
+  "selection_uses_shoe_error": false,
+  "all_85_frame_review_status": "optional_for_frame_by_frame_adjudication; not required for sampled whole-interval coverage",
+  "limitation": "A systematic 10-Hz grid measures sampled frames across the interval; it does not certify the other 92 source frames or exact serve-to-dead-ball bounds."
+}

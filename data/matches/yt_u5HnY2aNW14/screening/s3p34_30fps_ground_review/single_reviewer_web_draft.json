@@ -1,0 +1,2768 @@
+{
+  "revision": 63,
+  "reviewer_code": "MZ",
+  "frames": {
+    "36067": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 348.5,
+          "shoe_midpoint_y_px": 521.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 688.5,
+          "shoe_midpoint_y_px": 565.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 690.5,
+          "shoe_midpoint_y_px": 341.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 816.5,
+          "shoe_midpoint_y_px": 339.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.5,
+          "shoe_midpoint_y_px": 463.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 548.5,
+          "shoe_midpoint_y_px": 345.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T02:50:05.034809+00:00",
+      "paired_saved_at_utc": "2026-11-04T02:53:31.130012+00:00"
+    },
+    "36068": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 343.0,
+          "shoe_midpoint_y_px": 523.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 691.0,
+          "shoe_midpoint_y_px": 569.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.0,
+          "shoe_midpoint_y_px": 341.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 889.0,
+          "shoe_midpoint_y_px": 463.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 549.0,
+          "shoe_midpoint_y_px": 347.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:06:52.771456+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:24:07.696676+00:00"
+    },
+    "36069": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.8,
+          "shoe_midpoint_y_px": 525.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 687.0,
+          "shoe_midpoint_y_px": 566.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.3,
+          "shoe_midpoint_y_px": 336.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 337.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 888.1,
+          "shoe_midpoint_y_px": 458.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 547.6,
+          "shoe_midpoint_y_px": 342.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:25:30.745315+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:25:34.999472+00:00"
+    },
+    "36070": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 344.1,
+          "shoe_midpoint_y_px": 524.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.8,
+          "shoe_midpoint_y_px": 569.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.3,
+          "shoe_midpoint_y_px": 336.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 335.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 890.4,
+          "shoe_midpoint_y_px": 458.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 547.6,
+          "shoe_midpoint_y_px": 342.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:34:55.400637+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:35:07.465330+00:00"
+    },
+    "36071": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.8,
+          "shoe_midpoint_y_px": 526.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.8,
+          "shoe_midpoint_y_px": 570.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.3,
+          "shoe_midpoint_y_px": 343.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 335.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 888.1,
+          "shoe_midpoint_y_px": 456.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 547.6,
+          "shoe_midpoint_y_px": 339.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:36:02.491157+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:38:26.513724+00:00"
+    },
+    "36073": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.8,
+          "shoe_midpoint_y_px": 529.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 696.1,
+          "shoe_midpoint_y_px": 570.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.3,
+          "shoe_midpoint_y_px": 337.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 333.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 890.4,
+          "shoe_midpoint_y_px": 456.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 547.6,
+          "shoe_midpoint_y_px": 342.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:39:23.385136+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:39:27.759806+00:00"
+    },
+    "36074": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.8,
+          "shoe_midpoint_y_px": 524.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.8,
+          "shoe_midpoint_y_px": 565.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 689.3,
+          "shoe_midpoint_y_px": 337.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 815.0,
+          "shoe_midpoint_y_px": 333.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 888.1,
+          "shoe_midpoint_y_px": 454.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 549.8,
+          "shoe_midpoint_y_px": 339.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:40:26.898073+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:40:29.971477+00:00"
+    },
+    "36075": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 344.1,
+          "shoe_midpoint_y_px": 529.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 696.1,
+          "shoe_midpoint_y_px": 574.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 687.0,
+          "shoe_midpoint_y_px": 341.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 816.5,
+          "shoe_midpoint_y_px": 331.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 889.6,
+          "shoe_midpoint_y_px": 456.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 549.0,
+          "shoe_midpoint_y_px": 341.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:55:31.259991+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:55:36.302230+00:00"
+    },
+    "36076": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 343.3,
+          "shoe_midpoint_y_px": 528.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 574.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 688.5,
+          "shoe_midpoint_y_px": 339.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 818.7,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 456.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 546.7,
+          "shoe_midpoint_y_px": 341.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:56:19.042715+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:56:23.577398+00:00"
+    },
+    "36077": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.0,
+          "shoe_midpoint_y_px": 526.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 572.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 688.5,
+          "shoe_midpoint_y_px": 339.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 818.7,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 456.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 546.7,
+          "shoe_midpoint_y_px": 339.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:57:04.637722+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:57:08.228604+00:00"
+    },
+    "36079": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.0,
+          "shoe_midpoint_y_px": 528.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 574.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 688.5,
+          "shoe_midpoint_y_px": 336.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 821.0,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 460.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 546.7,
+          "shoe_midpoint_y_px": 339.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T03:58:47.750843+00:00",
+      "paired_saved_at_utc": "2026-11-04T03:58:51.610192+00:00"
+    },
+    "36080": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.0,
+          "shoe_midpoint_y_px": 528.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 576.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.2,
+          "shoe_midpoint_y_px": 338.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 821.0,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 889.6,
+          "shoe_midpoint_y_px": 456.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 553.6,
+          "shoe_midpoint_y_px": 337.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:00:40.459203+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:00:43.002172+00:00"
+    },
+    "36081": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 338.7,
+          "shoe_midpoint_y_px": 524.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 574.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.2,
+          "shoe_midpoint_y_px": 332.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 823.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 458.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 553.6,
+          "shoe_midpoint_y_px": 337.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:02:18.493333+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:02:27.043945+00:00"
+    },
+    "36082": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 338.7,
+          "shoe_midpoint_y_px": 527.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 697.6,
+          "shoe_midpoint_y_px": 572.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.2,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 823.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 460.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 558.2,
+          "shoe_midpoint_y_px": 339.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:03:01.581366+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:05:39.588717+00:00"
+    },
+    "36083": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 343.3,
+          "shoe_midpoint_y_px": 528.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 574.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.2,
+          "shoe_midpoint_y_px": 336.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 823.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 453.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 558.2,
+          "shoe_midpoint_y_px": 339.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:06:18.308709+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:06:21.317631+00:00"
+    },
+    "36085": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 341.0,
+          "shoe_midpoint_y_px": 524.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 572.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 683.9,
+          "shoe_midpoint_y_px": 334.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 825.6,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 458.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 546.7,
+          "shoe_midpoint_y_px": 344.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:06:56.717168+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:13:51.357782+00:00"
+    },
+    "36086": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 338.7,
+          "shoe_midpoint_y_px": 520.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 697.6,
+          "shoe_midpoint_y_px": 577.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 683.9,
+          "shoe_midpoint_y_px": 337.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 825.6,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 460.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 535.3,
+          "shoe_midpoint_y_px": 339.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:16:58.398055+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:17:01.718671+00:00"
+    },
+    "36087": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 336.5,
+          "shoe_midpoint_y_px": 517.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 697.6,
+          "shoe_midpoint_y_px": 572.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 681.6,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 825.6,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 453.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 528.5,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:19:18.518249+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:19:22.125642+00:00"
+    },
+    "36088": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 336.5,
+          "shoe_midpoint_y_px": 516.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 569.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 681.6,
+          "shoe_midpoint_y_px": 336.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 827.9,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 460.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 519.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:23:09.826576+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:49:24.083558+00:00"
+    },
+    "36089": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 329.6,
+          "shoe_midpoint_y_px": 521.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 697.6,
+          "shoe_midpoint_y_px": 573.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 681.6,
+          "shoe_midpoint_y_px": 336.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 460.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 512.5,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:25:48.890689+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:49:31.050117+00:00"
+    },
+    "36091": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 322.7,
+          "shoe_midpoint_y_px": 524.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 574.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 683.9,
+          "shoe_midpoint_y_px": 332.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 465.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 503.3,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:26:23.199700+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:26:29.847734+00:00"
+    },
+    "36092": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 318.2,
+          "shoe_midpoint_y_px": 523.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 573.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.2,
+          "shoe_midpoint_y_px": 336.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 832.5,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 885.0,
+          "shoe_midpoint_y_px": 467.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 501.0,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:29:11.803444+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:30:30.266906+00:00"
+    },
+    "36093": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 318.2,
+          "shoe_midpoint_y_px": 522.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 572.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 688.5,
+          "shoe_midpoint_y_px": 332.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 467.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 503.3,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:31:02.518356+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:49:37.891203+00:00"
+    },
+    "36094": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 320.5,
+          "shoe_midpoint_y_px": 520.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 570.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 690.7,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 834.7,
+          "shoe_midpoint_y_px": 328.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 467.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 503.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:31:32.490237+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:31:36.263057+00:00"
+    },
+    "36095": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 318.2,
+          "shoe_midpoint_y_px": 520.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 571.0,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 328.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 832.5,
+          "shoe_midpoint_y_px": 325.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 887.3,
+          "shoe_midpoint_y_px": 469.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 507.9,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:32:01.535175+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:49:44.713505+00:00"
+    },
+    "36097": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 313.6,
+          "shoe_midpoint_y_px": 518.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 695.3,
+          "shoe_midpoint_y_px": 568.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 702.2,
+          "shoe_midpoint_y_px": 326.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 323.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 898.7,
+          "shoe_midpoint_y_px": 469.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 507.9,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:33:52.895139+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:49:52.257793+00:00"
+    },
+    "36098": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 322.7,
+          "shoe_midpoint_y_px": 512.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 690.7,
+          "shoe_midpoint_y_px": 572.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 709.0,
+          "shoe_midpoint_y_px": 327.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 323.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 894.2,
+          "shoe_midpoint_y_px": 472.2,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 512.5,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:40:49.607846+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:52:34.824877+00:00"
+    },
+    "36099": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 322.7,
+          "shoe_midpoint_y_px": 517.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 693.0,
+          "shoe_midpoint_y_px": 570.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 711.3,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 323.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 894.2,
+          "shoe_midpoint_y_px": 469.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 507.9,
+          "shoe_midpoint_y_px": 335.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:45:31.416637+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:50:06.036846+00:00"
+    },
+    "36100": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 322.7,
+          "shoe_midpoint_y_px": 517.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 686.4,
+          "shoe_midpoint_y_px": 567.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 711.3,
+          "shoe_midpoint_y_px": 332.3,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 834.7,
+          "shoe_midpoint_y_px": 323.7,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 894.2,
+          "shoe_midpoint_y_px": 469.9,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 510.2,
+          "shoe_midpoint_y_px": 332.8,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:46:04.860279+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:46:09.821546+00:00"
+    },
+    "36101": {
+      "source": [
+        {
+          "jersey": "28",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 329.6,
+          "shoe_midpoint_y_px": 517.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "12",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 684.4,
+          "shoe_midpoint_y_px": 568.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "15",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 711.3,
+          "shoe_midpoint_y_px": 334.6,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "7",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 830.2,
+          "shoe_midpoint_y_px": 321.4,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "19",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 898.7,
+          "shoe_midpoint_y_px": 479.1,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        },
+        {
+          "jersey": "21",
+          "identity_status": "confirmed",
+          "ground_status": "grounded",
+          "shoe_midpoint_x_px": 510.2,
+          "shoe_midpoint_y_px": 330.5,
+          "reading_uncertainty_px": 15.0,
+          "notes": ""
+        }
+      ],
+      "paired": [
+        {
+          "jersey": "28",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "12",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "15",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "7",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "19",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        },
+        {
+          "jersey": "21",
+          "candidate_alignment": "same_player",
+          "proxy_floor_alignment": "plausible"
+        }
+      ],
+      "saved_at_utc": "2026-11-04T04:46:47.013813+00:00",
+      "paired_saved_at_utc": "2026-11-04T04:50:14.636329+00:00"
+    }
+  },
+  "scope": "single_reviewer_unblinded_diagnostic_segment",
+  "strict_metric_approval": false
+}

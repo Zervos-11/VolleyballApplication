@@ -1,0 +1,85 @@
+{
+  "prior": {
+    "revision": 0,
+    "reviewer_code": null,
+    "landmarks": {},
+    "status": "not_reviewed"
+  },
+  "new": {
+    "revision": 1,
+    "reviewer_code": "MZ",
+    "checked_unboxed_source": true,
+    "source_frame": 600,
+    "source_boxes_visible_during_review": false,
+    "landmarks": {
+      "net_left": {
+        "code": "net_left",
+        "x_px": 486.4,
+        "y_px": 561.4,
+        "status": "clicked",
+        "note": ""
+      },
+      "net_right": {
+        "code": "net_right",
+        "x_px": 1400.7,
+        "y_px": 564.3,
+        "status": "clicked",
+        "note": ""
+      },
+      "baseline_left": {
+        "code": "baseline_left",
+        "x_px": 240.4,
+        "y_px": 1008.6,
+        "status": "clicked",
+        "note": ""
+      },
+      "baseline_right": {
+        "code": "baseline_right",
+        "x_px": 1642.4,
+        "y_px": 1012.9,
+        "status": "clicked",
+        "note": ""
+      },
+      "attack_left": {
+        "code": "attack_left",
+        "x_px": 423.5,
+        "y_px": 670.0,
+        "status": "clicked",
+        "note": ""
+      },
+      "attack_right": {
+        "code": "attack_right",
+        "x_px": 1460.7,
+        "y_px": 675.7,
+        "status": "clicked",
+        "note": ""
+      }
+    },
+    "check": {
+      "status": "staged_four_corner_transform",
+      "homography_image_to_court": [
+        [
+          0.029462665065214864,
+          0.016207102856451924,
+          -23.429308047188005
+        ],
+        [
+          -0.00029304848522816073,
+          0.09239227621721481,
+          -51.72648734258885
+        ],
+        [
+          -1.202780712710612e-05,
+          0.0035710596420251454,
+          1.0
+        ]
+      ],
+      "held_out_attack_errors_m": {
+        "attack_left": 0.0426,
+        "attack_right": 0.0261
+      },
+      "note": "Held-out line error checks selected image landmarks; it is not player-position accuracy."
+    },
+    "status": "source_reviewed_staged_calibration"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "exploratory_position_perturbation_scenario_not_confidence_interval",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "fixed_box_proxy": "a89c2330af321ac4e2e4c7388306c4c6460b2e5a256e9a1ede484d12e6d45c94",
+    "dynamic_shoe_audit": "905b3237c6c8dc893473ba6f566e6bf494bd839fc3fc43187a65ddd8bd200d61"
+  },
+  "radius_m": 0.7293,
+  "draws": 1000,
+  "seed": 20261103,
+  "perturbation": "independent uniform court-plane discs for each proxy position",
+  "selection": "eight availability-selected 0.8-second windows; three matched set-phase cells",
+  "baseline": {
+    "mean_pairwise_spacing_m": -0.0886,
+    "convex_hull_area_m2": -4.2121,
+    "centroid_dispersion_m": -0.1037
+  },
+  "previous_static_radius_m": 0.632,
+  "results": {
+    "mean_pairwise_spacing_m": {
+      "minimum": -0.4042,
+      "maximum": 0.1811,
+      "fraction_positive": 0.139
+    },
+    "convex_hull_area_m2": {
+      "minimum": -7.4809,
+      "maximum": -0.6746,
+      "fraction_positive": 0.0
+    },
+    "centroid_dispersion_m": {
+      "minimum": -0.3103,
+      "maximum": 0.0649,
+      "fraction_positive": 0.042
+    }
+  },
+  "limitations": "The radius is the maximum of 11 selected, approximate single-reviewer clear-shoe marks at one non-anchor frame per window. Five selected slots were unmarkable, manual reading uncertainty is about \u00b112 source pixels per axis, and this 16-slot subset contains no full six-player frame. A separate selected full-team frame check does not make this an empirical error distribution. The disc perturbations are a scenario, not an empirical error distribution, upper bound, confidence interval, or confirmatory outcome test."
+}

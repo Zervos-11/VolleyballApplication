@@ -1,0 +1,67 @@
+{
+  "status": "two_existing_manual_clear_shoes_one_in_run_frame_not_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "full_clip_screen": "8089dddec4be14e68d03f73edd822ae31d82b197c2d8bac5b401f19535e04dc7",
+    "every_sample_identity_audit": "bafae4857118923cd522681bbdeee6b53753ae139dad097d293c23d56fffdfea",
+    "existing_manual_reference": "905b3237c6c8dc893473ba6f566e6bf494bd839fc3fc43187a65ddd8bd200d61"
+  },
+  "set": 3,
+  "point_number": 34,
+  "source_frame": 36084,
+  "summary": {
+    "clear_grounded_manual_pairs": 2,
+    "median_current_box_to_shoe_error_m": 0.369,
+    "maximum_current_box_to_shoe_error_m": 0.523,
+    "validated_full_run_court_trajectories": 0
+  },
+  "rows": [
+    {
+      "source_frame": 36084,
+      "raw_track_id": 2,
+      "visually_reviewed_jersey_number": "7",
+      "existing_manual_player_key": 10,
+      "manual_shoe_midpoint_px": [
+        814,
+        338
+      ],
+      "manual_shoe_midpoint_court_m": [
+        6.1818,
+        8.2186
+      ],
+      "current_box_bottom_court_m": [
+        6.349,
+        8.082
+      ],
+      "current_box_to_manual_shoe_error_m": 0.216,
+      "current_box_to_manual_shoe_distance_px": 15.249,
+      "earlier_fixed_box_proxy_error_m": 0.0942
+    },
+    {
+      "source_frame": 36084,
+      "raw_track_id": 25,
+      "visually_reviewed_jersey_number": "12",
+      "existing_manual_player_key": 2,
+      "manual_shoe_midpoint_px": [
+        700,
+        563
+      ],
+      "manual_shoe_midpoint_court_m": [
+        4.7309,
+        2.0146
+      ],
+      "current_box_bottom_court_m": [
+        4.546,
+        1.525
+      ],
+      "current_box_to_manual_shoe_error_m": 0.523,
+      "current_box_to_manual_shoe_distance_px": 26.184,
+      "earlier_fixed_box_proxy_error_m": 0.7293
+    }
+  ],
+  "limitations": [
+    "The two shoe marks are reused from the existing single-reviewer reference.",
+    "Only two clear grounded players in one sampled frame are compared.",
+    "No inference about all six players or other frames is supported."
+  ]
+}

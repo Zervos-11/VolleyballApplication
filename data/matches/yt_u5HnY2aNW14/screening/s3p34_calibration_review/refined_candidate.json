@@ -1,0 +1,274 @@
+{
+  "status": "exploratory_post_review_refined_calibration_candidate",
+  "source_frame_used_for_fit": 36073,
+  "fit_landmarks": [
+    "baseline_left",
+    "baseline_right",
+    "net_right",
+    "net_left"
+  ],
+  "homography_image_to_court": [
+    [
+      0.014776396606437356,
+      0.0027205636606497325,
+      -5.374356621165235
+    ],
+    [
+      -0.0002750001542697774,
+      -0.03296212505736744,
+      21.374010978732276
+    ],
+    [
+      -8.638793716119985e-06,
+      0.0006948211701771565,
+      1.0
+    ]
+  ],
+  "coordinate_rule": "near baseline y=0 m, floor centreline under net y=9 m; x from image left to right",
+  "strict_metric_approval": false,
+  "use_for_final_metrics": false,
+  "prior_frozen_operational_screen": "failed_on_staged_transform_max_0.2037_m_vs_0.2_m",
+  "input_sha256": {
+    "protocol": "94801e88530307859c15b4eaeb6390f40bd761c47d10cf024bcce90a5b08793f",
+    "completed_marks": "11766fc3cb80dd214f298d13c6dd5b9c961685f2fc1f4e6220e19d41a891379e",
+    "staged_transform": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "ground_review": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc"
+  },
+  "held_out_count": 8,
+  "held_out_maximum_error_m": 0.0364,
+  "attack_line_held_out_maximum_error_m": 0.0364,
+  "clicked_shoe_point_count": 180,
+  "old_to_refined_clicked_shoe_shift_median_m": 0.0797,
+  "old_to_refined_clicked_shoe_shift_maximum_m": 0.1424,
+  "comparisons": [
+    {
+      "source_frame": 36073,
+      "landmark_code": "baseline_left",
+      "role": "fitted_corner",
+      "source_px": [
+        244.7,
+        646.4
+      ],
+      "target_court_m": [
+        0,
+        0
+      ],
+      "refined_projected_court_m": [
+        0.0,
+        0.0
+      ],
+      "refined_error_m": 0.0,
+      "staged_error_m": 0.0663
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "baseline_right",
+      "role": "fitted_corner",
+      "source_px": [
+        1119.7,
+        639.1
+      ],
+      "target_court_m": [
+        9,
+        0
+      ],
+      "refined_projected_court_m": [
+        9.0,
+        0.0
+      ],
+      "refined_error_m": 0.0,
+      "staged_error_m": 0.2037
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "attack_left",
+      "role": "held_out_check",
+      "source_px": [
+        288.3,
+        412.7
+      ],
+      "target_court_m": [
+        0,
+        6
+      ],
+      "refined_projected_court_m": [
+        0.0066,
+        5.9889
+      ],
+      "refined_error_m": 0.0129,
+      "staged_error_m": 0.0977
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "attack_right",
+      "role": "held_out_check",
+      "source_px": [
+        1063.2,
+        406.5
+      ],
+      "target_court_m": [
+        9,
+        6
+      ],
+      "refined_projected_court_m": [
+        8.9862,
+        6.0337
+      ],
+      "refined_error_m": 0.0364,
+      "staged_error_m": 0.1853
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "net_left",
+      "role": "fitted_corner",
+      "source_px": [
+        305.9,
+        314.0
+      ],
+      "target_court_m": [
+        0,
+        9
+      ],
+      "refined_projected_court_m": [
+        0.0,
+        9.0
+      ],
+      "refined_error_m": 0.0,
+      "staged_error_m": 0.1135
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "net_right",
+      "role": "fitted_corner",
+      "source_px": [
+        1041.5,
+        310.3
+      ],
+      "target_court_m": [
+        9,
+        9
+      ],
+      "refined_projected_court_m": [
+        9.0,
+        9.0
+      ],
+      "refined_error_m": 0.0,
+      "staged_error_m": 0.0976
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "baseline_left",
+      "role": "held_out_check",
+      "source_px": [
+        246.4,
+        646.7
+      ],
+      "target_court_m": [
+        0,
+        0
+      ],
+      "refined_projected_court_m": [
+        0.0179,
+        -0.0072
+      ],
+      "refined_error_m": 0.0193,
+      "staged_error_m": 0.0789
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "baseline_right",
+      "role": "held_out_check",
+      "source_px": [
+        1119.2,
+        639.4
+      ],
+      "target_court_m": [
+        9,
+        0
+      ],
+      "refined_projected_court_m": [
+        8.9941,
+        -0.0068
+      ],
+      "refined_error_m": 0.009,
+      "staged_error_m": 0.1969
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "attack_left",
+      "role": "held_out_check",
+      "source_px": [
+        288.8,
+        413.4
+      ],
+      "target_court_m": [
+        0,
+        6
+      ],
+      "refined_projected_court_m": [
+        0.0138,
+        5.9685
+      ],
+      "refined_error_m": 0.0344,
+      "staged_error_m": 0.1063
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "attack_right",
+      "role": "held_out_check",
+      "source_px": [
+        1063.4,
+        407.7
+      ],
+      "target_court_m": [
+        9,
+        6
+      ],
+      "refined_projected_court_m": [
+        8.9853,
+        5.9987
+      ],
+      "refined_error_m": 0.0148,
+      "staged_error_m": 0.1524
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "net_left",
+      "role": "held_out_check",
+      "source_px": [
+        307.5,
+        314.9
+      ],
+      "target_court_m": [
+        0,
+        9
+      ],
+      "refined_projected_court_m": [
+        0.0215,
+        8.9707
+      ],
+      "refined_error_m": 0.0363,
+      "staged_error_m": 0.1432
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "net_right",
+      "role": "held_out_check",
+      "source_px": [
+        1040.1,
+        310.5
+      ],
+      "target_court_m": [
+        9,
+        9
+      ],
+      "refined_projected_court_m": [
+        8.9822,
+        8.9937
+      ],
+      "refined_error_m": 0.0189,
+      "staged_error_m": 0.102
+    }
+  ],
+  "interpretation": "Four first-frame corners were used for fitting. The other eight source-image marks are holdout checks against this fitted transform, but all marks come from one previously exposed reviewer and two nearby frames. This refinement was made after seeing the frozen staged-transform screen failure; its errors are diagnostic, not a replacement prespecified test or independent physical validation."
+}

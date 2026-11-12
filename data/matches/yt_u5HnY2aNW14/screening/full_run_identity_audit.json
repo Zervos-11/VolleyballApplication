@@ -1,0 +1,195 @@
+{
+  "status": "two_selected_runs_identity_checked_at_all_five_hz_samples_only",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "full_clip_screen": "8089dddec4be14e68d03f73edd822ae31d82b197c2d8bac5b401f19535e04dc7",
+    "full_clip_tracklets": "a113447b023f7455785fa45201622e19c6d64dc9704242ef5553f8dba2fc65a3",
+    "atlas_manifest": "ed77d43dfbcf7add6942da6f690b3a5b9d76de0822a1128596125a7488a27689",
+    "manual_qc": "9a66d7e03d80d5b2ab15d58dcb4a8f06ea795506e202c026705a972da432489f"
+  },
+  "summary": {
+    "runs_reviewed": 2,
+    "sampled_team_frames_reviewed": 36,
+    "sampled_person_boxes_reviewed": 216,
+    "obvious_sampled_identity_switches": 0,
+    "runs_with_certified_inter_sample_identity": 0,
+    "runs_with_validated_court_floor_trajectory": 0,
+    "validated_full_rallies": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team": "UCLA",
+      "sampled_source_frames": [
+        1326,
+        1332,
+        1338,
+        1344,
+        1350,
+        1356,
+        1362,
+        1368,
+        1374,
+        1380,
+        1386,
+        1392,
+        1398,
+        1404,
+        1410,
+        1416,
+        1422,
+        1428
+      ],
+      "sampled_identity_status": "six_same_visible_jerseys_at_all_eighteen_samples",
+      "obvious_sampled_identity_switches": 0,
+      "exact_live_play_interval_status": "not_certified",
+      "court_floor_position_status": "not_validated_by_identity_crop_review",
+      "atlas_pages": [
+        "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_1.png",
+        "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_2.png",
+        "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_3.png"
+      ],
+      "players": [
+        {
+          "raw_track_id": 1,
+          "reviewed_visible_jersey_number": "12",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.334,
+          "sampled_box_bottom_proxy_polyline_m": 0.83,
+          "first_to_last_box_bottom_proxy_chord_m": 0.627
+        },
+        {
+          "raw_track_id": 2,
+          "reviewed_visible_jersey_number": "28",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.332,
+          "sampled_box_bottom_proxy_polyline_m": 1.433,
+          "first_to_last_box_bottom_proxy_chord_m": 0.739
+        },
+        {
+          "raw_track_id": 3,
+          "reviewed_visible_jersey_number": "7",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.81,
+          "sampled_box_bottom_proxy_polyline_m": 4.77,
+          "first_to_last_box_bottom_proxy_chord_m": 4.674
+        },
+        {
+          "raw_track_id": 5,
+          "reviewed_visible_jersey_number": "8",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.456,
+          "sampled_box_bottom_proxy_polyline_m": 1.194,
+          "first_to_last_box_bottom_proxy_chord_m": 0.105
+        },
+        {
+          "raw_track_id": 6,
+          "reviewed_visible_jersey_number": "21",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.157,
+          "sampled_box_bottom_proxy_polyline_m": 0.566,
+          "first_to_last_box_bottom_proxy_chord_m": 0.282
+        },
+        {
+          "raw_track_id": 8,
+          "reviewed_visible_jersey_number": "19",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.068,
+          "sampled_box_bottom_proxy_polyline_m": 0.344,
+          "first_to_last_box_bottom_proxy_chord_m": 0.108
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team": "UCLA",
+      "sampled_source_frames": [
+        36000,
+        36006,
+        36012,
+        36018,
+        36024,
+        36030,
+        36036,
+        36042,
+        36048,
+        36054,
+        36060,
+        36066,
+        36072,
+        36078,
+        36084,
+        36090,
+        36096,
+        36102
+      ],
+      "sampled_identity_status": "six_same_visible_jerseys_at_all_eighteen_samples",
+      "obvious_sampled_identity_switches": 0,
+      "exact_live_play_interval_status": "not_certified",
+      "court_floor_position_status": "not_validated_by_identity_crop_review",
+      "atlas_pages": [
+        "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_1.png",
+        "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_2.png",
+        "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_3.png"
+      ],
+      "players": [
+        {
+          "raw_track_id": 1,
+          "reviewed_visible_jersey_number": "19",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.453,
+          "sampled_box_bottom_proxy_polyline_m": 2.9,
+          "first_to_last_box_bottom_proxy_chord_m": 2.792
+        },
+        {
+          "raw_track_id": 2,
+          "reviewed_visible_jersey_number": "7",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.53,
+          "sampled_box_bottom_proxy_polyline_m": 3.705,
+          "first_to_last_box_bottom_proxy_chord_m": 1.067
+        },
+        {
+          "raw_track_id": 8,
+          "reviewed_visible_jersey_number": "28",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.483,
+          "sampled_box_bottom_proxy_polyline_m": 4.5,
+          "first_to_last_box_bottom_proxy_chord_m": 3.836
+        },
+        {
+          "raw_track_id": 11,
+          "reviewed_visible_jersey_number": "21",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.757,
+          "sampled_box_bottom_proxy_polyline_m": 5.966,
+          "first_to_last_box_bottom_proxy_chord_m": 1.329
+        },
+        {
+          "raw_track_id": 20,
+          "reviewed_visible_jersey_number": "15",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.184,
+          "sampled_box_bottom_proxy_polyline_m": 1.155,
+          "first_to_last_box_bottom_proxy_chord_m": 0.284
+        },
+        {
+          "raw_track_id": 25,
+          "reviewed_visible_jersey_number": "12",
+          "sampled_frames": 18,
+          "max_successive_box_bottom_proxy_change_m": 0.588,
+          "sampled_box_bottom_proxy_polyline_m": 4.88,
+          "first_to_last_box_bottom_proxy_chord_m": 1.799
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Single reviewer, with no independent second annotation.",
+    "Only every sixth source frame is displayed; 30 fps frames between samples were not identity-certified.",
+    "Selected runs are the two longest candidates, not a representative random sample.",
+    "Jersey continuity does not measure shoe-to-box-bottom or court-mapping error."
+  ]
+}

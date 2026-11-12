@@ -1,0 +1,35 @@
+{
+  "revision": 1,
+  "status": "single_reviewer_source_event_draft",
+  "source_clip_sha256": "19a22a123595bb95d2d033c798692c975572f169bf11f34f06d4d3a52501e072",
+  "verdict": {
+    "reviewer_code": "MZ",
+    "checked_unboxed_source": true,
+    "usc_served": true,
+    "byu_won": true,
+    "score_before": "",
+    "score_after": "",
+    "serve": [
+      98,
+      98
+    ],
+    "reception": [
+      134,
+      134
+    ],
+    "set": [
+      186,
+      186
+    ],
+    "attack": [
+      200,
+      200
+    ],
+    "point_end": [
+      267,
+      267
+    ],
+    "note": ""
+  },
+  "saved_at_utc": "2026-11-08T03:35:47.815209+00:00"
+}

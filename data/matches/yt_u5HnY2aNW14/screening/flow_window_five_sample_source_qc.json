@@ -1,0 +1,55 @@
+{
+    "status":  "single_reviewer_visual_screen_at_five_sample_instants_only",
+    "review_sheet_index_sha256":  "409a8954a10e5dd391bab15eb58c250bcec595e27658651c1e2fa561a64a3f6a",
+    "criterion":  "At each of the five displayed source instants, all six translated boxes still visually follow their anchor player; this is a coarse wrong-person-transfer screen, not position accuracy or named-identity validation.",
+    "rows":  [
+                 {
+                     "set":  1,
+                     "point_number":  5,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "All six near-side boxes follow the same visible players across the five panels; right-side player approaches the net."
+                 },
+                 {
+                     "set":  1,
+                     "point_number":  6,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "The front-row blue players stay distinct through the five panels; boxes vary with posture."
+                 },
+                 {
+                     "set":  1,
+                     "point_number":  18,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "Six boxes follow the same players; the rightmost near-side player remains outside the sideline and is not a valid on-court coordinate."
+                 },
+                 {
+                     "set":  2,
+                     "point_number":  6,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "The three near-side front-row players stay distinguishable at the five instants despite the far-side dive."
+                 },
+                 {
+                     "set":  2,
+                     "point_number":  28,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "The central near-side player moves into a low posture near the net; the translated box remains associated visually, but its centre is posture sensitive."
+                 },
+                 {
+                     "set":  3,
+                     "point_number":  13,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "All six near-side boxes remain on their visually corresponding players at the sampled instants."
+                 },
+                 {
+                     "set":  3,
+                     "point_number":  27,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "Front-row boxes retain distinct near-side players at the sampled instants."
+                 },
+                 {
+                     "set":  3,
+                     "point_number":  34,
+                     "status":  "no_obvious_wrong_person_transfer_at_five_samples",
+                     "note":  "All six boxes remain on corresponding near-side players; pose changes affect box-centre location."
+                 }
+             ]
+}

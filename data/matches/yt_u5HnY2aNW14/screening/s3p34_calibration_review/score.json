@@ -1,0 +1,242 @@
+{
+  "status": "single_reviewer_calibration_operational_screen_scored",
+  "protocol_sha256": "94801e88530307859c15b4eaeb6390f40bd761c47d10cf024bcce90a5b08793f",
+  "strict_metric_approval": false,
+  "input_sha256": {
+    "completed_form": "11766fc3cb80dd214f298d13c6dd5b9c961685f2fc1f4e6220e19d41a891379e",
+    "court": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "registration": "0dfd9f22dd4530afd80423d941f82da205359ca494f5d7121bf2cecc7343a9b5"
+  },
+  "marked_landmarks": 12,
+  "required_landmarks": 12,
+  "median_projected_error_m": 0.1099,
+  "maximum_projected_error_m": 0.2037,
+  "maximum_registered_static_shift_px": 0.293,
+  "operational_screen_passed": false,
+  "decision_rule": {
+    "maximum_projected_landmark_error_m": 0.2,
+    "maximum_static_camera_registration_shift_px": 2.0,
+    "required_visible_landmarks": 12,
+    "scope": "operational_screen_for_this_camera_and_near_court_only",
+    "basis": "Existing HONOURS_CALIBRATION_QC.md operational screen; passing does not validate player floor anchors or remove fixed-window selection bias."
+  },
+  "rows": [
+    {
+      "source_frame": 36073,
+      "landmark_code": "baseline_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        0
+      ],
+      "source_px": [
+        244.7,
+        646.4
+      ],
+      "projected_court_m": [
+        0.0553,
+        0.0365
+      ],
+      "projected_error_m": 0.0663
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "baseline_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        0
+      ],
+      "source_px": [
+        1119.7,
+        639.1
+      ],
+      "projected_court_m": [
+        8.9971,
+        0.2036
+      ],
+      "projected_error_m": 0.2037
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "attack_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        6
+      ],
+      "source_px": [
+        288.3,
+        412.7
+      ],
+      "projected_court_m": [
+        0.0977,
+        6.0019
+      ],
+      "projected_error_m": 0.0977
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "attack_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        6
+      ],
+      "source_px": [
+        1063.2,
+        406.5
+      ],
+      "projected_court_m": [
+        8.9541,
+        6.1795
+      ],
+      "projected_error_m": 0.1853
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "net_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        9
+      ],
+      "source_px": [
+        305.9,
+        314.0
+      ],
+      "projected_court_m": [
+        0.109,
+        8.9683
+      ],
+      "projected_error_m": 0.1135
+    },
+    {
+      "source_frame": 36073,
+      "landmark_code": "net_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        9
+      ],
+      "source_px": [
+        1041.5,
+        310.3
+      ],
+      "projected_court_m": [
+        8.9532,
+        9.0856
+      ],
+      "projected_error_m": 0.0976
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "baseline_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        0
+      ],
+      "source_px": [
+        246.4,
+        646.7
+      ],
+      "projected_court_m": [
+        0.0732,
+        0.0296
+      ],
+      "projected_error_m": 0.0789
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "baseline_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        0
+      ],
+      "source_px": [
+        1119.2,
+        639.4
+      ],
+      "projected_court_m": [
+        8.9913,
+        0.1967
+      ],
+      "projected_error_m": 0.1969
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "attack_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        6
+      ],
+      "source_px": [
+        288.8,
+        413.4
+      ],
+      "projected_court_m": [
+        0.1047,
+        5.9819
+      ],
+      "projected_error_m": 0.1063
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "attack_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        6
+      ],
+      "source_px": [
+        1063.4,
+        407.7
+      ],
+      "projected_court_m": [
+        8.9533,
+        6.145
+      ],
+      "projected_error_m": 0.1524
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "net_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        9
+      ],
+      "source_px": [
+        307.5,
+        314.9
+      ],
+      "projected_court_m": [
+        0.13,
+        8.9399
+      ],
+      "projected_error_m": 0.1432
+    },
+    {
+      "source_frame": 36101,
+      "landmark_code": "net_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        9
+      ],
+      "source_px": [
+        1040.1,
+        310.5
+      ],
+      "projected_court_m": [
+        8.9358,
+        9.0793
+      ],
+      "projected_error_m": 0.102
+    }
+  ],
+  "interpretation": "This is a single-reviewer operational court-line check. A threshold miss of 0.0037 m at one clicked landmark cannot distinguish click placement uncertainty from error in the original manually selected transform corners. The frozen pass/fail result is retained. This check does not independently validate player floor anchors, certify an availability-selected fixed window, or validate a full-rally trajectory."
+}

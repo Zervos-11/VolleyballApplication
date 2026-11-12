@@ -1,0 +1,213 @@
+{
+  "status": "diagnostic_recovery_candidates_not_validated_positions",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "raw_screen_sha256": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+  "review_manifest_sha256": "2c7f3ee87d26c3621fa08cf1eaeae4cdddee71ec7cf02ba12a6ef5862534737f",
+  "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "method": "original net-boundary audit plus YOLOv8n person prediction conf 0.05 imgsz 1600 on seven late frames",
+  "early_original_boxes_excluded_by_gate": [
+    {
+      "source_frame": 36015,
+      "raw_track_id": 9,
+      "bbox_px": [
+        767.2,
+        183.6,
+        813.3,
+        312.9
+      ],
+      "box_bottom_court_m_staged": [
+        5.927,
+        9.002
+      ],
+      "raw_detector_confidence": 0.727,
+      "reason_not_in_original_jersey_candidate": "net_boundary_review_gate",
+      "review_status": "person_box_exists_but_jersey_and_floor_not_re_adjudicated"
+    },
+    {
+      "source_frame": 36026,
+      "raw_track_id": 9,
+      "bbox_px": [
+        795.5,
+        177.9,
+        845.7,
+        312.1
+      ],
+      "box_bottom_court_m_staged": [
+        6.293,
+        9.029
+      ],
+      "raw_detector_confidence": 0.682,
+      "reason_not_in_original_jersey_candidate": "net_boundary_review_gate",
+      "review_status": "person_box_exists_but_jersey_and_floor_not_re_adjudicated"
+    },
+    {
+      "source_frame": 36030,
+      "raw_track_id": 9,
+      "bbox_px": [
+        801.7,
+        178.6,
+        854.2,
+        312.5
+      ],
+      "box_bottom_court_m_staged": [
+        6.381,
+        9.016
+      ],
+      "raw_detector_confidence": 0.71,
+      "reason_not_in_original_jersey_candidate": "net_boundary_review_gate",
+      "review_status": "person_box_exists_but_jersey_and_floor_not_re_adjudicated"
+    },
+    {
+      "source_frame": 36031,
+      "raw_track_id": 9,
+      "bbox_px": [
+        803.1,
+        178.8,
+        855.7,
+        312.9
+      ],
+      "box_bottom_court_m_staged": [
+        6.397,
+        9.003
+      ],
+      "raw_detector_confidence": 0.691,
+      "reason_not_in_original_jersey_candidate": "net_boundary_review_gate",
+      "review_status": "person_box_exists_but_jersey_and_floor_not_re_adjudicated"
+    }
+  ],
+  "late_higher_resolution_proposals": [
+    {
+      "source_frame": 36124,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            814.6,
+            219.1,
+            878.9,
+            380.5
+          ],
+          "confidence": 0.7137
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36126,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            808.7,
+            220.4,
+            880.1,
+            381.7
+          ],
+          "confidence": 0.7173
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36127,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            811.7,
+            220.4,
+            879.6,
+            382.5
+          ],
+          "confidence": 0.6804
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36128,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            815.0,
+            219.6,
+            880.1,
+            383.9
+          ],
+          "confidence": 0.6763
+        },
+        {
+          "bbox_px": [
+            787.8,
+            219.5,
+            880.8,
+            383.5
+          ],
+          "confidence": 0.128
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36129,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            808.4,
+            217.0,
+            879.9,
+            383.7
+          ],
+          "confidence": 0.7043
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36130,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            802.2,
+            215.9,
+            879.1,
+            382.5
+          ],
+          "confidence": 0.7441
+        },
+        {
+          "bbox_px": [
+            822.9,
+            216.8,
+            876.2,
+            382.2
+          ],
+          "confidence": 0.1808
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    },
+    {
+      "source_frame": 36131,
+      "search_region_rule_px": "centre x 790..900, box top y 185..270, bottom y 315..420",
+      "person_proposals": [
+        {
+          "bbox_px": [
+            809.6,
+            215.4,
+            879.6,
+            382.6
+          ],
+          "confidence": 0.62
+        }
+      ],
+      "review_status": "candidate_only_not_jersey_or_floor_approved"
+    }
+  ],
+  "contact_sheet": "data/matches/yt_u5HnY2aNW14/screening/s3p34_player7_gap_diagnostic/sideways_7_proposals.jpg",
+  "crop_sheet": "data/matches/yt_u5HnY2aNW14/screening/s3p34_player7_gap_diagnostic/sideways_7_crops.jpg",
+  "limitation": "Do not substitute proposals for saved human box verdicts or grounded coordinates without new source adjudication."
+}

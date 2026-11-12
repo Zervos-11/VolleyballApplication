@@ -1,0 +1,218 @@
+{
+  "status": "single_reviewer_all_sampled_frame_team_membership_not_ground_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "run_audit_sha256": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+  "review_index_sha256": "917053740f25204b95b78ff243347d156c1a5e5d66fa04887ed69b745a69d0cc",
+  "full_frame_review_index_sha256": "b87021c9b08fd85a3748dcdf94f31b745bf68921a2d85cc744bc15d8f137f0de",
+  "summary": {
+    "candidate_runs_reviewed": 7,
+    "runs_with_correct_team_at_three_anchors": 7,
+    "runs_with_correct_team_at_all_sampled_frames": 7,
+    "sampled_frames_source_reviewed": 53,
+    "short_runs_with_named_jersey_continuity_review": 1,
+    "validated_grounded_trajectories": 0
+  },
+  "limitations": "Every 5 Hz source still in the seven runs was visually checked for six correct near-side teammates and box continuity. The unsampled frames between stills were not individually inspected. Named jersey continuity was recorded only for the separate set-one point-37 run. Grounded floor positions have not been validated.",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 6,
+      "run_frame_count": 5,
+      "displayed_source_frames": [
+        1752,
+        1764,
+        1776
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        1752,
+        1758,
+        1764,
+        1770,
+        1776
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_1.jpg",
+      "source_sheet_sha256": "a85fa68082741e2e327de58017218cc3dbe10259eefd3147dd691fc0049e7c29",
+      "all_frames_source_sheet": "s1_p06.jpg",
+      "all_frames_source_sheet_sha256": "d798ac94859f73eac9ce446d0f9e689b777cd311b91702618e690ca80cbbf9b4"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "run_frame_count": 7,
+      "displayed_source_frames": [
+        9690,
+        9708,
+        9726
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        9690,
+        9696,
+        9702,
+        9708,
+        9714,
+        9720,
+        9726
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_1.jpg",
+      "source_sheet_sha256": "a85fa68082741e2e327de58017218cc3dbe10259eefd3147dd691fc0049e7c29",
+      "all_frames_source_sheet": "s1_p34.jpg",
+      "all_frames_source_sheet_sha256": "77b78ac164c979ada366b9aaebadfbab438edc9e1f030feb304166fb65687626"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "run_frame_count": 10,
+      "displayed_source_frames": [
+        10476,
+        10506,
+        10530
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        10476,
+        10482,
+        10488,
+        10494,
+        10500,
+        10506,
+        10512,
+        10518,
+        10524,
+        10530
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "source_reviewed_short_run",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_2.jpg",
+      "source_sheet_sha256": "021cb201856cbe35e351110b6662b88442ee30a7be6e46bc03828f36653e3c3c",
+      "all_frames_source_sheet": "s1_p37.jpg",
+      "all_frames_source_sheet_sha256": "1120457b7c7df36bdfd3d57bc78e3c3b6efd0704e5cbbca42cd4a5ff5e9719bf"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "run_frame_count": 8,
+      "displayed_source_frames": [
+        12294,
+        12318,
+        12336
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        12294,
+        12300,
+        12306,
+        12312,
+        12318,
+        12324,
+        12330,
+        12336
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_2.jpg",
+      "source_sheet_sha256": "021cb201856cbe35e351110b6662b88442ee30a7be6e46bc03828f36653e3c3c",
+      "all_frames_source_sheet": "s2_p02.jpg",
+      "all_frames_source_sheet_sha256": "b93cc8d541319a6826df8e795e63f1e63928d24b9cb09ad0178fdd896703f4f6"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "run_frame_count": 7,
+      "displayed_source_frames": [
+        13548,
+        13566,
+        13584
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        13548,
+        13554,
+        13560,
+        13566,
+        13572,
+        13578,
+        13584
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_3.jpg",
+      "source_sheet_sha256": "69a166effba2de7c7407e46d0819b341c18d9c1c16de48c85394fa113d12ebc6",
+      "all_frames_source_sheet": "s2_p06.jpg",
+      "all_frames_source_sheet_sha256": "4a3942aab6b0611e2a01359e84820669700d8cb0cb6a4576fe7dcb99f7fd4bf3"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "run_frame_count": 7,
+      "displayed_source_frames": [
+        18894,
+        18912,
+        18930
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        18894,
+        18900,
+        18906,
+        18912,
+        18918,
+        18924,
+        18930
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_3.jpg",
+      "source_sheet_sha256": "69a166effba2de7c7407e46d0819b341c18d9c1c16de48c85394fa113d12ebc6",
+      "all_frames_source_sheet": "s2_p26.jpg",
+      "all_frames_source_sheet_sha256": "1ff81369a88405963ee6db174a3da843a2d58396aa14d68f8b99c2bd0572da7e"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "run_frame_count": 9,
+      "displayed_source_frames": [
+        36054,
+        36078,
+        36102
+      ],
+      "three_anchor_team_membership": "six_correct_near_side_teammates_at_each_anchor",
+      "all_sampled_frame_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "all_sampled_source_frames": [
+        36054,
+        36060,
+        36066,
+        36072,
+        36078,
+        36084,
+        36090,
+        36096,
+        36102
+      ],
+      "inter_sample_continuity": "not_observed_between_five_hz_samples",
+      "named_jersey_continuity": "not_individually_certified",
+      "ground_position_validation": "pending",
+      "source_sheet": "sheet_4.jpg",
+      "source_sheet_sha256": "d51d9ace4049532b6538e1f910ead9f78cd356672ddfed62d7f7ebb8437085ec",
+      "all_frames_source_sheet": "s3_p34.jpg",
+      "all_frames_source_sheet_sha256": "7e47dace710b4ce7f0d0dbbddaa1b9aecfacb54aa95d85f1d0cb7b63859cf8c6"
+    }
+  ]
+}

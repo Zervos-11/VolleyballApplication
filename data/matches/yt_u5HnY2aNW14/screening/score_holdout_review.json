@@ -1,0 +1,13 @@
+{
+  "status": "single_reviewer_source_image_spot_check_not_independent_observer",
+  "sheet": "data/matches/yt_u5HnY2aNW14/screening/score_holdout_spotcheck.jpg",
+  "sampling_seed": 20261102,
+  "score_values_transcribed_from_sheet_without_candidate_values_drawn": {
+    "97": [6, 3], "142": [9, 4], "258": [19, 9], "336": [23, 11],
+    "427": [2, 1], "790": [22, 18], "848": [0, 0], "868": [1, 0],
+    "977": [5, 5], "1078": [13, 7], "1184": [19, 12], "1289": [24, 16]
+  },
+  "checked_fields": "displayed left and right point scores only; not school names, serve contact or rally end",
+  "matches_candidate_reader": 12,
+  "total_checked": 12
+}

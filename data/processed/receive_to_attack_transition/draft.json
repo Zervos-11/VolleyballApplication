@@ -1,0 +1,31 @@
+{
+  "revision": 3,
+  "cases": {
+    "yt_AoEP-YiWRvc/point_21m": {
+      "reviewer_code": "MZ",
+      "near_side_receives": true,
+      "reception_contact_frame_interval": [
+        75088,
+        75090
+      ],
+      "first_near_side_attack_contact_frame_interval": [
+        75266,
+        75266
+      ],
+      "attack_absent": null,
+      "source_only_before_metric": true,
+      "note": "",
+      "saved_at_utc": "2026-11-06T23:35:10.466924+00:00"
+    },
+    "yt_FqE5pTJqx8g/r3": {
+      "reviewer_code": "MZ_chat_verdict",
+      "near_side_receives": null,
+      "reception_contact_frame_interval": null,
+      "first_near_side_attack_contact_frame_interval": null,
+      "attack_absent": true,
+      "source_only_before_metric": true,
+      "note": "Student reported in chat on 2026-11-07 that the near-side team made no attack in this selected point; reception contact and receive status were not specified.",
+      "saved_at_utc": "2026-11-06T23:45:39.025479+00:00"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "status": "frozen_unmarked_single_reviewer_calibration_check",
+  "source_video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "purpose": "check_staged_image_to_court_transform_at_two_s3p34_times",
+  "reviewer_context": "same human reviewer as player-position review; previously exposed to staged calibration",
+  "frames": [
+    {
+      "frame": 36073,
+      "image": "unboxed_36073.png",
+      "sha256": "6e18691207ac9d71c0e828b5cf7c9cf87b2d867b8d4a56956fa27772092668d8"
+    },
+    {
+      "frame": 36101,
+      "image": "unboxed_36101.png",
+      "sha256": "5eca2105d89f8f4116df2363af54340bfbf5783a33351d89bf4102e5cf9ef3c9"
+    }
+  ],
+  "landmarks": [
+    {
+      "code": "baseline_left",
+      "label": "Near baseline \u00d7 left sideline",
+      "court_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "code": "baseline_right",
+      "label": "Near baseline \u00d7 right sideline",
+      "court_m": [
+        9,
+        0
+      ]
+    },
+    {
+      "code": "attack_left",
+      "label": "Attack line \u00d7 left sideline",
+      "court_m": [
+        0,
+        6
+      ]
+    },
+    {
+      "code": "attack_right",
+      "label": "Attack line \u00d7 right sideline",
+      "court_m": [
+        9,
+        6
+      ]
+    },
+    {
+      "code": "net_left",
+      "label": "Floor net line \u00d7 left sideline",
+      "court_m": [
+        0,
+        9
+      ]
+    },
+    {
+      "code": "net_right",
+      "label": "Floor net line \u00d7 right sideline",
+      "court_m": [
+        9,
+        9
+      ]
+    }
+  ],
+  "marking_rule": "Click centre of the painted court-line intersection on the unboxed native-resolution source image; use uncertain/occluded and null coordinates if it cannot be located.",
+  "decision_rule_frozen_before_new_marks": {
+    "maximum_projected_landmark_error_m": 0.2,
+    "maximum_static_camera_registration_shift_px": 2.0,
+    "required_visible_landmarks": 12,
+    "scope": "operational_screen_for_this_camera_and_near_court_only",
+    "basis": "Existing HONOURS_CALIBRATION_QC.md operational screen; passing does not validate player floor anchors or remove fixed-window selection bias."
+  }
+}

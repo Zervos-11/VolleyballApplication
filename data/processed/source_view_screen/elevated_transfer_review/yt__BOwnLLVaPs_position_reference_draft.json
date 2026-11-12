@@ -1,0 +1,156 @@
+{
+  "revision": 4,
+  "status": "complete_single_reviewer",
+  "frames": {
+    "366": {
+      "excerpt_frame": 366,
+      "reviewer_code": "MZ",
+      "checked_unboxed_source": true,
+      "identity_guide_seen": false,
+      "rows": [
+        {
+          "slot": 1,
+          "state": "grounded",
+          "shoe_x_px": 479.9,
+          "shoe_y_px": 748.8,
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "state": "grounded",
+          "shoe_x_px": 515.4,
+          "shoe_y_px": 850.3,
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "state": "grounded",
+          "shoe_x_px": 799.8,
+          "shoe_y_px": 949.4,
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "state": "grounded",
+          "shoe_x_px": 776.1,
+          "shoe_y_px": 885.7,
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "state": "grounded",
+          "shoe_x_px": 1190.9,
+          "shoe_y_px": 859.4,
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "state": "grounded",
+          "shoe_x_px": 1125.7,
+          "shoe_y_px": 681.6,
+          "note": ""
+        }
+      ]
+    },
+    "414": {
+      "excerpt_frame": 414,
+      "reviewer_code": "MZ",
+      "checked_unboxed_source": true,
+      "identity_guide_seen": false,
+      "rows": [
+        {
+          "slot": 1,
+          "state": "grounded",
+          "shoe_x_px": 699.1,
+          "shoe_y_px": 769.7,
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "state": "grounded",
+          "shoe_x_px": 402.9,
+          "shoe_y_px": 822.8,
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "state": "grounded",
+          "shoe_x_px": 1493.0,
+          "shoe_y_px": 909.3,
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "state": "grounded",
+          "shoe_x_px": 876.9,
+          "shoe_y_px": 911.7,
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "state": "grounded",
+          "shoe_x_px": 1167.2,
+          "shoe_y_px": 903.4,
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "state": "grounded",
+          "shoe_x_px": 1102.0,
+          "shoe_y_px": 712.7,
+          "note": ""
+        }
+      ]
+    },
+    "468": {
+      "excerpt_frame": 468,
+      "reviewer_code": "MZ",
+      "checked_unboxed_source": true,
+      "identity_guide_seen": false,
+      "rows": [
+        {
+          "slot": 1,
+          "state": "grounded",
+          "shoe_x_px": 995.4,
+          "shoe_y_px": 660.3,
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "state": "airborne",
+          "shoe_x_px": null,
+          "shoe_y_px": null,
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "state": "grounded",
+          "shoe_x_px": 1350.8,
+          "shoe_y_px": 761.4,
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "state": "grounded",
+          "shoe_x_px": 681.3,
+          "shoe_y_px": 688.7,
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "state": "grounded",
+          "shoe_x_px": 847.2,
+          "shoe_y_px": 809.8,
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "state": "grounded",
+          "shoe_x_px": 1137.5,
+          "shoe_y_px": 807.8,
+          "note": ""
+        }
+      ]
+    }
+  }
+}

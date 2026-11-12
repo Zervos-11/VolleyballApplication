@@ -1,0 +1,7 @@
+source_frame,image,landmark,x_px,y_px,notes
+36072,unboxed_36072.png,near_left_baseline_corner,,,
+36072,unboxed_36072.png,near_right_baseline_corner,,,
+36072,unboxed_36072.png,near_right_centreline_corner,,,
+36072,unboxed_36072.png,near_left_centreline_corner,,,
+36072,unboxed_36072.png,left_attack_line_sideline,,,
+36072,unboxed_36072.png,right_attack_line_sideline,,,

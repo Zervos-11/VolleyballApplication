@@ -1,0 +1,76 @@
+{
+  "status": "frozen_before_new_holdout_marks",
+  "source_video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "reviewer_context": "single reviewer previously exposed to original calibration; these two source frames were not used to fit the refined candidate",
+  "purpose": "out_of_point_holdout_check_of_post_review_refined_homography",
+  "frames": [
+    {
+      "frame": 1422,
+      "image": "unboxed_1422.png",
+      "sha256": "82c1994f155d2eb46235faf4d47b4cfd256956accea736957b5ca1612669a301"
+    },
+    {
+      "frame": 29952,
+      "image": "unboxed_29952.png",
+      "sha256": "88cb822ed822f44fa7e176e9bba37ac418afbd6510d9d22c03d8608b82eba960"
+    }
+  ],
+  "landmarks": [
+    {
+      "code": "baseline_left",
+      "label": "Near baseline x left sideline",
+      "court_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "code": "baseline_right",
+      "label": "Near baseline x right sideline",
+      "court_m": [
+        9,
+        0
+      ]
+    },
+    {
+      "code": "attack_left",
+      "label": "Attack line x left sideline",
+      "court_m": [
+        0,
+        6
+      ]
+    },
+    {
+      "code": "attack_right",
+      "label": "Attack line x right sideline",
+      "court_m": [
+        9,
+        6
+      ]
+    },
+    {
+      "code": "net_left",
+      "label": "Floor net line x left sideline",
+      "court_m": [
+        0,
+        9
+      ]
+    },
+    {
+      "code": "net_right",
+      "label": "Floor net line x right sideline",
+      "court_m": [
+        9,
+        9
+      ]
+    }
+  ],
+  "marking_rule": "Click the painted court-line intersection in each unboxed native-resolution source frame; uncertain or occluded marks remain null.",
+  "decision_rule_frozen_before_new_marks": {
+    "required_visible_landmarks": 12,
+    "maximum_projected_landmark_error_m": 0.2,
+    "maximum_static_camera_registration_shift_px": 2.0,
+    "scope": "operational_use_of_refined_mapping_for_this_camera_and_near_court_only",
+    "qualification": "Passing does not prove true player foot positions, independent inter-observer accuracy or match-to-match transferability."
+  }
+}

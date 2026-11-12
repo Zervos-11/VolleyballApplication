@@ -1,0 +1,6777 @@
+{
+  "status": "review_packet_only_no_new_human_verdicts",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "inputs_sha256": {
+    "observation_ledger": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1",
+    "source_bracketed_30fps_screen": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+    "whole_interval_coverage": "66c65cf003be8ab4542317252c25e4e391d41013fa132eac3f13a48a7de53ef2"
+  },
+  "roster_slots_in_order": [
+    "28",
+    "12",
+    "15",
+    "7",
+    "19",
+    "21"
+  ],
+  "description": "85 frames without individual source-state review in 36001-36138; source first, numbered candidate boxes second",
+  "frames": [
+    {
+      "source_frame": 36001,
+      "image": "unboxed_36001.jpg",
+      "image_sha256": "7d3d36e17d2f48eb1629927519bf539f894b717c9baf3cf3be601190a9d85c1b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            539.6,
+            281.6,
+            618.6,
+            431.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.42,
+            5.471
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            802.4,
+            375.5,
+            903.0,
+            563.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.35,
+            2.016
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.6,
+            190.8,
+            708.9,
+            337.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.578,
+            8.233
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            736.7,
+            185.6,
+            776.9,
+            343.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.5,
+            8.064
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            797.6,
+            220.5,
+            854.4,
+            394.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.254,
+            6.517
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            584.2,
+            193.4,
+            622.3,
+            328.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.682,
+            8.512
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36002,
+      "image": "unboxed_36002.jpg",
+      "image_sha256": "6b535020e9c87983d89b99099390d196e275929fba88ece36e4286a8affe0b6e",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            538.7,
+            282.6,
+            617.6,
+            432.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.409,
+            5.451
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            802.6,
+            366.3,
+            904.8,
+            556.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.368,
+            2.171
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.4,
+            190.8,
+            708.7,
+            337.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.576,
+            8.226
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            739.4,
+            185.0,
+            780.2,
+            345.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.533,
+            8.003
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            799.7,
+            220.7,
+            855.5,
+            392.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.275,
+            6.594
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            583.4,
+            193.3,
+            622.9,
+            333.4
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.681,
+            8.36
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36003,
+      "image": "unboxed_36003.jpg",
+      "image_sha256": "4d4b683c42708ddd1d2abf42e0c9ac8008e2029bb70947d32540ad93d7cfca32",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            538.9,
+            284.3,
+            617.5,
+            433.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.41,
+            5.425
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            810.8,
+            374.2,
+            904.8,
+            547.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.422,
+            2.391
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.3,
+            190.8,
+            708.5,
+            337.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.574,
+            8.226
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            741.2,
+            184.3,
+            782.4,
+            345.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.556,
+            7.981
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            801.2,
+            221.2,
+            857.5,
+            394.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.293,
+            6.526
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            581.9,
+            192.9,
+            623.8,
+            342.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.678,
+            8.089
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36004,
+      "image": "unboxed_36004.jpg",
+      "image_sha256": "fd84d46b746ff6df75495c42e3e665b16686c75875d024c01d034ccd790eefbe",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            534.8,
+            283.7,
+            614.3,
+            433.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.369,
+            5.42
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            812.5,
+            369.0,
+            908.4,
+            544.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.454,
+            2.464
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.6,
+            191.1,
+            708.5,
+            337.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.576,
+            8.233
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            743.4,
+            184.1,
+            784.3,
+            343.5
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.582,
+            8.051
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            801.5,
+            222.2,
+            857.3,
+            393.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.294,
+            6.545
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            581.5,
+            192.6,
+            624.1,
+            344.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.678,
+            8.006
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36005,
+      "image": "unboxed_36005.jpg",
+      "image_sha256": "c300de32fd9c065ec62c5924b570b93e4237685962e4b497f3e9c757267b9ea7",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            531.9,
+            284.0,
+            612.1,
+            433.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.34,
+            5.407
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            811.8,
+            366.3,
+            911.4,
+            547.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.463,
+            2.398
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.7,
+            191.4,
+            708.5,
+            337.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.576,
+            8.235
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            744.4,
+            183.8,
+            785.0,
+            339.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.595,
+            8.164
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            803.7,
+            223.5,
+            858.2,
+            390.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.316,
+            6.639
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            581.1,
+            192.5,
+            623.6,
+            344.6
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.673,
+            8.017
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36007,
+      "image": "unboxed_36007.jpg",
+      "image_sha256": "02e2be325448e08022e090a4851c7aeff9939ec7ab33db052b587a5fccece14b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            520.6,
+            284.9,
+            599.9,
+            433.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.207,
+            5.41
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            800.8,
+            394.5,
+            901.0,
+            561.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.332,
+            2.057
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.1,
+            191.9,
+            707.9,
+            338.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.569,
+            8.218
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            750.9,
+            183.5,
+            793.9,
+            339.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.686,
+            8.166
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            805.6,
+            223.8,
+            862.3,
+            398.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.34,
+            6.413
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            578.4,
+            192.3,
+            622.4,
+            348.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.651,
+            7.885
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36008,
+      "image": "unboxed_36008.jpg",
+      "image_sha256": "c6f1e47291cad49d3b21d72d73ba55488ebd31d1d1be561677f0220f8a12f67f",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            517.1,
+            283.7,
+            596.4,
+            434.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.168,
+            5.394
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            796.1,
+            404.2,
+            900.4,
+            568.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.296,
+            1.869
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.9,
+            192.0,
+            707.8,
+            338.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.567,
+            8.21
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            752.5,
+            183.5,
+            797.4,
+            340.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.717,
+            8.153
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            807.5,
+            224.2,
+            863.7,
+            398.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.36,
+            6.424
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            577.9,
+            192.4,
+            621.9,
+            349.3
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.644,
+            7.872
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36009,
+      "image": "unboxed_36009.jpg",
+      "image_sha256": "31e73b583ef8fa7dd10098cddda76c057f0fa410d14a2c98491e937c27c18b27",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            514.7,
+            284.2,
+            593.0,
+            434.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.136,
+            5.378
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            792.2,
+            411.1,
+            900.0,
+            573.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.268,
+            1.758
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.0,
+            192.0,
+            707.9,
+            338.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.569,
+            8.205
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            753.5,
+            183.7,
+            801.1,
+            342.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.743,
+            8.093
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            809.0,
+            225.0,
+            865.0,
+            398.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.375,
+            6.407
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            576.5,
+            192.2,
+            621.4,
+            351.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.633,
+            7.794
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36010,
+      "image": "unboxed_36010.jpg",
+      "image_sha256": "4b7cc3cdf1b5f9aa6d80dcd9caf455baf114d8d923e3ea148e70e3ebfc28b6fc",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            510.6,
+            285.2,
+            586.6,
+            434.4
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.077,
+            5.389
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            788.8,
+            416.7,
+            897.6,
+            574.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.236,
+            1.737
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.9,
+            191.9,
+            707.8,
+            338.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.567,
+            8.204
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            753.3,
+            184.2,
+            803.6,
+            344.6
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.754,
+            8.017
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            809.4,
+            225.8,
+            865.5,
+            399.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.38,
+            6.397
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            575.6,
+            192.1,
+            621.3,
+            354.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.628,
+            7.727
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36011,
+      "image": "unboxed_36011.jpg",
+      "image_sha256": "4e40eccb3b54345a6e296d27af334b0b3ee9551e017637e4c061fdc3dcc2fe60",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            507.9,
+            285.7,
+            582.4,
+            434.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            3.038,
+            5.396
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            784.9,
+            420.8,
+            893.2,
+            573.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.194,
+            1.77
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.8,
+            191.9,
+            707.8,
+            338.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.566,
+            8.203
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            751.6,
+            183.9,
+            803.7,
+            344.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.745,
+            8.033
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            808.4,
+            227.1,
+            865.3,
+            401.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.369,
+            6.325
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            574.9,
+            192.0,
+            621.5,
+            356.3
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.625,
+            7.661
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36013,
+      "image": "unboxed_36013.jpg",
+      "image_sha256": "317d0282c8aaeacf333922d4f263d78e3bf5adc9ef22ebef1333e3d5a6c17899",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            501.7,
+            287.7,
+            576.6,
+            441.9
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.973,
+            5.181
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            783.5,
+            423.5,
+            885.6,
+            569.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.15,
+            1.844
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.8,
+            191.3,
+            708.1,
+            338.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.568,
+            8.197
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            753.5,
+            184.0,
+            808.9,
+            343.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.787,
+            8.063
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            806.8,
+            228.8,
+            865.4,
+            403.1
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.359,
+            6.276
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            574.4,
+            191.3,
+            622.4,
+            356.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.628,
+            7.644
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36014,
+      "image": "unboxed_36014.jpg",
+      "image_sha256": "d46e3a6eded71dfb49337b51716758ca896caff74b6d203972ae6728c9610f1d",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            497.9,
+            291.0,
+            570.8,
+            443.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.92,
+            5.128
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            781.9,
+            422.0,
+            881.5,
+            567.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.122,
+            1.894
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.8,
+            191.1,
+            708.2,
+            338.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.569,
+            8.202
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            760.3,
+            183.9,
+            810.7,
+            325.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.857,
+            8.596
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            807.3,
+            229.6,
+            866.4,
+            402.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.369,
+            6.285
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            574.1,
+            191.1,
+            622.8,
+            356.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.628,
+            7.669
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36015,
+      "image": "unboxed_36015.jpg",
+      "image_sha256": "a333da8ceba4386a72d95c1efa06a87ea0783b5ec4783096eaafd98a8d4d4e6f",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            495.2,
+            291.3,
+            567.8,
+            446.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.889,
+            5.06
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            780.2,
+            419.7,
+            878.2,
+            566.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.097,
+            1.938
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            648.0,
+            191.0,
+            708.3,
+            338.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.571,
+            8.207
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            808.4,
+            229.9,
+            868.0,
+            403.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.384,
+            6.281
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            573.6,
+            191.0,
+            623.0,
+            355.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.626,
+            7.695
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36016,
+      "image": "unboxed_36016.jpg",
+      "image_sha256": "a8365ff4e657ecce78bc7a4535a61226a4fd355e03389a176982b750f72af6e5",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            492.3,
+            291.8,
+            564.0,
+            447.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.852,
+            5.033
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            777.5,
+            417.5,
+            872.1,
+            562.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.055,
+            2.031
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.7,
+            190.3,
+            708.5,
+            338.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.57,
+            8.2
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            770.2,
+            183.0,
+            817.0,
+            313.5
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.967,
+            8.983
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            810.9,
+            230.3,
+            870.8,
+            403.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.413,
+            6.265
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            573.5,
+            190.9,
+            623.5,
+            354.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.629,
+            7.702
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36017,
+      "image": "unboxed_36017.jpg",
+      "image_sha256": "1af34301016f7cc7ec2373a1e5a18af799a5491f2a4d3af697fee321ff2e2b72",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            489.0,
+            292.5,
+            562.0,
+            452.4
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.825,
+            4.89
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            775.6,
+            414.4,
+            866.8,
+            557.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            6.022,
+            2.162
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.5,
+            189.2,
+            708.7,
+            338.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.57,
+            8.196
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            770.1,
+            182.5,
+            819.9,
+            320.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            5.975,
+            8.755
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            810.8,
+            230.6,
+            871.1,
+            403.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.414,
+            6.274
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            573.5,
+            190.5,
+            624.4,
+            355.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.634,
+            7.697
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36019,
+      "image": "unboxed_36019.jpg",
+      "image_sha256": "cfecc42f4bfeabeb28e42bea405ce91973e1e38564c0fe5b6537d2086f512382",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            483.6,
+            295.8,
+            555.0,
+            456.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.758,
+            4.794
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            769.7,
+            405.6,
+            860.1,
+            553.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.958,
+            2.258
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.0,
+            187.2,
+            708.8,
+            338.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.567,
+            8.194
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            773.8,
+            181.5,
+            828.2,
+            332.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.034,
+            8.384
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            815.3,
+            232.5,
+            875.8,
+            404.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.466,
+            6.235
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            573.8,
+            189.7,
+            626.2,
+            356.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.646,
+            7.646
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36020,
+      "image": "unboxed_36020.jpg",
+      "image_sha256": "37e013bff5accdabf90042af23f7c603d34fa335e23bb043a3d9a1105d5687e2",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            479.5,
+            296.9,
+            549.6,
+            457.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.705,
+            4.765
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            767.1,
+            400.6,
+            857.6,
+            550.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.934,
+            2.333
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.7,
+            186.6,
+            708.6,
+            338.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.565,
+            8.196
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            778.0,
+            181.1,
+            832.4,
+            335.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.081,
+            8.308
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            816.6,
+            233.2,
+            878.2,
+            407.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.483,
+            6.148
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            572.8,
+            188.3,
+            626.2,
+            357.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.641,
+            7.634
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36021,
+      "image": "unboxed_36021.jpg",
+      "image_sha256": "085bcd4b6fde137c42c550c9e6a7fa6dc1abe7be7b5d9053624eb25644f3d7df",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            474.9,
+            297.6,
+            543.8,
+            457.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.648,
+            4.746
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            766.1,
+            396.4,
+            854.8,
+            544.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.92,
+            2.48
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.6,
+            185.8,
+            708.8,
+            339.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.565,
+            8.188
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            780.2,
+            180.4,
+            834.6,
+            334.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.107,
+            8.314
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            818.7,
+            234.1,
+            880.4,
+            408.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.506,
+            6.111
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            571.3,
+            187.6,
+            625.9,
+            357.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.63,
+            7.624
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36022,
+      "image": "unboxed_36022.jpg",
+      "image_sha256": "178abfd1197f23b42258bbce19f2c1c1320d903234c2de62e99a877164a02f41",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            473.2,
+            297.9,
+            540.9,
+            457.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.623,
+            4.748
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            765.6,
+            391.0,
+            851.3,
+            533.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.908,
+            2.757
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.5,
+            184.8,
+            708.9,
+            339.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.565,
+            8.189
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            782.6,
+            179.8,
+            838.6,
+            339.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.14,
+            8.185
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            821.7,
+            236.0,
+            882.3,
+            408.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.534,
+            6.111
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            568.5,
+            187.6,
+            623.9,
+            356.7
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.602,
+            7.648
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36023,
+      "image": "unboxed_36023.jpg",
+      "image_sha256": "5a6a27cc9e03ccd7131792ed8c4b375f0485e23b84dded5fbb4d01a98dec243e",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            469.7,
+            299.5,
+            536.3,
+            458.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.578,
+            4.736
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            762.1,
+            385.8,
+            848.6,
+            528.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.88,
+            2.884
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.5,
+            184.2,
+            709.0,
+            339.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.565,
+            8.188
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            785.9,
+            178.8,
+            841.8,
+            336.5
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.182,
+            8.265
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            820.9,
+            238.1,
+            881.9,
+            411.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.524,
+            6.044
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            564.7,
+            186.5,
+            622.4,
+            357.6
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.571,
+            7.619
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36025,
+      "image": "unboxed_36025.jpg",
+      "image_sha256": "6de676d4b00eaccf9b992dcc48516b4c38418953e5d93347a23229ec22253aed",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            462.9,
+            303.0,
+            527.7,
+            459.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.492,
+            4.71
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            749.6,
+            375.1,
+            842.4,
+            524.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.782,
+            2.976
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.2,
+            182.9,
+            708.9,
+            338.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.564,
+            8.196
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            790.7,
+            178.1,
+            844.9,
+            328.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.239,
+            8.522
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            817.4,
+            241.4,
+            881.1,
+            418.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.49,
+            5.841
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            563.6,
+            186.1,
+            623.2,
+            358.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.569,
+            7.603
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36026,
+      "image": "unboxed_36026.jpg",
+      "image_sha256": "3efa86896c6ff844fa92c5bf547277e84459ae1753ed4d50ddba2e8a2a9e15ee",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            455.3,
+            304.6,
+            520.3,
+            458.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.409,
+            4.715
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            740.4,
+            370.6,
+            835.6,
+            522.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.698,
+            3.033
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.4,
+            182.4,
+            709.1,
+            338.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.566,
+            8.198
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            816.3,
+            243.3,
+            881.4,
+            421.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.481,
+            5.752
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            563.6,
+            185.7,
+            623.7,
+            359.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.573,
+            7.579
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36027,
+      "image": "unboxed_36027.jpg",
+      "image_sha256": "55d0f06159103e878bb4defa0698c752d3f3f834fb74f0a8ca459671b2fcfa52",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            449.3,
+            307.5,
+            515.1,
+            459.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.347,
+            4.69
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            730.7,
+            367.4,
+            828.6,
+            520.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.609,
+            3.074
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.2,
+            181.8,
+            708.9,
+            338.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.564,
+            8.208
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            796.6,
+            178.0,
+            848.3,
+            313.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.313,
+            8.978
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            818.2,
+            244.9,
+            884.4,
+            424.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.505,
+            5.663
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            561.0,
+            185.1,
+            621.7,
+            359.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.545,
+            7.578
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36028,
+      "image": "unboxed_36028.jpg",
+      "image_sha256": "d173451d23f7a7d5cbc62f1d5eec9b114299c145804b4c16eafcbb03fd954cbf",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            440.5,
+            310.5,
+            508.0,
+            460.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.258,
+            4.68
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            722.7,
+            365.3,
+            823.0,
+            518.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.538,
+            3.13
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.6,
+            181.4,
+            709.4,
+            338.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.569,
+            8.203
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            796.9,
+            178.7,
+            850.7,
+            319.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.322,
+            8.811
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            822.9,
+            246.4,
+            888.5,
+            426.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.552,
+            5.614
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            556.9,
+            184.7,
+            618.1,
+            357.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.5,
+            7.613
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36029,
+      "image": "unboxed_36029.jpg",
+      "image_sha256": "95d4c9728fbf58a9eee6a6bced0a33a6b68ced50592bc445860ecc2a2ec5827a",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            433.2,
+            313.3,
+            502.8,
+            460.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.19,
+            4.664
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            711.0,
+            365.2,
+            813.5,
+            516.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.424,
+            3.185
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.7,
+            181.3,
+            709.3,
+            338.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.569,
+            8.206
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            799.5,
+            178.5,
+            852.3,
+            314.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.354,
+            8.962
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            826.1,
+            248.1,
+            890.7,
+            427.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.583,
+            5.597
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            551.8,
+            184.6,
+            613.7,
+            356.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.444,
+            7.641
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36031,
+      "image": "unboxed_36031.jpg",
+      "image_sha256": "18120c18c3ce2f3c3ec97c2f232977ecc23469202aee9800750bac85f8dd2323",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            422.8,
+            319.1,
+            496.4,
+            460.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.096,
+            4.668
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            688.4,
+            365.6,
+            798.6,
+            517.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.221,
+            3.17
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.4,
+            181.1,
+            709.0,
+            339.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.565,
+            8.186
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            826.5,
+            250.8,
+            890.4,
+            428.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.582,
+            5.568
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            550.3,
+            182.8,
+            614.3,
+            357.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.439,
+            7.614
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36032,
+      "image": "unboxed_36032.jpg",
+      "image_sha256": "b806ee1160c0d8189ecf4ef54409b78ee3c4817fbd5e3d611161c03708dadf03",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            417.6,
+            321.0,
+            494.8,
+            462.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.059,
+            4.622
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            678.2,
+            367.1,
+            791.5,
+            519.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.126,
+            3.102
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.0,
+            181.0,
+            709.5,
+            339.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.572,
+            8.178
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            802.7,
+            179.1,
+            857.5,
+            320.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.396,
+            8.774
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            828.3,
+            250.5,
+            892.0,
+            428.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.6,
+            5.562
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            550.7,
+            183.3,
+            614.1,
+            355.6
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.439,
+            7.68
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36033,
+      "image": "unboxed_36033.jpg",
+      "image_sha256": "6b376e5311f3f57d839efc31dbe7784dd7693d1d276ce4f484ba48853223c05d",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            413.3,
+            322.7,
+            493.5,
+            463.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.029,
+            4.597
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            670.7,
+            369.3,
+            784.6,
+            521.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            5.047,
+            3.066
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            647.2,
+            180.6,
+            709.3,
+            337.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.572,
+            8.224
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            803.4,
+            179.0,
+            858.8,
+            322.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.404,
+            8.687
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            831.8,
+            251.0,
+            894.5,
+            428.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.634,
+            5.56
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            551.9,
+            181.9,
+            615.1,
+            354.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.452,
+            7.724
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36034,
+      "image": "unboxed_36034.jpg",
+      "image_sha256": "97e00ea5ffec8c72f2e4a12f69a4b76d0c94c3ad17502f0bd582b1d02c6f9d77",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            411.3,
+            323.6,
+            495.7,
+            465.9
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.033,
+            4.522
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            662.0,
+            371.9,
+            774.7,
+            522.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.945,
+            3.034
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            649.6,
+            180.6,
+            711.7,
+            336.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.601,
+            8.264
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            803.3,
+            178.5,
+            859.5,
+            326.3
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.403,
+            8.58
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            831.1,
+            252.2,
+            893.7,
+            428.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.625,
+            5.554
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            551.9,
+            180.7,
+            614.7,
+            352.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.45,
+            7.783
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36035,
+      "image": "unboxed_36035.jpg",
+      "image_sha256": "b6f974c4ea29120001c6d6894c62bda4f7a1a6b6974d33bad4941f171d2cbde0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            408.8,
+            325.4,
+            496.6,
+            468.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.027,
+            4.444
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            654.0,
+            372.9,
+            764.5,
+            522.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.847,
+            3.028
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.5,
+            180.7,
+            714.3,
+            335.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.628,
+            8.286
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            803.7,
+            177.9,
+            860.9,
+            331.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.408,
+            8.437
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            833.8,
+            253.7,
+            895.6,
+            428.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.651,
+            5.546
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            549.4,
+            180.4,
+            610.9,
+            348.3
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.411,
+            7.904
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36037,
+      "image": "unboxed_36037.jpg",
+      "image_sha256": "2094136c0fdcc7f988628c5f20cc2b34d70a0ac67b78c9e175002670213d9a3e",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            401.0,
+            328.9,
+            490.4,
+            470.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.95,
+            4.393
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            641.8,
+            371.4,
+            750.4,
+            526.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.703,
+            2.937
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.8,
+            180.5,
+            717.2,
+            336.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.647,
+            8.274
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            806.1,
+            176.6,
+            864.2,
+            335.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.436,
+            8.29
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.6,
+            255.7,
+            899.4,
+            432.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.695,
+            5.456
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            546.4,
+            179.9,
+            604.5,
+            339.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.354,
+            8.172
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36038,
+      "image": "unboxed_36038.jpg",
+      "image_sha256": "bc4f737bcfe495451128444fcf0f2884cf5eebf801492d653024121f7f46c21b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            397.2,
+            330.5,
+            485.9,
+            471.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.905,
+            4.385
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            637.5,
+            370.3,
+            743.2,
+            528.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.641,
+            2.883
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.5,
+            180.8,
+            718.5,
+            337.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.653,
+            8.242
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            807.4,
+            176.2,
+            864.2,
+            334.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.446,
+            8.343
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            839.6,
+            257.5,
+            900.6,
+            435.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.702,
+            5.348
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            543.4,
+            179.7,
+            601.3,
+            339.7
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.317,
+            8.166
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36039,
+      "image": "unboxed_36039.jpg",
+      "image_sha256": "7ce52005654698b22f27d9e4ad885f9160d994c0bb90d959d74e2c55b99a75c7",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            390.8,
+            332.8,
+            477.9,
+            473.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.828,
+            4.332
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            635.6,
+            369.1,
+            737.8,
+            530.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.601,
+            2.835
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.2,
+            180.8,
+            720.3,
+            337.9
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.667,
+            8.223
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            808.2,
+            176.3,
+            863.4,
+            331.6
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.449,
+            8.415
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            842.1,
+            260.2,
+            903.6,
+            440.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.727,
+            5.224
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            543.4,
+            179.8,
+            595.6,
+            323.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.278,
+            8.677
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36040,
+      "image": "unboxed_36040.jpg",
+      "image_sha256": "79e5b0b4d7147307423f5db8fe472eb6e18ac85be58b729b657023fabbd3cc5b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            386.8,
+            334.6,
+            472.0,
+            474.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.774,
+            4.292
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            635.3,
+            366.8,
+            733.7,
+            530.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.577,
+            2.835
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.0,
+            181.0,
+            721.1,
+            338.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.671,
+            8.205
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            808.8,
+            176.4,
+            864.1,
+            334.3
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.453,
+            8.332
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            843.8,
+            261.9,
+            906.0,
+            445.1
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.743,
+            5.091
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            542.4,
+            179.8,
+            594.9,
+            324.3
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.268,
+            8.644
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36041,
+      "image": "unboxed_36041.jpg",
+      "image_sha256": "5453fe81e4a390d95392e00887e24a63d0e42663d00c28f8bc76dc7c322d497d",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            382.7,
+            337.0,
+            467.1,
+            478.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.728,
+            4.182
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            636.3,
+            364.7,
+            731.5,
+            531.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.57,
+            2.806
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.8,
+            180.8,
+            722.1,
+            339.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.674,
+            8.176
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            809.5,
+            176.2,
+            864.4,
+            335.3
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.457,
+            8.301
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            844.5,
+            263.8,
+            907.1,
+            448.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.749,
+            5.005
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            540.6,
+            179.9,
+            592.8,
+            322.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.244,
+            8.69
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36043,
+      "image": "unboxed_36043.jpg",
+      "image_sha256": "a8bf6bf9f49fa276e0951cf630b21101430cc4c6eabd7695772bb680eafbcce7",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            375.0,
+            341.0,
+            456.6,
+            483.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.634,
+            4.059
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            634.4,
+            361.4,
+            724.2,
+            533.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.52,
+            2.753
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.3,
+            181.4,
+            723.0,
+            339.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.677,
+            8.182
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            809.1,
+            176.1,
+            864.0,
+            338.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.447,
+            8.19
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            846.5,
+            267.9,
+            908.9,
+            452.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.764,
+            4.888
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            538.3,
+            179.0,
+            591.9,
+            325.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.226,
+            8.606
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36044,
+      "image": "unboxed_36044.jpg",
+      "image_sha256": "17c2afeeec5a0dfc9f20b7ac3619404582319c004d5f30aa95367f84fbc7acae",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            370.2,
+            342.8,
+            452.9,
+            490.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.594,
+            3.879
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            632.4,
+            359.4,
+            721.3,
+            536.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.493,
+            2.674
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.0,
+            182.0,
+            723.1,
+            338.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.676,
+            8.195
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            807.8,
+            175.6,
+            863.3,
+            341.5
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.433,
+            8.11
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            846.7,
+            270.0,
+            908.8,
+            453.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.764,
+            4.86
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            537.9,
+            178.5,
+            591.3,
+            324.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.22,
+            8.63
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36045,
+      "image": "unboxed_36045.jpg",
+      "image_sha256": "a6a7d6c7242b35c80defccf0161850fccd0a0f6b8d7d195073896ba267fcddca",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            366.0,
+            343.9,
+            449.6,
+            496.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.56,
+            3.718
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            630.9,
+            359.4,
+            717.8,
+            538.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.465,
+            2.623
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            650.6,
+            182.2,
+            723.8,
+            339.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.678,
+            8.167
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            806.9,
+            175.6,
+            862.8,
+            343.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.421,
+            8.038
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            846.2,
+            272.2,
+            908.2,
+            453.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.757,
+            4.853
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            538.1,
+            178.2,
+            590.9,
+            322.6
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.218,
+            8.697
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36046,
+      "image": "unboxed_36046.jpg",
+      "image_sha256": "d0f83f15efcd413ab28bbaa6ec44833755bd54fe112cbeb2abc06768cbea889a",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            362.5,
+            345.5,
+            445.4,
+            499.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.522,
+            3.628
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            629.0,
+            361.5,
+            713.7,
+            541.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.433,
+            2.549
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            650.9,
+            182.9,
+            724.9,
+            340.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.685,
+            8.139
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            805.9,
+            175.7,
+            861.9,
+            345.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.408,
+            7.999
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            845.0,
+            272.9,
+            907.8,
+            455.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.746,
+            4.813
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            538.9,
+            178.2,
+            589.5,
+            315.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.212,
+            8.912
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36047,
+      "image": "unboxed_36047.jpg",
+      "image_sha256": "aeb6a263d9fa86f92634b4b26421d4d17a65f04dee82aa49f4fe60f9bd99ad05",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            360.4,
+            347.0,
+            441.7,
+            500.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.491,
+            3.596
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            627.4,
+            365.4,
+            709.9,
+            545.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.403,
+            2.451
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.0,
+            183.2,
+            725.8,
+            341.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.691,
+            8.108
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            804.6,
+            176.0,
+            860.5,
+            345.6
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.392,
+            7.984
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            845.3,
+            274.2,
+            907.9,
+            454.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.749,
+            4.828
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36049,
+      "image": "unboxed_36049.jpg",
+      "image_sha256": "7fd97356324b4787df9a951605a18d612db54ae61e927b339a0ac8d7d4cbc0a0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            359.2,
+            351.1,
+            436.5,
+            502.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.459,
+            3.545
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            621.4,
+            372.1,
+            700.7,
+            547.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.321,
+            2.401
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.3,
+            183.4,
+            727.3,
+            343.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.701,
+            8.065
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            802.6,
+            176.9,
+            858.5,
+            345.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.368,
+            7.978
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            845.3,
+            275.4,
+            908.2,
+            454.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.751,
+            4.847
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36050,
+      "image": "unboxed_36050.jpg",
+      "image_sha256": "72915c80043a03a44fb70ac721e2786fffc418a6b135ec66428d1f2016cd3481",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            357.1,
+            353.5,
+            432.0,
+            502.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.422,
+            3.548
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            620.1,
+            373.8,
+            698.3,
+            546.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.301,
+            2.425
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.6,
+            183.6,
+            727.7,
+            343.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.705,
+            8.058
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            802.0,
+            177.4,
+            858.0,
+            345.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.361,
+            7.981
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            845.1,
+            275.8,
+            908.1,
+            453.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.75,
+            4.867
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36051,
+      "image": "unboxed_36051.jpg",
+      "image_sha256": "55201eaab3ce696f3c2c5db06fa1ff3dc67125f2828a963221d950b5422b1d21",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            356.0,
+            356.2,
+            428.8,
+            502.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.399,
+            3.55
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            618.4,
+            375.6,
+            696.6,
+            547.2
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.283,
+            2.408
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            183.8,
+            727.9,
+            343.1
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.708,
+            8.061
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            799.9,
+            177.6,
+            856.1,
+            345.7
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.338,
+            7.981
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            844.9,
+            276.1,
+            908.2,
+            453.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.75,
+            4.866
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            529.6,
+            179.1,
+            583.4,
+            319.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.121,
+            8.795
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36052,
+      "image": "unboxed_36052.jpg",
+      "image_sha256": "7b75f6bc598644b64e6af891ba12dd744e397b0562a5e90cf1388f35e0ea64bc",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            355.4,
+            357.9,
+            426.9,
+            502.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.385,
+            3.551
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            619.8,
+            376.6,
+            698.4,
+            548.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.3,
+            2.363
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            183.9,
+            727.7,
+            342.8
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.707,
+            8.071
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            797.3,
+            177.8,
+            853.9,
+            345.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.309,
+            7.976
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            843.9,
+            276.5,
+            907.8,
+            453.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.741,
+            4.851
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            524.1,
+            179.6,
+            581.7,
+            328.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.081,
+            8.502
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36053,
+      "image": "unboxed_36053.jpg",
+      "image_sha256": "c6716007a19d0bcb8701e54cc43253488ca34c1ae092db42df726386031cbbd8",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            350.1,
+            359.2,
+            421.6,
+            502.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.328,
+            3.546
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            621.2,
+            376.9,
+            700.3,
+            550.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.317,
+            2.317
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.0,
+            184.2,
+            727.9,
+            343.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.709,
+            8.052
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            795.3,
+            177.6,
+            852.6,
+            346.4
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.289,
+            7.961
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            843.3,
+            277.2,
+            907.9,
+            455.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.736,
+            4.808
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            522.6,
+            180.1,
+            581.2,
+            331.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.071,
+            8.433
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36055,
+      "image": "unboxed_36055.jpg",
+      "image_sha256": "6c74b71213644c423207ad5e0f537c83f23cd00291ce5cb2bbd0946b195e602a",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            336.9,
+            363.7,
+            410.6,
+            504.4
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.198,
+            3.501
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            623.0,
+            376.4,
+            702.4,
+            555.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.337,
+            2.21
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.2,
+            184.8,
+            728.2,
+            343.9
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.711,
+            8.036
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            792.7,
+            177.1,
+            850.9,
+            345.6
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.265,
+            7.986
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            840.6,
+            279.3,
+            906.4,
+            458.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.709,
+            4.73
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            524.8,
+            180.6,
+            578.5,
+            316.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.061,
+            8.906
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36056,
+      "image": "unboxed_36056.jpg",
+      "image_sha256": "b2d05c5a42c5f5b77379441d546cf8fdf2f61782943f395bb0c60545d6e8fba4",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            330.8,
+            365.3,
+            406.4,
+            505.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.144,
+            3.467
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            623.5,
+            375.9,
+            703.5,
+            559.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.344,
+            2.095
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.2,
+            184.8,
+            728.4,
+            344.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.713,
+            8.029
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            791.7,
+            176.8,
+            850.1,
+            344.3
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.256,
+            8.024
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            839.5,
+            280.4,
+            906.4,
+            461.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.698,
+            4.649
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            522.5,
+            180.9,
+            579.1,
+            323.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.054,
+            8.679
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36057,
+      "image": "unboxed_36057.jpg",
+      "image_sha256": "6b1218f46850373f22189634ea3254bf63f051cf7f42685be9bb3d7a701042e0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            326.7,
+            367.7,
+            403.6,
+            506.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.107,
+            3.441
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            623.0,
+            376.1,
+            703.4,
+            565.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.341,
+            1.965
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.2,
+            184.9,
+            728.6,
+            344.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.713,
+            8.014
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            790.0,
+            176.6,
+            849.1,
+            343.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.24,
+            8.041
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            839.2,
+            282.0,
+            906.7,
+            464.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.695,
+            4.573
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            520.5,
+            180.9,
+            580.4,
+            332.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.054,
+            8.403
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36058,
+      "image": "unboxed_36058.jpg",
+      "image_sha256": "f1fc006e4781397235587de7c27fdb6ac85c7e0634d19c43fafc8ade7f7d10c0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            319.2,
+            369.3,
+            401.0,
+            512.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.061,
+            3.29
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            622.4,
+            377.0,
+            702.4,
+            569.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.331,
+            1.85
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.1,
+            184.9,
+            728.5,
+            344.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.712,
+            8.015
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            788.7,
+            176.4,
+            848.3,
+            342.4
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.23,
+            8.082
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.6,
+            283.8,
+            906.9,
+            467.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.688,
+            4.485
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            522.5,
+            181.1,
+            577.4,
+            318.6
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.042,
+            8.822
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36059,
+      "image": "unboxed_36059.jpg",
+      "image_sha256": "40004e280ae479b5a6412227a1793c2a6dddf326785597da9da9ea2ebc13b4c8",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            314.8,
+            371.7,
+            399.9,
+            517.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.037,
+            3.17
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            621.0,
+            379.2,
+            700.2,
+            573.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.312,
+            1.75
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.2,
+            185.4,
+            728.7,
+            345.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.714,
+            7.996
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            786.9,
+            176.2,
+            847.2,
+            342.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.213,
+            8.091
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.6,
+            286.1,
+            906.9,
+            469.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.685,
+            4.429
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36061,
+      "image": "unboxed_36061.jpg",
+      "image_sha256": "ef2e678f4c96eb35e033ae5b310a83c01056d8b1fb88bf7ee7b4a731d15b9195",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            309.3,
+            376.1,
+            398.2,
+            522.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.005,
+            3.029
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            621.6,
+            383.9,
+            698.5,
+            580.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.304,
+            1.582
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            185.6,
+            728.7,
+            345.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.711,
+            7.981
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            783.5,
+            175.9,
+            844.9,
+            340.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.181,
+            8.133
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.8,
+            291.2,
+            906.5,
+            471.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.681,
+            4.369
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            517.4,
+            182.3,
+            578.8,
+            336.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.027,
+            8.273
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36062,
+      "image": "unboxed_36062.jpg",
+      "image_sha256": "2fc250ecda63bb13f254887e19e358bd2af98a7f784f95ad6ecc424a2c3c267f",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            307.3,
+            377.7,
+            398.4,
+            525.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.0,
+            2.947
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            623.4,
+            387.5,
+            697.8,
+            580.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.31,
+            1.577
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            185.5,
+            729.1,
+            346.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.713,
+            7.962
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            782.4,
+            175.8,
+            844.6,
+            341.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.171,
+            8.103
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.6,
+            294.2,
+            905.8,
+            472.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.676,
+            4.359
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            514.7,
+            182.6,
+            578.8,
+            344.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.016,
+            8.028
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36063,
+      "image": "unboxed_36063.jpg",
+      "image_sha256": "ff2b8df8d80a9f075c715500217cb68c476d7c01618c233815de67f5de466c48",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            307.7,
+            379.1,
+            400.0,
+            526.9
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.013,
+            2.919
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            625.1,
+            390.8,
+            697.2,
+            581.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.315,
+            1.56
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            185.3,
+            729.4,
+            346.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.715,
+            7.956
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            781.9,
+            175.6,
+            843.3,
+            337.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.166,
+            8.245
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.7,
+            295.8,
+            905.9,
+            472.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.676,
+            4.345
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            513.3,
+            182.9,
+            578.2,
+            348.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.006,
+            7.898
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36064,
+      "image": "unboxed_36064.jpg",
+      "image_sha256": "ea3bab26e2edd08fb94565c9d72358d2c88a58a6503fc77b94eb89fb566b58ee",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            307.9,
+            380.4,
+            400.3,
+            526.4
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.014,
+            2.933
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            628.6,
+            393.6,
+            699.4,
+            581.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.346,
+            1.562
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            651.9,
+            185.3,
+            729.6,
+            346.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.717,
+            7.957
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            782.6,
+            175.9,
+            841.6,
+            328.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.17,
+            8.5
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            838.8,
+            297.3,
+            906.1,
+            472.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.677,
+            4.337
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            513.1,
+            183.4,
+            577.5,
+            349.9
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.001,
+            7.854
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36065,
+      "image": "unboxed_36065.jpg",
+      "image_sha256": "fa3efe948784082359e274d21da1d429b080703f23a24808dbc44eecb37460f1",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            307.4,
+            382.4,
+            399.1,
+            525.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.004,
+            2.954
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            631.6,
+            395.9,
+            701.6,
+            581.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.373,
+            1.563
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            652.1,
+            185.2,
+            729.8,
+            346.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.719,
+            7.958
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            782.2,
+            175.7,
+            841.8,
+            328.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.17,
+            8.53
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            839.3,
+            299.6,
+            906.8,
+            472.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.684,
+            4.339
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            512.9,
+            184.1,
+            576.8,
+            350.7
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            2.996,
+            7.83
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36103,
+      "image": "unboxed_36103.jpg",
+      "image_sha256": "20b36169282306064715af7d9fcd3f27a82166c61384bcb69c70a1ffd00ee9fd",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            289.6,
+            398.4,
+            378.2,
+            524.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            0.793,
+            2.987
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            623.5,
+            416.9,
+            733.6,
+            578.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.499,
+            1.632
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            671.6,
+            182.5,
+            742.5,
+            333.9
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.916,
+            8.345
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            800.8,
+            183.1,
+            864.0,
+            335.0
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.404,
+            8.311
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            846.8,
+            333.1,
+            945.6,
+            489.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.915,
+            3.883
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            472.6,
+            163.6,
+            546.1,
+            333.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            2.567,
+            8.349
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36104,
+      "image": "unboxed_36104.jpg",
+      "image_sha256": "c4ff7eb48af19a83184e4cc72b91d136f8eb0dbd93b70633ba480abf0739102d",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            291.9,
+            399.6,
+            377.1,
+            517.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            0.789,
+            3.171
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            620.2,
+            416.1,
+            733.4,
+            578.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.481,
+            1.627
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            671.6,
+            177.3,
+            742.2,
+            333.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.914,
+            8.372
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            800.4,
+            184.1,
+            862.3,
+            333.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.393,
+            8.345
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            848.4,
+            335.2,
+            946.9,
+            491.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.928,
+            3.846
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            477.5,
+            157.3,
+            548.9,
+            324.4
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            2.606,
+            8.64
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36105,
+      "image": "unboxed_36105.jpg",
+      "image_sha256": "a0b866b2272b0482493677f700bbd9011e4bde9da7c5c73534b3f9f603d16bc8",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            297.4,
+            401.4,
+            387.5,
+            520.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            0.88,
+            3.08
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            617.1,
+            415.3,
+            733.8,
+            579.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.466,
+            1.605
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            669.9,
+            170.1,
+            741.6,
+            333.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.901,
+            8.374
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            800.5,
+            184.9,
+            861.2,
+            333.6
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.387,
+            8.355
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            849.5,
+            337.1,
+            948.1,
+            493.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.938,
+            3.781
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            482.2,
+            149.4,
+            553.4,
+            319.4
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            2.657,
+            8.798
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36106,
+      "image": "unboxed_36106.jpg",
+      "image_sha256": "a8a0a714617e45374238154491def9600428cf62b7286954e18ed5406b30a3c3",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            299.2,
+            402.2,
+            396.4,
+            526.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            0.946,
+            2.941
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            615.7,
+            414.6,
+            734.1,
+            578.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.461,
+            1.63
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            667.9,
+            160.9,
+            741.1,
+            331.7
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.887,
+            8.414
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            800.1,
+            186.8,
+            859.1,
+            332.5
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.374,
+            8.39
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            850.4,
+            338.0,
+            949.0,
+            495.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.946,
+            3.736
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            485.6,
+            143.4,
+            556.4,
+            316.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            2.694,
+            8.907
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36107,
+      "image": "unboxed_36107.jpg",
+      "image_sha256": "427a09ce8e68e10c7117e06ab42e1fb2fadb054917acd67d48f0a040462f7d4d",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            298.3,
+            402.9,
+            400.8,
+            529.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            0.969,
+            2.85
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            614.0,
+            413.7,
+            733.9,
+            577.5
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.451,
+            1.66
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            665.7,
+            154.4,
+            737.8,
+            327.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.856,
+            8.552
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            798.9,
+            188.1,
+            857.3,
+            333.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.355,
+            8.366
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            851.2,
+            338.5,
+            949.6,
+            496.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.951,
+            3.709
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36109,
+      "image": "unboxed_36109.jpg",
+      "image_sha256": "0442c0bd7e619605e82be6034f022c7fe5605099651f362f8fe242d44d906d8b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            300.7,
+            402.1,
+            410.1,
+            532.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.037,
+            2.778
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            607.5,
+            410.4,
+            729.3,
+            575.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.393,
+            1.704
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            665.3,
+            140.0,
+            735.0,
+            319.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.841,
+            8.801
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            791.4,
+            187.9,
+            851.5,
+            335.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.273,
+            8.283
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            850.8,
+            338.9,
+            948.6,
+            496.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.943,
+            3.698
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36110,
+      "image": "unboxed_36110.jpg",
+      "image_sha256": "63561e8bb911f172559aa6065a3e689a707f22e712f432874ae4fea174e03ae0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            303.3,
+            402.0,
+            414.0,
+            533.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.072,
+            2.764
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            603.1,
+            409.0,
+            724.0,
+            574.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.343,
+            1.744
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            787.5,
+            186.6,
+            849.8,
+            337.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.237,
+            8.244
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            850.6,
+            338.9,
+            947.9,
+            496.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.938,
+            3.7
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36111,
+      "image": "unboxed_36111.jpg",
+      "image_sha256": "a83b01afa804f2c6b8f6f2606f8316cbfc4e0046e953595f0b1bcc6690e470eb",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            311.6,
+            402.9,
+            420.4,
+            532.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.151,
+            2.77
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            597.8,
+            408.5,
+            715.9,
+            571.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.272,
+            1.8
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            786.7,
+            186.1,
+            850.1,
+            337.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.235,
+            8.244
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            848.3,
+            339.4,
+            945.8,
+            498.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.912,
+            3.662
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36112,
+      "image": "unboxed_36112.jpg",
+      "image_sha256": "ac94936f3eb2b5cab3cdb707bcab839981d7d6ada0593fbc54c3904371067105",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            320.9,
+            403.4,
+            428.2,
+            533.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.243,
+            2.766
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            595.0,
+            408.5,
+            708.5,
+            567.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.218,
+            1.901
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            791.2,
+            186.3,
+            854.3,
+            337.4
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.286,
+            8.238
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            846.1,
+            339.2,
+            945.1,
+            501.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.891,
+            3.58
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36113,
+      "image": "unboxed_36113.jpg",
+      "image_sha256": "569fc879fb61b731a7b14e3a09237c8951fbe4b2c6d81ec9ad216ff1c50fd984",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            334.4,
+            404.1,
+            438.2,
+            531.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.368,
+            2.795
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            589.8,
+            410.3,
+            699.2,
+            565.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.142,
+            1.957
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            787.3,
+            187.0,
+            851.3,
+            336.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.246,
+            8.253
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            842.1,
+            340.0,
+            943.6,
+            505.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.855,
+            3.46
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36115,
+      "image": "unboxed_36115.jpg",
+      "image_sha256": "f490eecc36e312bcb7702ade985d8899e829a6308b40f8080eadb83d58565ac1",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            359.2,
+            406.8,
+            458.5,
+            535.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.615,
+            2.693
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            581.6,
+            414.4,
+            690.8,
+            570.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.054,
+            1.832
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            786.2,
+            189.6,
+            851.6,
+            338.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.239,
+            8.19
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            834.5,
+            343.3,
+            939.9,
+            512.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.784,
+            3.285
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36116,
+      "image": "unboxed_36116.jpg",
+      "image_sha256": "6abe2b44f3c7a352ccb7d471e231bf8dd7e50156146aa2a534c916889d632288",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            369.4,
+            408.4,
+            462.5,
+            532.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.688,
+            2.782
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            581.8,
+            416.4,
+            689.7,
+            570.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.049,
+            1.821
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            786.9,
+            192.3,
+            853.4,
+            342.2
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.25,
+            8.089
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            831.8,
+            346.4,
+            939.6,
+            517.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.761,
+            3.161
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36117,
+      "image": "unboxed_36117.jpg",
+      "image_sha256": "3f721707f5726d9f6f12cf93baa547b2dc2f73ccabe5ecc940128a2bd3c9e598",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            380.3,
+            411.2,
+            478.0,
+            540.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.838,
+            2.567
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            582.8,
+            418.0,
+            689.4,
+            570.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.053,
+            1.823
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            789.7,
+            197.4,
+            855.1,
+            343.9
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.273,
+            8.038
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            829.9,
+            350.5,
+            939.1,
+            522.1
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.742,
+            3.042
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36118,
+      "image": "unboxed_36118.jpg",
+      "image_sha256": "bee9578ec433a36ad39f865dd96daff541c3b3958da13ee2dfb1179f8d7c9485",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            386.8,
+            411.9,
+            490.0,
+            547.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.944,
+            2.394
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            583.1,
+            419.3,
+            688.9,
+            571.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.052,
+            1.819
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            812.3,
+            200.7,
+            857.9,
+            353.2
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.412,
+            7.753
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            828.5,
+            355.6,
+            938.3,
+            526.2
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.724,
+            2.937
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36119,
+      "image": "unboxed_36119.jpg",
+      "image_sha256": "12cf6a6f83457fa397d1c3313200e3c871df5aaa6df82cfdef8a644fce431e1b",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            389.1,
+            414.3,
+            495.7,
+            553.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.992,
+            2.247
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            583.8,
+            419.5,
+            689.2,
+            570.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.057,
+            1.827
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            792.5,
+            203.7,
+            860.8,
+            356.8
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.308,
+            7.645
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            827.9,
+            360.3,
+            937.2,
+            528.0
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.713,
+            2.893
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36121,
+      "image": "unboxed_36121.jpg",
+      "image_sha256": "d07f38cb947f7d0d501f20c362c94c5a59ed1788ddc0dd01de92549b57091d28",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            392.2,
+            417.9,
+            499.2,
+            556.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.029,
+            2.188
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            583.9,
+            418.2,
+            687.3,
+            565.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.048,
+            1.964
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            786.1,
+            211.8,
+            858.9,
+            369.1
+          ],
+          "raw_track_id": 9,
+          "candidate_court_m": [
+            6.244,
+            7.274
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            827.9,
+            367.5,
+            935.9,
+            528.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.705,
+            2.879
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36122,
+      "image": "unboxed_36122.jpg",
+      "image_sha256": "c5493f63dd808b6a7e4e90c1e3b12f036c7aa5bc3a8a418f12c64c8491136d99",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            392.1,
+            418.8,
+            499.5,
+            556.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.031,
+            2.176
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            583.5,
+            417.6,
+            687.0,
+            564.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.044,
+            1.989
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            819.3,
+            214.0,
+            865.0,
+            367.0
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.476,
+            7.337
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            825.1,
+            360.2,
+            938.9,
+            528.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.706,
+            2.875
+          ]
+        },
+        "21": null
+      }
+    },
+    {
+      "source_frame": 36123,
+      "image": "unboxed_36123.jpg",
+      "image_sha256": "16d7d41480ba048050189fa7d4dc8709d957a8fd59328da9babde475fda6e7b3",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            396.2,
+            419.5,
+            503.1,
+            557.1
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.072,
+            2.16
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            582.9,
+            416.6,
+            687.3,
+            563.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.043,
+            1.992
+          ]
+        },
+        "15": null,
+        "7": {
+          "bbox_px": [
+            825.2,
+            217.3,
+            861.8,
+            337.5
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.532,
+            8.234
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            826.7,
+            369.0,
+            936.4,
+            528.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.701,
+            2.877
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            528.3,
+            162.5,
+            614.4,
+            317.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.298,
+            8.872
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36124,
+      "image": "unboxed_36124.jpg",
+      "image_sha256": "a473d3562be28c541293eabdb919506ae8b6e709290fee6e5bd0df15451c46c3",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            399.1,
+            419.4,
+            505.5,
+            556.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.1,
+            2.169
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            582.3,
+            415.4,
+            687.9,
+            564.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.043,
+            1.988
+          ]
+        },
+        "15": null,
+        "7": null,
+        "19": {
+          "bbox_px": [
+            825.2,
+            367.8,
+            937.0,
+            528.7
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.696,
+            2.873
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            535.6,
+            169.7,
+            618.2,
+            322.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.366,
+            8.716
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36125,
+      "image": "unboxed_36125.jpg",
+      "image_sha256": "7326b6356998778f83a8fb51ca9f1c77785843b23bfcae1bfe6a24e60a5b7776",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            401.7,
+            419.2,
+            507.9,
+            556.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.126,
+            2.17
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            581.5,
+            415.3,
+            688.0,
+            564.9
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            4.039,
+            1.967
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            645.5,
+            150.2,
+            700.7,
+            317.5
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.518,
+            8.859
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            829.4,
+            219.7,
+            863.2,
+            328.6
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.578,
+            8.511
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            822.2,
+            366.7,
+            936.2,
+            528.8
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.675,
+            2.872
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            518.3,
+            174.1,
+            602.1,
+            323.3
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.167,
+            8.676
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36127,
+      "image": "unboxed_36127.jpg",
+      "image_sha256": "35120f55987a93219df081af79350c4b51da2cb31d1020342c0413271a36d0c8",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            403.6,
+            417.0,
+            510.7,
+            556.0
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.151,
+            2.187
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            573.9,
+            414.3,
+            683.9,
+            565.3
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.977,
+            1.959
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            646.0,
+            165.6,
+            700.7,
+            326.0
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.518,
+            8.592
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            820.3,
+            374.5,
+            932.7,
+            528.5
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.647,
+            2.879
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            529.3,
+            178.5,
+            610.4,
+            323.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.282,
+            8.671
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36128,
+      "image": "unboxed_36128.jpg",
+      "image_sha256": "edb3813e59e864f3cdd3d8fe59f16b45e0fe1096a6f2b850d960c8592e792cc0",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            402.4,
+            413.5,
+            511.5,
+            555.8
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.149,
+            2.193
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            570.0,
+            414.2,
+            682.2,
+            565.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.947,
+            1.95
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            637.1,
+            172.0,
+            692.4,
+            327.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.415,
+            8.549
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            818.4,
+            376.3,
+            931.2,
+            528.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.628,
+            2.881
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            534.5,
+            180.0,
+            613.2,
+            323.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.33,
+            8.659
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36129,
+      "image": "unboxed_36129.jpg",
+      "image_sha256": "7ff4a96382277011c88b68666dab8ff0bd7611aa7a1965bb2a35914523828631",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            401.4,
+            409.6,
+            512.5,
+            555.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.149,
+            2.196
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            566.3,
+            413.8,
+            681.5,
+            566.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.924,
+            1.93
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            640.9,
+            175.8,
+            697.5,
+            328.1
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.468,
+            8.527
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            817.0,
+            376.7,
+            930.8,
+            528.4
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.619,
+            2.881
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            534.3,
+            180.3,
+            611.9,
+            324.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.321,
+            8.653
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36130,
+      "image": "unboxed_36130.jpg",
+      "image_sha256": "fbedbb2f24d59806e4ead77bcee2df0515eda058510bb405592867105a6143fd",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            398.0,
+            404.0,
+            511.9,
+            555.6
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.127,
+            2.197
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            569.4,
+            414.7,
+            684.7,
+            566.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.958,
+            1.925
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            640.5,
+            177.9,
+            696.1,
+            326.9
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.458,
+            8.564
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            815.3,
+            376.5,
+            929.6,
+            527.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.603,
+            2.894
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            534.3,
+            181.5,
+            611.3,
+            325.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.318,
+            8.598
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36131,
+      "image": "unboxed_36131.jpg",
+      "image_sha256": "279489e06381d6edc77e2c6752ef90213cd9c18838e60db72f6b7a0b57743b03",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            396.0,
+            399.6,
+            511.7,
+            555.7
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.115,
+            2.196
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            569.4,
+            415.7,
+            685.2,
+            566.7
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.96,
+            1.924
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            640.3,
+            179.0,
+            695.5,
+            326.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.453,
+            8.583
+          ]
+        },
+        "7": null,
+        "19": {
+          "bbox_px": [
+            811.3,
+            374.5,
+            927.3,
+            528.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.569,
+            2.876
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            534.9,
+            181.9,
+            611.5,
+            328.1
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.324,
+            8.526
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36133,
+      "image": "unboxed_36133.jpg",
+      "image_sha256": "054a6b47f06a4abfb793e9e4d3251bd062b23d9661cd9a1073c946a9cfc64a93",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            393.8,
+            389.0,
+            511.0,
+            552.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.097,
+            2.28
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            565.7,
+            416.7,
+            684.5,
+            567.1
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.937,
+            1.913
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            636.9,
+            178.8,
+            693.1,
+            326.1
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.418,
+            8.589
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            822.4,
+            208.8,
+            870.4,
+            362.2
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.532,
+            7.48
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            797.4,
+            350.2,
+            928.8,
+            530.6
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.499,
+            2.825
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            537.5,
+            183.5,
+            612.5,
+            332.0
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.346,
+            8.405
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36134,
+      "image": "unboxed_36134.jpg",
+      "image_sha256": "c19cab896a1347df9f317c156cd02c311ad0045695292fc407bcce6b44d7bbeb",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            393.2,
+            383.4,
+            509.4,
+            548.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.082,
+            2.382
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            565.5,
+            417.0,
+            685.8,
+            567.4
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.942,
+            1.906
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            633.0,
+            177.8,
+            690.1,
+            326.6
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.377,
+            8.574
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            822.3,
+            207.6,
+            871.0,
+            363.3
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.534,
+            7.449
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            796.1,
+            349.6,
+            925.1,
+            531.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.471,
+            2.808
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            538.2,
+            184.2,
+            610.7,
+            329.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.339,
+            8.481
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36135,
+      "image": "unboxed_36135.jpg",
+      "image_sha256": "0e9b9c79d9912a62e5ab1f8966dedc37817403f33a4be55b6deb1902217face2",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            391.1,
+            378.8,
+            505.1,
+            544.5
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.044,
+            2.475
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            566.3,
+            417.7,
+            687.2,
+            567.6
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.954,
+            1.902
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            630.7,
+            174.5,
+            689.1,
+            326.3
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.357,
+            8.583
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            820.7,
+            207.4,
+            870.6,
+            365.7
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.519,
+            7.377
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            796.3,
+            357.0,
+            918.2,
+            532.9
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.434,
+            2.767
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            535.4,
+            183.7,
+            607.6,
+            329.2
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.304,
+            8.492
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36136,
+      "image": "unboxed_36136.jpg",
+      "image_sha256": "9fd14c4a57cd15f4c75ff7f20f8353d99aeab254268b09da56f4433aca744446",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            390.7,
+            375.4,
+            502.7,
+            542.3
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            2.027,
+            2.53
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            567.6,
+            419.2,
+            687.8,
+            567.8
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.964,
+            1.897
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            626.7,
+            171.8,
+            685.6,
+            325.4
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.313,
+            8.61
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            820.3,
+            207.3,
+            870.8,
+            366.8
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.516,
+            7.344
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            797.2,
+            364.5,
+            914.0,
+            537.3
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.411,
+            2.655
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            531.8,
+            182.9,
+            604.7,
+            331.5
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.266,
+            8.42
+          ]
+        }
+      }
+    },
+    {
+      "source_frame": 36137,
+      "image": "unboxed_36137.jpg",
+      "image_sha256": "e36c5b8333b52e6fb195db649fd3060e3a903cea0e80d3e56bf2d619f802f889",
+      "numbered_boxes": {
+        "28": {
+          "bbox_px": [
+            388.7,
+            371.9,
+            495.6,
+            536.2
+          ],
+          "raw_track_id": 1,
+          "candidate_court_m": [
+            1.973,
+            2.683
+          ]
+        },
+        "12": {
+          "bbox_px": [
+            568.3,
+            419.2,
+            688.8,
+            568.0
+          ],
+          "raw_track_id": 3,
+          "candidate_court_m": [
+            3.973,
+            1.891
+          ]
+        },
+        "15": {
+          "bbox_px": [
+            621.9,
+            169.4,
+            680.4,
+            324.2
+          ],
+          "raw_track_id": 6,
+          "candidate_court_m": [
+            4.253,
+            8.647
+          ]
+        },
+        "7": {
+          "bbox_px": [
+            823.0,
+            207.1,
+            872.4,
+            364.6
+          ],
+          "raw_track_id": 78,
+          "candidate_court_m": [
+            6.544,
+            7.409
+          ]
+        },
+        "19": {
+          "bbox_px": [
+            798.1,
+            367.5,
+            913.9,
+            544.1
+          ],
+          "raw_track_id": 10,
+          "candidate_court_m": [
+            6.407,
+            2.485
+          ]
+        },
+        "21": {
+          "bbox_px": [
+            527.6,
+            181.8,
+            602.7,
+            336.8
+          ],
+          "raw_track_id": 13,
+          "candidate_court_m": [
+            3.231,
+            8.255
+          ]
+        }
+      }
+    }
+  ]
+}

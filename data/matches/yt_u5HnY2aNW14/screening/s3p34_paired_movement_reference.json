@@ -1,0 +1,286 @@
+{
+  "status": "selected_five_frame_single_reviewer_movement_reference_not_full_rally_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "manual_audit_sha256": "5fefd4f3170be05bdb5d55091c41ff8357554fd3ddc9031c1de2c862a0132618",
+  "set": 3,
+  "point_number": 34,
+  "frames": [
+    36036,
+    36066,
+    36078,
+    36096,
+    36138
+  ],
+  "note": "Frames 36066 and 36078 were marked on unboxed source images; 36036, 36096 and 36138 are unblinded supplements. All marks are from one reviewer.",
+  "summary": {
+    "player_interval_chords": 24,
+    "manual_chord_sum_m": 14.652,
+    "proxy_chord_sum_m": 14.538,
+    "proxy_minus_manual_sum_m": -0.114,
+    "median_absolute_player_interval_discrepancy_m": 0.066,
+    "mean_absolute_player_interval_discrepancy_m": 0.1,
+    "maximum_absolute_player_interval_discrepancy_m": 0.377
+  },
+  "by_jersey": [
+    {
+      "jersey": "28",
+      "manual_four_chord_sum_m": 3.742,
+      "proxy_four_chord_sum_m": 3.719,
+      "proxy_minus_manual_m": -0.023
+    },
+    {
+      "jersey": "12",
+      "manual_four_chord_sum_m": 2.494,
+      "proxy_four_chord_sum_m": 2.482,
+      "proxy_minus_manual_m": -0.013
+    },
+    {
+      "jersey": "15",
+      "manual_four_chord_sum_m": 1.364,
+      "proxy_four_chord_sum_m": 1.37,
+      "proxy_minus_manual_m": 0.006
+    },
+    {
+      "jersey": "7",
+      "manual_four_chord_sum_m": 2.161,
+      "proxy_four_chord_sum_m": 1.947,
+      "proxy_minus_manual_m": -0.214
+    },
+    {
+      "jersey": "19",
+      "manual_four_chord_sum_m": 3.154,
+      "proxy_four_chord_sum_m": 3.335,
+      "proxy_minus_manual_m": 0.181
+    },
+    {
+      "jersey": "21",
+      "manual_four_chord_sum_m": 1.736,
+      "proxy_four_chord_sum_m": 1.684,
+      "proxy_minus_manual_m": -0.051
+    }
+  ],
+  "by_interval": [
+    {
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_six_player_chord_sum_m": 5.154,
+      "proxy_six_player_chord_sum_m": 5.545,
+      "proxy_minus_manual_m": 0.391
+    },
+    {
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_six_player_chord_sum_m": 1.032,
+      "proxy_six_player_chord_sum_m": 1.315,
+      "proxy_minus_manual_m": 0.283
+    },
+    {
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_six_player_chord_sum_m": 2.247,
+      "proxy_six_player_chord_sum_m": 1.745,
+      "proxy_minus_manual_m": -0.503
+    },
+    {
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_six_player_chord_sum_m": 6.219,
+      "proxy_six_player_chord_sum_m": 5.933,
+      "proxy_minus_manual_m": -0.286
+    }
+  ],
+  "segments": [
+    {
+      "jersey": "28",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 1.793,
+      "proxy_chord_m": 1.771,
+      "proxy_minus_manual_m": -0.022
+    },
+    {
+      "jersey": "28",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.359,
+      "proxy_chord_m": 0.409,
+      "proxy_minus_manual_m": 0.05
+    },
+    {
+      "jersey": "28",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.42,
+      "proxy_chord_m": 0.351,
+      "proxy_minus_manual_m": -0.069
+    },
+    {
+      "jersey": "28",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 1.169,
+      "proxy_chord_m": 1.187,
+      "proxy_minus_manual_m": 0.018
+    },
+    {
+      "jersey": "12",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 1.302,
+      "proxy_chord_m": 1.494,
+      "proxy_minus_manual_m": 0.192
+    },
+    {
+      "jersey": "12",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.343,
+      "proxy_chord_m": 0.23,
+      "proxy_minus_manual_m": -0.113
+    },
+    {
+      "jersey": "12",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.15,
+      "proxy_chord_m": 0.011,
+      "proxy_minus_manual_m": -0.138
+    },
+    {
+      "jersey": "12",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 0.7,
+      "proxy_chord_m": 0.747,
+      "proxy_minus_manual_m": 0.047
+    },
+    {
+      "jersey": "15",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 0.198,
+      "proxy_chord_m": 0.335,
+      "proxy_minus_manual_m": 0.138
+    },
+    {
+      "jersey": "15",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.093,
+      "proxy_chord_m": 0.105,
+      "proxy_minus_manual_m": 0.012
+    },
+    {
+      "jersey": "15",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.316,
+      "proxy_chord_m": 0.214,
+      "proxy_minus_manual_m": -0.102
+    },
+    {
+      "jersey": "15",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 0.758,
+      "proxy_chord_m": 0.716,
+      "proxy_minus_manual_m": -0.042
+    },
+    {
+      "jersey": "7",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 0.356,
+      "proxy_chord_m": 0.293,
+      "proxy_minus_manual_m": -0.064
+    },
+    {
+      "jersey": "7",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.076,
+      "proxy_chord_m": 0.454,
+      "proxy_minus_manual_m": 0.377
+    },
+    {
+      "jersey": "7",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.456,
+      "proxy_chord_m": 0.304,
+      "proxy_minus_manual_m": -0.152
+    },
+    {
+      "jersey": "7",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 1.272,
+      "proxy_chord_m": 0.897,
+      "proxy_minus_manual_m": -0.375
+    },
+    {
+      "jersey": "19",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 1.141,
+      "proxy_chord_m": 1.176,
+      "proxy_minus_manual_m": 0.035
+    },
+    {
+      "jersey": "19",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.098,
+      "proxy_chord_m": 0.076,
+      "proxy_minus_manual_m": -0.022
+    },
+    {
+      "jersey": "19",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.393,
+      "proxy_chord_m": 0.402,
+      "proxy_minus_manual_m": 0.009
+    },
+    {
+      "jersey": "19",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 1.523,
+      "proxy_chord_m": 1.681,
+      "proxy_minus_manual_m": 0.158
+    },
+    {
+      "jersey": "21",
+      "start_frame": 36036,
+      "end_frame": 36066,
+      "manual_chord_m": 0.364,
+      "proxy_chord_m": 0.476,
+      "proxy_minus_manual_m": 0.112
+    },
+    {
+      "jersey": "21",
+      "start_frame": 36066,
+      "end_frame": 36078,
+      "manual_chord_m": 0.062,
+      "proxy_chord_m": 0.042,
+      "proxy_minus_manual_m": -0.021
+    },
+    {
+      "jersey": "21",
+      "start_frame": 36078,
+      "end_frame": 36096,
+      "manual_chord_m": 0.513,
+      "proxy_chord_m": 0.462,
+      "proxy_minus_manual_m": -0.051
+    },
+    {
+      "jersey": "21",
+      "start_frame": 36096,
+      "end_frame": 36138,
+      "manual_chord_m": 0.797,
+      "proxy_chord_m": 0.705,
+      "proxy_minus_manual_m": -0.092
+    }
+  ]
+}

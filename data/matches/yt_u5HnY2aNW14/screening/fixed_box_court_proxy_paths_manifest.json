@@ -1,0 +1,10 @@
+{
+  "status": "court_proxy_visualization_not_ground_truth",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "pilot_sha256": "a89c2330af321ac4e2e4c7388306c4c6460b2e5a256e9a1ede484d12e6d45c94",
+  "png_sha256": "f2d0ec6898aae84e105ba7ea331b96bcb61701087763495e1624b370135b694b",
+  "pdf_sha256": "255e72662d6264ac1d389ee4454c81f35084a219219fddf23631ad8f9d2a295e",
+  "plotted_windows": 8,
+  "positions_per_window": 30,
+  "interpretation": "Five sampled fixed-box bottom proxy paths per player; height, pose and floor uncertainty remain."
+}

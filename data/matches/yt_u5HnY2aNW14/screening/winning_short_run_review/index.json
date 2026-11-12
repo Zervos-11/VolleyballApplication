@@ -1,0 +1,88 @@
+{
+  "status": "all_winning_short_run_sampled_frames_review_pack",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "run_audit_sha256": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+  "entries": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "path": "s1_p05.jpg",
+      "sha256": "3220a21e239ff047bdeb3152c026cc88b07aeabd86a878356b4871c0c33e1a8d",
+      "source_frames": [
+        1416,
+        1422,
+        1428
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "path": null,
+      "sha256": null,
+      "source_frames": []
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "path": "s1_p27.jpg",
+      "sha256": "6ddc8bb822ca7e7ba2649881cfa85271f9f815c4100d56500e760e551efed2f7",
+      "source_frames": [
+        7338,
+        7344,
+        7350
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "path": null,
+      "sha256": null,
+      "source_frames": []
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "path": "s2_p28.jpg",
+      "sha256": "b15dfe741eb6c1ab007968b3954622dfa0aae01a89f45c11c88c420e46688d07",
+      "source_frames": [
+        19536
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "path": "s2_p37.jpg",
+      "sha256": "f6d9e0fdbd1e5210e25f4b46e87524c3f8748e568fef4274b90deee1dfdf8ad9",
+      "source_frames": [
+        22140,
+        22146
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "path": "s3_p13.jpg",
+      "sha256": "feb86b392f9b8637c9c1dfae4781d67331790c99a44bc059d0038e252ccaa503",
+      "source_frames": [
+        29928
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "path": null,
+      "sha256": null,
+      "source_frames": []
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "path": "s3_p33.jpg",
+      "sha256": "43d0a649ebce974f35b7683ee70a4c81edc473e0092f4a7e088110116e9e5460",
+      "source_frames": [
+        35826
+      ]
+    }
+  ]
+}

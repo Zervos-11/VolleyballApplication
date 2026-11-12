@@ -1,0 +1,243 @@
+{
+  "revision": 5,
+  "reviewer_code": "MZ",
+  "frames": {
+    "1759": {
+      "rows": [
+        {
+          "slot": 1,
+          "raw_track_id": 5,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "raw_track_id": 13,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "raw_track_id": 9,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "raw_track_id": 4,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "raw_track_id": 2,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "raw_track_id": 1,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-05T01:28:28.055320+00:00"
+    },
+    "1765": {
+      "rows": [
+        {
+          "slot": 1,
+          "raw_track_id": 5,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "raw_track_id": 13,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "raw_track_id": 9,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "raw_track_id": 4,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "raw_track_id": 2,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "raw_track_id": 1,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-05T01:28:45.610356+00:00"
+    },
+    "1771": {
+      "rows": [
+        {
+          "slot": 1,
+          "raw_track_id": 5,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "raw_track_id": 13,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "raw_track_id": 9,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "raw_track_id": 4,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "raw_track_id": 2,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "raw_track_id": 1,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-05T01:28:54.539872+00:00"
+    },
+    "1777": {
+      "rows": [
+        {
+          "slot": 1,
+          "raw_track_id": 5,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "raw_track_id": 13,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "raw_track_id": 9,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "raw_track_id": 4,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "raw_track_id": 2,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "raw_track_id": 1,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-05T01:29:06.337648+00:00"
+    },
+    "1783": {
+      "rows": [
+        {
+          "slot": 1,
+          "raw_track_id": null,
+          "candidate_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "raw_track_id": null,
+          "candidate_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "raw_track_id": 9,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "raw_track_id": 4,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "raw_track_id": 2,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "raw_track_id": 1,
+          "candidate_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-05T01:29:20.907240+00:00"
+    }
+  },
+  "scope": "single_reviewer_after_source_freeze_box_comparison",
+  "strict_metric_approval": false
+}

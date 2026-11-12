@@ -1,0 +1,121 @@
+{
+  "status": "full_rally_validation_gate_not_met",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "cuts": "3f208f63c2285dd2b762bafed19e72c571e64a7d7dcfbc9d277c6a38d26aff3e",
+    "phases": "d873f56148839693d7e2de44918d74983e52c252f0ad1050b883da443e8f637b",
+    "runs": "a113447b023f7455785fa45201622e19c6d64dc9704242ef5553f8dba2fc65a3",
+    "identity": "bafae4857118923cd522681bbdeee6b53753ae139dad097d293c23d56fffdfea",
+    "dense": "6fb2e278af4f2f96bb348ccf8c047ddfbbdd49acbc794aeacd1a34009efe9932",
+    "dense_screen": "ea7dd010a99508400937e77b3225a16316624697d4b763e70c08916bdee24631",
+    "bracketed_screen": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+    "live_reference": "5fefd4f3170be05bdb5d55091c41ff8357554fd3ddc9031c1de2c862a0132618",
+    "sampled_review": "80a87cef21d7d0fd44f6a8cbcfb0998d1857a95a75a85959d2d6a852aa384546",
+    "positions": "9940663983558cd2382bf5c31689670910226ac7719105319827608904cad93d",
+    "source_event_brackets": "34f195bd6600e329c56ebef8a060e0755cfdddfd0b155e255032783314f7a609",
+    "candidate_paths": "daae427319cd21a124575821f9044c465b4f7249c327ee2cb59c8be5f97e7cca"
+  },
+  "rule": "A full-rally six-player court trajectory requires an exact live interval, six named-player positions throughout it with explicit missing states, and independent position checks distributed through that interval.",
+  "summary": {
+    "dense_runs_audited": 2,
+    "full_rallies_validated": 0,
+    "dense_source_frames": 206,
+    "dense_frames_with_six_boxes": 196,
+    "dense_frames_with_missing_box": 10,
+    "conservative_live_frames": 182,
+    "conservative_live_frames_outside_dense_runs": 62,
+    "manual_clear_shoe_marks_in_runs": 32,
+    "six_player_manual_reference_frames_in_runs": 5,
+    "reviewed_span_frames": 246,
+    "reviewed_span_frames_with_six_initial_raw_ids": 159
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "edit_frame_interval_inclusive_exclusive": [
+        1321,
+        1591
+      ],
+      "conservative_live_interval_inclusive_exclusive": [
+        1411,
+        1472
+      ],
+      "dense_run_interval_inclusive": [
+        1326,
+        1428
+      ],
+      "live_frames": 61,
+      "live_frames_inside_dense_run": 18,
+      "live_frames_outside_dense_run": 43,
+      "live_frame_coverage_fraction": 0.2951,
+      "dense_run_source_frames": 103,
+      "dense_frames_with_six_boxes": 103,
+      "dense_frames_with_missing_box": 0,
+      "identity_checked_five_hz_frames": 18,
+      "identity_checked_all_source_frames": 0,
+      "manual_clear_shoe_marks_in_run": 0,
+      "six_player_manual_reference_frames_in_run": 0,
+      "last_reviewed_live_frame": 1518,
+      "first_reviewed_post_point_frame": 1530,
+      "reviewed_span_frames": 108,
+      "reviewed_span_frames_with_six_initial_raw_ids": 63,
+      "reviewed_span_frames_with_six_identity_corrected_candidates": 63,
+      "reviewed_span_frames_with_missing_initial_raw_id": 45,
+      "reviewed_span_frames_with_extra_raw_id": 15,
+      "exact_live_boundaries_certified": false,
+      "full_rally_six_player_court_trajectory_validated": false
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "edit_frame_interval_inclusive_exclusive": [
+        35911,
+        36211
+      ],
+      "conservative_live_interval_inclusive_exclusive": [
+        36001,
+        36122
+      ],
+      "dense_run_interval_inclusive": [
+        36000,
+        36102
+      ],
+      "live_frames": 121,
+      "live_frames_inside_dense_run": 102,
+      "live_frames_outside_dense_run": 19,
+      "live_frame_coverage_fraction": 0.843,
+      "dense_run_source_frames": 103,
+      "dense_frames_with_six_boxes": 93,
+      "dense_frames_with_missing_box": 10,
+      "identity_checked_five_hz_frames": 18,
+      "identity_checked_all_source_frames": 0,
+      "manual_clear_shoe_marks_in_run": 32,
+      "six_player_manual_reference_frames_in_run": 5,
+      "last_reviewed_live_frame": 36138,
+      "first_reviewed_post_point_frame": 36150,
+      "reviewed_span_frames": 138,
+      "reviewed_span_frames_with_six_initial_raw_ids": 96,
+      "reviewed_span_frames_with_six_identity_corrected_candidates": 104,
+      "reviewed_span_frames_with_missing_initial_raw_id": 42,
+      "reviewed_span_frames_with_extra_raw_id": 0,
+      "exact_live_boundaries_certified": false,
+      "full_rally_six_player_court_trajectory_validated": false
+    }
+  ],
+  "sampled_review_summary": {
+    "sampled_frames": 24,
+    "sampled_player_slots": 144,
+    "accepted_individual_grounded_proxies": 126,
+    "accepted_exploratory_frames": 11,
+    "excluded_frames": 13,
+    "accepted_fraction_of_samples": 0.4583,
+    "accepted_fraction_of_source_interval": 0.0791,
+    "exploratory_median_team_metrics": {
+      "mean_pairwise_spacing_m": 4.8577,
+      "convex_hull_area_m2": 26.1366,
+      "centroid_dispersion_m": 3.2852
+    }
+  },
+  "interpretation": "The phase interiors are conservative approximations, not exact ball-live boundaries. These uncovered-frame counts therefore measure coverage of that approximation only. The expanded interval begins at the conservative start and ends at a reviewed live frame; exact serve and dead-ball frames remain uncertified. The 30 fps pass tests box availability and raw ID persistence, not every-frame jersey or grounded court-position accuracy."
+}

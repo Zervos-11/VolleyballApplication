@@ -1,0 +1,4607 @@
+{
+  "status": "single_reviewer_diagnostic_position_comparison",
+  "source_video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_30fps_ground_review/single_reviewer_unsampled_completed.csv": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc",
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_30fps_ground_review/single_reviewer_score.json": "5f13619a2c10236f5930ee21c0d0e566315502a9c86cea6e65301c8dd07b1c7d",
+    "data/matches/yt_u5HnY2aNW14/screening/source_bracketed_30fps_screen.json": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+    "data/matches/yt_u5HnY2aNW14/screening/two_long_runs_30fps_audit.json": "6fb2e278af4f2f96bb348ccf8c047ddfbbdd49acbc794aeacd1a34009efe9932",
+    "data/matches/yt_u5HnY2aNW14/screening/near_court_candidate.json": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa"
+  },
+  "calibration_status": "staged_not_approved_for_final_metrics",
+  "review_provenance": "one reviewer, previously exposed to tracker; source-first within this pass",
+  "frames": [
+    {
+      "source_frame": 36067,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            348.5,
+            521.1
+          ],
+          "box_bottom_px": [
+            351.55,
+            526.1
+          ],
+          "manual_court_m": [
+            0.9466,
+            3.0683
+          ],
+          "proxy_court_m": [
+            0.987,
+            2.94
+          ],
+          "image_difference_px": 5.857,
+          "court_difference_m": 0.134
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            688.5,
+            565.1
+          ],
+          "box_bottom_px": [
+            672.3,
+            582.2
+          ],
+          "manual_court_m": [
+            4.6083,
+            1.9629
+          ],
+          "proxy_court_m": [
+            4.432,
+            1.545
+          ],
+          "image_difference_px": 23.555,
+          "court_difference_m": 0.454
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            690.5,
+            341.1
+          ],
+          "box_bottom_px": [
+            691.15,
+            346.6
+          ],
+          "manual_court_m": [
+            4.716,
+            8.1232
+          ],
+          "proxy_court_m": [
+            4.721,
+            7.955
+          ],
+          "image_difference_px": 5.538,
+          "court_difference_m": 0.168
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            816.5,
+            339.1
+          ],
+          "box_bottom_px": [
+            812.1,
+            330.3
+          ],
+          "manual_court_m": [
+            6.2101,
+            8.1847
+          ],
+          "proxy_court_m": [
+            6.168,
+            8.456
+          ],
+          "image_difference_px": 9.839,
+          "court_difference_m": 0.275
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.5,
+            463.1
+          ],
+          "box_bottom_px": [
+            875.7,
+            472.9
+          ],
+          "manual_court_m": [
+            6.858,
+            4.5988
+          ],
+          "proxy_court_m": [
+            6.713,
+            4.334
+          ],
+          "image_difference_px": 15.339,
+          "court_difference_m": 0.302
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            548.5,
+            345.1
+          ],
+          "box_bottom_px": [
+            544.0,
+            351.4
+          ],
+          "manual_court_m": [
+            3.0368,
+            8.0005
+          ],
+          "proxy_court_m": [
+            2.986,
+            7.81
+          ],
+          "image_difference_px": 7.742,
+          "court_difference_m": 0.197
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.698,
+        "convex_hull_area_m2": 24.837,
+        "centroid_dispersion_m": 3.167
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.812,
+        "convex_hull_area_m2": 25.679,
+        "centroid_dispersion_m": 3.242
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.114,
+        "convex_hull_area_m2": 0.842,
+        "centroid_dispersion_m": 0.076
+      }
+    },
+    {
+      "source_frame": 36068,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            343.0,
+            523.1
+          ],
+          "box_bottom_px": [
+            350.25,
+            527.1
+          ],
+          "manual_court_m": [
+            0.89,
+            3.017
+          ],
+          "proxy_court_m": [
+            0.974,
+            2.915
+          ],
+          "image_difference_px": 8.28,
+          "court_difference_m": 0.132
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            691.0,
+            569.1
+          ],
+          "box_bottom_px": [
+            675.65,
+            582.5
+          ],
+          "manual_court_m": [
+            4.6334,
+            1.8647
+          ],
+          "proxy_court_m": [
+            4.468,
+            1.539
+          ],
+          "image_difference_px": 20.376,
+          "court_difference_m": 0.365
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.0,
+            341.1
+          ],
+          "box_bottom_px": [
+            690.3,
+            345.4
+          ],
+          "manual_court_m": [
+            4.6982,
+            8.1232
+          ],
+          "proxy_court_m": [
+            4.712,
+            7.99
+          ],
+          "image_difference_px": 4.492,
+          "court_difference_m": 0.134
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            335.1
+          ],
+          "box_bottom_px": [
+            811.8,
+            327.0
+          ],
+          "manual_court_m": [
+            6.1971,
+            8.3082
+          ],
+          "proxy_court_m": [
+            6.169,
+            8.561
+          ],
+          "image_difference_px": 8.709,
+          "court_difference_m": 0.254
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            889.0,
+            463.1
+          ],
+          "box_bottom_px": [
+            877.15,
+            473.0
+          ],
+          "manual_court_m": [
+            6.8747,
+            4.5988
+          ],
+          "proxy_court_m": [
+            6.729,
+            4.331
+          ],
+          "image_difference_px": 15.441,
+          "court_difference_m": 0.305
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            549.0,
+            347.1
+          ],
+          "box_bottom_px": [
+            543.85,
+            351.5
+          ],
+          "manual_court_m": [
+            3.0436,
+            7.9393
+          ],
+          "proxy_court_m": [
+            2.985,
+            7.806
+          ],
+          "image_difference_px": 6.774,
+          "court_difference_m": 0.146
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.76,
+        "convex_hull_area_m2": 25.408,
+        "centroid_dispersion_m": 3.207
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.852,
+        "convex_hull_area_m2": 26.029,
+        "centroid_dispersion_m": 3.268
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.093,
+        "convex_hull_area_m2": 0.62,
+        "centroid_dispersion_m": 0.062
+      }
+    },
+    {
+      "source_frame": 36069,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.8,
+            525.8
+          ],
+          "box_bottom_px": [
+            349.2,
+            531.6
+          ],
+          "manual_court_m": [
+            0.8809,
+            2.948
+          ],
+          "proxy_court_m": [
+            0.969,
+            2.799
+          ],
+          "image_difference_px": 9.402,
+          "court_difference_m": 0.173
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            687.0,
+            566.9
+          ],
+          "box_bottom_px": [
+            679.25,
+            583.1
+          ],
+          "manual_court_m": [
+            4.5918,
+            1.9186
+          ],
+          "proxy_court_m": [
+            4.505,
+            1.523
+          ],
+          "image_difference_px": 17.958,
+          "court_difference_m": 0.405
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.3,
+            336.0
+          ],
+          "box_bottom_px": [
+            690.75,
+            345.8
+          ],
+          "manual_court_m": [
+            4.704,
+            8.2804
+          ],
+          "proxy_court_m": [
+            4.717,
+            7.978
+          ],
+          "image_difference_px": 9.907,
+          "court_difference_m": 0.303
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            337.5
+          ],
+          "box_bottom_px": [
+            812.25,
+            325.9
+          ],
+          "manual_court_m": [
+            6.1942,
+            8.2341
+          ],
+          "proxy_court_m": [
+            6.175,
+            8.594
+          ],
+          "image_difference_px": 11.922,
+          "court_difference_m": 0.36
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            888.1,
+            458.6
+          ],
+          "box_bottom_px": [
+            878.45,
+            472.8
+          ],
+          "manual_court_m": [
+            6.8713,
+            4.7212
+          ],
+          "proxy_court_m": [
+            6.743,
+            4.337
+          ],
+          "image_difference_px": 17.169,
+          "court_difference_m": 0.405
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            547.6,
+            342.0
+          ],
+          "box_bottom_px": [
+            543.95,
+            351.1
+          ],
+          "manual_court_m": [
+            3.0247,
+            8.0955
+          ],
+          "proxy_court_m": [
+            2.986,
+            7.817
+          ],
+          "image_difference_px": 9.805,
+          "court_difference_m": 0.281
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.787,
+        "convex_hull_area_m2": 25.681,
+        "centroid_dispersion_m": 3.231
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.887,
+        "convex_hull_area_m2": 26.347,
+        "centroid_dispersion_m": 3.291
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.1,
+        "convex_hull_area_m2": 0.666,
+        "centroid_dispersion_m": 0.06
+      }
+    },
+    {
+      "source_frame": 36070,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            344.1,
+            524.0
+          ],
+          "box_bottom_px": [
+            348.9,
+            534.1
+          ],
+          "manual_court_m": [
+            0.9031,
+            2.994
+          ],
+          "proxy_court_m": [
+            0.97,
+            2.736
+          ],
+          "image_difference_px": 11.183,
+          "court_difference_m": 0.266
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.8,
+            569.7
+          ],
+          "box_bottom_px": [
+            681.5,
+            583.2
+          ],
+          "manual_court_m": [
+            4.6628,
+            1.85
+          ],
+          "proxy_court_m": [
+            4.529,
+            1.522
+          ],
+          "image_difference_px": 18.263,
+          "court_difference_m": 0.354
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.3,
+            336.5
+          ],
+          "box_bottom_px": [
+            690.95,
+            346.0
+          ],
+          "manual_court_m": [
+            4.7037,
+            8.2649
+          ],
+          "proxy_court_m": [
+            4.72,
+            7.972
+          ],
+          "image_difference_px": 9.642,
+          "court_difference_m": 0.293
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            335.2
+          ],
+          "box_bottom_px": [
+            813.15,
+            332.9
+          ],
+          "manual_court_m": [
+            6.197,
+            8.3051
+          ],
+          "proxy_court_m": [
+            6.178,
+            8.375
+          ],
+          "image_difference_px": 2.952,
+          "court_difference_m": 0.072
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            890.4,
+            458.6
+          ],
+          "box_bottom_px": [
+            879.45,
+            472.6
+          ],
+          "manual_court_m": [
+            6.8969,
+            4.7212
+          ],
+          "proxy_court_m": [
+            6.755,
+            4.342
+          ],
+          "image_difference_px": 17.774,
+          "court_difference_m": 0.405
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            547.6,
+            342.0
+          ],
+          "box_bottom_px": [
+            543.8,
+            350.7
+          ],
+          "manual_court_m": [
+            3.0247,
+            8.0955
+          ],
+          "proxy_court_m": [
+            2.984,
+            7.828
+          ],
+          "image_difference_px": 9.494,
+          "court_difference_m": 0.271
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.81,
+        "convex_hull_area_m2": 25.982,
+        "centroid_dispersion_m": 3.245
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.854,
+        "convex_hull_area_m2": 26.079,
+        "centroid_dispersion_m": 3.274
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.044,
+        "convex_hull_area_m2": 0.097,
+        "centroid_dispersion_m": 0.029
+      }
+    },
+    {
+      "source_frame": 36071,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.8,
+            526.8
+          ],
+          "box_bottom_px": [
+            348.65,
+            535.6
+          ],
+          "manual_court_m": [
+            0.8824,
+            2.9224
+          ],
+          "proxy_court_m": [
+            0.968,
+            2.7
+          ],
+          "image_difference_px": 11.152,
+          "court_difference_m": 0.238
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.8,
+            570.2
+          ],
+          "box_bottom_px": [
+            684.1,
+            583.6
+          ],
+          "manual_court_m": [
+            4.6626,
+            1.8377
+          ],
+          "proxy_court_m": [
+            4.556,
+            1.512
+          ],
+          "image_difference_px": 16.542,
+          "court_difference_m": 0.343
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.3,
+            343.9
+          ],
+          "box_bottom_px": [
+            691.15,
+            345.7
+          ],
+          "manual_court_m": [
+            4.7006,
+            8.0372
+          ],
+          "proxy_court_m": [
+            4.722,
+            7.983
+          ],
+          "image_difference_px": 2.581,
+          "court_difference_m": 0.058
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            335.2
+          ],
+          "box_bottom_px": [
+            813.65,
+            333.5
+          ],
+          "manual_court_m": [
+            6.197,
+            8.3051
+          ],
+          "proxy_court_m": [
+            6.183,
+            8.357
+          ],
+          "image_difference_px": 2.171,
+          "court_difference_m": 0.054
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            888.1,
+            456.3
+          ],
+          "box_bottom_px": [
+            880.05,
+            472.5
+          ],
+          "manual_court_m": [
+            6.8747,
+            4.784
+          ],
+          "proxy_court_m": [
+            6.762,
+            4.344
+          ],
+          "image_difference_px": 18.09,
+          "court_difference_m": 0.454
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            547.6,
+            339.8
+          ],
+          "box_bottom_px": [
+            543.7,
+            350.3
+          ],
+          "manual_court_m": [
+            3.0237,
+            8.1632
+          ],
+          "proxy_court_m": [
+            2.983,
+            7.841
+          ],
+          "image_difference_px": 11.201,
+          "court_difference_m": 0.325
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.792,
+        "convex_hull_area_m2": 26.112,
+        "centroid_dispersion_m": 3.226
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.866,
+        "convex_hull_area_m2": 26.198,
+        "centroid_dispersion_m": 3.283
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.074,
+        "convex_hull_area_m2": 0.086,
+        "centroid_dispersion_m": 0.057
+      }
+    },
+    {
+      "source_frame": 36073,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.8,
+            529.1
+          ],
+          "box_bottom_px": [
+            348.55,
+            538.0
+          ],
+          "manual_court_m": [
+            0.8857,
+            2.8638
+          ],
+          "proxy_court_m": [
+            0.971,
+            2.638
+          ],
+          "image_difference_px": 11.17,
+          "court_difference_m": 0.241
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            696.1,
+            570.2
+          ],
+          "box_bottom_px": [
+            688.5,
+            583.5
+          ],
+          "manual_court_m": [
+            4.6869,
+            1.8377
+          ],
+          "proxy_court_m": [
+            4.602,
+            1.514
+          ],
+          "image_difference_px": 15.318,
+          "court_difference_m": 0.335
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.3,
+            337.1
+          ],
+          "box_bottom_px": [
+            690.95,
+            345.4
+          ],
+          "manual_court_m": [
+            4.7035,
+            8.2464
+          ],
+          "proxy_court_m": [
+            4.72,
+            7.99
+          ],
+          "image_difference_px": 8.462,
+          "court_difference_m": 0.257
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            333.0
+          ],
+          "box_bottom_px": [
+            816.35,
+            339.5
+          ],
+          "manual_court_m": [
+            6.1997,
+            8.3733
+          ],
+          "proxy_court_m": [
+            6.208,
+            8.173
+          ],
+          "image_difference_px": 6.639,
+          "court_difference_m": 0.2
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            890.4,
+            456.4
+          ],
+          "box_bottom_px": [
+            880.55,
+            472.8
+          ],
+          "manual_court_m": [
+            6.9002,
+            4.7813
+          ],
+          "proxy_court_m": [
+            6.767,
+            4.337
+          ],
+          "image_difference_px": 19.131,
+          "court_difference_m": 0.464
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            547.6,
+            342.1
+          ],
+          "box_bottom_px": [
+            542.6,
+            350.0
+          ],
+          "manual_court_m": [
+            3.0247,
+            8.0924
+          ],
+          "proxy_court_m": [
+            2.97,
+            7.851
+          ],
+          "image_difference_px": 9.349,
+          "court_difference_m": 0.248
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.844,
+        "convex_hull_area_m2": 26.212,
+        "centroid_dispersion_m": 3.267
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.85,
+        "convex_hull_area_m2": 26.051,
+        "centroid_dispersion_m": 3.274
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.006,
+        "convex_hull_area_m2": -0.161,
+        "centroid_dispersion_m": 0.008
+      }
+    },
+    {
+      "source_frame": 36074,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.8,
+            524.5
+          ],
+          "box_bottom_px": [
+            348.75,
+            539.1
+          ],
+          "manual_court_m": [
+            0.879,
+            2.9812
+          ],
+          "proxy_court_m": [
+            0.975,
+            2.61
+          ],
+          "image_difference_px": 16.17,
+          "court_difference_m": 0.383
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.8,
+            565.6
+          ],
+          "box_bottom_px": [
+            689.55,
+            583.3
+          ],
+          "manual_court_m": [
+            4.6643,
+            1.9506
+          ],
+          "proxy_court_m": [
+            4.614,
+            1.519
+          ],
+          "image_difference_px": 18.203,
+          "court_difference_m": 0.435
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            689.3,
+            337.1
+          ],
+          "box_bottom_px": [
+            690.95,
+            345.1
+          ],
+          "manual_court_m": [
+            4.7035,
+            8.2464
+          ],
+          "proxy_court_m": [
+            4.72,
+            8.001
+          ],
+          "image_difference_px": 8.168,
+          "court_difference_m": 0.246
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            815.0,
+            333.0
+          ],
+          "box_bottom_px": [
+            817.75,
+            341.1
+          ],
+          "manual_court_m": [
+            6.1997,
+            8.3733
+          ],
+          "proxy_court_m": [
+            6.223,
+            8.124
+          ],
+          "image_difference_px": 8.554,
+          "court_difference_m": 0.25
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            888.1,
+            454.0
+          ],
+          "box_bottom_px": [
+            880.75,
+            472.7
+          ],
+          "manual_court_m": [
+            6.8781,
+            4.847
+          ],
+          "proxy_court_m": [
+            6.77,
+            4.339
+          ],
+          "image_difference_px": 20.093,
+          "court_difference_m": 0.519
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            549.8,
+            339.8
+          ],
+          "box_bottom_px": [
+            542.2,
+            350.2
+          ],
+          "manual_court_m": [
+            3.0498,
+            8.1632
+          ],
+          "proxy_court_m": [
+            2.965,
+            7.844
+          ],
+          "image_difference_px": 12.881,
+          "court_difference_m": 0.33
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.792,
+        "convex_hull_area_m2": 25.766,
+        "centroid_dispersion_m": 3.23
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.848,
+        "convex_hull_area_m2": 26.005,
+        "centroid_dispersion_m": 3.273
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.056,
+        "convex_hull_area_m2": 0.238,
+        "centroid_dispersion_m": 0.043
+      }
+    },
+    {
+      "source_frame": 36075,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            344.1,
+            529.1
+          ],
+          "box_bottom_px": [
+            349.0,
+            539.8
+          ],
+          "manual_court_m": [
+            0.9105,
+            2.8638
+          ],
+          "proxy_court_m": [
+            0.978,
+            2.593
+          ],
+          "image_difference_px": 11.769,
+          "court_difference_m": 0.279
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            696.1,
+            574.8
+          ],
+          "box_bottom_px": [
+            689.5,
+            583.3
+          ],
+          "manual_court_m": [
+            4.6852,
+            1.7253
+          ],
+          "proxy_court_m": [
+            4.613,
+            1.519
+          ],
+          "image_difference_px": 10.762,
+          "court_difference_m": 0.219
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            687.0,
+            341.6
+          ],
+          "box_bottom_px": [
+            690.9,
+            345.0
+          ],
+          "manual_court_m": [
+            4.6744,
+            8.1078
+          ],
+          "proxy_court_m": [
+            4.719,
+            8.002
+          ],
+          "image_difference_px": 5.174,
+          "court_difference_m": 0.115
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            816.5,
+            331.4
+          ],
+          "box_bottom_px": [
+            819.0,
+            341.5
+          ],
+          "manual_court_m": [
+            6.2195,
+            8.4229
+          ],
+          "proxy_court_m": [
+            6.237,
+            8.111
+          ],
+          "image_difference_px": 10.405,
+          "court_difference_m": 0.312
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            889.6,
+            456.2
+          ],
+          "box_bottom_px": [
+            880.8,
+            472.6
+          ],
+          "manual_court_m": [
+            6.8916,
+            4.7868
+          ],
+          "proxy_court_m": [
+            6.77,
+            4.341
+          ],
+          "image_difference_px": 18.612,
+          "court_difference_m": 0.462
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            549.0,
+            341.9
+          ],
+          "box_bottom_px": [
+            542.15,
+            350.3
+          ],
+          "manual_court_m": [
+            3.0412,
+            8.0986
+          ],
+          "proxy_court_m": [
+            2.964,
+            7.842
+          ],
+          "image_difference_px": 10.839,
+          "court_difference_m": 0.268
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.854,
+        "convex_hull_area_m2": 26.528,
+        "centroid_dispersion_m": 3.269
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.85,
+        "convex_hull_area_m2": 26.02,
+        "centroid_dispersion_m": 3.274
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.003,
+        "convex_hull_area_m2": -0.508,
+        "centroid_dispersion_m": 0.005
+      }
+    },
+    {
+      "source_frame": 36076,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            343.3,
+            528.9
+          ],
+          "box_bottom_px": [
+            349.15,
+            541.4
+          ],
+          "manual_court_m": [
+            0.9015,
+            2.8689
+          ],
+          "proxy_court_m": [
+            0.982,
+            2.554
+          ],
+          "image_difference_px": 13.801,
+          "court_difference_m": 0.325
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            574.6
+          ],
+          "box_bottom_px": [
+            689.4,
+            583.4
+          ],
+          "manual_court_m": [
+            4.6526,
+            1.7302
+          ],
+          "proxy_court_m": [
+            4.612,
+            1.517
+          ],
+          "image_difference_px": 9.508,
+          "court_difference_m": 0.217
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            688.5,
+            339.2
+          ],
+          "box_bottom_px": [
+            691.15,
+            344.3
+          ],
+          "manual_court_m": [
+            4.6931,
+            8.1816
+          ],
+          "proxy_court_m": [
+            4.722,
+            8.026
+          ],
+          "image_difference_px": 5.747,
+          "court_difference_m": 0.158
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            818.7,
+            332.8
+          ],
+          "box_bottom_px": [
+            820.1,
+            342.0
+          ],
+          "manual_court_m": [
+            6.2439,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.249,
+            8.095
+          ],
+          "image_difference_px": 9.306,
+          "court_difference_m": 0.284
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            456.2
+          ],
+          "box_bottom_px": [
+            880.85,
+            472.6
+          ],
+          "manual_court_m": [
+            6.8402,
+            4.7868
+          ],
+          "proxy_court_m": [
+            6.771,
+            4.343
+          ],
+          "image_difference_px": 16.917,
+          "court_difference_m": 0.449
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            546.7,
+            341.9
+          ],
+          "box_bottom_px": [
+            542.2,
+            350.4
+          ],
+          "manual_court_m": [
+            3.014,
+            8.0986
+          ],
+          "proxy_court_m": [
+            2.965,
+            7.838
+          ],
+          "image_difference_px": 9.618,
+          "court_difference_m": 0.265
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.855,
+        "convex_hull_area_m2": 26.367,
+        "centroid_dispersion_m": 3.271
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.859,
+        "convex_hull_area_m2": 26.08,
+        "centroid_dispersion_m": 3.281
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.004,
+        "convex_hull_area_m2": -0.287,
+        "centroid_dispersion_m": 0.01
+      }
+    },
+    {
+      "source_frame": 36077,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.0,
+            526.6
+          ],
+          "box_bottom_px": [
+            349.3,
+            542.0
+          ],
+          "manual_court_m": [
+            0.8734,
+            2.9275
+          ],
+          "proxy_court_m": [
+            0.984,
+            2.538
+          ],
+          "image_difference_px": 17.494,
+          "court_difference_m": 0.405
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            572.3
+          ],
+          "box_bottom_px": [
+            689.95,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6777,
+            1.7864
+          ],
+          "proxy_court_m": [
+            4.617,
+            1.523
+          ],
+          "image_difference_px": 12.052,
+          "court_difference_m": 0.27
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            688.5,
+            339.2
+          ],
+          "box_bottom_px": [
+            691.05,
+            344.8
+          ],
+          "manual_court_m": [
+            4.6931,
+            8.1816
+          ],
+          "proxy_court_m": [
+            4.721,
+            8.01
+          ],
+          "image_difference_px": 6.153,
+          "court_difference_m": 0.174
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            818.7,
+            332.8
+          ],
+          "box_bottom_px": [
+            821.5,
+            342.1
+          ],
+          "manual_court_m": [
+            6.2439,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.265,
+            8.092
+          ],
+          "image_difference_px": 9.712,
+          "court_difference_m": 0.288
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            456.2
+          ],
+          "box_bottom_px": [
+            880.95,
+            472.5
+          ],
+          "manual_court_m": [
+            6.8659,
+            4.7868
+          ],
+          "proxy_court_m": [
+            6.772,
+            4.345
+          ],
+          "image_difference_px": 17.493,
+          "court_difference_m": 0.452
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            546.7,
+            339.7
+          ],
+          "box_bottom_px": [
+            542.2,
+            350.7
+          ],
+          "manual_court_m": [
+            3.013,
+            8.1662
+          ],
+          "proxy_court_m": [
+            2.965,
+            7.831
+          ],
+          "image_difference_px": 11.885,
+          "court_difference_m": 0.339
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.854,
+        "convex_hull_area_m2": 26.533,
+        "centroid_dispersion_m": 3.27
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.858,
+        "convex_hull_area_m2": 26.063,
+        "centroid_dispersion_m": 3.279
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.004,
+        "convex_hull_area_m2": -0.47,
+        "centroid_dispersion_m": 0.009
+      }
+    },
+    {
+      "source_frame": 36079,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.0,
+            528.9
+          ],
+          "box_bottom_px": [
+            349.55,
+            541.9
+          ],
+          "manual_court_m": [
+            0.8768,
+            2.8689
+          ],
+          "proxy_court_m": [
+            0.987,
+            2.539
+          ],
+          "image_difference_px": 15.56,
+          "court_difference_m": 0.348
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            574.6
+          ],
+          "box_bottom_px": [
+            691.0,
+            583.2
+          ],
+          "manual_court_m": [
+            4.6768,
+            1.7302
+          ],
+          "proxy_court_m": [
+            4.628,
+            1.522
+          ],
+          "image_difference_px": 9.615,
+          "court_difference_m": 0.214
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            688.5,
+            336.9
+          ],
+          "box_bottom_px": [
+            691.45,
+            339.6
+          ],
+          "manual_court_m": [
+            4.6941,
+            8.2526
+          ],
+          "proxy_court_m": [
+            4.728,
+            8.17
+          ],
+          "image_difference_px": 3.999,
+          "court_difference_m": 0.089
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            821.0,
+            332.8
+          ],
+          "box_bottom_px": [
+            824.15,
+            343.3
+          ],
+          "manual_court_m": [
+            6.2713,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.295,
+            8.056
+          ],
+          "image_difference_px": 10.962,
+          "court_difference_m": 0.324
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            460.8
+          ],
+          "box_bottom_px": [
+            881.05,
+            472.3
+          ],
+          "manual_court_m": [
+            6.8591,
+            4.6613
+          ],
+          "proxy_court_m": [
+            6.773,
+            4.349
+          ],
+          "image_difference_px": 13.089,
+          "court_difference_m": 0.324
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            546.7,
+            339.7
+          ],
+          "box_bottom_px": [
+            543.35,
+            349.2
+          ],
+          "manual_court_m": [
+            3.013,
+            8.1662
+          ],
+          "proxy_court_m": [
+            2.978,
+            7.874
+          ],
+          "image_difference_px": 10.073,
+          "court_difference_m": 0.294
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.906,
+        "convex_hull_area_m2": 26.862,
+        "centroid_dispersion_m": 3.309
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.892,
+        "convex_hull_area_m2": 26.393,
+        "centroid_dispersion_m": 3.305
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.014,
+        "convex_hull_area_m2": -0.47,
+        "centroid_dispersion_m": -0.004
+      }
+    },
+    {
+      "source_frame": 36080,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.0,
+            528.0
+          ],
+          "box_bottom_px": [
+            349.45,
+            541.8
+          ],
+          "manual_court_m": [
+            0.8755,
+            2.8918
+          ],
+          "proxy_court_m": [
+            0.986,
+            2.541
+          ],
+          "image_difference_px": 16.182,
+          "court_difference_m": 0.368
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            576.0
+          ],
+          "box_bottom_px": [
+            691.65,
+            583.0
+          ],
+          "manual_court_m": [
+            4.6521,
+            1.6961
+          ],
+          "proxy_court_m": [
+            4.635,
+            1.525
+          ],
+          "image_difference_px": 7.129,
+          "court_difference_m": 0.172
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            686.2,
+            338.3
+          ],
+          "box_bottom_px": [
+            691.75,
+            339.2
+          ],
+          "manual_court_m": [
+            4.6662,
+            8.2094
+          ],
+          "proxy_court_m": [
+            4.732,
+            8.182
+          ],
+          "image_difference_px": 5.622,
+          "court_difference_m": 0.071
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            821.0,
+            335.1
+          ],
+          "box_bottom_px": [
+            825.25,
+            343.0
+          ],
+          "manual_court_m": [
+            6.2684,
+            8.3082
+          ],
+          "proxy_court_m": [
+            6.309,
+            8.065
+          ],
+          "image_difference_px": 8.971,
+          "court_difference_m": 0.247
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            889.6,
+            456.2
+          ],
+          "box_bottom_px": [
+            881.0,
+            472.3
+          ],
+          "manual_court_m": [
+            6.8916,
+            4.7868
+          ],
+          "proxy_court_m": [
+            6.772,
+            4.35
+          ],
+          "image_difference_px": 18.253,
+          "court_difference_m": 0.453
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            553.6,
+            337.4
+          ],
+          "box_bottom_px": [
+            542.85,
+            348.3
+          ],
+          "manual_court_m": [
+            3.0938,
+            8.2371
+          ],
+          "proxy_court_m": [
+            2.972,
+            7.902
+          ],
+          "image_difference_px": 15.309,
+          "court_difference_m": 0.357
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.882,
+        "convex_hull_area_m2": 26.764,
+        "centroid_dispersion_m": 3.294
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.903,
+        "convex_hull_area_m2": 26.513,
+        "centroid_dispersion_m": 3.312
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.021,
+        "convex_hull_area_m2": -0.251,
+        "centroid_dispersion_m": 0.018
+      }
+    },
+    {
+      "source_frame": 36081,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            338.7,
+            524.3
+          ],
+          "box_bottom_px": [
+            349.3,
+            542.2
+          ],
+          "manual_court_m": [
+            0.8453,
+            2.9863
+          ],
+          "proxy_court_m": [
+            0.984,
+            2.533
+          ],
+          "image_difference_px": 20.803,
+          "court_difference_m": 0.474
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            574.6
+          ],
+          "box_bottom_px": [
+            691.95,
+            583.0
+          ],
+          "manual_court_m": [
+            4.6526,
+            1.7302
+          ],
+          "proxy_court_m": [
+            4.638,
+            1.525
+          ],
+          "image_difference_px": 8.465,
+          "court_difference_m": 0.206
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            686.2,
+            332.3
+          ],
+          "box_bottom_px": [
+            691.6,
+            342.8
+          ],
+          "manual_court_m": [
+            4.6687,
+            8.395
+          ],
+          "proxy_court_m": [
+            4.728,
+            8.071
+          ],
+          "image_difference_px": 11.807,
+          "court_difference_m": 0.329
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            823.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            826.45,
+            343.2
+          ],
+          "manual_court_m": [
+            6.2986,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.323,
+            8.057
+          ],
+          "image_difference_px": 10.867,
+          "court_difference_m": 0.323
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            458.5
+          ],
+          "box_bottom_px": [
+            880.9,
+            472.4
+          ],
+          "manual_court_m": [
+            6.8369,
+            4.724
+          ],
+          "proxy_court_m": [
+            6.771,
+            4.349
+          ],
+          "image_difference_px": 14.492,
+          "court_difference_m": 0.381
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            553.6,
+            337.4
+          ],
+          "box_bottom_px": [
+            542.15,
+            346.9
+          ],
+          "manual_court_m": [
+            3.0938,
+            8.2371
+          ],
+          "proxy_court_m": [
+            2.963,
+            7.945
+          ],
+          "image_difference_px": 14.878,
+          "court_difference_m": 0.32
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.912,
+        "convex_hull_area_m2": 26.885,
+        "centroid_dispersion_m": 3.315
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.893,
+        "convex_hull_area_m2": 26.465,
+        "centroid_dispersion_m": 3.303
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.019,
+        "convex_hull_area_m2": -0.42,
+        "centroid_dispersion_m": -0.012
+      }
+    },
+    {
+      "source_frame": 36082,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            338.7,
+            527.1
+          ],
+          "box_bottom_px": [
+            349.2,
+            542.1
+          ],
+          "manual_court_m": [
+            0.8494,
+            2.9148
+          ],
+          "proxy_court_m": [
+            0.983,
+            2.536
+          ],
+          "image_difference_px": 18.31,
+          "court_difference_m": 0.402
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            697.6,
+            572.8
+          ],
+          "box_bottom_px": [
+            691.85,
+            583.0
+          ],
+          "manual_court_m": [
+            4.7018,
+            1.7741
+          ],
+          "proxy_court_m": [
+            4.637,
+            1.526
+          ],
+          "image_difference_px": 11.709,
+          "court_difference_m": 0.256
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            686.2,
+            335.1
+          ],
+          "box_bottom_px": [
+            691.8,
+            346.4
+          ],
+          "manual_court_m": [
+            4.6675,
+            8.3082
+          ],
+          "proxy_court_m": [
+            4.729,
+            7.962
+          ],
+          "image_difference_px": 12.612,
+          "court_difference_m": 0.352
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            823.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            825.35,
+            343.4
+          ],
+          "manual_court_m": [
+            6.2986,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.309,
+            8.053
+          ],
+          "image_difference_px": 10.796,
+          "court_difference_m": 0.327
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            460.8
+          ],
+          "box_bottom_px": [
+            880.95,
+            472.3
+          ],
+          "manual_court_m": [
+            6.8335,
+            4.6613
+          ],
+          "proxy_court_m": [
+            6.772,
+            4.35
+          ],
+          "image_difference_px": 12.192,
+          "court_difference_m": 0.317
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            558.2,
+            339.7
+          ],
+          "box_bottom_px": [
+            542.55,
+            348.3
+          ],
+          "manual_court_m": [
+            3.1492,
+            8.1662
+          ],
+          "proxy_court_m": [
+            2.968,
+            7.904
+          ],
+          "image_difference_px": 17.857,
+          "court_difference_m": 0.319
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.88,
+        "convex_hull_area_m2": 26.455,
+        "centroid_dispersion_m": 3.293
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.862,
+        "convex_hull_area_m2": 26.195,
+        "centroid_dispersion_m": 3.28
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.018,
+        "convex_hull_area_m2": -0.26,
+        "centroid_dispersion_m": -0.014
+      }
+    },
+    {
+      "source_frame": 36083,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            343.3,
+            528.9
+          ],
+          "box_bottom_px": [
+            349.4,
+            541.0
+          ],
+          "manual_court_m": [
+            0.9015,
+            2.8689
+          ],
+          "proxy_court_m": [
+            0.984,
+            2.563
+          ],
+          "image_difference_px": 13.551,
+          "court_difference_m": 0.317
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            574.6
+          ],
+          "box_bottom_px": [
+            691.8,
+            583.0
+          ],
+          "manual_court_m": [
+            4.6768,
+            1.7302
+          ],
+          "proxy_court_m": [
+            4.637,
+            1.526
+          ],
+          "image_difference_px": 9.1,
+          "court_difference_m": 0.208
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            686.2,
+            336.9
+          ],
+          "box_bottom_px": [
+            692.5,
+            349.8
+          ],
+          "manual_court_m": [
+            4.6668,
+            8.2526
+          ],
+          "proxy_court_m": [
+            4.736,
+            7.857
+          ],
+          "image_difference_px": 14.356,
+          "court_difference_m": 0.402
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            823.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            827.6,
+            344.3
+          ],
+          "manual_court_m": [
+            6.2986,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.335,
+            8.026
+          ],
+          "image_difference_px": 12.278,
+          "court_difference_m": 0.355
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            453.9
+          ],
+          "box_bottom_px": [
+            880.95,
+            472.3
+          ],
+          "manual_court_m": [
+            6.8436,
+            4.8497
+          ],
+          "proxy_court_m": [
+            6.772,
+            4.349
+          ],
+          "image_difference_px": 18.84,
+          "court_difference_m": 0.506
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            558.2,
+            339.7
+          ],
+          "box_bottom_px": [
+            540.3,
+            349.8
+          ],
+          "manual_court_m": [
+            3.1492,
+            8.1662
+          ],
+          "proxy_court_m": [
+            2.942,
+            7.858
+          ],
+          "image_difference_px": 20.553,
+          "court_difference_m": 0.371
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.861,
+        "convex_hull_area_m2": 26.251,
+        "centroid_dispersion_m": 3.278
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.836,
+        "convex_hull_area_m2": 26.113,
+        "centroid_dispersion_m": 3.256
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.025,
+        "convex_hull_area_m2": -0.138,
+        "centroid_dispersion_m": -0.021
+      }
+    },
+    {
+      "source_frame": 36085,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            341.0,
+            524.3
+          ],
+          "box_bottom_px": [
+            349.15,
+            536.1
+          ],
+          "manual_court_m": [
+            0.8701,
+            2.9863
+          ],
+          "proxy_court_m": [
+            0.975,
+            2.686
+          ],
+          "image_difference_px": 14.341,
+          "court_difference_m": 0.318
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            572.3
+          ],
+          "box_bottom_px": [
+            691.7,
+            583.0
+          ],
+          "manual_court_m": [
+            4.6777,
+            1.7864
+          ],
+          "proxy_court_m": [
+            4.636,
+            1.526
+          ],
+          "image_difference_px": 11.289,
+          "court_difference_m": 0.264
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            683.9,
+            334.6
+          ],
+          "box_bottom_px": [
+            690.85,
+            350.8
+          ],
+          "manual_court_m": [
+            4.6404,
+            8.3237
+          ],
+          "proxy_court_m": [
+            4.716,
+            7.826
+          ],
+          "image_difference_px": 17.628,
+          "court_difference_m": 0.503
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            825.6,
+            332.8
+          ],
+          "box_bottom_px": [
+            829.9,
+            342.2
+          ],
+          "manual_court_m": [
+            6.326,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.365,
+            8.09
+          ],
+          "image_difference_px": 10.337,
+          "court_difference_m": 0.292
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            458.5
+          ],
+          "box_bottom_px": [
+            880.85,
+            472.2
+          ],
+          "manual_court_m": [
+            6.8369,
+            4.724
+          ],
+          "proxy_court_m": [
+            6.771,
+            4.353
+          ],
+          "image_difference_px": 14.315,
+          "court_difference_m": 0.377
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            546.7,
+            344.2
+          ],
+          "box_bottom_px": [
+            535.0,
+            342.9
+          ],
+          "manual_court_m": [
+            3.0151,
+            8.028
+          ],
+          "proxy_court_m": [
+            2.876,
+            8.068
+          ],
+          "image_difference_px": 11.772,
+          "court_difference_m": 0.145
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.864,
+        "convex_hull_area_m2": 26.411,
+        "centroid_dispersion_m": 3.274
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.878,
+        "convex_hull_area_m2": 26.949,
+        "centroid_dispersion_m": 3.28
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.014,
+        "convex_hull_area_m2": 0.538,
+        "centroid_dispersion_m": 0.006
+      }
+    },
+    {
+      "source_frame": 36086,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            338.7,
+            520.2
+          ],
+          "box_bottom_px": [
+            347.0,
+            532.4
+          ],
+          "manual_court_m": [
+            0.8393,
+            3.0914
+          ],
+          "proxy_court_m": [
+            0.946,
+            2.781
+          ],
+          "image_difference_px": 14.756,
+          "court_difference_m": 0.328
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            697.6,
+            577.4
+          ],
+          "box_bottom_px": [
+            691.7,
+            583.0
+          ],
+          "manual_court_m": [
+            4.7,
+            1.662
+          ],
+          "proxy_court_m": [
+            4.636,
+            1.526
+          ],
+          "image_difference_px": 8.134,
+          "court_difference_m": 0.15
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            683.9,
+            337.4
+          ],
+          "box_bottom_px": [
+            688.25,
+            348.0
+          ],
+          "manual_court_m": [
+            4.6393,
+            8.2371
+          ],
+          "proxy_court_m": [
+            4.686,
+            7.912
+          ],
+          "image_difference_px": 11.458,
+          "court_difference_m": 0.328
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            825.6,
+            332.8
+          ],
+          "box_bottom_px": [
+            830.75,
+            334.8
+          ],
+          "manual_court_m": [
+            6.326,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.385,
+            8.319
+          ],
+          "image_difference_px": 5.525,
+          "court_difference_m": 0.084
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            460.8
+          ],
+          "box_bottom_px": [
+            880.7,
+            471.9
+          ],
+          "manual_court_m": [
+            6.8335,
+            4.6613
+          ],
+          "proxy_court_m": [
+            6.769,
+            4.36
+          ],
+          "image_difference_px": 11.904,
+          "court_difference_m": 0.308
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            535.3,
+            339.7
+          ],
+          "box_bottom_px": [
+            531.25,
+            346.1
+          ],
+          "manual_court_m": [
+            2.8779,
+            8.1662
+          ],
+          "proxy_court_m": [
+            2.833,
+            7.969
+          ],
+          "image_difference_px": 7.574,
+          "court_difference_m": 0.202
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.924,
+        "convex_hull_area_m2": 27.388,
+        "centroid_dispersion_m": 3.311
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.92,
+        "convex_hull_area_m2": 27.281,
+        "centroid_dispersion_m": 3.305
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.004,
+        "convex_hull_area_m2": -0.108,
+        "centroid_dispersion_m": -0.006
+      }
+    },
+    {
+      "source_frame": 36087,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            336.5,
+            517.9
+          ],
+          "box_bottom_px": [
+            345.2,
+            530.2
+          ],
+          "manual_court_m": [
+            0.812,
+            3.1505
+          ],
+          "proxy_court_m": [
+            0.924,
+            2.837
+          ],
+          "image_difference_px": 15.066,
+          "court_difference_m": 0.333
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            697.6,
+            572.8
+          ],
+          "box_bottom_px": [
+            691.6,
+            583.1
+          ],
+          "manual_court_m": [
+            4.7018,
+            1.7741
+          ],
+          "proxy_court_m": [
+            4.635,
+            1.523
+          ],
+          "image_difference_px": 11.92,
+          "court_difference_m": 0.26
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            681.6,
+            335.1
+          ],
+          "box_bottom_px": [
+            684.75,
+            343.0
+          ],
+          "manual_court_m": [
+            4.6129,
+            8.3082
+          ],
+          "proxy_court_m": [
+            4.647,
+            8.066
+          ],
+          "image_difference_px": 8.505,
+          "court_difference_m": 0.245
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            825.6,
+            332.8
+          ],
+          "box_bottom_px": [
+            831.2,
+            336.9
+          ],
+          "manual_court_m": [
+            6.326,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.387,
+            8.252
+          ],
+          "image_difference_px": 6.94,
+          "court_difference_m": 0.141
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            453.9
+          ],
+          "box_bottom_px": [
+            880.6,
+            472.0
+          ],
+          "manual_court_m": [
+            6.8693,
+            4.8497
+          ],
+          "proxy_court_m": [
+            6.769,
+            4.359
+          ],
+          "image_difference_px": 19.3,
+          "court_difference_m": 0.501
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            528.5,
+            332.8
+          ],
+          "box_bottom_px": [
+            528.35,
+            345.6
+          ],
+          "manual_court_m": [
+            2.7934,
+            8.3795
+          ],
+          "proxy_court_m": [
+            2.799,
+            7.985
+          ],
+          "image_difference_px": 12.801,
+          "court_difference_m": 0.394
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.943,
+        "convex_hull_area_m2": 27.862,
+        "centroid_dispersion_m": 3.322
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.939,
+        "convex_hull_area_m2": 27.317,
+        "centroid_dispersion_m": 3.322
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.004,
+        "convex_hull_area_m2": -0.544,
+        "centroid_dispersion_m": -0.0
+      }
+    },
+    {
+      "source_frame": 36088,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            336.5,
+            516.6
+          ],
+          "box_bottom_px": [
+            340.35,
+            529.3
+          ],
+          "manual_court_m": [
+            0.8101,
+            3.184
+          ],
+          "proxy_court_m": [
+            0.87,
+            2.858
+          ],
+          "image_difference_px": 13.271,
+          "court_difference_m": 0.331
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            569.1
+          ],
+          "box_bottom_px": [
+            691.0,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6788,
+            1.8647
+          ],
+          "proxy_court_m": [
+            4.629,
+            1.524
+          ],
+          "image_difference_px": 14.645,
+          "court_difference_m": 0.344
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            681.6,
+            336.0
+          ],
+          "box_bottom_px": [
+            683.7,
+            340.5
+          ],
+          "manual_court_m": [
+            4.6126,
+            8.2804
+          ],
+          "proxy_court_m": [
+            4.636,
+            8.143
+          ],
+          "image_difference_px": 4.966,
+          "court_difference_m": 0.139
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            827.9,
+            330.5
+          ],
+          "box_bottom_px": [
+            830.3,
+            338.4
+          ],
+          "manual_court_m": [
+            6.3563,
+            8.4509
+          ],
+          "proxy_court_m": [
+            6.374,
+            8.206
+          ],
+          "image_difference_px": 8.257,
+          "court_difference_m": 0.246
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            460.8
+          ],
+          "box_bottom_px": [
+            880.7,
+            471.9
+          ],
+          "manual_court_m": [
+            6.8591,
+            4.6613
+          ],
+          "proxy_court_m": [
+            6.77,
+            4.362
+          ],
+          "image_difference_px": 12.914,
+          "court_difference_m": 0.312
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            519.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            525.7,
+            342.0
+          ],
+          "manual_court_m": [
+            2.684,
+            8.3795
+          ],
+          "proxy_court_m": [
+            2.766,
+            8.096
+          ],
+          "image_difference_px": 11.207,
+          "court_difference_m": 0.295
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.963,
+        "convex_hull_area_m2": 28.154,
+        "centroid_dispersion_m": 3.333
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.975,
+        "convex_hull_area_m2": 27.745,
+        "centroid_dispersion_m": 3.349
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.012,
+        "convex_hull_area_m2": -0.409,
+        "centroid_dispersion_m": 0.015
+      }
+    },
+    {
+      "source_frame": 36089,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            329.6,
+            521.1
+          ],
+          "box_bottom_px": [
+            333.9,
+            529.6
+          ],
+          "manual_court_m": [
+            0.7422,
+            3.0683
+          ],
+          "proxy_court_m": [
+            0.801,
+            2.851
+          ],
+          "image_difference_px": 9.526,
+          "court_difference_m": 0.225
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            697.6,
+            573.7
+          ],
+          "box_bottom_px": [
+            690.7,
+            583.2
+          ],
+          "manual_court_m": [
+            4.7014,
+            1.7522
+          ],
+          "proxy_court_m": [
+            4.625,
+            1.522
+          ],
+          "image_difference_px": 11.741,
+          "court_difference_m": 0.243
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            681.6,
+            336.0
+          ],
+          "box_bottom_px": [
+            683.95,
+            340.6
+          ],
+          "manual_court_m": [
+            4.6126,
+            8.2804
+          ],
+          "proxy_court_m": [
+            4.639,
+            8.139
+          ],
+          "image_difference_px": 5.166,
+          "court_difference_m": 0.144
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            330.5
+          ],
+          "box_bottom_px": [
+            829.4,
+            337.2
+          ],
+          "manual_court_m": [
+            6.3837,
+            8.4509
+          ],
+          "proxy_court_m": [
+            6.365,
+            8.242
+          ],
+          "image_difference_px": 6.748,
+          "court_difference_m": 0.21
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            460.8
+          ],
+          "box_bottom_px": [
+            881.5,
+            472.0
+          ],
+          "manual_court_m": [
+            6.8335,
+            4.6613
+          ],
+          "proxy_court_m": [
+            6.779,
+            4.359
+          ],
+          "image_difference_px": 11.734,
+          "court_difference_m": 0.307
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            512.5,
+            330.5
+          ],
+          "box_bottom_px": [
+            523.3,
+            339.3
+          ],
+          "manual_court_m": [
+            2.6015,
+            8.4509
+          ],
+          "proxy_court_m": [
+            2.736,
+            8.178
+          ],
+          "image_difference_px": 13.931,
+          "court_difference_m": 0.304
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.056,
+        "convex_hull_area_m2": 29.241,
+        "centroid_dispersion_m": 3.393
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.018,
+        "convex_hull_area_m2": 28.378,
+        "centroid_dispersion_m": 3.377
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.038,
+        "convex_hull_area_m2": -0.863,
+        "centroid_dispersion_m": -0.016
+      }
+    },
+    {
+      "source_frame": 36091,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            322.7,
+            524.3
+          ],
+          "box_bottom_px": [
+            327.0,
+            532.3
+          ],
+          "manual_court_m": [
+            0.6725,
+            2.9863
+          ],
+          "proxy_court_m": [
+            0.731,
+            2.781
+          ],
+          "image_difference_px": 9.082,
+          "court_difference_m": 0.213
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            574.6
+          ],
+          "box_bottom_px": [
+            690.35,
+            583.2
+          ],
+          "manual_court_m": [
+            4.6526,
+            1.7302
+          ],
+          "proxy_court_m": [
+            4.622,
+            1.521
+          ],
+          "image_difference_px": 8.999,
+          "court_difference_m": 0.211
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            683.9,
+            332.3
+          ],
+          "box_bottom_px": [
+            686.45,
+            339.9
+          ],
+          "manual_court_m": [
+            4.6413,
+            8.395
+          ],
+          "proxy_court_m": [
+            4.669,
+            8.162
+          ],
+          "image_difference_px": 8.016,
+          "court_difference_m": 0.235
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            330.5
+          ],
+          "box_bottom_px": [
+            831.45,
+            318.9
+          ],
+          "manual_court_m": [
+            6.3837,
+            8.4509
+          ],
+          "proxy_court_m": [
+            6.414,
+            8.813
+          ],
+          "image_difference_px": 11.667,
+          "court_difference_m": 0.363
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            465.4
+          ],
+          "box_bottom_px": [
+            882.6,
+            474.1
+          ],
+          "manual_court_m": [
+            6.8268,
+            4.5365
+          ],
+          "proxy_court_m": [
+            6.788,
+            4.302
+          ],
+          "image_difference_px": 9.025,
+          "court_difference_m": 0.238
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            503.3,
+            335.1
+          ],
+          "box_bottom_px": [
+            515.65,
+            341.5
+          ],
+          "manual_court_m": [
+            2.4954,
+            8.3082
+          ],
+          "proxy_court_m": [
+            2.647,
+            8.111
+          ],
+          "image_difference_px": 13.91,
+          "court_difference_m": 0.249
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.116,
+        "convex_hull_area_m2": 29.571,
+        "centroid_dispersion_m": 3.437
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.185,
+        "convex_hull_area_m2": 30.088,
+        "centroid_dispersion_m": 3.479
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.07,
+        "convex_hull_area_m2": 0.517,
+        "centroid_dispersion_m": 0.042
+      }
+    },
+    {
+      "source_frame": 36092,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            318.2,
+            523.4
+          ],
+          "box_bottom_px": [
+            325.5,
+            533.2
+          ],
+          "manual_court_m": [
+            0.6225,
+            3.0093
+          ],
+          "proxy_court_m": [
+            0.717,
+            2.759
+          ],
+          "image_difference_px": 12.22,
+          "court_difference_m": 0.268
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            573.7
+          ],
+          "box_bottom_px": [
+            690.45,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6529,
+            1.7522
+          ],
+          "proxy_court_m": [
+            4.623,
+            1.523
+          ],
+          "image_difference_px": 9.74,
+          "court_difference_m": 0.231
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            686.2,
+            336.0
+          ],
+          "box_bottom_px": [
+            690.85,
+            339.8
+          ],
+          "manual_court_m": [
+            4.6672,
+            8.2804
+          ],
+          "proxy_court_m": [
+            4.721,
+            8.164
+          ],
+          "image_difference_px": 6.005,
+          "court_difference_m": 0.128
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            832.5,
+            330.5
+          ],
+          "box_bottom_px": [
+            832.75,
+            322.9
+          ],
+          "manual_court_m": [
+            6.4111,
+            8.4509
+          ],
+          "proxy_court_m": [
+            6.424,
+            8.688
+          ],
+          "image_difference_px": 7.604,
+          "court_difference_m": 0.237
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            885.0,
+            467.7
+          ],
+          "box_bottom_px": [
+            883.7,
+            476.0
+          ],
+          "manual_court_m": [
+            6.8235,
+            4.4742
+          ],
+          "proxy_court_m": [
+            6.798,
+            4.252
+          ],
+          "image_difference_px": 8.401,
+          "court_difference_m": 0.224
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            501.0,
+            335.1
+          ],
+          "box_bottom_px": [
+            509.65,
+            345.1
+          ],
+          "manual_court_m": [
+            2.4681,
+            8.3082
+          ],
+          "proxy_court_m": [
+            2.577,
+            8.001
+          ],
+          "image_difference_px": 13.222,
+          "court_difference_m": 0.326
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.114,
+        "convex_hull_area_m2": 29.797,
+        "centroid_dispersion_m": 3.432
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.17,
+        "convex_hull_area_m2": 29.885,
+        "centroid_dispersion_m": 3.47
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.056,
+        "convex_hull_area_m2": 0.088,
+        "centroid_dispersion_m": 0.038
+      }
+    },
+    {
+      "source_frame": 36093,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            318.2,
+            522.1
+          ],
+          "box_bottom_px": [
+            326.65,
+            533.0
+          ],
+          "manual_court_m": [
+            0.6205,
+            3.0426
+          ],
+          "proxy_court_m": [
+            0.728,
+            2.766
+          ],
+          "image_difference_px": 13.792,
+          "court_difference_m": 0.297
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            572.3
+          ],
+          "box_bottom_px": [
+            690.75,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6777,
+            1.7864
+          ],
+          "proxy_court_m": [
+            4.626,
+            1.525
+          ],
+          "image_difference_px": 11.719,
+          "court_difference_m": 0.266
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            688.5,
+            332.3
+          ],
+          "box_bottom_px": [
+            691.75,
+            340.3
+          ],
+          "manual_court_m": [
+            4.696,
+            8.395
+          ],
+          "proxy_court_m": [
+            4.731,
+            8.148
+          ],
+          "image_difference_px": 8.635,
+          "court_difference_m": 0.249
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            332.8
+          ],
+          "box_bottom_px": [
+            832.45,
+            326.5
+          ],
+          "manual_court_m": [
+            6.3807,
+            8.3795
+          ],
+          "proxy_court_m": [
+            6.416,
+            8.577
+          ],
+          "image_difference_px": 6.69,
+          "court_difference_m": 0.201
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            467.7
+          ],
+          "box_bottom_px": [
+            885.15,
+            478.6
+          ],
+          "manual_court_m": [
+            6.849,
+            4.4742
+          ],
+          "proxy_court_m": [
+            6.809,
+            4.181
+          ],
+          "image_difference_px": 11.11,
+          "court_difference_m": 0.296
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            503.3,
+            335.1
+          ],
+          "box_bottom_px": [
+            506.3,
+            347.1
+          ],
+          "manual_court_m": [
+            2.4954,
+            8.3082
+          ],
+          "proxy_court_m": [
+            2.54,
+            7.94
+          ],
+          "image_difference_px": 12.369,
+          "court_difference_m": 0.371
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.103,
+        "convex_hull_area_m2": 29.566,
+        "centroid_dispersion_m": 3.429
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.146,
+        "convex_hull_area_m2": 29.625,
+        "centroid_dispersion_m": 3.455
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.043,
+        "convex_hull_area_m2": 0.059,
+        "centroid_dispersion_m": 0.026
+      }
+    },
+    {
+      "source_frame": 36094,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            320.5,
+            520.2
+          ],
+          "box_bottom_px": [
+            327.4,
+            532.8
+          ],
+          "manual_court_m": [
+            0.6424,
+            3.0914
+          ],
+          "proxy_court_m": [
+            0.736,
+            2.77
+          ],
+          "image_difference_px": 14.366,
+          "court_difference_m": 0.335
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            570.5
+          ],
+          "box_bottom_px": [
+            690.9,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6783,
+            1.8304
+          ],
+          "proxy_court_m": [
+            4.627,
+            1.524
+          ],
+          "image_difference_px": 13.346,
+          "court_difference_m": 0.311
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            690.7,
+            332.8
+          ],
+          "box_bottom_px": [
+            692.35,
+            339.6
+          ],
+          "manual_court_m": [
+            4.722,
+            8.3795
+          ],
+          "proxy_court_m": [
+            4.739,
+            8.17
+          ],
+          "image_difference_px": 6.997,
+          "court_difference_m": 0.21
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            834.7,
+            328.2
+          ],
+          "box_bottom_px": [
+            831.55,
+            330.5
+          ],
+          "manual_court_m": [
+            6.4404,
+            8.5225
+          ],
+          "proxy_court_m": [
+            6.4,
+            8.451
+          ],
+          "image_difference_px": 3.9,
+          "court_difference_m": 0.082
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            467.7
+          ],
+          "box_bottom_px": [
+            887.75,
+            481.5
+          ],
+          "manual_court_m": [
+            6.849,
+            4.4742
+          ],
+          "proxy_court_m": [
+            6.834,
+            4.103
+          ],
+          "image_difference_px": 13.807,
+          "court_difference_m": 0.372
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            503.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            504.95,
+            347.8
+          ],
+          "manual_court_m": [
+            2.4937,
+            8.3795
+          ],
+          "proxy_court_m": [
+            2.524,
+            7.916
+          ],
+          "image_difference_px": 15.09,
+          "court_difference_m": 0.464
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.125,
+        "convex_hull_area_m2": 29.852,
+        "centroid_dispersion_m": 3.441
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.131,
+        "convex_hull_area_m2": 29.433,
+        "centroid_dispersion_m": 3.45
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.006,
+        "convex_hull_area_m2": -0.419,
+        "centroid_dispersion_m": 0.009
+      }
+    },
+    {
+      "source_frame": 36095,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            318.2,
+            520.7
+          ],
+          "box_bottom_px": [
+            328.3,
+            532.4
+          ],
+          "manual_court_m": [
+            0.6183,
+            3.0785
+          ],
+          "proxy_court_m": [
+            0.745,
+            2.78
+          ],
+          "image_difference_px": 15.456,
+          "court_difference_m": 0.324
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            571.0
+          ],
+          "box_bottom_px": [
+            691.05,
+            583.1
+          ],
+          "manual_court_m": [
+            4.6781,
+            1.8181
+          ],
+          "proxy_court_m": [
+            4.629,
+            1.524
+          ],
+          "image_difference_px": 12.825,
+          "court_difference_m": 0.298
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            693.0,
+            328.7
+          ],
+          "box_bottom_px": [
+            693.95,
+            337.3
+          ],
+          "manual_court_m": [
+            4.7512,
+            8.5069
+          ],
+          "proxy_court_m": [
+            4.758,
+            8.239
+          ],
+          "image_difference_px": 8.652,
+          "court_difference_m": 0.268
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            832.5,
+            325.9
+          ],
+          "box_bottom_px": [
+            833.3,
+            332.4
+          ],
+          "manual_court_m": [
+            6.4172,
+            8.5942
+          ],
+          "proxy_court_m": [
+            6.418,
+            8.391
+          ],
+          "image_difference_px": 6.549,
+          "court_difference_m": 0.203
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            887.3,
+            469.9
+          ],
+          "box_bottom_px": [
+            888.8,
+            484.3
+          ],
+          "manual_court_m": [
+            6.8458,
+            4.4148
+          ],
+          "proxy_court_m": [
+            6.842,
+            4.029
+          ],
+          "image_difference_px": 14.478,
+          "court_difference_m": 0.386
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            507.9,
+            332.8
+          ],
+          "box_bottom_px": [
+            503.9,
+            348.5
+          ],
+          "manual_court_m": [
+            2.5484,
+            8.3795
+          ],
+          "proxy_court_m": [
+            2.513,
+            7.898
+          ],
+          "image_difference_px": 16.202,
+          "court_difference_m": 0.483
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.163,
+        "convex_hull_area_m2": 29.994,
+        "centroid_dispersion_m": 3.474
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.14,
+        "convex_hull_area_m2": 29.486,
+        "centroid_dispersion_m": 3.46
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.023,
+        "convex_hull_area_m2": -0.508,
+        "centroid_dispersion_m": -0.014
+      }
+    },
+    {
+      "source_frame": 36097,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            313.6,
+            518.4
+          ],
+          "box_bottom_px": [
+            327.1,
+            533.0
+          ],
+          "manual_court_m": [
+            0.5648,
+            3.1376
+          ],
+          "proxy_court_m": [
+            0.733,
+            2.766
+          ],
+          "image_difference_px": 19.885,
+          "court_difference_m": 0.408
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            695.3,
+            568.7
+          ],
+          "box_bottom_px": [
+            691.1,
+            582.4
+          ],
+          "manual_court_m": [
+            4.679,
+            1.8745
+          ],
+          "proxy_court_m": [
+            4.63,
+            1.541
+          ],
+          "image_difference_px": 14.329,
+          "court_difference_m": 0.337
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            702.2,
+            326.4
+          ],
+          "box_bottom_px": [
+            701.05,
+            333.2
+          ],
+          "manual_court_m": [
+            4.862,
+            8.5786
+          ],
+          "proxy_court_m": [
+            4.845,
+            8.368
+          ],
+          "image_difference_px": 6.897,
+          "court_difference_m": 0.211
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            323.7
+          ],
+          "box_bottom_px": [
+            833.15,
+            335.9
+          ],
+          "manual_court_m": [
+            6.3927,
+            8.663
+          ],
+          "proxy_court_m": [
+            6.412,
+            8.285
+          ],
+          "image_difference_px": 12.552,
+          "court_difference_m": 0.379
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            898.7,
+            469.9
+          ],
+          "box_bottom_px": [
+            891.0,
+            488.2
+          ],
+          "manual_court_m": [
+            6.9722,
+            4.4148
+          ],
+          "proxy_court_m": [
+            6.861,
+            3.926
+          ],
+          "image_difference_px": 19.854,
+          "court_difference_m": 0.501
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            507.9,
+            330.5
+          ],
+          "box_bottom_px": [
+            504.3,
+            348.4
+          ],
+          "manual_court_m": [
+            2.5468,
+            8.4509
+          ],
+          "proxy_court_m": [
+            2.517,
+            7.901
+          ],
+          "image_difference_px": 18.258,
+          "court_difference_m": 0.551
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.211,
+        "convex_hull_area_m2": 30.661,
+        "centroid_dispersion_m": 3.509
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.16,
+        "convex_hull_area_m2": 29.75,
+        "centroid_dispersion_m": 3.481
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.051,
+        "convex_hull_area_m2": -0.911,
+        "centroid_dispersion_m": -0.029
+      }
+    },
+    {
+      "source_frame": 36098,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            322.7,
+            512.9
+          ],
+          "box_bottom_px": [
+            326.15,
+            533.3
+          ],
+          "manual_court_m": [
+            0.6548,
+            3.2795
+          ],
+          "proxy_court_m": [
+            0.723,
+            2.756
+          ],
+          "image_difference_px": 20.69,
+          "court_difference_m": 0.528
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            690.7,
+            572.3
+          ],
+          "box_bottom_px": [
+            691.0,
+            581.1
+          ],
+          "manual_court_m": [
+            4.6291,
+            1.7864
+          ],
+          "proxy_court_m": [
+            4.629,
+            1.571
+          ],
+          "image_difference_px": 8.805,
+          "court_difference_m": 0.215
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            709.0,
+            327.8
+          ],
+          "box_bottom_px": [
+            703.6,
+            333.2
+          ],
+          "manual_court_m": [
+            4.9423,
+            8.5349
+          ],
+          "proxy_court_m": [
+            4.875,
+            8.367
+          ],
+          "image_difference_px": 7.637,
+          "court_difference_m": 0.181
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            323.7
+          ],
+          "box_bottom_px": [
+            833.5,
+            337.4
+          ],
+          "manual_court_m": [
+            6.3927,
+            8.663
+          ],
+          "proxy_court_m": [
+            6.414,
+            8.236
+          ],
+          "image_difference_px": 14.092,
+          "court_difference_m": 0.428
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            894.2,
+            472.2
+          ],
+          "box_bottom_px": [
+            891.8,
+            488.4
+          ],
+          "manual_court_m": [
+            6.9189,
+            4.3529
+          ],
+          "proxy_court_m": [
+            6.869,
+            3.919
+          ],
+          "image_difference_px": 16.377,
+          "court_difference_m": 0.437
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            512.5,
+            335.1
+          ],
+          "box_bottom_px": [
+            506.85,
+            348.1
+          ],
+          "manual_court_m": [
+            2.6047,
+            8.3082
+          ],
+          "proxy_court_m": [
+            2.547,
+            7.909
+          ],
+          "image_difference_px": 14.175,
+          "court_difference_m": 0.403
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.147,
+        "convex_hull_area_m2": 29.784,
+        "centroid_dispersion_m": 3.467
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.146,
+        "convex_hull_area_m2": 29.614,
+        "centroid_dispersion_m": 3.472
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.0,
+        "convex_hull_area_m2": -0.171,
+        "centroid_dispersion_m": 0.005
+      }
+    },
+    {
+      "source_frame": 36099,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            322.7,
+            517.9
+          ],
+          "box_bottom_px": [
+            326.25,
+            532.8
+          ],
+          "manual_court_m": [
+            0.6626,
+            3.1505
+          ],
+          "proxy_court_m": [
+            0.724,
+            2.77
+          ],
+          "image_difference_px": 15.317,
+          "court_difference_m": 0.385
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            693.0,
+            570.5
+          ],
+          "box_bottom_px": [
+            690.45,
+            579.8
+          ],
+          "manual_court_m": [
+            4.654,
+            1.8304
+          ],
+          "proxy_court_m": [
+            4.624,
+            1.605
+          ],
+          "image_difference_px": 9.643,
+          "court_difference_m": 0.227
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            711.3,
+            332.8
+          ],
+          "box_bottom_px": [
+            706.15,
+            335.7
+          ],
+          "manual_court_m": [
+            4.9669,
+            8.3795
+          ],
+          "proxy_court_m": [
+            4.904,
+            8.291
+          ],
+          "image_difference_px": 5.91,
+          "court_difference_m": 0.109
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            323.7
+          ],
+          "box_bottom_px": [
+            834.55,
+            338.1
+          ],
+          "manual_court_m": [
+            6.3927,
+            8.663
+          ],
+          "proxy_court_m": [
+            6.425,
+            8.215
+          ],
+          "image_difference_px": 15.043,
+          "court_difference_m": 0.449
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            894.2,
+            469.9
+          ],
+          "box_bottom_px": [
+            892.0,
+            488.2
+          ],
+          "manual_court_m": [
+            6.9223,
+            4.4148
+          ],
+          "proxy_court_m": [
+            6.871,
+            3.926
+          ],
+          "image_difference_px": 18.432,
+          "court_difference_m": 0.492
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            507.9,
+            335.1
+          ],
+          "box_bottom_px": [
+            508.3,
+            347.5
+          ],
+          "manual_court_m": [
+            2.5501,
+            8.3082
+          ],
+          "proxy_court_m": [
+            2.564,
+            7.928
+          ],
+          "image_difference_px": 12.406,
+          "court_difference_m": 0.38
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.13,
+        "convex_hull_area_m2": 29.861,
+        "centroid_dispersion_m": 3.45
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.118,
+        "convex_hull_area_m2": 29.333,
+        "centroid_dispersion_m": 3.452
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.012,
+        "convex_hull_area_m2": -0.527,
+        "centroid_dispersion_m": 0.002
+      }
+    },
+    {
+      "source_frame": 36100,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            322.7,
+            517.5
+          ],
+          "box_bottom_px": [
+            326.75,
+            530.4
+          ],
+          "manual_court_m": [
+            0.662,
+            3.1608
+          ],
+          "proxy_court_m": [
+            0.726,
+            2.83
+          ],
+          "image_difference_px": 13.521,
+          "court_difference_m": 0.337
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            686.4,
+            567.9
+          ],
+          "box_bottom_px": [
+            689.2,
+            578.5
+          ],
+          "manual_court_m": [
+            4.5852,
+            1.8941
+          ],
+          "proxy_court_m": [
+            4.611,
+            1.635
+          ],
+          "image_difference_px": 10.964,
+          "court_difference_m": 0.26
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            711.3,
+            332.3
+          ],
+          "box_bottom_px": [
+            707.5,
+            336.5
+          ],
+          "manual_court_m": [
+            4.9672,
+            8.395
+          ],
+          "proxy_court_m": [
+            4.92,
+            8.264
+          ],
+          "image_difference_px": 5.664,
+          "court_difference_m": 0.139
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            834.7,
+            323.7
+          ],
+          "box_bottom_px": [
+            833.8,
+            338.6
+          ],
+          "manual_court_m": [
+            6.4464,
+            8.663
+          ],
+          "proxy_court_m": [
+            6.416,
+            8.201
+          ],
+          "image_difference_px": 14.927,
+          "court_difference_m": 0.463
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            894.2,
+            469.9
+          ],
+          "box_bottom_px": [
+            892.0,
+            488.5
+          ],
+          "manual_court_m": [
+            6.9223,
+            4.4148
+          ],
+          "proxy_court_m": [
+            6.871,
+            3.918
+          ],
+          "image_difference_px": 18.73,
+          "court_difference_m": 0.499
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            510.2,
+            332.8
+          ],
+          "box_bottom_px": [
+            505.85,
+            346.6
+          ],
+          "manual_court_m": [
+            2.5758,
+            8.3795
+          ],
+          "proxy_court_m": [
+            2.534,
+            7.953
+          ],
+          "image_difference_px": 14.469,
+          "court_difference_m": 0.428
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.13,
+        "convex_hull_area_m2": 29.849,
+        "centroid_dispersion_m": 3.45
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.102,
+        "convex_hull_area_m2": 29.219,
+        "centroid_dispersion_m": 3.44
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.029,
+        "convex_hull_area_m2": -0.63,
+        "centroid_dispersion_m": -0.01
+      }
+    },
+    {
+      "source_frame": 36101,
+      "players": [
+        {
+          "stored_slot": "28",
+          "raw_track_id": 1,
+          "shoe_midpoint_px": [
+            329.6,
+            517.5
+          ],
+          "box_bottom_px": [
+            328.35,
+            529.1
+          ],
+          "manual_court_m": [
+            0.7367,
+            3.1608
+          ],
+          "proxy_court_m": [
+            0.741,
+            2.863
+          ],
+          "image_difference_px": 11.667,
+          "court_difference_m": 0.298
+        },
+        {
+          "stored_slot": "12",
+          "raw_track_id": 3,
+          "shoe_midpoint_px": [
+            684.4,
+            568.5
+          ],
+          "box_bottom_px": [
+            686.1,
+            578.9
+          ],
+          "manual_court_m": [
+            4.5638,
+            1.8794
+          ],
+          "proxy_court_m": [
+            4.578,
+            1.625
+          ],
+          "image_difference_px": 10.538,
+          "court_difference_m": 0.255
+        },
+        {
+          "stored_slot": "15",
+          "raw_track_id": 6,
+          "shoe_midpoint_px": [
+            711.3,
+            334.6
+          ],
+          "box_bottom_px": [
+            707.05,
+            338.1
+          ],
+          "manual_court_m": [
+            4.9659,
+            8.3237
+          ],
+          "proxy_court_m": [
+            4.914,
+            8.216
+          ],
+          "image_difference_px": 5.506,
+          "court_difference_m": 0.12
+        },
+        {
+          "stored_slot": "7",
+          "raw_track_id": 9,
+          "shoe_midpoint_px": [
+            830.2,
+            321.4
+          ],
+          "box_bottom_px": [
+            834.5,
+            337.3
+          ],
+          "manual_court_m": [
+            6.3957,
+            8.7351
+          ],
+          "proxy_court_m": [
+            6.426,
+            8.241
+          ],
+          "image_difference_px": 16.471,
+          "court_difference_m": 0.495
+        },
+        {
+          "stored_slot": "19",
+          "raw_track_id": 10,
+          "shoe_midpoint_px": [
+            898.7,
+            479.1
+          ],
+          "box_bottom_px": [
+            892.45,
+            488.6
+          ],
+          "manual_court_m": [
+            6.9584,
+            4.1679
+          ],
+          "proxy_court_m": [
+            6.875,
+            3.914
+          ],
+          "image_difference_px": 11.372,
+          "court_difference_m": 0.267
+        },
+        {
+          "stored_slot": "21",
+          "raw_track_id": 13,
+          "shoe_midpoint_px": [
+            510.2,
+            330.5
+          ],
+          "box_bottom_px": [
+            505.25,
+            343.6
+          ],
+          "manual_court_m": [
+            2.5742,
+            8.4509
+          ],
+          "proxy_court_m": [
+            2.525,
+            8.048
+          ],
+          "image_difference_px": 14.004,
+          "court_difference_m": 0.406
+        }
+      ],
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.156,
+        "convex_hull_area_m2": 30.252,
+        "centroid_dispersion_m": 3.474
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.113,
+        "convex_hull_area_m2": 29.358,
+        "centroid_dispersion_m": 3.448
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": -0.043,
+        "convex_hull_area_m2": -0.893,
+        "centroid_dispersion_m": -0.026
+      }
+    }
+  ],
+  "summary": {
+    "reviewed_frames": 30,
+    "reviewed_player_slots": 180,
+    "image_position_difference_px": {
+      "median": 11.738,
+      "minimum": 2.171,
+      "maximum": 23.555
+    },
+    "court_position_difference_m": {
+      "median": 0.3,
+      "minimum": 0.054,
+      "maximum": 0.551
+    },
+    "proxy_minus_manual_team_metric": {
+      "mean_pairwise_spacing_m": {
+        "median": 0.004,
+        "minimum": -0.051,
+        "maximum": 0.114
+      },
+      "convex_hull_area_m2": {
+        "median": -0.256,
+        "minimum": -0.911,
+        "maximum": 0.842
+      },
+      "centroid_dispersion_m": {
+        "median": 0.007,
+        "minimum": -0.029,
+        "maximum": 0.076
+      }
+    }
+  },
+  "strict_metric_approval": false
+}

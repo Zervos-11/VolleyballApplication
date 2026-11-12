@@ -1,0 +1,79 @@
+{
+  "status": "source_only_selected_before_detector_review",
+  "selection_date_local": "2026-11-06",
+  "rule": "First new serve at or after the 05:00 source timestamp; retain the point even if tracking or source boundaries fail.",
+  "source_window_note": "Excerpt downloads requested nominal source 04:55\u201305:55. Local frame numbers refer to the downloaded excerpts; exact global frame alignment is not yet verified against a full source download.",
+  "cases": [
+    {
+      "match_id": "yt_-siJXMXKcbo",
+      "source_url": "https://www.youtube.com/watch?v=-siJXMXKcbo",
+      "local_excerpt": "data/processed/source_view_screen/princeton_selection.mp4",
+      "local_excerpt_sha256": "3c0ab9a608db8f45c78b481402f0f7bbe633556cda0c2eab1477fc88040adfaf",
+      "excerpt_fps": 60,
+      "near_side_team_source_read": "Princeton, black uniforms with orange libero",
+      "serve_team_source_read": "Princeton, near side",
+      "serve_contact_clip_frame_bracket": [
+        300,
+        330
+      ],
+      "last_live_contact_or_end_clip_frame_bracket": [
+        750,
+        780
+      ],
+      "screen_interval_clip_frames_inclusive": [
+        270,
+        810
+      ],
+      "source_review_status": "coarse_brackets_from_unboxed_half_second_sheets; exact events and six-player roster pending",
+      "visible_cut_within_selected_point": "none_seen_in_sampled_source_frames; continuous-frame review pending"
+    },
+    {
+      "match_id": "yt__BOwnLLVaPs",
+      "source_url": "https://www.youtube.com/watch?v=_BOwnLLVaPs",
+      "local_excerpt": "data/processed/source_view_screen/pepperdine_selection.mp4",
+      "local_excerpt_sha256": "5e012eaa4f29e137ce2ec3c2aa42fa00c57d76e293ca34b67136e8a3e5f673aa",
+      "excerpt_fps": 30,
+      "near_side_team_source_read": "USC, white uniforms with red libero",
+      "serve_team_source_read": "Pepperdine, far side",
+      "serve_contact_clip_frame_bracket": [
+        300,
+        330
+      ],
+      "last_live_contact_or_end_clip_frame_bracket": [
+        510,
+        525
+      ],
+      "screen_interval_clip_frames_inclusive": [
+        270,
+        555
+      ],
+      "source_review_status": "coarse_brackets_from_unboxed_half_second_sheets; exact events and six-player roster pending",
+      "visible_cut_within_selected_point": "none_seen_in_sampled_source_frames; continuous-frame review pending"
+    },
+    {
+      "match_id": "yt_b1bJ5WN05Qw",
+      "source_url": "https://www.youtube.com/watch?v=b1bJ5WN05Qw",
+      "local_excerpt": "data/processed/source_view_screen/usc_byu_selection.mp4",
+      "local_excerpt_sha256": "873de902460784652506226a5adbc4725e0be0f178c07178e66c1a6c6932ab45",
+      "excerpt_fps": 30,
+      "near_side_team_source_read": "BYU, dark navy jerseys with blue libero",
+      "serve_team_source_read": "source-reviewed serve team pending; first new serve after 05:00 is bracketed",
+      "serve_contact_clip_frame_bracket": [
+        690,
+        750
+      ],
+      "last_live_contact_or_end_clip_frame_bracket": [
+        870,
+        900
+      ],
+      "screen_interval_clip_frames_inclusive": [
+        660,
+        930
+      ],
+      "source_review_status": "coarse source-only brackets from one-second sheets; exact serve and end pending",
+      "visible_cut_within_selected_point": "none_seen_in_sampled_source_frames; continuous-frame review pending"
+    }
+  ],
+  "addendum_note": "The third USC?BYU case was added on 6 November 2026 from source-only inspection before its detector screen. The original two-case frozen selection remains unchanged and hash-bound. Excerpt is nominal source 04:55?05:55; frame numbers refer to local excerpt.",
+  "original_selection_sha256": "e753eabebacad861c973a9a7b185ba19dec6269df7f2b71f93fb8894e0453bbf"
+}

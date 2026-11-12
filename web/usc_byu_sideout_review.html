@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>USC–BYU side-out source review</title>
+<style>
+body{font:15px system-ui,sans-serif;background:#111b25;color:#eef5f8;margin:0;padding:12px}
+h1{font-size:21px;margin:0 0 8px}.bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:7px 0}
+button,input,select{font:inherit}button{padding:6px 9px;cursor:pointer}input[type=range]{width:min(60vw,600px)}input[type=number]{width:75px}
+img{display:block;width:auto;max-width:100%;height:auto;max-height:59vh;object-fit:contain;background:#080c10;border:1px solid #627789}
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:7px;margin:8px 0}.event{background:#20313d;border:1px solid #516778;padding:8px}
+.event strong{display:block}.event .bar{margin:4px 0}.mark{color:#b6dbef}#status{min-height:22px;color:#aeeab6}
+input[type=text]{width:85px}a{color:#a8dcff}
+</style></head><body>
+<h1>USC–BYU side-out: unboxed source review</h1>
+<div class="bar"><button id="prev10">−10</button><button id="prev">−1</button><input id="slider" type="range" min="0" max="359" value="0"><button id="next">+1</button><button id="next10">+10</button><label>Frame <input id="frame" type="number" min="0" max="359" value="0"></label><span id="time"></span></div>
+<img id="source" alt="Unboxed USC–BYU source frame"><div><a id="full" target="_blank" rel="noopener">Open full-size frame</a> · <a href="/usc-byu-sideout-clip" target="_blank" rel="noopener">Play 12-second clip</a></div>
+<div class="events" id="events"></div>
+<div class="bar"><label>USC served <select id="served"><option value="">Uncertain</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+<label>BYU won <select id="won"><option value="">Uncertain</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+<label>Score before BYU–USC <input id="before" type="text" placeholder="17–19"></label><label>After <input id="after" type="text" placeholder="18–19"></label></div>
+<div class="bar"><label>Reviewer <input id="reviewer" type="text" value="MZ"></label><label><input id="checked" type="checkbox"> I checked the unboxed source clip</label><button id="save">Save review</button></div>
+<div><label>Notes <input id="note" type="text" style="width:min(90vw,700px)" placeholder="Unclear contact or point-ending details"></label></div>
+<div id="status"></div>
+<script>
+'use strict';const $=id=>document.getElementById(id),API='/api/usc-byu-sideout-review';
+const names=[['serve','USC serve contact'],['reception','BYU reception contact'],['set','BYU set contact'],['attack','First BYU attack contact'],['point_end','Point-ending event']];
+let state,frame=0,marks={},timer;for(const [key] of names)marks[key]=[null,null];
+function status(s,bad=false){$('status').textContent=s;$('status').style.color=bad?'#ff9f9f':'#aeeab6'}
+function renderMarks(){for(const [key] of names){const [a,b]=marks[key];$(key+'Value').textContent=a===null?'Unmarked':`${a} to ${b===null?'?':b}`}}
+function setFrame(n){frame=Math.max(0,Math.min(359,Number(n)||0));$('slider').value=frame;$('frame').value=frame;
+ $('time').textContent=`Clip ${ (frame/30).toFixed(3)} s · nominal video ${(451+frame/30).toFixed(3)} s`;
+ $('full').href=`${API}/frame/${frame}`;clearTimeout(timer);timer=setTimeout(()=>{$('source').src=`${API}/frame/${frame}`},65)}
+for(const [key,label] of names){const box=document.createElement('div');box.className='event';box.innerHTML=`<strong>${label}</strong><div class="bar"><button data-kind="exact">Exact</button><button data-kind="first">First possible</button><button data-kind="last">Last possible</button><button data-kind="clear">Clear</button></div><span class="mark" id="${key}Value"></span>`;
+ for(const b of box.querySelectorAll('button'))b.onclick=()=>{const kind=b.dataset.kind;if(kind==='exact')marks[key]=[frame,frame];else if(kind==='first')marks[key][0]=frame;else if(kind==='last')marks[key][1]=frame;else marks[key]=[null,null];renderMarks()};$('events').append(box)}
+for(const [id,step] of [['prev10',-10],['prev',-1],['next',1],['next10',10]])$(id).onclick=()=>setFrame(frame+step);
+$('slider').oninput=()=>setFrame($('slider').value);$('frame').onchange=()=>setFrame($('frame').value);
+document.addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||['INPUT','SELECT','TEXTAREA','BUTTON'].includes(e.target?.tagName))return;if(e.key==='ArrowLeft')setFrame(frame-(e.shiftKey?10:1));if(e.key==='ArrowRight')setFrame(frame+(e.shiftKey?10:1))});
+const tri=id=>$(id).value==='yes'?true:$(id).value==='no'?false:null;
+$('save').onclick=async()=>{try{if(!$('checked').checked)throw Error('Check the unboxed source clip first');const body={expected_revision:state.draft.revision,reviewer_code:$('reviewer').value.trim(),checked_unboxed_source:true,usc_served:tri('served'),byu_won:tri('won'),score_before:$('before').value.trim(),score_after:$('after').value.trim(),note:$('note').value.trim()};
+ for(const [key] of names)body[key]=marks[key].every(Number.isInteger)?marks[key]:null;
+ const r=await fetch(API,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),d=await r.json();if(!r.ok){const m=Array.isArray(d.detail)?d.detail.map(x=>x.msg).join('; '):d.detail;throw Error(m||`HTTP ${r.status}`)}state.draft=d.draft;status('Saved review revision '+d.draft.revision)}catch(e){status('Save failed: '+e.message,true)}};
+fetch(API).then(r=>r.json()).then(d=>{state=d;const v=d.draft.verdict;if(v){$('reviewer').value=v.reviewer_code;$('checked').checked=v.checked_unboxed_source;$('served').value=v.usc_served===true?'yes':v.usc_served===false?'no':'';$('won').value=v.byu_won===true?'yes':v.byu_won===false?'no':'';$('before').value=v.score_before;$('after').value=v.score_after;$('note').value=v.note;for(const [key] of names)marks[key]=v[key]||[null,null]}renderMarks();setFrame(90);status(v?'Saved review loaded':'Review source events; leave an unobservable contact blank')}).catch(e=>status('Load failed: '+e.message,true));
+</script></body></html>

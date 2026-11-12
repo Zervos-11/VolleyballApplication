@@ -1,0 +1,117 @@
+{
+  "status": "all_sampled_run_frames_source_review_pack",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "run_audit_sha256": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+  "entries": [
+    {
+      "set": 1,
+      "point_number": 6,
+      "path": "s1_p06.jpg",
+      "sha256": "d798ac94859f73eac9ce446d0f9e689b777cd311b91702618e690ca80cbbf9b4",
+      "source_frames": [
+        1752,
+        1758,
+        1764,
+        1770,
+        1776
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "path": "s1_p34.jpg",
+      "sha256": "77b78ac164c979ada366b9aaebadfbab438edc9e1f030feb304166fb65687626",
+      "source_frames": [
+        9690,
+        9696,
+        9702,
+        9708,
+        9714,
+        9720,
+        9726
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "path": "s1_p37.jpg",
+      "sha256": "1120457b7c7df36bdfd3d57bc78e3c3b6efd0704e5cbbca42cd4a5ff5e9719bf",
+      "source_frames": [
+        10476,
+        10482,
+        10488,
+        10494,
+        10500,
+        10506,
+        10512,
+        10518,
+        10524,
+        10530
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "path": "s2_p02.jpg",
+      "sha256": "b93cc8d541319a6826df8e795e63f1e63928d24b9cb09ad0178fdd896703f4f6",
+      "source_frames": [
+        12294,
+        12300,
+        12306,
+        12312,
+        12318,
+        12324,
+        12330,
+        12336
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "path": "s2_p06.jpg",
+      "sha256": "4a3942aab6b0611e2a01359e84820669700d8cb0cb6a4576fe7dcb99f7fd4bf3",
+      "source_frames": [
+        13548,
+        13554,
+        13560,
+        13566,
+        13572,
+        13578,
+        13584
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "path": "s2_p26.jpg",
+      "sha256": "1ff81369a88405963ee6db174a3da843a2d58396aa14d68f8b99c2bd0572da7e",
+      "source_frames": [
+        18894,
+        18900,
+        18906,
+        18912,
+        18918,
+        18924,
+        18930
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "path": "s3_p34.jpg",
+      "sha256": "7e47dace710b4ce7f0d0dbbddaa1b9aecfacb54aa95d85f1d0cb7b63859cf8c6",
+      "source_frames": [
+        36054,
+        36060,
+        36066,
+        36072,
+        36078,
+        36084,
+        36090,
+        36096,
+        36102
+      ]
+    }
+  ]
+}

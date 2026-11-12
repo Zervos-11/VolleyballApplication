@@ -1,0 +1,233 @@
+{
+  "status": "one_reviewer_matched_window_pilot_not_final_outcome_analysis",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "motion": "8eda6f907760b619d3e40229df4d2cda300e6006661cef64334e8c94ae264e03",
+    "original_tracks": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+    "highres_tracks": "4fc4176419a759cb7a14fea1877d6bc406394e6b082e95d4ac3ed2b196a11053",
+    "initial_pack": "30751410baa03f2c089fd8a521c5ef6f9a3532a8489b5faedf3880f84dbafd18",
+    "revised_pack": "f6bf6d05ee745045f168827f664195d57d12dbe82069cd5fa396c3b580955444"
+  },
+  "primary_selection_rule": "First five consecutive 5 Hz samples of the longest exact-six-ID run, for set-three point 13 (win) and point 34 (loss), selected before frame-level ground adjudication; equal 0.8 s spans.",
+  "revised_selection_rule": "Revised exploratory phase candidate: five consecutive 5 Hz frames ending near observed opponent front-court action in each point; this revision follows the first-window failure, and cannot support a prespecified outcome test.",
+  "summary": {
+    "primary_windows": 2,
+    "revised_windows": 2,
+    "samples_per_window": 5,
+    "duration_s": 0.8,
+    "image_plane_box_centre_candidate_frames_per_window": 5,
+    "strict_eligible_windows": 0,
+    "strict_eligible_metric_frames": 0
+  },
+  "windows": [
+    {
+      "pilot": "initial",
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frames": [
+        29881,
+        29887,
+        29893,
+        29899,
+        29905
+      ],
+      "duration_s": 0.8,
+      "source_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "phase_review": "near_side_attack_followed_by_far_side_scramble",
+      "ground_contact_gate": "failed",
+      "frame_notes": [
+        {
+          "source_frame": 29881,
+          "note": "UCLA raw ID 2 has both shoes visibly above the floor."
+        },
+        {
+          "source_frame": 29887,
+          "note": "Raw ID 2 is landing or striding; box bottom is not a checked contact."
+        },
+        {
+          "source_frame": 29893,
+          "note": "Raw ID 2 is moving rapidly; box bottom is not a checked contact."
+        },
+        {
+          "source_frame": 29899,
+          "note": "Raw ID 2 is in a fast lateral step with uncertain support foot."
+        },
+        {
+          "source_frame": 29905,
+          "note": "One shoe of raw ID 2 appears planted, but six ground anchors are not certified."
+        }
+      ],
+      "provisional_box_bottom_medians": {
+        "mean_pairwise_spacing_m": 3.805,
+        "convex_hull_area_m2": 15.477,
+        "centroid_dispersion_m": 2.489
+      },
+      "image_plane_box_centre_candidate_frames": 5,
+      "image_plane_box_centre_medians": {
+        "mean_pairwise_spacing_px": 236.2,
+        "convex_hull_area_px2": 50344.3,
+        "centroid_dispersion_px": 151.6
+      },
+      "strict_eligible_metric_frames": 0,
+      "source_pack": "matched_window_pilot/index.json"
+    },
+    {
+      "pilot": "initial",
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frames": [
+        36054,
+        36060,
+        36066,
+        36072,
+        36078
+      ],
+      "duration_s": 0.8,
+      "source_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "phase_review": "opponent_attack_setup",
+      "ground_contact_gate": "not_certified",
+      "frame_notes": [
+        {
+          "source_frame": 36054,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36060,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36066,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36072,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36078,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        }
+      ],
+      "provisional_box_bottom_medians": {
+        "mean_pairwise_spacing_m": 4.831,
+        "convex_hull_area_m2": 26.15,
+        "centroid_dispersion_m": 3.264
+      },
+      "image_plane_box_centre_candidate_frames": 5,
+      "image_plane_box_centre_medians": {
+        "mean_pairwise_spacing_px": 284.2,
+        "convex_hull_area_px2": 80796.6,
+        "centroid_dispersion_px": 183.7
+      },
+      "strict_eligible_metric_frames": 0,
+      "source_pack": "matched_window_pilot/index.json"
+    },
+    {
+      "pilot": "revised_phase",
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frames": [
+        29917,
+        29923,
+        29929,
+        29935,
+        29941
+      ],
+      "duration_s": 0.8,
+      "source_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "phase_review": "opponent_attack_setup_candidate",
+      "ground_contact_gate": "uncertain",
+      "frame_notes": [
+        {
+          "source_frame": 29917,
+          "note": "All six near-side boxes appear; fast lateral footwork or overlap leaves box-bottom ground contact unverified."
+        },
+        {
+          "source_frame": 29923,
+          "note": "All six near-side boxes appear; fast lateral footwork or overlap leaves box-bottom ground contact unverified."
+        },
+        {
+          "source_frame": 29929,
+          "note": "All six near-side boxes appear; fast lateral footwork or overlap leaves box-bottom ground contact unverified."
+        },
+        {
+          "source_frame": 29935,
+          "note": "All six near-side boxes appear; fast lateral footwork or overlap leaves box-bottom ground contact unverified."
+        },
+        {
+          "source_frame": 29941,
+          "note": "All six near-side boxes appear; fast lateral footwork or overlap leaves box-bottom ground contact unverified."
+        }
+      ],
+      "provisional_box_bottom_medians": {
+        "mean_pairwise_spacing_m": 4.427,
+        "convex_hull_area_m2": 21.575,
+        "centroid_dispersion_m": 2.98
+      },
+      "image_plane_box_centre_candidate_frames": 5,
+      "image_plane_box_centre_medians": {
+        "mean_pairwise_spacing_px": 260.1,
+        "convex_hull_area_px2": 64819.8,
+        "centroid_dispersion_px": 167.5
+      },
+      "strict_eligible_metric_frames": 0,
+      "source_pack": "matched_window_pilot_phase/index.json"
+    },
+    {
+      "pilot": "revised_phase",
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frames": [
+        36054,
+        36060,
+        36066,
+        36072,
+        36078
+      ],
+      "duration_s": 0.8,
+      "source_team_membership": "six_correct_near_side_teammates_each_sampled_frame",
+      "phase_review": "opponent_attack_setup_candidate",
+      "ground_contact_gate": "not_certified",
+      "frame_notes": [
+        {
+          "source_frame": 36054,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36060,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36066,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36072,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        },
+        {
+          "source_frame": 36078,
+          "note": "Six near-side boxes are visible; plausible shoe contact does not validate each box-bottom anchor."
+        }
+      ],
+      "provisional_box_bottom_medians": {
+        "mean_pairwise_spacing_m": 4.831,
+        "convex_hull_area_m2": 26.15,
+        "centroid_dispersion_m": 3.264
+      },
+      "image_plane_box_centre_candidate_frames": 5,
+      "image_plane_box_centre_medians": {
+        "mean_pairwise_spacing_px": 284.2,
+        "convex_hull_area_px2": 80796.6,
+        "centroid_dispersion_px": 183.7
+      },
+      "strict_eligible_metric_frames": 0,
+      "source_pack": "matched_window_pilot_phase/index.json"
+    }
+  ],
+  "decision": "Airborne frames remain usable as image-plane box-centre candidates; height and pose still affect pixel centres. The initially fixed windows are not phase matched. The revised opponent-attack candidates are exploratory, with one point per outcome. Neither selection supports a winner association, and neither supplies certified court-floor positions for metre-valued metrics."
+}

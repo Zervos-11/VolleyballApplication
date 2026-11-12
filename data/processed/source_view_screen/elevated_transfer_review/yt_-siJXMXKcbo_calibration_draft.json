@@ -1,0 +1,77 @@
+{
+  "revision": 1,
+  "reviewer_code": "MZ",
+  "checked_unboxed_source": true,
+  "source_frame": 840,
+  "source_boxes_visible_during_review": false,
+  "landmarks": {
+    "net_left": {
+      "code": "net_left",
+      "x_px": 130.7,
+      "y_px": 365.7,
+      "status": "clicked",
+      "note": ""
+    },
+    "net_right": {
+      "code": "net_right",
+      "x_px": 820.3,
+      "y_px": 365.7,
+      "status": "clicked",
+      "note": ""
+    },
+    "baseline_left": {
+      "code": "baseline_left",
+      "x_px": 40.3,
+      "y_px": 608.8,
+      "status": "clicked",
+      "note": ""
+    },
+    "baseline_right": {
+      "code": "baseline_right",
+      "x_px": 914.9,
+      "y_px": 607.4,
+      "status": "clicked",
+      "note": ""
+    },
+    "attack_left": {
+      "code": "attack_left",
+      "x_px": 102.9,
+      "y_px": 435.2,
+      "status": "clicked",
+      "note": ""
+    },
+    "attack_right": {
+      "code": "attack_right",
+      "x_px": 845.4,
+      "y_px": 432.4,
+      "status": "clicked",
+      "note": ""
+    }
+  },
+  "check": {
+    "status": "staged_four_corner_transform",
+    "homography_image_to_court": [
+      [
+        0.021761878555335994,
+        0.008092447425598124,
+        -5.803685583096423
+      ],
+      [
+        -1.941585738330151e-18,
+        0.07869925296512172,
+        -28.780317770029253
+      ],
+      [
+        -1.1035961493456905e-05,
+        0.0018498667249666643,
+        1.0
+      ]
+    ],
+    "held_out_attack_errors_m": {
+      "attack_left": 0.0398,
+      "attack_right": 0.0695
+    },
+    "note": "Held-out line error checks selected image landmarks; it is not player-position accuracy."
+  },
+  "status": "source_reviewed_staged_calibration"
+}

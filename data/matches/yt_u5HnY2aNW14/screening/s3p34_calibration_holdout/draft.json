@@ -1,0 +1,52 @@
+{
+  "revision": 1,
+  "reviewer_code": "MZ",
+  "frames": {
+    "1422": {
+      "rows": [
+        {
+          "code": "baseline_left",
+          "status": "marked",
+          "x_px": 246.6,
+          "y_px": 644.8,
+          "note": ""
+        },
+        {
+          "code": "baseline_right",
+          "status": "marked",
+          "x_px": 1118.2,
+          "y_px": 637.9,
+          "note": ""
+        },
+        {
+          "code": "attack_left",
+          "status": "marked",
+          "x_px": 288.7,
+          "y_px": 413.1,
+          "note": ""
+        },
+        {
+          "code": "attack_right",
+          "status": "marked",
+          "x_px": 1062.4,
+          "y_px": 407.7,
+          "note": ""
+        },
+        {
+          "code": "net_left",
+          "status": "marked",
+          "x_px": 306.0,
+          "y_px": 314.7,
+          "note": ""
+        },
+        {
+          "code": "net_right",
+          "status": "marked",
+          "x_px": 1040.0,
+          "y_px": 310.3,
+          "note": ""
+        }
+      ]
+    }
+  }
+}

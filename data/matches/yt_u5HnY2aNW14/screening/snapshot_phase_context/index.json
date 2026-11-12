@@ -1,0 +1,209 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "source_frame": 1422,
+      "context_frames": [
+        1410,
+        1422,
+        1434
+      ],
+      "sheet": "sheet_1.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 1758,
+      "context_frames": [
+        1746,
+        1758,
+        1770
+      ],
+      "sheet": "sheet_1.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "source_frame": 5371,
+      "context_frames": [
+        5359,
+        5371,
+        5383
+      ],
+      "sheet": "sheet_1.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "near_team_won": true,
+      "source_frame": 7344,
+      "context_frames": [
+        7332,
+        7344,
+        7356
+      ],
+      "sheet": "sheet_1.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 9702,
+      "context_frames": [
+        9690,
+        9702,
+        9714
+      ],
+      "sheet": "sheet_2.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "near_team_won": false,
+      "source_frame": 10488,
+      "context_frames": [
+        10476,
+        10488,
+        10500
+      ],
+      "sheet": "sheet_2.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "near_team_won": false,
+      "source_frame": 12306,
+      "context_frames": [
+        12294,
+        12306,
+        12318
+      ],
+      "sheet": "sheet_2.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 13566,
+      "context_frames": [
+        13554,
+        13566,
+        13578
+      ],
+      "sheet": "sheet_2.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "near_team_won": true,
+      "source_frame": 16032,
+      "context_frames": [
+        16020,
+        16032,
+        16044
+      ],
+      "sheet": "sheet_3.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "near_team_won": false,
+      "source_frame": 18936,
+      "context_frames": [
+        18924,
+        18936,
+        18948
+      ],
+      "sheet": "sheet_3.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "source_frame": 19536,
+      "context_frames": [
+        19524,
+        19536,
+        19548
+      ],
+      "sheet": "sheet_3.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "near_team_won": true,
+      "source_frame": 22140,
+      "context_frames": [
+        22128,
+        22140,
+        22152
+      ],
+      "sheet": "sheet_3.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "near_team_won": false,
+      "source_frame": 29280,
+      "context_frames": [
+        29268,
+        29280,
+        29292
+      ],
+      "sheet": "sheet_4.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29940,
+      "context_frames": [
+        29928,
+        29940,
+        29952
+      ],
+      "sheet": "sheet_4.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "source_frame": 34122,
+      "context_frames": [
+        34110,
+        34122,
+        34134
+      ],
+      "sheet": "sheet_4.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "near_team_won": true,
+      "source_frame": 35844,
+      "context_frames": [
+        35832,
+        35844,
+        35856
+      ],
+      "sheet": "sheet_4.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36072,
+      "context_frames": [
+        36060,
+        36072,
+        36084
+      ],
+      "sheet": "sheet_5.jpg"
+    }
+  ]
+}

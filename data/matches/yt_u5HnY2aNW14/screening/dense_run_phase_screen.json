@@ -1,0 +1,554 @@
+{
+  "status": "model_phase_suggestions_not_source_reviewed",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "continuity_audit_sha256": "4417fb39caedc024c5b5abc1ddc83dd5bdf53e56216776f9665f2272678ebddf",
+  "model_weights_sha256": "801b8d1fba0f139c2f2c2e64732831b8b642b4e382c496502142bef1fec8f7dc",
+  "method": "VideoMAE 16 frames over 1-second centred clip, same preprocessing as prior transfer trial",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "run_center_frame": 1404,
+      "clip_frame_indices": [
+        1379,
+        1382,
+        1386,
+        1389,
+        1392,
+        1396,
+        1399,
+        1402,
+        1406,
+        1409,
+        1412,
+        1416,
+        1419,
+        1422,
+        1426,
+        1429
+      ],
+      "run_length_sampled_frames": 9,
+      "predicted_class": "service",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 0.0,
+        "service": 1.0
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "run_center_frame": 1764,
+      "clip_frame_indices": [
+        1739,
+        1742,
+        1746,
+        1749,
+        1752,
+        1756,
+        1759,
+        1762,
+        1766,
+        1769,
+        1772,
+        1776,
+        1779,
+        1782,
+        1786,
+        1789
+      ],
+      "run_length_sampled_frames": 5,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "run_center_frame": 5346,
+      "clip_frame_indices": [
+        5321,
+        5324,
+        5328,
+        5331,
+        5334,
+        5338,
+        5341,
+        5344,
+        5348,
+        5351,
+        5354,
+        5358,
+        5361,
+        5364,
+        5368,
+        5371
+      ],
+      "run_length_sampled_frames": 3,
+      "predicted_class": "no-play",
+      "probabilities": {
+        "no-play": 1.0,
+        "play": 0.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "run_center_frame": 7305,
+      "clip_frame_indices": [
+        7280,
+        7283,
+        7287,
+        7290,
+        7293,
+        7297,
+        7300,
+        7303,
+        7307,
+        7310,
+        7313,
+        7317,
+        7320,
+        7323,
+        7327,
+        7330
+      ],
+      "run_length_sampled_frames": 6,
+      "predicted_class": "service",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 0.0,
+        "service": 1.0
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "run_center_frame": 9708,
+      "clip_frame_indices": [
+        9683,
+        9686,
+        9690,
+        9693,
+        9696,
+        9700,
+        9703,
+        9706,
+        9710,
+        9713,
+        9716,
+        9720,
+        9723,
+        9726,
+        9730,
+        9733
+      ],
+      "run_length_sampled_frames": 7,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "run_center_frame": 10500,
+      "clip_frame_indices": [
+        10475,
+        10478,
+        10482,
+        10485,
+        10488,
+        10492,
+        10495,
+        10498,
+        10502,
+        10505,
+        10508,
+        10512,
+        10515,
+        10518,
+        10522,
+        10525
+      ],
+      "run_length_sampled_frames": 11,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "run_center_frame": 12312,
+      "clip_frame_indices": [
+        12287,
+        12290,
+        12294,
+        12297,
+        12300,
+        12304,
+        12307,
+        12310,
+        12314,
+        12317,
+        12320,
+        12324,
+        12327,
+        12330,
+        12334,
+        12337
+      ],
+      "run_length_sampled_frames": 9,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "run_center_frame": 13566,
+      "clip_frame_indices": [
+        13541,
+        13544,
+        13548,
+        13551,
+        13554,
+        13558,
+        13561,
+        13564,
+        13568,
+        13571,
+        13574,
+        13578,
+        13581,
+        13584,
+        13588,
+        13591
+      ],
+      "run_length_sampled_frames": 7,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "run_center_frame": 16089,
+      "clip_frame_indices": [
+        16064,
+        16067,
+        16071,
+        16074,
+        16077,
+        16081,
+        16084,
+        16087,
+        16091,
+        16094,
+        16097,
+        16101,
+        16104,
+        16107,
+        16111,
+        16114
+      ],
+      "run_length_sampled_frames": 6,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "run_center_frame": 18912,
+      "clip_frame_indices": [
+        18887,
+        18890,
+        18894,
+        18897,
+        18900,
+        18904,
+        18907,
+        18910,
+        18914,
+        18917,
+        18920,
+        18924,
+        18927,
+        18930,
+        18934,
+        18937
+      ],
+      "run_length_sampled_frames": 7,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "run_center_frame": 19518,
+      "clip_frame_indices": [
+        19493,
+        19496,
+        19500,
+        19503,
+        19506,
+        19510,
+        19513,
+        19516,
+        19520,
+        19523,
+        19526,
+        19530,
+        19533,
+        19536,
+        19540,
+        19543
+      ],
+      "run_length_sampled_frames": 7,
+      "predicted_class": "service",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 0.0,
+        "service": 1.0
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "run_center_frame": 22113,
+      "clip_frame_indices": [
+        22088,
+        22091,
+        22095,
+        22098,
+        22101,
+        22105,
+        22108,
+        22111,
+        22115,
+        22118,
+        22121,
+        22125,
+        22128,
+        22131,
+        22135,
+        22138
+      ],
+      "run_length_sampled_frames": 2,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "run_center_frame": 29256,
+      "clip_frame_indices": [
+        29231,
+        29234,
+        29238,
+        29241,
+        29244,
+        29248,
+        29251,
+        29254,
+        29258,
+        29261,
+        29264,
+        29268,
+        29271,
+        29274,
+        29278,
+        29281
+      ],
+      "run_length_sampled_frames": 3,
+      "predicted_class": "service",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 0.0,
+        "service": 1.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "run_center_frame": 29889,
+      "clip_frame_indices": [
+        29864,
+        29867,
+        29871,
+        29874,
+        29877,
+        29881,
+        29884,
+        29887,
+        29891,
+        29894,
+        29897,
+        29901,
+        29904,
+        29907,
+        29911,
+        29914
+      ],
+      "run_length_sampled_frames": 4,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "run_center_frame": 32784,
+      "clip_frame_indices": [
+        32759,
+        32762,
+        32766,
+        32769,
+        32772,
+        32776,
+        32779,
+        32782,
+        32786,
+        32789,
+        32792,
+        32796,
+        32799,
+        32802,
+        32806,
+        32809
+      ],
+      "run_length_sampled_frames": 1,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "run_center_frame": 34128,
+      "clip_frame_indices": [
+        34103,
+        34106,
+        34110,
+        34113,
+        34116,
+        34120,
+        34123,
+        34126,
+        34130,
+        34133,
+        34136,
+        34140,
+        34143,
+        34146,
+        34150,
+        34153
+      ],
+      "run_length_sampled_frames": 3,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "run_center_frame": 35676,
+      "clip_frame_indices": [
+        35651,
+        35654,
+        35658,
+        35661,
+        35664,
+        35668,
+        35671,
+        35674,
+        35678,
+        35681,
+        35684,
+        35688,
+        35691,
+        35694,
+        35698,
+        35701
+      ],
+      "run_length_sampled_frames": 3,
+      "predicted_class": "service",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 0.0,
+        "service": 1.0
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "run_center_frame": 36078,
+      "clip_frame_indices": [
+        36053,
+        36056,
+        36060,
+        36063,
+        36066,
+        36070,
+        36073,
+        36076,
+        36080,
+        36083,
+        36086,
+        36090,
+        36093,
+        36096,
+        36100,
+        36103
+      ],
+      "run_length_sampled_frames": 9,
+      "predicted_class": "play",
+      "probabilities": {
+        "no-play": 0.0,
+        "play": 1.0,
+        "service": 0.0
+      }
+    }
+  ],
+  "limitations": [
+    "Model was not validated on this source.",
+    "A clip can straddle a serve or dead ball.",
+    "Predictions do not validate six near players or ground positions."
+  ]
+}

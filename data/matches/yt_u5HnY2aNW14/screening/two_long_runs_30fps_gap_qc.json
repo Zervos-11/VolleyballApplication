@@ -1,0 +1,19 @@
+{
+  "review_type": "single_reviewer_source_image_check_of_every_dense_missing_frame",
+  "set": 3,
+  "point_number": 34,
+  "rows": [
+    {"source_frame": 36015, "missing_reviewed_jersey_number": "7", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36026, "missing_reviewed_jersey_number": "7", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36030, "missing_reviewed_jersey_number": "7", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36031, "missing_reviewed_jersey_number": "7", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36047, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36048, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36049, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36050, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36059, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"},
+    {"source_frame": 36060, "missing_reviewed_jersey_number": "21", "source_visibility": "visible_near_team_unboxed"}
+  ],
+  "cause": "person_detector_miss_or_neighbouring_player_overlap_not_adjudicated",
+  "note": "The missing UCLA teammate remains visible in each displayed source frame, although some are close to another blue jersey. The screen left that player's position null; it did not establish whether the detector or the tracker was primarily responsible."
+}

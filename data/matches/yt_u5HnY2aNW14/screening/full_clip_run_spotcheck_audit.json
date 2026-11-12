@@ -1,0 +1,56 @@
+{
+  "status": "bounded_spotcheck_no_obvious_transfer_not_full_rally_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "tracklet_audit": "a113447b023f7455785fa45201622e19c6d64dc9704242ef5553f8dba2fc65a3",
+    "image_manifest": "36a8de818ecb7e59f1c5be8b6283a08d299ecdc0ecff14bb7fd2a54d54f6c34c",
+    "manual_qc": "b620bc5f3ea6917778c044a041bcf55081b469a99d1419bc1f1c281fb1c19706"
+  },
+  "summary": {
+    "raw_runs_spotchecked": 2,
+    "displayed_source_frames": 6,
+    "raw_runs_with_no_obvious_transfer_at_displayed_frames": 2,
+    "wrong_team_raw_runs_rejected": 0,
+    "validated_full_rally_six_player_trajectories": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "reviewed_source_frames": [
+        1326,
+        1380,
+        1428
+      ],
+      "observed_team_membership": "six_boxes_on_near_ucla_team_at_all_three_displayed_frames",
+      "observed_identity_issue": "none_obvious_at_three_displayed_frames",
+      "exact_live_play_phase_certified": false,
+      "entire_run_identity_certified": false,
+      "court_floor_path_certified": false,
+      "note": "The three displayed frames show all six boxes on blue UCLA teammates. This does not inspect the intervening sampled or unsampled frames, and does not establish grounded positions or exact live-play timing.",
+      "image": "screening/full_clip_run_spotcheck/s1_p05_first_middle_last.png",
+      "image_sha256": "4e00936a92a97af76d272d6f240684724f6f80c3ebb5b1f9f1951fcd6e3fa314",
+      "raw_run_first_frame": 1326,
+      "raw_run_last_frame": 1428
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "reviewed_source_frames": [
+        36000,
+        36054,
+        36102
+      ],
+      "observed_team_membership": "six_boxes_on_near_ucla_team_including_white_libero_28_at_all_three_displayed_frames",
+      "observed_identity_issue": "none_obvious_at_three_displayed_frames_raw_id_8_is_white_jersey_28_throughout",
+      "exact_live_play_phase_certified": false,
+      "entire_run_identity_certified": false,
+      "court_floor_path_certified": false,
+      "note": "Close crops confirm raw ID 8 labels the same white jersey #28 at all three displayed frames. The white jersey is the near-side libero, not a far-side opponent. These frames support a candidate run but do not certify intervening identity, exact live phase or grounded court positions.",
+      "image": "screening/full_clip_run_spotcheck/s3_p34_first_middle_last.png",
+      "image_sha256": "92563a5a7fc28d1f44190ab20d692494a1471cd7e561cfe46f5fcfa9196d20a5",
+      "raw_run_first_frame": 36000,
+      "raw_run_last_frame": 36102
+    }
+  ]
+}

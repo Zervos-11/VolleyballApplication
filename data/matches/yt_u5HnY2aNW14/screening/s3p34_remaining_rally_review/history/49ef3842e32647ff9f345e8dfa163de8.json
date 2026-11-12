@@ -1,0 +1,60 @@
+{
+  "frame": 36123,
+  "stage": "source",
+  "previous": {
+    "source": [
+      {
+        "jersey": "28",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "12",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "15",
+        "identity_status": "sequence_consistent",
+        "ground_status": "airborne",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "7",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "19",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "21",
+        "identity_status": "sequence_consistent",
+        "ground_status": "airborne",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      }
+    ],
+    "paired": null,
+    "candidate_boxes_shown_before_source": true,
+    "source_saved_at_utc": "2026-11-06T03:15:08.206387+00:00"
+  },
+  "revision": 31
+}

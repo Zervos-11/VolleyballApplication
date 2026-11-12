@@ -1,0 +1,45 @@
+{
+  "status": "frozen_unboxed_source_only_review_packet",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "window_protocol_sha256": "04a5b9b4c9c858c72e1e6c54164a384808a9e87d38284ed9869cda630b70ec8f",
+  "set": 1,
+  "point_number": 6,
+  "window_start_frame_inclusive": 1759,
+  "window_end_frame_exclusive": 1784,
+  "five_sample_frames": [
+    1759,
+    1765,
+    1771,
+    1777,
+    1783
+  ],
+  "images": [
+    {
+      "source_frame": 1759,
+      "image": "unboxed_1759.png",
+      "sha256": "efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11"
+    },
+    {
+      "source_frame": 1765,
+      "image": "unboxed_1765.png",
+      "sha256": "67e7973cd31038613b34e24a91d0026e6b93816d2335f5f29d46de4972069368"
+    },
+    {
+      "source_frame": 1771,
+      "image": "unboxed_1771.png",
+      "sha256": "c084e7dda133a5b55dfa640b263f18c1964683bb0d0e2ad27e3b78c2ee649387"
+    },
+    {
+      "source_frame": 1777,
+      "image": "unboxed_1777.png",
+      "sha256": "a33f11ef9696936d5eb51bb4fe6cde999406120359d11d4e3dc753b7ff9466f4"
+    },
+    {
+      "source_frame": 1783,
+      "image": "unboxed_1783.png",
+      "sha256": "ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa"
+    }
+  ],
+  "source_phase_review_status": "pending",
+  "candidate_or_ground_review_status": "pending"
+}

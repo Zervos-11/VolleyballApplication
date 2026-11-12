@@ -1,0 +1,2803 @@
+{
+  "status": "exploratory_fixed_box_court_proxy_not_confirmatory",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "pilot": "a42d9a2e086fcf5d14e7794e0cf1a55a7e38a542161ab0c77a937d92e3e679cb",
+    "review": "e20eae433a2a080153124a31806ec22d19c84469df759a30e6baaee208b2844e",
+    "geometry": "01e204e1df368e3ff55b6507d0b328a2f80557c01cbf72ae06b3290716923cb1",
+    "calibration": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "reference": "672a93dfe69bcd4ec5f8b11d598b23af2917b7f0aa33bdb67ad89b2f3ad92e7a"
+  },
+  "method": {
+    "box": "anchor dimensions fixed; optical-flow translation moves bottom centre",
+    "court": "staged near-court 9 m floor homography",
+    "sample_offsets_frames": [
+      -12,
+      -6,
+      0,
+      6,
+      12
+    ],
+    "sample_rate_hz": 5,
+    "position_status": "proxy; pose and airborne motion can bias floor location"
+  },
+  "summary": {
+    "frozen_points": 18,
+    "candidate_windows": 8,
+    "wins": 4,
+    "losses": 4,
+    "matched_set_phase_cells": 3,
+    "source_frame_instances": 40,
+    "candidate_player_positions": 240,
+    "windows_with_six_proxies_inside_painted_court": 7,
+    "clear_shoe_reference_pairs": 30,
+    "independently_validated_dynamic_floor_positions": 0
+  },
+  "baseline": {
+    "mean_pairwise_spacing_m": {
+      "equal_cell_win_minus_loss": -0.0886,
+      "assignments": 18,
+      "two_sided_reference_fraction": 0.8889
+    },
+    "convex_hull_area_m2": {
+      "equal_cell_win_minus_loss": -4.2121,
+      "assignments": 18,
+      "two_sided_reference_fraction": 0.1667
+    },
+    "centroid_dispersion_m": {
+      "equal_cell_win_minus_loss": -0.1037,
+      "assignments": 18,
+      "two_sided_reference_fraction": 0.6667
+    }
+  },
+  "one_point_deletion": {
+    "mean_pairwise_spacing_m": {
+      "minimum": -0.3071,
+      "maximum": 0.1299
+    },
+    "convex_hull_area_m2": {
+      "minimum": -5.9837,
+      "maximum": -2.4404
+    },
+    "centroid_dispersion_m": {
+      "minimum": -0.2255,
+      "maximum": 0.0181
+    }
+  },
+  "movement_proxy_comparison": {
+    "median_player_endpoint_chord_m": {
+      "equal_cell_win_minus_loss_m": -0.0691,
+      "one_point_deletion_minimum_m": -0.1401,
+      "one_point_deletion_maximum_m": -0.0005,
+      "assignments": 18,
+      "two_sided_reference_fraction": 0.4444
+    },
+    "median_player_sampled_polyline_m": {
+      "equal_cell_win_minus_loss_m": -0.0749,
+      "one_point_deletion_minimum_m": -0.1274,
+      "one_point_deletion_maximum_m": 0.0174,
+      "assignments": 18,
+      "two_sided_reference_fraction": 0.5
+    }
+  },
+  "observed_clear_shoe_error_scenario": {
+    "radius_m": 0.632,
+    "draws": 1000,
+    "results": {
+      "mean_pairwise_spacing_m": {
+        "minimum": -0.4313,
+        "maximum": 0.1584,
+        "fraction_positive": 0.119
+      },
+      "convex_hull_area_m2": {
+        "minimum": -7.5473,
+        "maximum": -1.0642,
+        "fraction_positive": 0.0
+      },
+      "centroid_dispersion_m": {
+        "minimum": -0.3263,
+        "maximum": 0.0622,
+        "fraction_positive": 0.03
+      }
+    }
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "player_keys": [
+        9,
+        2,
+        6,
+        4,
+        1,
+        3
+      ],
+      "source_frames": [
+        1410,
+        1416,
+        1422,
+        1428,
+        1434
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.2861,
+        "convex_hull_area_m2": 14.3262,
+        "centroid_dispersion_m": 2.8757
+      },
+      "median_player_endpoint_chord_m": 0.6487,
+      "median_player_sampled_polyline_m": 0.7909,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 1410,
+          "fixed_box_bottom_px": [
+            [
+              341.16,
+              424.22
+            ],
+            [
+              427.56,
+              531.8
+            ],
+            [
+              453.46,
+              407.87
+            ],
+            [
+              675.63,
+              504.53
+            ],
+            [
+              892.59,
+              506.98
+            ],
+            [
+              1055.04,
+              509.8
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.7193,
+              5.6749
+            ],
+            [
+              1.8122,
+              2.7952
+            ],
+            [
+              1.9772,
+              6.1402
+            ],
+            [
+              4.4889,
+              3.4968
+            ],
+            [
+              6.8505,
+              3.433
+            ],
+            [
+              8.6128,
+              3.3597
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.4144,
+            "convex_hull_area_m2": 13.3929,
+            "centroid_dispersion_m": 2.9102
+          }
+        },
+        {
+          "source_frame": 1416,
+          "fixed_box_bottom_px": [
+            [
+              338.48,
+              422.83
+            ],
+            [
+              429.79,
+              531.46
+            ],
+            [
+              451.15,
+              408.73
+            ],
+            [
+              677.54,
+              509.25
+            ],
+            [
+              892.46,
+              506.74
+            ],
+            [
+              1040.24,
+              482.62
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.6866,
+              5.7142
+            ],
+            [
+              1.8359,
+              2.8038
+            ],
+            [
+              1.9516,
+              6.1155
+            ],
+            [
+              4.5083,
+              3.374
+            ],
+            [
+              6.8494,
+              3.4392
+            ],
+            [
+              8.5126,
+              4.074
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.3858,
+            "convex_hull_area_m2": 14.1163,
+            "centroid_dispersion_m": 2.9154
+          }
+        },
+        {
+          "source_frame": 1422,
+          "fixed_box_bottom_px": [
+            [
+              334.75,
+              431.8
+            ],
+            [
+              451.55,
+              528.5
+            ],
+            [
+              446.9,
+              413.8
+            ],
+            [
+              692.15,
+              519.3
+            ],
+            [
+              892.6,
+              506.8
+            ],
+            [
+              1019.15,
+              462.8
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.6589,
+              5.4618
+            ],
+            [
+              2.0675,
+              2.8791
+            ],
+            [
+              1.9082,
+              5.9705
+            ],
+            [
+              4.6635,
+              3.1145
+            ],
+            [
+              6.8509,
+              3.4376
+            ],
+            [
+              8.3232,
+              4.607
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.2861,
+            "convex_hull_area_m2": 14.3262,
+            "centroid_dispersion_m": 2.8757
+          }
+        },
+        {
+          "source_frame": 1428,
+          "fixed_box_bottom_px": [
+            [
+              329.44,
+              439.67
+            ],
+            [
+              471.78,
+              519.4
+            ],
+            [
+              448.61,
+              423.84
+            ],
+            [
+              732.0,
+              525.38
+            ],
+            [
+              894.98,
+              509.47
+            ],
+            [
+              1000.28,
+              438.86
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.6119,
+              5.2423
+            ],
+            [
+              2.2784,
+              3.1119
+            ],
+            [
+              1.9376,
+              5.6857
+            ],
+            [
+              5.0913,
+              2.9587
+            ],
+            [
+              6.8729,
+              3.3683
+            ],
+            [
+              8.1637,
+              5.2648
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.2217,
+            "convex_hull_area_m2": 14.626,
+            "centroid_dispersion_m": 2.8528
+          }
+        },
+        {
+          "source_frame": 1434,
+          "fixed_box_bottom_px": [
+            [
+              321.65,
+              438.1
+            ],
+            [
+              486.79,
+              525.74
+            ],
+            [
+              469.96,
+              429.42
+            ],
+            [
+              764.47,
+              526.82
+            ],
+            [
+              916.79,
+              511.4
+            ],
+            [
+              973.75,
+              425.95
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.5216,
+              5.286
+            ],
+            [
+              2.4453,
+              2.9495
+            ],
+            [
+              2.1847,
+              5.5286
+            ],
+            [
+              5.4407,
+              2.9219
+            ],
+            [
+              7.1071,
+              3.3183
+            ],
+            [
+              7.8908,
+              5.6262
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.2547,
+            "convex_hull_area_m2": 15.3988,
+            "centroid_dispersion_m": 2.8694
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "player_keys": [
+        1,
+        14,
+        15,
+        4,
+        23,
+        2
+      ],
+      "source_frames": [
+        1746,
+        1752,
+        1758,
+        1764,
+        1770
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.7286,
+        "convex_hull_area_m2": 25.4327,
+        "centroid_dispersion_m": 3.1921
+      },
+      "median_player_endpoint_chord_m": 0.8106,
+      "median_player_sampled_polyline_m": 0.9699,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 1746,
+          "fixed_box_bottom_px": [
+            [
+              413.7,
+              486.19
+            ],
+            [
+              512.09,
+              346.58
+            ],
+            [
+              585.95,
+              336.71
+            ],
+            [
+              723.1,
+              568.64
+            ],
+            [
+              789.56,
+              341.28
+            ],
+            [
+              886.43,
+              482.44
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.6134,
+              3.9791
+            ],
+            [
+              2.6076,
+              7.9552
+            ],
+            [
+              3.4773,
+              8.2584
+            ],
+            [
+              4.9729,
+              1.8759
+            ],
+            [
+              5.8885,
+              8.1176
+            ],
+            [
+              6.8181,
+              4.0788
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5324,
+            "convex_hull_area_m2": 23.0663,
+            "centroid_dispersion_m": 3.0754
+          }
+        },
+        {
+          "source_frame": 1752,
+          "fixed_box_bottom_px": [
+            [
+              400.33,
+              484.08
+            ],
+            [
+              506.4,
+              344.63
+            ],
+            [
+              585.63,
+              335.54
+            ],
+            [
+              711.59,
+              574.46
+            ],
+            [
+              793.28,
+              339.93
+            ],
+            [
+              882.9,
+              484.83
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4638,
+              4.0352
+            ],
+            [
+              2.5391,
+              8.0149
+            ],
+            [
+              3.4733,
+              8.2946
+            ],
+            [
+              4.8486,
+              1.7336
+            ],
+            [
+              5.934,
+              8.1592
+            ],
+            [
+              6.7759,
+              4.0152
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.6344,
+            "convex_hull_area_m2": 24.1626,
+            "centroid_dispersion_m": 3.1408
+          }
+        },
+        {
+          "source_frame": 1758,
+          "fixed_box_bottom_px": [
+            [
+              388.3,
+              475.2
+            ],
+            [
+              492.8,
+              348.3
+            ],
+            [
+              572.45,
+              337.6
+            ],
+            [
+              695.65,
+              585.7
+            ],
+            [
+              795.8,
+              339.8
+            ],
+            [
+              886.9,
+              485.3
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.3201,
+              4.2723
+            ],
+            [
+              2.3813,
+              7.9027
+            ],
+            [
+              3.3174,
+              8.231
+            ],
+            [
+              4.6765,
+              1.461
+            ],
+            [
+              5.964,
+              8.1632
+            ],
+            [
+              6.8192,
+              4.0027
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.7286,
+            "convex_hull_area_m2": 25.4327,
+            "centroid_dispersion_m": 3.1921
+          }
+        },
+        {
+          "source_frame": 1764,
+          "fixed_box_bottom_px": [
+            [
+              375.7,
+              490.51
+            ],
+            [
+              468.21,
+              346.61
+            ],
+            [
+              543.77,
+              325.59
+            ],
+            [
+              674.81,
+              603.0
+            ],
+            [
+              801.18,
+              350.35
+            ],
+            [
+              895.87,
+              488.82
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.2011,
+              3.8647
+            ],
+            [
+              2.0897,
+              7.9543
+            ],
+            [
+              2.9714,
+              8.6039
+            ],
+            [
+              4.4534,
+              1.0468
+            ],
+            [
+              6.0159,
+              7.8402
+            ],
+            [
+              6.9127,
+              3.9094
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.0578,
+            "convex_hull_area_m2": 28.7704,
+            "centroid_dispersion_m": 3.4132
+          }
+        },
+        {
+          "source_frame": 1770,
+          "fixed_box_bottom_px": [
+            [
+              342.52,
+              496.62
+            ],
+            [
+              446.31,
+              354.64
+            ],
+            [
+              519.13,
+              330.08
+            ],
+            [
+              674.0,
+              604.11
+            ],
+            [
+              800.32,
+              353.97
+            ],
+            [
+              914.07,
+              497.56
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.846,
+              3.7037
+            ],
+            [
+              1.8398,
+              7.7099
+            ],
+            [
+              2.6802,
+              8.4639
+            ],
+            [
+              4.4447,
+              1.0205
+            ],
+            [
+              6.0018,
+              7.7302
+            ],
+            [
+              7.099,
+              3.6791
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.201,
+            "convex_hull_area_m2": 30.8843,
+            "centroid_dispersion_m": 3.5103
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "higher_resolution",
+      "player_keys": [
+        "proposal_1",
+        "proposal_2",
+        "proposal_3",
+        "proposal_4",
+        "proposal_5",
+        "proposal_6"
+      ],
+      "source_frames": [
+        5359,
+        5365,
+        5371,
+        5377,
+        5383
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 5.5971,
+        "convex_hull_area_m2": 24.956,
+        "centroid_dispersion_m": 3.6065
+      },
+      "median_player_endpoint_chord_m": 0.5599,
+      "median_player_sampled_polyline_m": 0.6301,
+      "all_frames_six_inside_painted_court": false,
+      "frames": [
+        {
+          "source_frame": 5359,
+          "fixed_box_bottom_px": [
+            [
+              422.53,
+              568.61
+            ],
+            [
+              442.39,
+              416.92
+            ],
+            [
+              421.6,
+              329.21
+            ],
+            [
+              631.16,
+              578.31
+            ],
+            [
+              887.36,
+              544.32
+            ],
+            [
+              1116.28,
+              644.1
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7951,
+              1.8767
+            ],
+            [
+              1.86,
+              5.8817
+            ],
+            [
+              1.5178,
+              8.491
+            ],
+            [
+              4.0004,
+              1.6399
+            ],
+            [
+              6.7421,
+              2.4792
+            ],
+            [
+              8.9506,
+              0.089
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.6981,
+            "convex_hull_area_m2": 23.4166,
+            "centroid_dispersion_m": 3.7113
+          }
+        },
+        {
+          "source_frame": 5365,
+          "fixed_box_bottom_px": [
+            [
+              423.98,
+              568.27
+            ],
+            [
+              441.59,
+              416.48
+            ],
+            [
+              451.85,
+              334.49
+            ],
+            [
+              636.25,
+              575.21
+            ],
+            [
+              875.63,
+              539.53
+            ],
+            [
+              1124.26,
+              644.54
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.8101,
+              1.885
+            ],
+            [
+              1.8504,
+              5.8942
+            ],
+            [
+              1.8838,
+              8.3271
+            ],
+            [
+              4.0542,
+              1.7153
+            ],
+            [
+              6.6229,
+              2.5996
+            ],
+            [
+              9.0311,
+              0.079
+            ]
+          ],
+          "six_inside_painted_court": false,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.5971,
+            "convex_hull_area_m2": 23.3434,
+            "centroid_dispersion_m": 3.6369
+          }
+        },
+        {
+          "source_frame": 5371,
+          "fixed_box_bottom_px": [
+            [
+              436.75,
+              569.0
+            ],
+            [
+              437.45,
+              415.4
+            ],
+            [
+              491.2,
+              334.4
+            ],
+            [
+              631.65,
+              578.6
+            ],
+            [
+              860.1,
+              538.1
+            ],
+            [
+              1136.8,
+              645.2
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.9458,
+              1.8671
+            ],
+            [
+              1.8021,
+              5.9249
+            ],
+            [
+              2.3512,
+              8.3299
+            ],
+            [
+              4.0056,
+              1.6329
+            ],
+            [
+              6.4582,
+              2.6357
+            ],
+            [
+              9.1575,
+              0.0639
+            ]
+          ],
+          "six_inside_painted_court": false,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.5605,
+            "convex_hull_area_m2": 24.956,
+            "centroid_dispersion_m": 3.6065
+          }
+        },
+        {
+          "source_frame": 5377,
+          "fixed_box_bottom_px": [
+            [
+              442.21,
+              570.64
+            ],
+            [
+              435.14,
+              417.91
+            ],
+            [
+              531.54,
+              335.03
+            ],
+            [
+              630.12,
+              582.53
+            ],
+            [
+              841.87,
+              536.63
+            ],
+            [
+              1156.56,
+              652.7
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              2.005,
+              1.827
+            ],
+            [
+              1.7785,
+              5.8536
+            ],
+            [
+              2.8308,
+              8.3104
+            ],
+            [
+              3.9893,
+              1.5376
+            ],
+            [
+              6.2643,
+              2.6728
+            ],
+            [
+              9.3407,
+              -0.1069
+            ]
+          ],
+          "six_inside_painted_court": false,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.5702,
+            "convex_hull_area_m2": 26.9754,
+            "centroid_dispersion_m": 3.5878
+          }
+        },
+        {
+          "source_frame": 5383,
+          "fixed_box_bottom_px": [
+            [
+              430.19,
+              575.8
+            ],
+            [
+              436.03,
+              433.42
+            ],
+            [
+              576.25,
+              332.68
+            ],
+            [
+              626.22,
+              585.28
+            ],
+            [
+              829.03,
+              535.77
+            ],
+            [
+              1184.22,
+              649.83
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.8829,
+              1.701
+            ],
+            [
+              1.805,
+              5.4165
+            ],
+            [
+              3.3611,
+              8.3832
+            ],
+            [
+              3.9482,
+              1.4711
+            ],
+            [
+              6.1274,
+              2.6946
+            ],
+            [
+              9.6294,
+              -0.0417
+            ]
+          ],
+          "six_inside_painted_court": false,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.6008,
+            "convex_hull_area_m2": 30.1763,
+            "centroid_dispersion_m": 3.5725
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "phase": "near_offense",
+      "detector_pass": "original",
+      "player_keys": [
+        3,
+        121,
+        8,
+        76,
+        126,
+        87
+      ],
+      "source_frames": [
+        13554,
+        13560,
+        13566,
+        13572,
+        13578
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.6805,
+        "convex_hull_area_m2": 25.6636,
+        "centroid_dispersion_m": 3.1614
+      },
+      "median_player_endpoint_chord_m": 0.5619,
+      "median_player_sampled_polyline_m": 0.6893,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 13554,
+          "fixed_box_bottom_px": [
+            [
+              430.09,
+              473.46
+            ],
+            [
+              559.64,
+              337.74
+            ],
+            [
+              680.33,
+              330.59
+            ],
+            [
+              704.52,
+              560.23
+            ],
+            [
+              797.86,
+              339.99
+            ],
+            [
+              931.84,
+              446.34
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7805,
+              4.319
+            ],
+            [
+              3.1655,
+              8.2267
+            ],
+            [
+              4.5995,
+              8.4481
+            ],
+            [
+              4.78,
+              2.083
+            ],
+            [
+              5.9882,
+              8.1573
+            ],
+            [
+              7.3801,
+              5.0576
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.3896,
+            "convex_hull_area_m2": 22.4861,
+            "centroid_dispersion_m": 2.9598
+          }
+        },
+        {
+          "source_frame": 13560,
+          "fixed_box_bottom_px": [
+            [
+              395.02,
+              483.23
+            ],
+            [
+              569.37,
+              337.97
+            ],
+            [
+              680.19,
+              331.02
+            ],
+            [
+              714.61,
+              566.51
+            ],
+            [
+              802.23,
+              340.94
+            ],
+            [
+              938.69,
+              449.31
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4043,
+              4.0578
+            ],
+            [
+              3.281,
+              8.2196
+            ],
+            [
+              4.5977,
+              8.4347
+            ],
+            [
+              4.8842,
+              1.9282
+            ],
+            [
+              6.0389,
+              8.1281
+            ],
+            [
+              7.4517,
+              4.9757
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5623,
+            "convex_hull_area_m2": 24.3981,
+            "centroid_dispersion_m": 3.0785
+          }
+        },
+        {
+          "source_frame": 13566,
+          "fixed_box_bottom_px": [
+            [
+              371.85,
+              484.9
+            ],
+            [
+              588.8,
+              334.2
+            ],
+            [
+              683.15,
+              331.6
+            ],
+            [
+              720.1,
+              570.1
+            ],
+            [
+              815.5,
+              339.9
+            ],
+            [
+              941.05,
+              454.0
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.1513,
+              4.0134
+            ],
+            [
+              3.5106,
+              8.3361
+            ],
+            [
+              4.6327,
+              8.4167
+            ],
+            [
+              4.9405,
+              1.8402
+            ],
+            [
+              6.1972,
+              8.1601
+            ],
+            [
+              7.4698,
+              4.847
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.6805,
+            "convex_hull_area_m2": 25.6636,
+            "centroid_dispersion_m": 3.1614
+          }
+        },
+        {
+          "source_frame": 13572,
+          "fixed_box_bottom_px": [
+            [
+              366.12,
+              482.92
+            ],
+            [
+              600.29,
+              329.18
+            ],
+            [
+              697.11,
+              333.4
+            ],
+            [
+              718.05,
+              574.35
+            ],
+            [
+              823.55,
+              336.77
+            ],
+            [
+              946.44,
+              457.35
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.0855,
+              4.066
+            ],
+            [
+              3.6465,
+              8.4919
+            ],
+            [
+              4.7979,
+              8.3609
+            ],
+            [
+              4.9168,
+              1.7363
+            ],
+            [
+              6.2966,
+              8.2566
+            ],
+            [
+              7.524,
+              4.7554
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.7684,
+            "convex_hull_area_m2": 26.6805,
+            "centroid_dispersion_m": 3.2221
+          }
+        },
+        {
+          "source_frame": 13578,
+          "fixed_box_bottom_px": [
+            [
+              364.77,
+              485.46
+            ],
+            [
+              613.1,
+              333.14
+            ],
+            [
+              715.12,
+              329.38
+            ],
+            [
+              708.69,
+              579.42
+            ],
+            [
+              836.79,
+              344.3
+            ],
+            [
+              958.09,
+              471.62
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.0742,
+              3.9985
+            ],
+            [
+              3.7993,
+              8.3689
+            ],
+            [
+              5.0144,
+              8.4857
+            ],
+            [
+              4.8159,
+              1.613
+            ],
+            [
+              6.4435,
+              8.025
+            ],
+            [
+              7.6275,
+              4.3685
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.8493,
+            "convex_hull_area_m2": 27.3192,
+            "centroid_dispersion_m": 3.2842
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "phase": "near_offense",
+      "detector_pass": "original",
+      "player_keys": [
+        2,
+        3,
+        12,
+        5,
+        1,
+        7
+      ],
+      "source_frames": [
+        19524,
+        19530,
+        19536,
+        19542,
+        19548
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.4754,
+        "convex_hull_area_m2": 21.4574,
+        "centroid_dispersion_m": 2.9891
+      },
+      "median_player_endpoint_chord_m": 0.488,
+      "median_player_sampled_polyline_m": 0.7194,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 19524,
+          "fixed_box_bottom_px": [
+            [
+              436.4,
+              409.17
+            ],
+            [
+              497.88,
+              563.63
+            ],
+            [
+              606.11,
+              422.48
+            ],
+            [
+              681.38,
+              582.88
+            ],
+            [
+              884.49,
+              569.17
+            ],
+            [
+              1026.1,
+              482.76
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7835,
+              6.1029
+            ],
+            [
+              2.5887,
+              1.9991
+            ],
+            [
+              3.7243,
+              5.7241
+            ],
+            [
+              4.5276,
+              1.5291
+            ],
+            [
+              6.6786,
+              1.863
+            ],
+            [
+              8.3565,
+              4.0703
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.3037,
+            "convex_hull_area_m2": 18.8533,
+            "centroid_dispersion_m": 2.8629
+          }
+        },
+        {
+          "source_frame": 19530,
+          "fixed_box_bottom_px": [
+            [
+              435.63,
+              409.44
+            ],
+            [
+              490.68,
+              553.46
+            ],
+            [
+              620.75,
+              406.17
+            ],
+            [
+              679.17,
+              578.18
+            ],
+            [
+              882.16,
+              568.71
+            ],
+            [
+              1025.63,
+              484.84
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.775,
+              6.0952
+            ],
+            [
+              2.5057,
+              2.2508
+            ],
+            [
+              3.8904,
+              6.189
+            ],
+            [
+              4.5057,
+              1.6431
+            ],
+            [
+              6.6545,
+              1.8742
+            ],
+            [
+              8.3467,
+              4.0149
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.347,
+            "convex_hull_area_m2": 20.024,
+            "centroid_dispersion_m": 2.8994
+          }
+        },
+        {
+          "source_frame": 19536,
+          "fixed_box_bottom_px": [
+            [
+              433.3,
+              413.0
+            ],
+            [
+              484.9,
+              557.4
+            ],
+            [
+              637.1,
+              397.1
+            ],
+            [
+              678.25,
+              586.4
+            ],
+            [
+              876.85,
+              575.4
+            ],
+            [
+              1029.2,
+              485.7
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7522,
+              5.9934
+            ],
+            [
+              2.4469,
+              2.153
+            ],
+            [
+              4.0784,
+              6.4509
+            ],
+            [
+              4.4938,
+              1.4441
+            ],
+            [
+              6.5899,
+              1.7107
+            ],
+            [
+              8.3841,
+              3.9921
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.4754,
+            "convex_hull_area_m2": 22.0227,
+            "centroid_dispersion_m": 2.9891
+          }
+        },
+        {
+          "source_frame": 19542,
+          "fixed_box_bottom_px": [
+            [
+              433.89,
+              420.38
+            ],
+            [
+              473.96,
+              550.51
+            ],
+            [
+              658.56,
+              391.91
+            ],
+            [
+              680.9,
+              585.95
+            ],
+            [
+              897.41,
+              570.52
+            ],
+            [
+              1040.72,
+              488.17
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7669,
+              5.7835
+            ],
+            [
+              2.3255,
+              2.3243
+            ],
+            [
+              4.3264,
+              6.6018
+            ],
+            [
+              4.5217,
+              1.4549
+            ],
+            [
+              6.8133,
+              1.8299
+            ],
+            [
+              8.5053,
+              3.9266
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5269,
+            "convex_hull_area_m2": 22.8004,
+            "centroid_dispersion_m": 3.0219
+          }
+        },
+        {
+          "source_frame": 19548,
+          "fixed_box_bottom_px": [
+            [
+              434.62,
+              415.26
+            ],
+            [
+              471.0,
+              538.67
+            ],
+            [
+              639.23,
+              396.81
+            ],
+            [
+              693.13,
+              579.44
+            ],
+            [
+              940.02,
+              550.38
+            ],
+            [
+              1051.35,
+              485.9
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7697,
+              5.9289
+            ],
+            [
+              2.2849,
+              2.6213
+            ],
+            [
+              4.103,
+              6.4593
+            ],
+            [
+              4.6522,
+              1.6125
+            ],
+            [
+              7.2955,
+              2.3276
+            ],
+            [
+              8.6274,
+              3.9868
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5155,
+            "convex_hull_area_m2": 21.4574,
+            "centroid_dispersion_m": 3.0263
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "player_keys": [
+        4,
+        14,
+        2,
+        7,
+        10,
+        6
+      ],
+      "source_frames": [
+        29928,
+        29934,
+        29940,
+        29946,
+        29952
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.7222,
+        "convex_hull_area_m2": 24.8387,
+        "centroid_dispersion_m": 3.196
+      },
+      "median_player_endpoint_chord_m": 0.5682,
+      "median_player_sampled_polyline_m": 0.5754,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 29928,
+          "fixed_box_bottom_px": [
+            [
+              392.97,
+              498.71
+            ],
+            [
+              596.66,
+              318.16
+            ],
+            [
+              743.86,
+              537.75
+            ],
+            [
+              711.74,
+              326.55
+            ],
+            [
+              846.53,
+              342.67
+            ],
+            [
+              899.66,
+              448.03
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4006,
+              3.6489
+            ],
+            [
+              3.6015,
+              8.837
+            ],
+            [
+              5.2115,
+              2.6445
+            ],
+            [
+              4.9757,
+              8.5739
+            ],
+            [
+              6.5609,
+              8.0749
+            ],
+            [
+              7.0165,
+              5.011
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5062,
+            "convex_hull_area_m2": 22.9792,
+            "centroid_dispersion_m": 3.0396
+          }
+        },
+        {
+          "source_frame": 29934,
+          "fixed_box_bottom_px": [
+            [
+              396.2,
+              504.48
+            ],
+            [
+              592.11,
+              320.86
+            ],
+            [
+              723.62,
+              538.66
+            ],
+            [
+              713.05,
+              328.63
+            ],
+            [
+              856.7,
+              341.94
+            ],
+            [
+              909.94,
+              457.97
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4428,
+              3.4981
+            ],
+            [
+              3.5475,
+              8.7521
+            ],
+            [
+              4.9939,
+              2.6216
+            ],
+            [
+              4.9901,
+              8.5091
+            ],
+            [
+              6.6823,
+              8.0974
+            ],
+            [
+              7.1158,
+              4.7384
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.5762,
+            "convex_hull_area_m2": 23.5004,
+            "centroid_dispersion_m": 3.0913
+          }
+        },
+        {
+          "source_frame": 29940,
+          "fixed_box_bottom_px": [
+            [
+              392.95,
+              513.7
+            ],
+            [
+              588.45,
+              323.2
+            ],
+            [
+              701.85,
+              548.2
+            ],
+            [
+              713.6,
+              329.8
+            ],
+            [
+              861.2,
+              342.1
+            ],
+            [
+              923.3,
+              464.2
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4184,
+              3.2588
+            ],
+            [
+              3.5042,
+              8.6787
+            ],
+            [
+              4.7565,
+              2.382
+            ],
+            [
+              4.996,
+              8.4726
+            ],
+            [
+              6.7353,
+              8.0924
+            ],
+            [
+              7.2544,
+              4.569
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.7222,
+            "convex_hull_area_m2": 24.8387,
+            "centroid_dispersion_m": 3.196
+          }
+        },
+        {
+          "source_frame": 29946,
+          "fixed_box_bottom_px": [
+            [
+              390.75,
+              523.44
+            ],
+            [
+              587.31,
+              324.82
+            ],
+            [
+              695.34,
+              558.05
+            ],
+            [
+              713.64,
+              330.41
+            ],
+            [
+              870.89,
+              341.86
+            ],
+            [
+              941.26,
+              464.53
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.4063,
+              3.0083
+            ],
+            [
+              3.4909,
+              8.628
+            ],
+            [
+              4.6834,
+              2.1369
+            ],
+            [
+              4.9961,
+              8.4537
+            ],
+            [
+              6.8503,
+              8.0998
+            ],
+            [
+              7.4535,
+              4.56
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.8821,
+            "convex_hull_area_m2": 26.443,
+            "centroid_dispersion_m": 3.3054
+          }
+        },
+        {
+          "source_frame": 29952,
+          "fixed_box_bottom_px": [
+            [
+              389.43,
+              524.21
+            ],
+            [
+              582.48,
+              327.24
+            ],
+            [
+              696.7,
+              564.05
+            ],
+            [
+              715.93,
+              330.77
+            ],
+            [
+              886.72,
+              342.33
+            ],
+            [
+              954.99,
+              464.3
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.3929,
+              2.9886
+            ],
+            [
+              3.4338,
+              8.5524
+            ],
+            [
+              4.6955,
+              1.9887
+            ],
+            [
+              5.0232,
+              8.4425
+            ],
+            [
+              7.0369,
+              8.0854
+            ],
+            [
+              7.6066,
+              4.5663
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.9849,
+            "convex_hull_area_m2": 27.7672,
+            "centroid_dispersion_m": 3.3681
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "player_keys": [
+        4,
+        14,
+        21,
+        17,
+        44,
+        5
+      ],
+      "source_frames": [
+        34110,
+        34116,
+        34122,
+        34128,
+        34134
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 5.1065,
+        "convex_hull_area_m2": 28.4299,
+        "centroid_dispersion_m": 3.4673
+      },
+      "median_player_endpoint_chord_m": 0.6589,
+      "median_player_sampled_polyline_m": 0.7048,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 34110,
+          "fixed_box_bottom_px": [
+            [
+              428.51,
+              503.7
+            ],
+            [
+              583.28,
+              345.53
+            ],
+            [
+              741.74,
+              624.26
+            ],
+            [
+              712.81,
+              335.87
+            ],
+            [
+              846.53,
+              356.93
+            ],
+            [
+              913.61,
+              484.45
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7942,
+              3.5184
+            ],
+            [
+              3.4477,
+              7.9873
+            ],
+            [
+              5.1375,
+              0.5469
+            ],
+            [
+              4.9831,
+              8.2844
+            ],
+            [
+              6.5411,
+              7.6405
+            ],
+            [
+              7.1145,
+              4.0253
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.8926,
+            "convex_hull_area_m2": 26.4386,
+            "centroid_dispersion_m": 3.2973
+          }
+        },
+        {
+          "source_frame": 34116,
+          "fixed_box_bottom_px": [
+            [
+              420.96,
+              514.92
+            ],
+            [
+              591.16,
+              349.12
+            ],
+            [
+              724.78,
+              629.13
+            ],
+            [
+              726.39,
+              338.13
+            ],
+            [
+              852.73,
+              356.95
+            ],
+            [
+              923.44,
+              488.87
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7237,
+              3.2273
+            ],
+            [
+              3.5415,
+              7.8777
+            ],
+            [
+              4.9604,
+              0.4337
+            ],
+            [
+              5.1428,
+              8.2146
+            ],
+            [
+              6.6139,
+              7.6399
+            ],
+            [
+              7.2155,
+              3.9081
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.9732,
+            "convex_hull_area_m2": 27.2926,
+            "centroid_dispersion_m": 3.3605
+          }
+        },
+        {
+          "source_frame": 34122,
+          "fixed_box_bottom_px": [
+            [
+              422.05,
+              522.8
+            ],
+            [
+              605.05,
+              344.3
+            ],
+            [
+              704.65,
+              633.2
+            ],
+            [
+              741.3,
+              336.6
+            ],
+            [
+              861.35,
+              355.6
+            ],
+            [
+              937.55,
+              496.0
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.7437,
+              3.0247
+            ],
+            [
+              3.7047,
+              8.025
+            ],
+            [
+              4.7519,
+              0.3395
+            ],
+            [
+              5.3208,
+              8.2618
+            ],
+            [
+              6.7171,
+              7.6808
+            ],
+            [
+              7.3584,
+              3.72
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.1065,
+            "convex_hull_area_m2": 28.4299,
+            "centroid_dispersion_m": 3.4673
+          }
+        },
+        {
+          "source_frame": 34128,
+          "fixed_box_bottom_px": [
+            [
+              416.09,
+              529.83
+            ],
+            [
+              612.25,
+              346.94
+            ],
+            [
+              692.94,
+              636.74
+            ],
+            [
+              746.69,
+              337.39
+            ],
+            [
+              867.06,
+              353.66
+            ],
+            [
+              955.09,
+              501.79
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.6868,
+              2.8452
+            ],
+            [
+              3.79,
+              7.9442
+            ],
+            [
+              4.6305,
+              0.2579
+            ],
+            [
+              5.3841,
+              8.2375
+            ],
+            [
+              6.7871,
+              7.7396
+            ],
+            [
+              7.5402,
+              3.5683
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.2092,
+            "convex_hull_area_m2": 29.5757,
+            "centroid_dispersion_m": 3.5464
+          }
+        },
+        {
+          "source_frame": 34134,
+          "fixed_box_bottom_px": [
+            [
+              405.95,
+              535.78
+            ],
+            [
+              624.95,
+              348.29
+            ],
+            [
+              683.45,
+              646.38
+            ],
+            [
+              760.28,
+              338.18
+            ],
+            [
+              868.7,
+              354.98
+            ],
+            [
+              968.13,
+              503.26
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.5841,
+              2.6943
+            ],
+            [
+              3.9398,
+              7.903
+            ],
+            [
+              4.5305,
+              0.0369
+            ],
+            [
+              5.5446,
+              8.2131
+            ],
+            [
+              6.8043,
+              7.6996
+            ],
+            [
+              7.6798,
+              3.5299
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.3142,
+            "convex_hull_area_m2": 30.7115,
+            "centroid_dispersion_m": 3.6243
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "player_keys": [
+        1,
+        5,
+        2,
+        7,
+        10,
+        8
+      ],
+      "source_frames": [
+        36060,
+        36066,
+        36072,
+        36078,
+        36084
+      ],
+      "window_median": {
+        "mean_pairwise_spacing_m": 4.8851,
+        "convex_hull_area_m2": 26.5243,
+        "centroid_dispersion_m": 3.3003
+      },
+      "median_player_endpoint_chord_m": 0.3316,
+      "median_player_sampled_polyline_m": 0.4368,
+      "all_frames_six_inside_painted_court": true,
+      "frames": [
+        {
+          "source_frame": 36060,
+          "fixed_box_bottom_px": [
+            [
+              360.9,
+              517.94
+            ],
+            [
+              546.55,
+              344.44
+            ],
+            [
+              667.6,
+              568.0
+            ],
+            [
+              693.45,
+              345.45
+            ],
+            [
+              809.66,
+              337.15
+            ],
+            [
+              880.03,
+              460.76
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              1.0764,
+              3.1495
+            ],
+            [
+              3.0134,
+              8.0207
+            ],
+            [
+              4.3863,
+              1.8916
+            ],
+            [
+              4.749,
+              7.9897
+            ],
+            [
+              6.1313,
+              8.2449
+            ],
+            [
+              6.7782,
+              4.6624
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.6283,
+            "convex_hull_area_m2": 24.1693,
+            "centroid_dispersion_m": 3.1221
+          }
+        },
+        {
+          "source_frame": 36066,
+          "fixed_box_bottom_px": [
+            [
+              344.3,
+              524.3
+            ],
+            [
+              542.93,
+              346.18
+            ],
+            [
+              666.83,
+              580.07
+            ],
+            [
+              692.22,
+              345.32
+            ],
+            [
+              809.52,
+              336.98
+            ],
+            [
+              875.39,
+              469.8
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.9057,
+              2.9863
+            ],
+            [
+              2.9715,
+              7.9674
+            ],
+            [
+              4.3754,
+              1.5972
+            ],
+            [
+              4.7345,
+              7.9937
+            ],
+            [
+              6.1298,
+              8.2501
+            ],
+            [
+              6.7139,
+              4.4175
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.7854,
+            "convex_hull_area_m2": 25.6394,
+            "centroid_dispersion_m": 3.2306
+          }
+        },
+        {
+          "source_frame": 36072,
+          "fixed_box_bottom_px": [
+            [
+              343.25,
+              535.7
+            ],
+            [
+              542.3,
+              347.2
+            ],
+            [
+              674.3,
+              585.5
+            ],
+            [
+              691.75,
+              346.5
+            ],
+            [
+              814.0,
+              337.3
+            ],
+            [
+              879.15,
+              475.0
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.9107,
+              2.6963
+            ],
+            [
+              2.9645,
+              7.9362
+            ],
+            [
+              4.4526,
+              1.4658
+            ],
+            [
+              4.7284,
+              7.9576
+            ],
+            [
+              6.1826,
+              8.2402
+            ],
+            [
+              6.7483,
+              4.2777
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.8851,
+            "convex_hull_area_m2": 26.5243,
+            "centroid_dispersion_m": 3.3003
+          }
+        },
+        {
+          "source_frame": 36078,
+          "fixed_box_bottom_px": [
+            [
+              342.82,
+              542.23
+            ],
+            [
+              541.95,
+              347.09
+            ],
+            [
+              686.9,
+              593.37
+            ],
+            [
+              691.73,
+              344.06
+            ],
+            [
+              819.67,
+              337.12
+            ],
+            [
+              882.96,
+              476.26
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.9154,
+              2.5317
+            ],
+            [
+              2.9603,
+              7.9396
+            ],
+            [
+              4.5822,
+              1.2765
+            ],
+            [
+              4.7293,
+              8.0323
+            ],
+            [
+              6.2501,
+              8.2458
+            ],
+            [
+              6.7887,
+              4.2439
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 5.0031,
+            "convex_hull_area_m2": 27.6205,
+            "centroid_dispersion_m": 3.3809
+          }
+        },
+        {
+          "source_frame": 36084,
+          "fixed_box_bottom_px": [
+            [
+              335.66,
+              532.94
+            ],
+            [
+              533.07,
+              348.7
+            ],
+            [
+              692.87,
+              592.79
+            ],
+            [
+              691.04,
+              352.37
+            ],
+            [
+              820.6,
+              336.4
+            ],
+            [
+              880.32,
+              477.41
+            ]
+          ],
+          "court_proxy_m": [
+            [
+              0.8252,
+              2.7662
+            ],
+            [
+              2.8564,
+              7.8905
+            ],
+            [
+              4.6448,
+              1.2904
+            ],
+            [
+              4.7175,
+              7.7787
+            ],
+            [
+              6.262,
+              8.268
+            ],
+            [
+              6.7579,
+              4.2131
+            ]
+          ],
+          "six_inside_painted_court": true,
+          "metrics": {
+            "mean_pairwise_spacing_m": 4.9571,
+            "convex_hull_area_m2": 27.87,
+            "centroid_dispersion_m": 3.331
+          }
+        }
+      ]
+    }
+  ],
+  "interpretation": "Fixed-size boxes provide a reproducible approximate court path. Thirty clear-shoe references concern related static box-bottom error, not dynamic propagated error. These eight windows were selected by tracking availability, and full-window phase and floor positions are not independently certified. Contrasts are exploratory only."
+}

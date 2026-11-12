@@ -1,0 +1,24 @@
+{
+  "status": "single_reviewer_sparse_source_frame_event_brackets_not_exact_boundaries",
+  "rule": "A live frame shows continuing ball play or active ball response. A post-point frame shows the players disengaging from play. The exact dead-ball frame lies after the last reviewed live frame and no later than the first reviewed post-point frame. Serve contacts were not frame-certified here.",
+  "points": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "last_reviewed_live_frame": 1518,
+      "first_reviewed_post_point_frame": 1530,
+      "live_image": "screening/full_rally_validation_frames/frame_1518.png",
+      "post_point_image": "screening/full_rally_validation_frames/frame_1530.png",
+      "note": "The far-side libero dives after the final attack; players begin to relax by frame 1530. The exact whistle/ball-dead frame is not identified."
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "last_reviewed_live_frame": 36138,
+      "first_reviewed_post_point_frame": 36150,
+      "live_image": "screening/full_rally_validation_frames/frame_36138.png",
+      "post_point_image": "screening/full_rally_validation_frames/frame_36150.png",
+      "note": "The ball remains visibly airborne toward the left side at frame 36138; players have relaxed by frame 36150. The exact ball-dead frame is not identified."
+    }
+  ]
+}

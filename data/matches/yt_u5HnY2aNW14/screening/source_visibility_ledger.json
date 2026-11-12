@@ -1,0 +1,201 @@
+{
+  "status": "visibility_coverage_only_no_trajectory_or_floor_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "sample": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+    "local_boxes": "ee54857ac9509773a57d4615d007e99332ca3fbc5aa56002fb5ea6b8f571f932",
+    "zero_run_source": "d69927b06e783817cb459acb9be7c9f085979c7f6e1b512ef20fc646d81b4c72",
+    "runs": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336"
+  },
+  "summary": {
+    "frozen_points": 18,
+    "near_team_wins": 9,
+    "near_team_losses": 9,
+    "points_with_six_source_visible_teammates": 18,
+    "points_with_six_locally_correct_detector_boxes": 15,
+    "points_source_visible_without_six_id_run": 3,
+    "validated_six_player_metric_frames": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 1422,
+      "longest_same_six_raw_id_run_frames": 3,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 1758,
+      "longest_same_six_raw_id_run_frames": 5,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_visible_six_no_six_id_detector_run",
+      "example_source_frame": 5371,
+      "longest_same_six_raw_id_run_frames": 0,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 7344,
+      "longest_same_six_raw_id_run_frames": 3,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 9702,
+      "longest_same_six_raw_id_run_frames": 7,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 10488,
+      "longest_same_six_raw_id_run_frames": 10,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "near_team": "Concordia",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 12306,
+      "longest_same_six_raw_id_run_frames": 8,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team": "Concordia",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 13566,
+      "longest_same_six_raw_id_run_frames": 7,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "near_team": "Concordia",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_visible_six_no_six_id_detector_run",
+      "example_source_frame": 16032,
+      "longest_same_six_raw_id_run_frames": 0,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "near_team": "Concordia",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 18936,
+      "longest_same_six_raw_id_run_frames": 7,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team": "Concordia",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 19536,
+      "longest_same_six_raw_id_run_frames": 1,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "near_team": "Concordia",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 22140,
+      "longest_same_six_raw_id_run_frames": 2,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 29280,
+      "longest_same_six_raw_id_run_frames": 0,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 29940,
+      "longest_same_six_raw_id_run_frames": 1,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_visible_six_no_six_id_detector_run",
+      "example_source_frame": 32742,
+      "longest_same_six_raw_id_run_frames": 0,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 34122,
+      "longest_same_six_raw_id_run_frames": 2,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "near_team": "UCLA",
+      "near_team_won": true,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 35844,
+      "longest_same_six_raw_id_run_frames": 1,
+      "grounded_metric_frames_validated": 0
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team": "UCLA",
+      "near_team_won": false,
+      "six_player_visibility_evidence": "source_reviewed_six_local_detector_boxes",
+      "example_source_frame": 36072,
+      "longest_same_six_raw_id_run_frames": 9,
+      "grounded_metric_frames_validated": 0
+    }
+  ]
+}

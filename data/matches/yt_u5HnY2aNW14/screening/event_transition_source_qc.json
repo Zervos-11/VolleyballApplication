@@ -1,0 +1,447 @@
+{
+  "status": "single_reviewer_five_hz_transition_navigation_not_final_boundary_review",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "coarse_brackets_sha256": "47f4e58be0c2a9efbf6eb3e0ffbcdd4bca22bcde435b1f2ed21f0b41f24f2c78",
+  "event_transition_index_sha256": "8891b3a43a522db8b9e18f806ba784fc7b11dbe93f0cb63272e178f00bc1baa8",
+  "summary": {
+    "frozen_points": 18,
+    "reviewed_transition_sheets": 36,
+    "points_with_conservative_live_interiors": 18,
+    "points_with_server_action_in_view": 9
+  },
+  "interpretation": "The interval runs from the first to the last clearly active navigation still. It excludes the ambiguous transition regions. Neither endpoint is claimed to be serve contact or dead ball. Serves can be offscreen; all intervals remain ineligible for final metrics until ground positions, roster continuity, and calibration are validated.",
+  "points": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "conservative_interior_start_frame_inclusive": 1411,
+      "conservative_interior_end_frame_exclusive": 1472,
+      "interior_duration_s": 2.033,
+      "serve_transition_sample_span": [
+        1345,
+        1417
+      ],
+      "dead_transition_sample_span": [
+        1465,
+        1537
+      ],
+      "serve_sheet_paths": [
+        "s1_p05_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p05_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "conservative_interior_start_frame_inclusive": 1681,
+      "conservative_interior_end_frame_exclusive": 1862,
+      "interior_duration_s": 6.033,
+      "serve_transition_sample_span": [
+        1645,
+        1687
+      ],
+      "dead_transition_sample_span": [
+        1855,
+        1927
+      ],
+      "serve_sheet_paths": [
+        "s1_p06_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p06_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "conservative_interior_start_frame_inclusive": 5371,
+      "conservative_interior_end_frame_exclusive": 5402,
+      "interior_duration_s": 1.033,
+      "serve_transition_sample_span": [
+        5335,
+        5377
+      ],
+      "dead_transition_sample_span": [
+        5395,
+        5437
+      ],
+      "serve_sheet_paths": [
+        "s1_p18_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p18_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "conservative_interior_start_frame_inclusive": 7321,
+      "conservative_interior_end_frame_exclusive": 7382,
+      "interior_duration_s": 2.033,
+      "serve_transition_sample_span": [
+        7255,
+        7327
+      ],
+      "dead_transition_sample_span": [
+        7375,
+        7447
+      ],
+      "serve_sheet_paths": [
+        "s1_p27_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p27_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "conservative_interior_start_frame_inclusive": 9601,
+      "conservative_interior_end_frame_exclusive": 9782,
+      "interior_duration_s": 6.033,
+      "serve_transition_sample_span": [
+        9565,
+        9607
+      ],
+      "dead_transition_sample_span": [
+        9775,
+        9847
+      ],
+      "serve_sheet_paths": [
+        "s1_p34_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p34_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "conservative_interior_start_frame_inclusive": 10471,
+      "conservative_interior_end_frame_exclusive": 10952,
+      "interior_duration_s": 16.033,
+      "serve_transition_sample_span": [
+        10435,
+        10477
+      ],
+      "dead_transition_sample_span": [
+        10945,
+        11017
+      ],
+      "serve_sheet_paths": [
+        "s1_p37_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s1_p37_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "conservative_interior_start_frame_inclusive": 12091,
+      "conservative_interior_end_frame_exclusive": 12362,
+      "interior_duration_s": 9.033,
+      "serve_transition_sample_span": [
+        12055,
+        12097
+      ],
+      "dead_transition_sample_span": [
+        12355,
+        12427
+      ],
+      "serve_sheet_paths": [
+        "s2_p02_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p02_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "conservative_interior_start_frame_inclusive": 13231,
+      "conservative_interior_end_frame_exclusive": 13742,
+      "interior_duration_s": 17.033,
+      "serve_transition_sample_span": [
+        13195,
+        13237
+      ],
+      "dead_transition_sample_span": [
+        13735,
+        13807
+      ],
+      "serve_sheet_paths": [
+        "s2_p06_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p06_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "conservative_interior_start_frame_inclusive": 16032,
+      "conservative_interior_end_frame_exclusive": 16057,
+      "interior_duration_s": 0.833,
+      "serve_transition_sample_span": [
+        15985,
+        16038
+      ],
+      "dead_transition_sample_span": [
+        16050,
+        16117
+      ],
+      "serve_sheet_paths": [
+        "s2_p14_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p14_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "conservative_interior_start_frame_inclusive": 18841,
+      "conservative_interior_end_frame_exclusive": 19082,
+      "interior_duration_s": 8.033,
+      "serve_transition_sample_span": [
+        18805,
+        18847
+      ],
+      "dead_transition_sample_span": [
+        19075,
+        19147
+      ],
+      "serve_sheet_paths": [
+        "s2_p26_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p26_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "conservative_interior_start_frame_inclusive": 19531,
+      "conservative_interior_end_frame_exclusive": 19562,
+      "interior_duration_s": 1.033,
+      "serve_transition_sample_span": [
+        19495,
+        19537
+      ],
+      "dead_transition_sample_span": [
+        19555,
+        19597
+      ],
+      "serve_sheet_paths": [
+        "s2_p28_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p28_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "conservative_interior_start_frame_inclusive": 22111,
+      "conservative_interior_end_frame_exclusive": 22202,
+      "interior_duration_s": 3.033,
+      "serve_transition_sample_span": [
+        22075,
+        22117
+      ],
+      "dead_transition_sample_span": [
+        22195,
+        22267
+      ],
+      "serve_sheet_paths": [
+        "s2_p37_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s2_p37_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "conservative_interior_start_frame_inclusive": 29281,
+      "conservative_interior_end_frame_exclusive": 29342,
+      "interior_duration_s": 2.033,
+      "serve_transition_sample_span": [
+        29245,
+        29287
+      ],
+      "dead_transition_sample_span": [
+        29335,
+        29437
+      ],
+      "serve_sheet_paths": [
+        "s3_p11_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p11_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "conservative_interior_start_frame_inclusive": 29881,
+      "conservative_interior_end_frame_exclusive": 30002,
+      "interior_duration_s": 4.033,
+      "serve_transition_sample_span": [
+        29845,
+        29887
+      ],
+      "dead_transition_sample_span": [
+        29995,
+        30067
+      ],
+      "serve_sheet_paths": [
+        "s3_p13_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p13_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "conservative_interior_start_frame_inclusive": 32742,
+      "conservative_interior_end_frame_exclusive": 32761,
+      "interior_duration_s": 0.633,
+      "serve_transition_sample_span": [
+        32695,
+        32748
+      ],
+      "dead_transition_sample_span": [
+        32754,
+        32797
+      ],
+      "serve_sheet_paths": [
+        "s3_p23_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p23_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "conservative_interior_start_frame_inclusive": 34051,
+      "conservative_interior_end_frame_exclusive": 34232,
+      "interior_duration_s": 6.033,
+      "serve_transition_sample_span": [
+        34015,
+        34057
+      ],
+      "dead_transition_sample_span": [
+        34225,
+        34290
+      ],
+      "serve_sheet_paths": [
+        "s3_p27_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p27_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "conservative_interior_start_frame_inclusive": 35701,
+      "conservative_interior_end_frame_exclusive": 35852,
+      "interior_duration_s": 5.033,
+      "serve_transition_sample_span": [
+        35665,
+        35707
+      ],
+      "dead_transition_sample_span": [
+        35845,
+        35910
+      ],
+      "serve_sheet_paths": [
+        "s3_p33_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p33_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_outside_view_or_not_confirmed",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "conservative_interior_start_frame_inclusive": 36001,
+      "conservative_interior_end_frame_exclusive": 36122,
+      "interior_duration_s": 4.033,
+      "serve_transition_sample_span": [
+        35965,
+        36007
+      ],
+      "dead_transition_sample_span": [
+        36115,
+        36187
+      ],
+      "serve_sheet_paths": [
+        "s3_p34_serve_1.jpg"
+      ],
+      "dead_sheet_paths": [
+        "s3_p34_dead_1.jpg"
+      ],
+      "server_action_visibility": "server_action_in_view_contact_not_frame_certified",
+      "event_boundary_status": "uncertain_not_exact",
+      "metric_boundary_status": "not_source_reviewed"
+    }
+  ]
+}

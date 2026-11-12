@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProVolley vs UTS | Match point review</title>
+<style>
+:root{color-scheme:dark;font:15px system-ui,sans-serif;background:#101722;color:#e8edf5}*{box-sizing:border-box}body{max-width:1400px;margin:0 auto;padding:20px}h1{margin:0 0 8px}p,small{color:#afbed1;line-height:1.5}a{color:#90caff}button,input,select,textarea{font:inherit;border:1px solid #40516a;border-radius:6px;background:#1c293c;color:inherit;padding:8px}button{cursor:pointer}button:hover{border-color:#79baff}button:disabled{opacity:.5}label{display:flex;flex-direction:column;gap:5px}input[type=number]{width:140px}textarea{width:100%;min-height:65px}.layout{display:grid;grid-template-columns:250px 1fr;gap:18px}.list{max-height:78vh;overflow:auto;border:1px solid #40516a;padding:8px}.list button{display:block;width:100%;text-align:left;margin-bottom:4px}.list button.active{background:#294a68;border-color:#79baff}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:end;margin:12px 0}.stage{background:black}.stage video,.stage img{display:block;width:100%}.stage [hidden]{display:none}#scrub{width:100%}#status{color:#9bdfbf;white-space:pre-wrap}#frameLabel{font-family:monospace}@media(max-width:800px){.layout{grid-template-columns:1fr}.list{max-height:220px}}
+</style>
+</head>
+<body>
+<h1>ProVolley vs UTS: point review</h1>
+<p>Choose a point, watch the source video, and inspect exact frames. The suggested interval comes from score changes and is only a place to look. Mark serve contact and the first frame after the point-ending action. A server behind the end line is valid; keep the serve contact even when the player's box is outside the court.</p>
+<p><a href="/">Five-rally pilot review</a> · <a href="/case-studies">Case studies</a></p>
+<div class="layout"><aside><div class="row"><label>Set<select id="setFilter"><option value="all">All sets</option><option value="1">Set 1</option><option value="2">Set 2</option><option value="3">Set 3</option></select></label><label>Show<select id="statusFilter"><option value="all">All points</option><option value="pending">Needs review</option><option value="checked">Checked</option></select></label></div><p id="progress"></p><div class="list" id="pointList"></div></aside><main>
+<h2 id="pointTitle">Loading…</h2><p id="pointContext"></p>
+<div id="audioBox" hidden><p id="audioNote"></p><audio id="audioProbe" controls preload="none" style="width:100%"></audio><div class="row"><button id="audioCue">Play from first tone</button><span>Audio is a search cue; mark contact from source frames.</span></div></div>
+<div class="stage"><video id="video" controls preload="metadata"></video><img id="still" alt="Decoded source frame" hidden></div>
+<div class="row"><button id="showStartStrip">Show serve sequence</button><button id="showEndStrip">Show ending sequence</button><span id="stripTitle"></span></div>
+<img id="filmstrip" alt="Source-frame review sequence; click a tile to inspect that exact frame" hidden style="width:100%;cursor:pointer;border:1px solid #40516a">
+<div class="row"><button id="watch">Play from frame</button><button id="inspect">Inspect paused frame</button><span id="frameLabel"></span></div>
+<input id="scrub" type="range" step="1" aria-label="Source frame">
+<div class="row"><button data-step="-50">−1 s</button><button data-step="-10">−10 frames</button><button data-step="-1">−1 frame</button><button data-step="1">+1 frame</button><button data-step="10">+10 frames</button><button data-step="50">+1 s</button><label>Frame<input id="jump" type="number" step="1"></label><button id="go">Go</button></div>
+<div class="row"><label>Serve-contact frame<input id="start" type="number" step="1"></label><button id="markStart">Use shown frame</button><button id="goStart">Inspect start</button></div>
+<label>Serve-contact visibility<select id="startVisibility"><option value="source_visible">Visible: mark exact frame</option><option value="off_camera">Off camera: no frame</option><option value="uncertain">Cannot resolve: no frame</option></select></label>
+<div class="row"><label>End frame, exclusive<input id="end" type="number" step="1"></label><button id="markEnd">Use shown frame</button><button id="goEnd">Inspect end</button></div>
+<p id="estimateNote">Filled frame numbers are rough estimates. Check and adjust both against the source video before saving.</p>
+<label>Serve setup location<select id="servePosition"><option value="uncertain">Uncertain</option><option value="behind_near_end_line">Behind near end line</option><option value="behind_far_end_line">Behind far end line</option><option value="off_camera">Off camera</option></select></label>
+<label>Annotator code<input id="annotator" maxlength="80"></label><label>Notes and uncertainty<textarea id="notes"></textarea></label>
+<label style="flex-direction:row;align-items:center;margin-top:12px"><input id="checkedSource" type="checkbox">I checked the serve and ending in the source video, or marked an unobservable serve</label>
+<div class="row"><button id="save">Save checked boundaries</button><button id="nextPending">Next unchecked point</button><span id="reviewState"></span></div>
+<p id="status" role="status" aria-live="polite"></p>
+<small>Pilot points open in the existing pilot workspace. Other saved boundaries have revision history and remain pending independent review. Browser playback may seek approximately; decoded frame images show the exact source frame.</small>
+</main></div><script src="/match_score.js"></script>
+</body></html>

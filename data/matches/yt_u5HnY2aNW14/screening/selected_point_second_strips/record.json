@@ -1,0 +1,168 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "sample_sha256": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_seconds_inclusive": [
+        46,
+        54
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_05.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_seconds_inclusive": [
+        55,
+        66
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_06.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_seconds_inclusive": [
+        178,
+        183
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_18.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "source_seconds_inclusive": [
+        243,
+        251
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_27.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_seconds_inclusive": [
+        319,
+        330
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_34.jpg"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "source_seconds_inclusive": [
+        348,
+        369
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_1_point_37.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "source_seconds_inclusive": [
+        402,
+        416
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_02.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_seconds_inclusive": [
+        440,
+        462
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_06.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_seconds_inclusive": [
+        533,
+        539
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_14.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_seconds_inclusive": [
+        627,
+        640
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_26.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_seconds_inclusive": [
+        650,
+        655
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_28.jpg"
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "source_seconds_inclusive": [
+        736,
+        744
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_2_point_37.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "source_seconds_inclusive": [
+        975,
+        983
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_11.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_seconds_inclusive": [
+        995,
+        1004
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_13.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_seconds_inclusive": [
+        1090,
+        1096
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_23.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_seconds_inclusive": [
+        1134,
+        1144
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_27.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "source_seconds_inclusive": [
+        1189,
+        1198
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_33.jpg"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_seconds_inclusive": [
+        1199,
+        1208
+      ],
+      "sheet": "data/matches/yt_u5HnY2aNW14/screening/selected_point_second_strips/set_3_point_34.jpg"
+    }
+  ]
+}

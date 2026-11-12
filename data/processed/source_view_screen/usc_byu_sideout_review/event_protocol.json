@@ -1,0 +1,25 @@
+{
+  "status": "post_hoc_blank_source_event_review",
+  "case_id": "yt_b1bJ5WN05Qw_byu_sideout_0754",
+  "source_url": "https://www.youtube.com/watch?v=b1bJ5WN05Qw&t=451s",
+  "source_clip": "data/processed/source_view_screen/usc_byu_sideout_candidate_0751_0803.mp4",
+  "source_clip_sha256": "19a22a123595bb95d2d033c798692c975572f169bf11f34f06d4d3a52501e072",
+  "fps": 30,
+  "nominal_full_video_start_s": 451,
+  "review_frame_interval_inclusive": [0, 359],
+  "event_rule": "For each event, save an inclusive [first possible frame, last possible frame] bracket; [f,f] means one exact source frame. Leave unobservable events null.",
+  "definition": "USC serves; BYU receives, sets, attacks and wins the point. The first BYU attack need not end the rally.",
+  "selection_timing": "Selected after source screening and outcome inspection on 7 November 2026; exploratory exemplar only. It is outside the frozen Concordia-UCLA outcome sample and the earlier USC-BYU transfer point.",
+  "source_preview_only": {
+    "usc_served": true,
+    "byu_won": true,
+    "score_before_byu_usc": "17-19",
+    "score_after_byu_usc": "18-19",
+    "serve_nominal_video_s": [454, 455],
+    "reception_nominal_video_s": [455, 456],
+    "set_nominal_video_s": [456, 457],
+    "attack_nominal_video_s": [457, 458],
+    "point_end_nominal_video_s": [459, 461],
+    "status": "AI-assisted coarse source preview, not a saved reviewer verdict"
+  }
+}

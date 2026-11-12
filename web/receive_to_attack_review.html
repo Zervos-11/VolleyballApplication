@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Receive to attack source review</title>
+<style>body{font:15px system-ui,sans-serif;background:#14202b;color:#f0f5f8;max-width:1120px;margin:0 auto;padding:12px}
+button,input,select,textarea{font:inherit}button{padding:6px 10px;cursor:pointer}.bar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:9px 0}
+img{width:min(100%,700px);height:auto;background:#070b0f;border:1px solid #637788}input[type=range]{width:min(90vw,650px)}input[type=number]{width:100px}
+.events{display:grid;grid-template-columns:repeat(2,minmax(260px,1fr));gap:12px}.box{background:#223442;padding:10px;border:1px solid #576a79}
+#status{min-height:24px;color:#b5e7ba}textarea{width:min(98%,650px);height:50px}</style></head>
+<body><h1>Receive-to-first-attack source review</h1>
+<div class="bar"><label>Point <select id="case"></select></label><label>Reviewer <input id="reviewer" value="MZ" placeholder="code"></label><span id="rangeLabel"></span></div>
+<div class="bar"><button id="back10">-10</button><button id="back1">-1</button><input id="slider" type="range"><button id="forward1">+1</button><button id="forward10">+10</button><input id="frame" type="number"><span>Use left/right arrows outside inputs.</span></div>
+<img id="sourceFrame" alt="Unboxed source frame"><div><span id="imageStatus"></span> · <a id="fullFrame" target="_blank" rel="noopener" style="color:#a7d8ff">Open full size</a></div>
+<div class="events"><div class="box"><strong>First near-side serve reception contact</strong><div class="bar"><button id="rExact">Exact contact = current</button><button id="rStart">First possible = current</button><button id="rEnd">Last possible = current</button></div><span id="receptionValue"></span></div>
+<div class="box"><strong>First subsequent near-side attack contact</strong><div class="bar"><button id="aExact">Exact contact = current</button><button id="aStart">First possible = current</button><button id="aEnd">Last possible = current</button></div><span id="attackValue"></span></div></div>
+<div class="bar"><label>Near side receives? <select id="receives"><option value="">Uncertain</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+<label>Attack absent? <select id="absent"><option value="">Uncertain</option><option value="no">No</option><option value="yes">Yes</option></select></label></div>
+<div><label>Note<br><textarea id="note"></textarea></label></div>
+<div class="bar"><label><input type="checkbox" id="sourceOnly"> I reviewed the unboxed source before seeing a calculated time</label><button id="save">Save event verdict</button><button id="export">Export both points</button></div>
+<div id="status"></div><script src="/receive_to_attack_review.js?v=3"></script></body></html>

@@ -1,0 +1,22 @@
+# External volleyball datasets and models: suitability check
+
+**Checked:** 6 November 2026. This is a source assessment, not an imported dataset, benchmark result or validation of the present thesis pipeline.
+
+The [Volleyball Analytics repository](https://github.com/masouduut94/volleyball_analytics) describes a pipeline for ball segmentation, action detection, court segmentation and game-state classification. Its public README links three dataset archives and separate model weights. The two user-supplied Drive pages are publicly viewable and identify themselves as `ball.zip` and `actions.zip`; the README also lists a [`game_status_dataset.zip`](https://drive.google.com/file/d/1bhGTMQUIUPYMlwhNS4z6DwsnMaGKIBpn/view). **The archive contents, annotation schema, sample counts, train/test split and dataset permissions have not yet been inspected.** A Drive file title and a repository description are insufficient to establish those facts.
+
+| Resource | Repository description | Potential use here | Cannot establish by itself |
+| --- | --- | --- | --- |
+| [Ball segmentation dataset](https://drive.google.com/file/d/1Xb4P7s9NmSNkeAIY4a9dkznsoVKfwCCg/view) | Ball masks/detections | Train or test a ball proposal model; propose candidate contact periods in source video | The exact frame of ball–player contact, six player identities or floor positions |
+| [Action detection dataset](https://drive.google.com/file/d/10el9KW4MW-vLNf8sPJvlHjIfAIMgwnlX/view) | Player action boxes/classes | Propose serve, receive/dig, set, attack and block intervals for source review | A verified reception-to-attack contact interval or a rotation state |
+| [Game-state dataset](https://drive.google.com/file/d/1bhGTMQUIUPYMlwhNS4z6DwsnMaGKIBpn/view) | Service/play/no-play video classification in the main README | Help navigate likely live play and exclude dead-ball spans | Exact serve and last-live-contact frames or an intact rally boundary |
+| [Pretrained weights](https://github.com/masouduut94/volleyball_analytics/blob/main/README.md#-model-weights-urls) | Separate ball, action, court and game-state weights | Faster feasibility test on held-out local frames without training | Validity on the Concordia–UCLA recording or on newly selected elevated views |
+
+The main README and its [ML Manager submodule README](https://github.com/masouduut94/volleyball-ml-models/blob/main/README.md) describe **different action names and game-state class counts**: the main README names receive among its classes and three game states; the submodule names dig/pass and lists two game states in its model table. The actual checkpoint class map and output schema must therefore be checked before mapping any prediction to a thesis event. The submodule offers `detect_ball`, `detect_actions` and `classify_game_state` methods. It is an external candidate generator, not independent evidence that these events occurred in the thesis videos.
+
+The main README says its source clips come from international match broadcasts on the Volleyball Watchdog channel. Performance on those clips cannot be assumed to transfer to the collegiate endline recordings under review here; different scale, uniforms, ball visibility and editing may change detections.
+
+## Decision for this project
+
+Use the external models, if tested, as **review aids** for the receive-to-first-attack metric and rally navigation. Keep the existing unboxed, human-reviewed source event frames as the reference. Freeze the test videos and frames before seeing model predictions; run the model on those frames; calculate event proposal recall and timing discrepancy against the source review, including nulls and false positives. Report a separate result for every camera view. Do not merge external training examples into the 18-point outcome sample or treat action detections as a substitute for the six-player tracking and court-position validation gate.
+
+Before importing an archive or redistributing any example, inspect its file list, label definitions, provenance and dataset-specific licence. The top-level repository has a [GPL-2.0 licence file](https://github.com/masouduut94/volleyball_analytics/blob/main/LICENSE), while the ML Manager submodule [states MIT](https://github.com/masouduut94/volleyball-ml-models/blob/main/README.md#-license); neither fact alone establishes rights over third-party match footage or the Drive archives. Keep local source clips and annotated frames out of public thesis attachments until source-use terms are settled.

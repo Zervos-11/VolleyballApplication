@@ -1,0 +1,129 @@
+{
+  "revision": 153,
+  "match_id": "yt_b1bJ5WN05Qw",
+  "frame": 930,
+  "prior": {
+    "excerpt_frame": 930,
+    "reviewer_code": "MZ_confirmed_bulk_box_match",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 147,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 2,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 3,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 94,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 4,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 80,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 110,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 293007,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      }
+    ]
+  },
+  "new": {
+    "excerpt_frame": 930,
+    "reviewer_code": "MZ_confirmed_jersey_and_box",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 147,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 2,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged. | MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 3,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 94,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged. | MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 4,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 80,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 5,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 110,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged. | MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 293007,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      }
+    ]
+  }
+}

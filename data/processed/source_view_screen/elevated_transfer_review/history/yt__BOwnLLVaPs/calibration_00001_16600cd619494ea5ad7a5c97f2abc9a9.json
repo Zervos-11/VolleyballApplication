@@ -1,0 +1,85 @@
+{
+  "prior": {
+    "revision": 0,
+    "reviewer_code": null,
+    "landmarks": {},
+    "status": "not_reviewed"
+  },
+  "new": {
+    "revision": 1,
+    "reviewer_code": "MZ",
+    "checked_unboxed_source": true,
+    "source_frame": 240,
+    "source_boxes_visible_during_review": false,
+    "landmarks": {
+      "net_left": {
+        "code": "net_left",
+        "x_px": 373.3,
+        "y_px": 650.1,
+        "status": "clicked",
+        "note": ""
+      },
+      "net_right": {
+        "code": "net_right",
+        "x_px": 1368.6,
+        "y_px": 656.0,
+        "status": "clicked",
+        "note": ""
+      },
+      "baseline_left": {
+        "code": "baseline_left",
+        "x_px": 201.4,
+        "y_px": 949.0,
+        "status": "clicked",
+        "note": ""
+      },
+      "baseline_right": {
+        "code": "baseline_right",
+        "x_px": 1534.5,
+        "y_px": 954.9,
+        "status": "clicked",
+        "note": ""
+      },
+      "attack_left": {
+        "code": "attack_left",
+        "x_px": 331.8,
+        "y_px": 731.1,
+        "status": "clicked",
+        "note": ""
+      },
+      "attack_right": {
+        "code": "attack_right",
+        "x_px": 1410.1,
+        "y_px": 731.1,
+        "status": "clicked",
+        "note": ""
+      }
+    },
+    "check": {
+      "status": "staged_four_corner_transform",
+      "homography_image_to_court": [
+        [
+          0.03343970503430485,
+          0.019231464107658327,
+          -24.985415827976986
+        ],
+        [
+          -0.0008892713553034254,
+          0.15001493332273844,
+          -97.19273950455889
+        ],
+        [
+          -4.372915388330813e-05,
+          0.004223345795158732,
+          1.0
+        ]
+      ],
+      "held_out_attack_errors_m": {
+        "attack_left": 0.0424,
+        "attack_right": 0.2108
+      },
+      "note": "Held-out line error checks selected image landmarks; it is not player-position accuracy."
+    },
+    "status": "source_reviewed_staged_calibration"
+  }
+}

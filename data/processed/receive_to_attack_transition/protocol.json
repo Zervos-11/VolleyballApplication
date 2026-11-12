@@ -1,0 +1,50 @@
+{
+  "status": "frozen_blank_source_event_template",
+  "definition": "Elapsed seconds from first near-side serve-reception contact to first subsequent near-side attack contact; null if either contact is unavailable or the near side does not receive",
+  "event_frame_rule": "inclusive [first_possible_frame,last_possible_frame]; use [f,f] when exact",
+  "case_selection": "source-selected/proposed before this metric calculation; event brackets remain unverified",
+  "cases": [
+    {
+      "match_id": "yt_AoEP-YiWRvc",
+      "rally_id": "point_21m",
+      "source_sha256": "2b762dfadcc1d725e9f08f3c376a22be276254499493a7af7674086b91910b44",
+      "source_record_sha256": "40e0a023f34ccded0f6c1cf15192a66b78a5d3fa115d18bbc10a86b892a31916",
+      "selection_sha256": "c238156082f7518333f160ac2f1dbb9165346f5f91c89db67332bfbe5b09d358",
+      "fps": 59.94005994005994,
+      "provisional_interval_inclusive": [
+        74980,
+        75389
+      ],
+      "phase_review": {
+        "near_side_receives": null,
+        "reception_contact_frame_interval": null,
+        "first_near_side_attack_contact_frame_interval": null,
+        "attack_absent": null,
+        "reviewer_code": "",
+        "source_only_before_metric": null,
+        "note": ""
+      }
+    },
+    {
+      "match_id": "yt_FqE5pTJqx8g",
+      "rally_id": "r3",
+      "source_sha256": "985ab2b98a39dab0d541367e41dbacc3b26e06e200ab6ebabf2f9d57263f1e6e",
+      "source_record_sha256": "bd8e19c1637b93f415598e3425cf3150f13988ac5c690cfbc9ac546962c99b1c",
+      "selection_sha256": "c500bf73279fdca7ecc77f9b0ca68f4c3fb58be246f3f5d0dff9cd2ed1e9d59d",
+      "fps": 50.0,
+      "provisional_interval_inclusive": [
+        96550,
+        97059
+      ],
+      "phase_review": {
+        "near_side_receives": null,
+        "reception_contact_frame_interval": null,
+        "first_near_side_attack_contact_frame_interval": null,
+        "attack_absent": null,
+        "reviewer_code": "",
+        "source_only_before_metric": null,
+        "note": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+match_id,rally_id,frame_index,time_s,object_type,id_type,id,x1,y1,x2,y2,confidence,occlusion,team_id,foot_x_px,foot_y_px,position_status,annotation_source,annotator_id,review_status,reviewer_id,notes

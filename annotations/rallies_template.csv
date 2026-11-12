@@ -1,0 +1,4 @@
+rally_id,t_start,t_end,context,outcome
+r1,12.30,18.65,sideout,win
+r2,21.05,33.12,sideout,loss
+r3,35.90,42.77,serve_hold,win

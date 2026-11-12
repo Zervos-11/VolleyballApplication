@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Volley | Player annotation</title>
+<style>
+:root{color-scheme:dark;font:15px system-ui,sans-serif;background:#101722;color:#e8edf5}*{box-sizing:border-box}body{margin:0 auto;max-width:1560px;padding:22px}h1{margin:12px 0}p,small{color:#afbed1;line-height:1.5}a{color:#98caff}button,input,select,textarea{font:inherit;border:1px solid #40516a;border-radius:6px;background:#1c293c;color:inherit;padding:8px}button{cursor:pointer}button:disabled{opacity:.4}button.active{border-color:#78d6ba;background:#244a46}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}canvas{width:100%;height:auto;background:black;touch-action:none;cursor:crosshair}label{display:block;margin:10px 0}label input:not([type=checkbox]),label select,textarea{width:100%;display:block;margin-top:5px}textarea{min-height:65px}#people button{display:block;width:100%;text-align:left;margin:5px 0}#status{min-height:24px;color:#9bdfbf;white-space:pre-wrap}#saveFrame,#apply{background:#196b55}.panel{padding:14px;border:1px solid #334155;border-radius:9px;margin:10px 0}.warning{color:#ffc982}#frameSelect{max-width:400px}@media(max-width:1000px){.layout{grid-template-columns:1fr}body{padding:12px}}
+</style></head><body>
+<a href="/" id="boundaryLink">← Rally boundary review</a>
+<a href="#" id="sideSwitch" hidden>Switch court side</a>
+<h1>Player annotation</h1><p id="heading">Loading…</p>
+<p id="instructions">Click a grey person proposal, assign a stable player ID, correct its box if necessary, and mark its visible floor-contact point. Add only players from the near-camera half. Use the same player ID throughout the rally.</p>
+<p class="warning" id="boundaryNotice"></p>
+<button id="refreshDrafts" hidden>Refresh proposals for corrected rally boundaries</button>
+<div class="row"><button id="prev">Previous frame</button><select id="frameSelect" aria-label="Annotation frame"></select><button id="next">Next frame</button><button id="denseStart" hidden>Start dense review</button><button id="nextUnsaved" hidden>Next unsaved dense frame</button><button id="copyPrevious" hidden>Copy previous labels</button><span id="frameState"></span><span id="denseProgress"></span></div>
+<div class="layout"><main>
+<canvas id="canvas" width="1920" height="1080" aria-label="Video frame with editable player boxes"></canvas>
+<div class="row"><button data-mode="select" class="active">Select person</button><button data-mode="box">Draw / replace box</button><button data-mode="foot">Mark floor-contact point (W)</button><label><input id="showProposals" type="checkbox" checked> Show detector proposals</label></div>
+<small id="canvasHelp">Grey = detector proposals, green = included labels, yellow = current edit. Draw a box by dragging. For feet, click the floor contact: midpoint of two contacting feet, or the single contacting foot. Leave hidden or airborne positions empty.</small>
+<div class="panel"><div class="row"><label>Your annotator code<input id="annotator" placeholder="ann01" maxlength="80"></label><label><input type="checkbox" id="complete"> All target players accounted for on this frame</label></div><label>Frame notes<textarea id="frameNotes" placeholder="Missing/uncertain players, ambiguity or reasons for an empty frame"></textarea></label><div class="row"><button id="saveFrame">Save this frame</button><a id="export" href="#">Download saved CSV</a></div><small id="reviewNote">Saved labels need review. Completeness records and edit history stay in the project.</small></div>
+<p id="status" role="status" aria-live="polite"></p>
+</main><aside>
+<div class="panel"><strong>Current player</strong><label>Player ID<input id="playerId" list="knownIds" placeholder="near_p01" maxlength="60"></label><datalist id="knownIds"></datalist>
+<label>Team<select id="team"><option value="unknown">Unknown / not assigned</option><option value="home">Home (only if verified)</option><option value="away">Away (only if verified)</option></select></label>
+<label>Body visibility<select id="occlusion"><option value="none">Not occluded</option><option value="partial">Partially occluded</option><option value="full">Fully occluded — no box</option></select></label>
+<label>Floor position<select id="position"><option value="uncertain">Uncertain</option><option value="visible">Visible contact</option><option value="occluded">Feet occluded</option><option value="airborne">Airborne</option><option value="out_of_frame">Out of frame</option></select></label>
+<label>Player notes<textarea id="playerNotes"></textarea></label><small id="geometry">No player selected</small>
+<div class="row"><button id="apply">Include / update player (Q)</button><button id="clearFoot">Clear footpoint</button><button id="newPlayer">New player</button></div></div>
+<div class="panel"><strong id="count">Included players: 0</strong><div id="people"></div><button id="remove">Remove selected player</button></div>
+</aside></div><script src="/player_annotation.js?v=10"></script></body></html>

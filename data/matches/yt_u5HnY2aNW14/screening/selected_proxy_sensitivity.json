@@ -1,0 +1,520 @@
+{
+  "status": "single_frame_proxy_sensitivity_not_rally_outcome_analysis",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "review": "ee54857ac9509773a57d4615d007e99332ca3fbc5aa56002fb5ea6b8f571f932",
+    "crops": "414f3b9b00d720536d4dd11368129c3534f069ae85b22347c753f320811cf409",
+    "floor_reference": "ec13a169289d10aa888030e005e418c1b430c0e8dac6e42470b2e47a49f690ce",
+    "heldout_reference": "672a93dfe69bcd4ec5f8b11d598b23af2917b7f0aa33bdb67ad89b2f3ad92e7a",
+    "runs": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+    "visibility": "33791d14d615357db06c2df0113d27d8edef0dedf187d7c72d8b69731d44d7bf"
+  },
+  "summary": {
+    "source_reviewed_snapshot_points": 15,
+    "near_team_win_snapshots": 6,
+    "near_team_loss_snapshots": 9,
+    "frozen_points_without_local_six_box_snapshot": 3,
+    "validated_grounded_metric_frames": 0,
+    "perturbation_radius_m": 0.632,
+    "perturbation_draws_per_frame": 2000,
+    "source_reference_boxes_for_radius": 30,
+    "median_snapshot_mean_pairwise_spacing_m_by_near_team_outcome": {
+      "win": 4.556,
+      "loss": 4.885
+    },
+    "median_perturbation_p05_p95_width_mean_pairwise_spacing_m": 0.612,
+    "median_snapshot_convex_hull_area_m2_by_near_team_outcome": {
+      "win": 22.385,
+      "loss": 25.662
+    },
+    "median_perturbation_p05_p95_width_convex_hull_area_m2": 7.181,
+    "median_snapshot_centroid_dispersion_m_by_near_team_outcome": {
+      "win": 3.015,
+      "loss": 3.3
+    },
+    "median_perturbation_p05_p95_width_centroid_dispersion_m": 0.417
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame": 1422,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.286,
+        "convex_hull_area_m2": 14.324,
+        "centroid_dispersion_m": 2.876
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.005,
+          4.614
+        ],
+        "convex_hull_area_m2": [
+          11.392,
+          17.955
+        ],
+        "centroid_dispersion_m": [
+          2.682,
+          3.092
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.607,
+        "convex_hull_area_m2": 7.192,
+        "centroid_dispersion_m": 0.415
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_frame": 1758,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.728,
+        "convex_hull_area_m2": 25.432,
+        "centroid_dispersion_m": 3.192
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.436,
+          5.071
+        ],
+        "convex_hull_area_m2": [
+          22.1,
+          29.281
+        ],
+        "centroid_dispersion_m": [
+          2.991,
+          3.421
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.721,
+        "convex_hull_area_m2": 8.417,
+        "centroid_dispersion_m": 0.471
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "source_frame": 7344,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.638,
+        "convex_hull_area_m2": 22.755,
+        "centroid_dispersion_m": 3.042
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.365,
+          4.969
+        ],
+        "convex_hull_area_m2": [
+          19.48,
+          26.239
+        ],
+        "centroid_dispersion_m": [
+          2.855,
+          3.262
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.707,
+        "convex_hull_area_m2": 6.905,
+        "centroid_dispersion_m": 0.49
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.976,
+        "convex_hull_area_m2": 26.664,
+        "centroid_dispersion_m": 3.407
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.706,
+          5.318
+        ],
+        "convex_hull_area_m2": [
+          22.971,
+          30.912
+        ],
+        "centroid_dispersion_m": [
+          3.216,
+          3.633
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.703,
+        "convex_hull_area_m2": 8.484,
+        "centroid_dispersion_m": 0.459
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "source_frame": 10488,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 3.317,
+        "convex_hull_area_m2": 12.177,
+        "centroid_dispersion_m": 2.249
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          3.042,
+          3.658
+        ],
+        "convex_hull_area_m2": [
+          9.865,
+          14.748
+        ],
+        "centroid_dispersion_m": [
+          2.056,
+          2.473
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.709,
+        "convex_hull_area_m2": 6.214,
+        "centroid_dispersion_m": 0.461
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "source_frame": 12306,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.652,
+        "convex_hull_area_m2": 25.03,
+        "centroid_dispersion_m": 3.13
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.362,
+          4.991
+        ],
+        "convex_hull_area_m2": [
+          21.769,
+          28.91
+        ],
+        "centroid_dispersion_m": [
+          2.924,
+          3.359
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.655,
+        "convex_hull_area_m2": 7.606,
+        "centroid_dispersion_m": 0.438
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_frame": 13566,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.68,
+        "convex_hull_area_m2": 25.662,
+        "centroid_dispersion_m": 3.161
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.392,
+          5.02
+        ],
+        "convex_hull_area_m2": [
+          22.311,
+          29.569
+        ],
+        "centroid_dispersion_m": [
+          2.963,
+          3.385
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.688,
+        "convex_hull_area_m2": 7.522,
+        "centroid_dispersion_m": 0.462
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_frame": 18936,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 5.233,
+        "convex_hull_area_m2": 31.354,
+        "centroid_dispersion_m": 3.57
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.949,
+          5.567
+        ],
+        "convex_hull_area_m2": [
+          27.447,
+          35.532
+        ],
+        "centroid_dispersion_m": [
+          3.369,
+          3.787
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.576,
+        "convex_hull_area_m2": 7.53,
+        "centroid_dispersion_m": 0.403
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.475,
+        "convex_hull_area_m2": 22.015,
+        "centroid_dispersion_m": 2.989
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.19,
+          4.806
+        ],
+        "convex_hull_area_m2": [
+          18.774,
+          25.48
+        ],
+        "centroid_dispersion_m": [
+          2.791,
+          3.213
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.704,
+        "convex_hull_area_m2": 6.75,
+        "centroid_dispersion_m": 0.465
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "source_frame": 22140,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 5.625,
+        "convex_hull_area_m2": 36.33,
+        "centroid_dispersion_m": 3.736
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          5.344,
+          5.913
+        ],
+        "convex_hull_area_m2": [
+          32.323,
+          40.616
+        ],
+        "centroid_dispersion_m": [
+          3.543,
+          3.929
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.507,
+        "convex_hull_area_m2": 8.038,
+        "centroid_dispersion_m": 0.34
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "source_frame": 29280,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 5.32,
+        "convex_hull_area_m2": 23.646,
+        "centroid_dispersion_m": 3.484
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          5.042,
+          5.626
+        ],
+        "convex_hull_area_m2": [
+          19.882,
+          27.794
+        ],
+        "centroid_dispersion_m": [
+          3.287,
+          3.692
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.587,
+        "convex_hull_area_m2": 7.22,
+        "centroid_dispersion_m": 0.411
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.722,
+        "convex_hull_area_m2": 24.837,
+        "centroid_dispersion_m": 3.196
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.427,
+          5.03
+        ],
+        "convex_hull_area_m2": [
+          21.534,
+          28.369
+        ],
+        "centroid_dispersion_m": [
+          2.996,
+          3.404
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.617,
+        "convex_hull_area_m2": 7.569,
+        "centroid_dispersion_m": 0.416
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_frame": 34122,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 5.106,
+        "convex_hull_area_m2": 28.425,
+        "centroid_dispersion_m": 3.467
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.818,
+          5.42
+        ],
+        "convex_hull_area_m2": [
+          24.743,
+          32.222
+        ],
+        "centroid_dispersion_m": [
+          3.267,
+          3.675
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.601,
+        "convex_hull_area_m2": 8.091,
+        "centroid_dispersion_m": 0.411
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "source_frame": 35844,
+      "near_team_won": true,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.228,
+        "convex_hull_area_m2": 19.534,
+        "centroid_dispersion_m": 2.788
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          3.948,
+          4.555
+        ],
+        "convex_hull_area_m2": [
+          16.758,
+          22.991
+        ],
+        "centroid_dispersion_m": [
+          2.598,
+          3.01
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.702,
+        "convex_hull_area_m2": 6.823,
+        "centroid_dispersion_m": 0.482
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "near_team_won": false,
+      "source_team_membership": "six_correct_near_side_teammates_single_instant",
+      "grounded_position_validation": "not_validated",
+      "box_bottom_snapshot_metrics": {
+        "mean_pairwise_spacing_m": 4.885,
+        "convex_hull_area_m2": 26.526,
+        "centroid_dispersion_m": 3.3
+      },
+      "perturbation_p05_p95": {
+        "mean_pairwise_spacing_m": [
+          4.581,
+          5.217
+        ],
+        "convex_hull_area_m2": [
+          22.806,
+          30.589
+        ],
+        "centroid_dispersion_m": [
+          3.097,
+          3.523
+        ]
+      },
+      "perturbation_max_absolute_change": {
+        "mean_pairwise_spacing_m": 0.735,
+        "convex_hull_area_m2": 8.793,
+        "centroid_dispersion_m": 0.49
+      }
+    }
+  ],
+  "interpretation": "One locally source-reviewed frame per available point. The perturbation radius is the largest discrepancy among 30 clear-shoe examples, not a validated bound. The perturbation envelope probes sensitivity only; it is not an uncertainty interval. No serving/ground state or full analysis interval is certified for these 15 frames. Do not use the winner medians for inference or as the final contract result."
+}

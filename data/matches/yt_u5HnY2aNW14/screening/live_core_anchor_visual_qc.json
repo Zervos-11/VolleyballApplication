@@ -1,0 +1,42 @@
+{
+  "status": "single_reviewer_image_box_membership_screen_not_floor_accuracy_or_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "frozen_sample_sha256": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+  "coarse_live_core_sha256": "1fbc5117e49b0d8c69c820fb07abe07a978d1967e4d2f6d7b0f1556cf7c44da8",
+  "live_core_box_screen_sha256": "fd0cb04de13a4e0a8f1ccf8a4db11ccbcdbeb587f6f517cd3a9440490e13269e",
+  "deterministic_anchor_list_sha256": "9cd2f939059da3a60f2c604ab0028f8e813a181c6e359da53d5cad5ab585eb91",
+  "review_basis": "three 2-by-3 anchor sheets with follow-up full-resolution images for crowded or suspect frames; visually check distinct near-side teammates including contrasting libero",
+  "rows": [
+    {"set": 1, "point_number": 5, "accepted_second": 48, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 1, "point_number": 6, "accepted_second": 59, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 1, "point_number": 18, "accepted_second": 178, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 1, "point_number": 27, "accepted_second": 244, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 1, "point_number": 34, "accepted_second": 323, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 1, "point_number": 37, "accepted_second": 358, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 2, "accepted_second": 404, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 6, "accepted_second": 449, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 14, "accepted_second": 536, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 26, "accepted_second": 632, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 28, "accepted_second": 651, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 2, "point_number": 37, "accepted_second": 740, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 3, "point_number": 11, "accepted_second": 977, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 3, "point_number": 13, "accepted_second": 998, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 3, "point_number": 23, "accepted_second": null, "status": "no_six_near_team_boxes_in_live_core", "reason": "The UCLA server is outside the near court at 1092 s. The six-box count at 1093 s is after the point and includes a far-side Concordia player; that second was removed from the live core."},
+    {"set": 3, "point_number": 27, "accepted_second": 1137, "status": "six_distinct_near_team_boxes_visual"},
+    {"set": 3, "point_number": 33, "accepted_second": 1195, "status": "six_distinct_near_team_boxes_visual_after_anchor_rejection", "reason": "The deterministic 1192 s anchor missed blue #19 and counted a far-side white player. A separate 1195 s image shows six distinct near-side teammates, including UCLA's contrasting libero."},
+    {"set": 3, "point_number": 34, "accepted_second": 1203, "status": "six_distinct_near_team_boxes_visual"}
+  ],
+  "summary": {
+    "selected_points": 18,
+    "points_with_at_least_one_visually_six_near_box_snapshot": 17,
+    "points_without_such_snapshot_in_coarse_live_core": 1,
+    "validated_six_player_floor_metric_frames": 0,
+    "validated_continuous_six_player_rallies": 0
+  },
+  "limitations": [
+    "The accepted seconds are availability examples chosen after score-only sample selection; they are not phase-matched rally summaries.",
+    "Visual distinctness of a box at one source frame does not establish player identity across the rally.",
+    "Box-bottom image coordinates are not independently validated floor-contact positions.",
+    "An off-court server may make the strict six-in-court frame rule inapplicable during a very short serve point."
+  ]
+}

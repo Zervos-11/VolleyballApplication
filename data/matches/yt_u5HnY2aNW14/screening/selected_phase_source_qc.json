@@ -1,0 +1,210 @@
+{
+  "status": "single_reviewer_local_phase_screen_not_exact_rally_boundaries",
+  "selection_sha256": "1160ad769600b31d70cf1abd3d7bb358f288fb61014d373f9798767da75f3d13",
+  "context_index_sha256": "bb221736dcc13979e30d6991545ff4a77da78bee47c9c279dd7b12ce06824e9f",
+  "extended_context_sha256": {
+    "s1_p5": "d230d4f672a58014b09a3b64573bc61496d7def48528f3cc0cd4b608e2e689ca",
+    "s1_p18": "c3e9333f2d857f91e666a235dc79055e9e7240543cfcdbdba43983947db2d17f",
+    "s1_p27": "4a04bd744e7a8cc334c5500ccdb4ef4b4bbc31d8725e4fe05aeab0cd7a0586c3",
+    "s1_p34": "f54c9a11583dc7e958b25d17f27c6ad70e2a21bd4cf47672577878773aaf25be",
+    "s3_p11": "6e0eced16d65904ae5c522cd4173398b6e99a79b5880a10ba1f1090cd19c2353",
+    "s3_p27": "28a57a2c043c45451ae1dcb02728d9c488e7b172dbcb5c2b51f4b0b4a60e6967"
+  },
+  "focus_sequence_index_sha256": "bc86881fc4bfe7f57f32ff8fa3aacc04ccfeac21ac7d53c6f90bbb0c92e0ab4c",
+  "review_basis": "Three unboxed source frames at selected frame +/-12 frames (0.4 s); ambiguous and long-run cases additionally checked at +/-1 and +/-2 s and seven 5 Hz focus sequences",
+  "summary": {
+    "selected_points": 18,
+    "visible_live_play": 16,
+    "uncertain_phase": 0,
+    "after_point": 2,
+    "visual_six_distinct_near_boxes_at_selected_frame": 18
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame": 1422,
+      "source_second": 47.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "At 47.4 s the ball is in flight above the near court; the source sequence continues to a near attack.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_frame": 1752,
+      "source_second": 58.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side attack and near-side defensive response across the strip.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frame": 5370,
+      "source_second": 179.0,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Extended context shows the active exchange before players disperse by 180 s.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "source_frame": 7338,
+      "source_second": 244.6,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Extended context carries the same exchange into a near-side attack at 246.6 s.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9672,
+      "source_second": 322.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "At 322.4 s the far-side team is in a continuing exchange after the near-side serve, before its later attack.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "source_frame": 10722,
+      "source_second": 357.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Attack/block exchange and coordinated response across the strip.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "source_frame": 12312,
+      "source_second": 410.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side player approaches and attacks; near team reacts.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_frame": 13548,
+      "source_second": 451.6,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side attack and near-side defensive motion.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_frame": 16074,
+      "source_second": 535.8,
+      "local_phase_status": "after_point",
+      "review_note": "The source sequence shows the near-side team beginning to gather and the far-side team walking at 535.8 s; the rally ended earlier.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_frame": 18942,
+      "source_second": 631.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Near-side players reposition toward an active exchange.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "source_second": 651.2,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Near-side receive and far-side net attack/block motion.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "source_frame": 22194,
+      "source_second": 739.8,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side net action and near-side defensive response.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "source_frame": 29280,
+      "source_second": 976.0,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Near-side reception has already occurred by 975.8 s and the selected 976.0 s frame shows the continuing exchange.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29928,
+      "source_second": 997.6,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side attacker and near-side response change across frames.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_frame": 32784,
+      "source_second": 1092.8,
+      "local_phase_status": "after_point",
+      "review_note": "Near-side server has returned and both teams walk/reset; live serve was earlier.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_frame": 34122,
+      "source_second": 1137.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Extended context carries the exchange into a near-side block at 1139.4 s.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "source_frame": 35832,
+      "source_second": 1194.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side dive and near-side blocking/defensive action.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "source_second": 1202.4,
+      "local_phase_status": "visible_live_play",
+      "review_note": "Far-side attack and near-side defensive response.",
+      "visual_six_distinct_near_boxes": true,
+      "geometric_candidate_count": 6
+    }
+  ],
+  "limitations": [
+    "Three-frame local motion does not identify exact serve and dead-ball frames.",
+    "Uncertain instants must not be promoted to live-play metric frames.",
+    "Six image boxes do not prove six grounded floor positions or stable identities.",
+    "The selected instants were found using box availability and are not phase-matched outcome observations."
+  ]
+}

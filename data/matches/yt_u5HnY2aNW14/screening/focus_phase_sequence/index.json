@@ -1,0 +1,171 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "selection_sha256": "1160ad769600b31d70cf1abd3d7bb358f288fb61014d373f9798767da75f3d13",
+  "windows_seconds": {
+    "s1_p5": [
+      45.0,
+      51.0
+    ],
+    "s1_p34": [
+      320.0,
+      328.0
+    ],
+    "s3_p11": [
+      974.0,
+      980.0
+    ],
+    "s3_p23": [
+      1090.0,
+      1094.0
+    ],
+    "s2_p14": [
+      533.0,
+      538.0
+    ],
+    "s2_p28": [
+      648.0,
+      653.0
+    ],
+    "s3_p34": [
+      1200.0,
+      1205.0
+    ]
+  },
+  "sheets": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "page": 1,
+      "path": "s1_p05_1.jpg",
+      "first_frame": 1350,
+      "last_frame": 1464,
+      "sha256": "cd35ba6acbeddc2e4d860b5cfa26731458eea91cd31693343953123f2ddee281"
+    },
+    {
+      "set": 1,
+      "point_number": 5,
+      "page": 2,
+      "path": "s1_p05_2.jpg",
+      "first_frame": 1470,
+      "last_frame": 1530,
+      "sha256": "227dccb280e5209710ea5883dcd93ecda257f0234ab1152ccd029e9a9f43ba79"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "page": 1,
+      "path": "s1_p34_1.jpg",
+      "first_frame": 9600,
+      "last_frame": 9714,
+      "sha256": "79e8fe84ee85c7f7b4c848e6422b0ecb33e97ca52c8b5eda1032e292a85bb17d"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "page": 2,
+      "path": "s1_p34_2.jpg",
+      "first_frame": 9720,
+      "last_frame": 9834,
+      "sha256": "f3489b673bb621d0ea45e0d8526bd5b78e0c9dbb010c88b6394b4b655300a4fe"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "page": 3,
+      "path": "s1_p34_3.jpg",
+      "first_frame": 9840,
+      "last_frame": 9840,
+      "sha256": "80787b2fd289cb0ac67b325b89d56ac0aa16650900d4202ddad11211f61d0cbb"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "page": 1,
+      "path": "s3_p11_1.jpg",
+      "first_frame": 29220,
+      "last_frame": 29334,
+      "sha256": "c351f6811ce0ce23b9ce085e995060b11b99f7876ed2860881f6a7831adb201c"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "page": 2,
+      "path": "s3_p11_2.jpg",
+      "first_frame": 29340,
+      "last_frame": 29400,
+      "sha256": "1ab9e9b2335f431f21bc86c3a31b81be218eef5ac8afc0b55d29cf76b998a707"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "page": 1,
+      "path": "s3_p23_1.jpg",
+      "first_frame": 32700,
+      "last_frame": 32814,
+      "sha256": "34c45f8f4a4a0b5f8c937732dfe225d8d050010e991a7e673a4858f336adcefa"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "page": 2,
+      "path": "s3_p23_2.jpg",
+      "first_frame": 32820,
+      "last_frame": 32820,
+      "sha256": "d684b983a16c2a8ca1700f37bacd75f451e6f28f1a1551df9c5c6964cb08b803"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "page": 1,
+      "path": "s2_p14_1.jpg",
+      "first_frame": 15990,
+      "last_frame": 16104,
+      "sha256": "aa86092610ffcfbec5c11326b674b9740ac2731953c9e1c995eaab951f376f65"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "page": 2,
+      "path": "s2_p14_2.jpg",
+      "first_frame": 16110,
+      "last_frame": 16140,
+      "sha256": "80024319930763ffde6638ead84eb82a6d3bb8b7c72be7b15006b66bb6e1d644"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "page": 1,
+      "path": "s2_p28_1.jpg",
+      "first_frame": 19440,
+      "last_frame": 19554,
+      "sha256": "31e0713a79eaf41a631cb6450c2ce82d303f6dce7b47d041bc6e3b1667db3ce2"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "page": 2,
+      "path": "s2_p28_2.jpg",
+      "first_frame": 19560,
+      "last_frame": 19590,
+      "sha256": "9b694703e1a951258abbeffebe2ecbf1bf0ab46bfb371bff935b275500892936"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "page": 1,
+      "path": "s3_p34_1.jpg",
+      "first_frame": 36000,
+      "last_frame": 36114,
+      "sha256": "01d0d6bc8bcfdb0f84314045221b5320a82e8a58d49146a864a684a9d328ac87"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "page": 2,
+      "path": "s3_p34_2.jpg",
+      "first_frame": 36120,
+      "last_frame": 36150,
+      "sha256": "212dd38820c9fae41e34cb0bb431239116034994ffb07457325a509c3fdc175f"
+    }
+  ]
+}

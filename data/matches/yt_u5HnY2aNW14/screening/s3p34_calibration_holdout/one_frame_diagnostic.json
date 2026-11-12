@@ -1,0 +1,127 @@
+{
+  "status": "partial_one_frame_same_camera_diagnostic",
+  "frame": 1422,
+  "marked_landmarks": 6,
+  "frozen_rule_required_landmarks": 12,
+  "frozen_two_frame_operational_pass": false,
+  "single_frame_within_error_threshold": true,
+  "maximum_error_m": 0.039666615405668494,
+  "median_error_m": 0.02609389222723563,
+  "maximum_static_camera_shift_px": 0.293,
+  "inputs_sha256": {
+    "draft": "25cda1a3c8af36385f83f606ec2b62670e00b8bf086d6af7eac67246a0f61962",
+    "protocol": "8f82500464e41c7e6cac1ff3cc56c14da82f780f4e0360c6aa312a42f18eb062",
+    "refined_candidate": "4f588eed7c9e14ddfd8530ab4c8cc86e9bf10b070c5f678631c4407f6a66cb0c",
+    "camera_registration": "0dfd9f22dd4530afd80423d941f82da205359ca494f5d7121bf2cecc7343a9b5"
+  },
+  "marks": [
+    {
+      "landmark_code": "baseline_left",
+      "status": "marked",
+      "error_m": 0.039666615405668494,
+      "clicked_px": [
+        246.6,
+        644.8
+      ],
+      "mapped_court_m": [
+        0.01640665914913497,
+        0.03611456649754117
+      ],
+      "target_court_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "landmark_code": "baseline_right",
+      "status": "marked",
+      "error_m": 0.030587718059825218,
+      "clicked_px": [
+        1118.2,
+        637.9
+      ],
+      "mapped_court_m": [
+        8.987415230264082,
+        0.027878882093822898
+      ],
+      "target_court_m": [
+        9.0,
+        0.0
+      ]
+    },
+    {
+      "landmark_code": "attack_left",
+      "status": "marked",
+      "error_m": 0.025757137404505595,
+      "clicked_px": [
+        288.7,
+        413.1
+      ],
+      "mapped_court_m": [
+        0.012030741093409314,
+        5.977225202613021
+      ],
+      "target_court_m": [
+        0.0,
+        6.0
+      ]
+    },
+    {
+      "landmark_code": "attack_right",
+      "status": "marked",
+      "error_m": 0.026430647049965665,
+      "clicked_px": [
+        1062.4,
+        407.7
+      ],
+      "mapped_court_m": [
+        8.973592596874969,
+        5.998891774539201
+      ],
+      "target_court_m": [
+        9.0,
+        6.0
+      ]
+    },
+    {
+      "landmark_code": "net_left",
+      "status": "marked",
+      "error_m": 0.022761202577322847,
+      "clicked_px": [
+        306.0,
+        314.7
+      ],
+      "mapped_court_m": [
+        0.002781313996895985,
+        8.977409368419263
+      ],
+      "target_court_m": [
+        0.0,
+        9.0
+      ]
+    },
+    {
+      "landmark_code": "net_right",
+      "status": "marked",
+      "error_m": 0.01846745673480499,
+      "clicked_px": [
+        1040.0,
+        310.3
+      ],
+      "mapped_court_m": [
+        8.981534166499301,
+        9.000244849701593
+      ],
+      "target_court_m": [
+        9.0,
+        9.0
+      ]
+    }
+  ],
+  "limitations": [
+    "Only the first of two frozen holdout frames was marked; the twelve-mark protocol did not pass.",
+    "The camera registration study supports stability over checked points but does not validate the transform corners.",
+    "Court-line residuals do not measure error in box-bottom player floor positions.",
+    "Marks came from one reviewer previously exposed to this camera and calibration work."
+  ]
+}

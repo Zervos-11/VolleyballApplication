@@ -1,0 +1,79 @@
+{
+  "status": "frozen_unmarked_out_of_point_calibration_check",
+  "source_video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "source_manifest_sha256": "e726055c823c0c13ced6961fb63129c5c95ca4aac266d692152cee470cb6896d",
+  "candidate_transform_sha256": "4f588eed7c9e14ddfd8530ab4c8cc86e9bf10b070c5f678631c4407f6a66cb0c",
+  "candidate_transform_fit_source_frame": 36073,
+  "purpose": "test_existing_refined_near_court_mapping_on_two_new_s1p6_source_frames",
+  "reviewer_context": "same reviewer, previously exposed to staged transform and player tracker; transform frozen before these new marks",
+  "frames": [
+    {
+      "frame": 1759,
+      "image": "unboxed_1759.png",
+      "sha256": "efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11"
+    },
+    {
+      "frame": 1783,
+      "image": "unboxed_1783.png",
+      "sha256": "ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa"
+    }
+  ],
+  "landmarks": [
+    {
+      "code": "baseline_left",
+      "label": "Near baseline \u00d7 left sideline",
+      "court_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "code": "baseline_right",
+      "label": "Near baseline \u00d7 right sideline",
+      "court_m": [
+        9,
+        0
+      ]
+    },
+    {
+      "code": "attack_left",
+      "label": "Attack line \u00d7 left sideline",
+      "court_m": [
+        0,
+        6
+      ]
+    },
+    {
+      "code": "attack_right",
+      "label": "Attack line \u00d7 right sideline",
+      "court_m": [
+        9,
+        6
+      ]
+    },
+    {
+      "code": "net_left",
+      "label": "Floor net line \u00d7 left sideline",
+      "court_m": [
+        0,
+        9
+      ]
+    },
+    {
+      "code": "net_right",
+      "label": "Floor net line \u00d7 right sideline",
+      "court_m": [
+        9,
+        9
+      ]
+    }
+  ],
+  "marking_rule": "Click centre of each painted court-line intersection on the unboxed native-resolution image; uncertain or occluded intersections get null coordinates. The floor net line is below the suspended net.",
+  "decision_rule_frozen_before_new_marks": {
+    "required_visible_landmarks": 12,
+    "maximum_projected_landmark_error_m": 0.2,
+    "maximum_static_camera_registration_shift_px": 2.0,
+    "scope": "single_camera_near_court_operational_check_only",
+    "interpretation": "Passing is an out-of-point single-reviewer check of mapping stability, not independent player-position truth or full-rally validation."
+  }
+}

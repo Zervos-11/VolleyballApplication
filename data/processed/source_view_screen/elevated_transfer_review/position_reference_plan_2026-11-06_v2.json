@@ -1,0 +1,42 @@
+{
+  "status": "time_stratified_manual_reference_plan_no_marks_yet",
+  "date_local": "2026-11-06",
+  "selection_rule": "Three 5-Hz grid frames near 25%, 50%, and 75% of the source-bracketed selected point, using the closest earlier frame at a tie. Select on source time, not measured detector error; retain unreadable, occluded, or airborne slots as null.",
+  "blinding_limit": "The rule was fixed after a three-frame raw detector spot check. Any later shoe marks are unblinded supplementary reference and must not be described as independent held-out ground truth.",
+  "cases": [
+    {
+      "match_id": "yt_-siJXMXKcbo",
+      "excerpt_fps": 60,
+      "reference_excerpt_frames": [
+        426,
+        534,
+        654
+      ],
+      "player_slots_per_frame": 6
+    },
+    {
+      "match_id": "yt__BOwnLLVaPs",
+      "excerpt_fps": 30,
+      "reference_excerpt_frames": [
+        366,
+        414,
+        468
+      ],
+      "player_slots_per_frame": 6
+    },
+    {
+      "match_id": "yt_b1bJ5WN05Qw",
+      "excerpt_fps": 30,
+      "reference_excerpt_frames": [
+        762,
+        810,
+        858
+      ],
+      "player_slots_per_frame": 6
+    }
+  ],
+  "requested_measurement": "Visible grounded midpoint of the apparent shoe contact locations, clicked in unboxed source frames. Mark null with physical-state reason otherwise.",
+  "calibration_dependency": "Projected position discrepancies can be calculated only after the separate court-mark review has a usable four-corner transform.",
+  "addendum_note": "USC?BYU frames were chosen by source time within the separately added source-bracketed point, after a raw detector spot check but before player-position error measurement. The original two-case reference plan remains unchanged.",
+  "original_plan_sha256": "3565e82a6a5c4150b4a06d836131ba44cc2481a7aa1b83ca9ac3fdcb27f413f0"
+}

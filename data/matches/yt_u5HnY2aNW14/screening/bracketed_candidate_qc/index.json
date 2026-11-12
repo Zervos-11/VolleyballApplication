@@ -1,0 +1,162 @@
+{
+  "status": "source_and_detector_views_pending_individual_review",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "candidate_screen_sha256": "dca398e83321ca66432068a4ec85512a44add4e28968d741fef75275ea6a9ead",
+  "coarse_brackets_sha256": "47f4e58be0c2a9efbf6eb3e0ffbcdd4bca22bcde435b1f2ed21f0b41f24f2c78",
+  "point_count": 15,
+  "pages": [
+    {
+      "path": "sheet_1.jpg",
+      "sha256": "4a91a32f6b32e98b1463268311f4990d3ad97c51668455ede8e238dc2f421374",
+      "items": [
+        {
+          "set": 1,
+          "point_number": 5,
+          "source_frame": 1422,
+          "source_second": 47.4,
+          "bracketed_candidate_count": 4
+        },
+        {
+          "set": 1,
+          "point_number": 6,
+          "source_frame": 1758,
+          "source_second": 58.6,
+          "bracketed_candidate_count": 10
+        }
+      ]
+    },
+    {
+      "path": "sheet_2.jpg",
+      "sha256": "40487026f3c6fb45cd39b33d0c2126a30d2af1244667eaea858b5087390a5f47",
+      "items": [
+        {
+          "set": 1,
+          "point_number": 27,
+          "source_frame": 7344,
+          "source_second": 244.8,
+          "bracketed_candidate_count": 4
+        },
+        {
+          "set": 1,
+          "point_number": 34,
+          "source_frame": 9702,
+          "source_second": 323.4,
+          "bracketed_candidate_count": 12
+        }
+      ]
+    },
+    {
+      "path": "sheet_3.jpg",
+      "sha256": "7a91e0b62ed3076c56a0f570c1dc38708cfe2e10dd6b9326c3eebeb20d9c9083",
+      "items": [
+        {
+          "set": 1,
+          "point_number": 37,
+          "source_frame": 10488,
+          "source_second": 349.6,
+          "bracketed_candidate_count": 23
+        },
+        {
+          "set": 2,
+          "point_number": 2,
+          "source_frame": 12306,
+          "source_second": 410.2,
+          "bracketed_candidate_count": 11
+        }
+      ]
+    },
+    {
+      "path": "sheet_4.jpg",
+      "sha256": "ee04dbb772844f0d08abe64dbb320da229df229df1583447ebd1178f4ea3018d",
+      "items": [
+        {
+          "set": 2,
+          "point_number": 6,
+          "source_frame": 13566,
+          "source_second": 452.2,
+          "bracketed_candidate_count": 13
+        },
+        {
+          "set": 2,
+          "point_number": 26,
+          "source_frame": 18936,
+          "source_second": 631.2,
+          "bracketed_candidate_count": 16
+        }
+      ]
+    },
+    {
+      "path": "sheet_5.jpg",
+      "sha256": "6585ef2dd2c3a9be2df714265a7a65ebddb6caeb5fc7fec830e529018be5682e",
+      "items": [
+        {
+          "set": 2,
+          "point_number": 28,
+          "source_frame": 19536,
+          "source_second": 651.2,
+          "bracketed_candidate_count": 2
+        },
+        {
+          "set": 2,
+          "point_number": 37,
+          "source_frame": 22140,
+          "source_second": 738.0,
+          "bracketed_candidate_count": 5
+        }
+      ]
+    },
+    {
+      "path": "sheet_6.jpg",
+      "sha256": "fb651387b455009d5d30a2924e9aa09bc5045d7ef2a2423c6fcb37023e446e50",
+      "items": [
+        {
+          "set": 3,
+          "point_number": 11,
+          "source_frame": 29280,
+          "source_second": 976.0,
+          "bracketed_candidate_count": 1
+        },
+        {
+          "set": 3,
+          "point_number": 13,
+          "source_frame": 29940,
+          "source_second": 998.0,
+          "bracketed_candidate_count": 2
+        }
+      ]
+    },
+    {
+      "path": "sheet_7.jpg",
+      "sha256": "cb61649c0f34f4adc40f0e66fa66ea35d9bfda88334f9d02f351c2889a7eca5b",
+      "items": [
+        {
+          "set": 3,
+          "point_number": 27,
+          "source_frame": 34122,
+          "source_second": 1137.4,
+          "bracketed_candidate_count": 9
+        },
+        {
+          "set": 3,
+          "point_number": 33,
+          "source_frame": 35844,
+          "source_second": 1194.8,
+          "bracketed_candidate_count": 3
+        }
+      ]
+    },
+    {
+      "path": "sheet_8.jpg",
+      "sha256": "8341e111e38bfd8b20489edffdd865b5cca458f569c4c7cedc7928a43aa07d54",
+      "items": [
+        {
+          "set": 3,
+          "point_number": 34,
+          "source_frame": 36072,
+          "source_second": 1202.4,
+          "bracketed_candidate_count": 11
+        }
+      ]
+    }
+  ]
+}

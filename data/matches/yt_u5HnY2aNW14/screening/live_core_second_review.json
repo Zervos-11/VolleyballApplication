@@ -1,0 +1,31 @@
+{
+  "status": "single_reviewer_coarse_live_core_seconds_not_exact_rally_boundaries",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "frozen_sample_sha256": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+  "review_method": "one decoded source frame per second in each prior-score-change to selected-score-change interval; keep a conservative visually active core and omit apparent setup or celebration",
+  "rows": [
+    {"set": 1, "point_number": 5, "core_seconds_inclusive": [46, 50]},
+    {"set": 1, "point_number": 6, "core_seconds_inclusive": [57, 62]},
+    {"set": 1, "point_number": 18, "core_seconds_inclusive": [178, 181]},
+    {"set": 1, "point_number": 27, "core_seconds_inclusive": [243, 248]},
+    {"set": 1, "point_number": 34, "core_seconds_inclusive": [321, 327]},
+    {"set": 1, "point_number": 37, "core_seconds_inclusive": [348, 366]},
+    {"set": 2, "point_number": 2, "core_seconds_inclusive": [402, 412]},
+    {"set": 2, "point_number": 6, "core_seconds_inclusive": [442, 459]},
+    {"set": 2, "point_number": 14, "core_seconds_inclusive": [535, 536]},
+    {"set": 2, "point_number": 26, "core_seconds_inclusive": [628, 638]},
+    {"set": 2, "point_number": 28, "core_seconds_inclusive": [650, 652]},
+    {"set": 2, "point_number": 37, "core_seconds_inclusive": [737, 741]},
+    {"set": 3, "point_number": 11, "core_seconds_inclusive": [975, 979]},
+    {"set": 3, "point_number": 13, "core_seconds_inclusive": [996, 1000]},
+    {"set": 3, "point_number": 23, "core_seconds_inclusive": [1092, 1092], "note": "Serve is visible; score is made before the off-court UCLA server returns. The six-box count at 1093 s is after play and includes a far-side player."},
+    {"set": 3, "point_number": 27, "core_seconds_inclusive": [1134, 1140]},
+    {"set": 3, "point_number": 33, "core_seconds_inclusive": [1189, 1195]},
+    {"set": 3, "point_number": 34, "core_seconds_inclusive": [1201, 1205]}
+  ],
+  "limitations": [
+    "Only one frame per second was visually inspected; exact contact and dead-ball frames are unknown.",
+    "Some cores are very short and may not provide adequate rally summaries.",
+    "This review does not validate six-player identity, court-floor contact or any team metric."
+  ]
+}

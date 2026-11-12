@@ -1,0 +1,3988 @@
+{
+  "metadata": {
+    "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+    "sample_sha256": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+    "clips_sha256": "3f208f63c2285dd2b762bafed19e72c571e64a7d7dcfbc9d277c6a38d26aff3e",
+    "core_sha256": "1fbc5117e49b0d8c69c820fb07abe07a978d1967e4d2f6d7b0f1556cf7c44da8",
+    "calibration_sha256": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+    "method": "YOLOv8n conf .20 imgsz 960 plus ByteTrack at 5 Hz; tracker reset at each edited clip",
+    "frame_step": 6
+  },
+  "set": 1,
+  "point_number": 5,
+  "clip_start_frame": 1321,
+  "clip_end_frame_exclusive": 1591,
+  "core_seconds_inclusive": [
+    46,
+    50
+  ],
+  "candidate_count_histogram": {
+    "3": 2,
+    "4": 10,
+    "5": 13,
+    "6": 20
+  },
+  "rows": [
+    {
+      "source_frame": 1326,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            400.5,
+            398.1,
+            514.7,
+            551.7
+          ],
+          "box_bottom_court_m": [
+            2.152,
+            2.296
+          ],
+          "confidence": 0.916,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.4,
+            768.4,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.841,
+            2.272
+          ],
+          "confidence": 0.908,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1041.8,
+            442.4,
+            1113.8,
+            628.9
+          ],
+          "box_bottom_court_m": [
+            8.59,
+            0.438
+          ],
+          "confidence": 0.889,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.5,
+            271.2,
+            489.4,
+            411.7
+          ],
+          "box_bottom_court_m": [
+            1.953,
+            6.029
+          ],
+          "confidence": 0.881,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.8,
+            349.4,
+            962.6,
+            509.9
+          ],
+          "box_bottom_court_m": [
+            7.157,
+            3.358
+          ],
+          "confidence": 0.859,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.0,
+            251.8,
+            369.0,
+            432.9
+          ],
+          "box_bottom_court_m": [
+            0.759,
+            5.431
+          ],
+          "confidence": 0.814,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1332,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            400.6,
+            398.1,
+            514.8,
+            551.7
+          ],
+          "box_bottom_court_m": [
+            2.153,
+            2.295
+          ],
+          "confidence": 0.918,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.3,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.841,
+            2.272
+          ],
+          "confidence": 0.907,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1041.4,
+            441.7,
+            1113.8,
+            629.3
+          ],
+          "box_bottom_court_m": [
+            8.587,
+            0.43
+          ],
+          "confidence": 0.895,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.5,
+            271.3,
+            489.4,
+            411.8
+          ],
+          "box_bottom_court_m": [
+            1.952,
+            6.029
+          ],
+          "confidence": 0.88,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.6,
+            349.1,
+            962.6,
+            509.9
+          ],
+          "box_bottom_court_m": [
+            7.156,
+            3.357
+          ],
+          "confidence": 0.863,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.1,
+            251.7,
+            369.1,
+            432.9
+          ],
+          "box_bottom_court_m": [
+            0.76,
+            5.431
+          ],
+          "confidence": 0.808,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1338,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            400.4,
+            397.7,
+            515.0,
+            551.7
+          ],
+          "box_bottom_court_m": [
+            2.153,
+            2.294
+          ],
+          "confidence": 0.921,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.3,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.841,
+            2.271
+          ],
+          "confidence": 0.906,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1040.7,
+            440.6,
+            1113.6,
+            629.6
+          ],
+          "box_bottom_court_m": [
+            8.582,
+            0.423
+          ],
+          "confidence": 0.889,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.4,
+            271.3,
+            489.5,
+            412.1
+          ],
+          "box_bottom_court_m": [
+            1.952,
+            6.019
+          ],
+          "confidence": 0.887,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.8,
+            349.1,
+            962.7,
+            509.8
+          ],
+          "box_bottom_court_m": [
+            7.158,
+            3.359
+          ],
+          "confidence": 0.86,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.2,
+            251.8,
+            369.2,
+            432.8
+          ],
+          "box_bottom_court_m": [
+            0.762,
+            5.433
+          ],
+          "confidence": 0.811,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1344,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            400.1,
+            396.6,
+            515.3,
+            551.6
+          ],
+          "box_bottom_court_m": [
+            2.153,
+            2.297
+          ],
+          "confidence": 0.921,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.4,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.841,
+            2.271
+          ],
+          "confidence": 0.906,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.8,
+            438.7,
+            1113.3,
+            629.1
+          ],
+          "box_bottom_court_m": [
+            8.577,
+            0.434
+          ],
+          "confidence": 0.877,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.4,
+            271.2,
+            489.5,
+            412.2
+          ],
+          "box_bottom_court_m": [
+            1.953,
+            6.016
+          ],
+          "confidence": 0.881,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            880.0,
+            349.4,
+            962.7,
+            509.7
+          ],
+          "box_bottom_court_m": [
+            7.159,
+            3.361
+          ],
+          "confidence": 0.843,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.3,
+            251.9,
+            369.2,
+            432.9
+          ],
+          "box_bottom_court_m": [
+            0.762,
+            5.432
+          ],
+          "confidence": 0.817,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1350,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            398.3,
+            391.8,
+            516.8,
+            551.6
+          ],
+          "box_bottom_court_m": [
+            2.152,
+            2.297
+          ],
+          "confidence": 0.926,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.4,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.841,
+            2.271
+          ],
+          "confidence": 0.905,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.6,
+            435.9,
+            1113.8,
+            628.7
+          ],
+          "box_bottom_court_m": [
+            8.579,
+            0.444
+          ],
+          "confidence": 0.862,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.4,
+            271.4,
+            489.5,
+            412.2
+          ],
+          "box_bottom_court_m": [
+            1.953,
+            6.015
+          ],
+          "confidence": 0.883,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.7,
+            348.6,
+            962.8,
+            509.7
+          ],
+          "box_bottom_court_m": [
+            7.158,
+            3.361
+          ],
+          "confidence": 0.85,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.3,
+            251.9,
+            369.3,
+            432.9
+          ],
+          "box_bottom_court_m": [
+            0.763,
+            5.431
+          ],
+          "confidence": 0.822,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1356,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            396.3,
+            385.1,
+            519.4,
+            551.8
+          ],
+          "box_bottom_court_m": [
+            2.155,
+            2.292
+          ],
+          "confidence": 0.901,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.4,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.842,
+            2.271
+          ],
+          "confidence": 0.906,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.6,
+            432.2,
+            1114.2,
+            626.5
+          ],
+          "box_bottom_court_m": [
+            8.586,
+            0.494
+          ],
+          "confidence": 0.854,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.4,
+            271.8,
+            489.3,
+            412.4
+          ],
+          "box_bottom_court_m": [
+            1.952,
+            6.012
+          ],
+          "confidence": 0.86,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.8,
+            348.5,
+            962.9,
+            509.7
+          ],
+          "box_bottom_court_m": [
+            7.16,
+            3.363
+          ],
+          "confidence": 0.848,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            318.2,
+            251.7,
+            369.3,
+            433.0
+          ],
+          "box_bottom_court_m": [
+            0.762,
+            5.429
+          ],
+          "confidence": 0.813,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1362,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            395.0,
+            379.7,
+            521.4,
+            552.0
+          ],
+          "box_bottom_court_m": [
+            2.159,
+            2.288
+          ],
+          "confidence": 0.903,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.7,
+            410.5,
+            768.4,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.842,
+            2.273
+          ],
+          "confidence": 0.903,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.4,
+            427.5,
+            1114.7,
+            624.5
+          ],
+          "box_bottom_court_m": [
+            8.592,
+            0.542
+          ],
+          "confidence": 0.875,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.4,
+            271.4,
+            489.4,
+            412.3
+          ],
+          "box_bottom_court_m": [
+            1.952,
+            6.012
+          ],
+          "confidence": 0.836,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.9,
+            348.5,
+            962.9,
+            509.6
+          ],
+          "box_bottom_court_m": [
+            7.16,
+            3.365
+          ],
+          "confidence": 0.852,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            317.1,
+            251.7,
+            368.2,
+            433.0
+          ],
+          "box_bottom_court_m": [
+            0.75,
+            5.429
+          ],
+          "confidence": 0.787,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1368,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            393.4,
+            373.7,
+            523.1,
+            552.0
+          ],
+          "box_bottom_court_m": [
+            2.159,
+            2.287
+          ],
+          "confidence": 0.912,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.6,
+            410.5,
+            768.4,
+            552.7
+          ],
+          "box_bottom_court_m": [
+            4.842,
+            2.271
+          ],
+          "confidence": 0.902,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.5,
+            423.3,
+            1115.1,
+            621.8
+          ],
+          "box_bottom_court_m": [
+            8.6,
+            0.603
+          ],
+          "confidence": 0.869,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.1,
+            270.5,
+            489.3,
+            411.8
+          ],
+          "box_bottom_court_m": [
+            1.95,
+            6.028
+          ],
+          "confidence": 0.848,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.6,
+            347.7,
+            963.0,
+            509.8
+          ],
+          "box_bottom_court_m": [
+            7.159,
+            3.361
+          ],
+          "confidence": 0.855,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            314.5,
+            252.0,
+            365.8,
+            432.9
+          ],
+          "box_bottom_court_m": [
+            0.722,
+            5.43
+          ],
+          "confidence": 0.789,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1374,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            393.3,
+            371.5,
+            523.4,
+            551.9
+          ],
+          "box_bottom_court_m": [
+            2.16,
+            2.289
+          ],
+          "confidence": 0.911,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            651.2,
+            409.6,
+            768.5,
+            552.6
+          ],
+          "box_bottom_court_m": [
+            4.84,
+            2.272
+          ],
+          "confidence": 0.889,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1040.4,
+            415.0,
+            1114.0,
+            608.7
+          ],
+          "box_bottom_court_m": [
+            8.628,
+            0.912
+          ],
+          "confidence": 0.863,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            410.9,
+            268.7,
+            489.2,
+            412.6
+          ],
+          "box_bottom_court_m": [
+            1.943,
+            6.004
+          ],
+          "confidence": 0.84,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            879.1,
+            344.7,
+            962.8,
+            507.2
+          ],
+          "box_bottom_court_m": [
+            7.159,
+            3.427
+          ],
+          "confidence": 0.882,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            313.3,
+            253.0,
+            364.6,
+            432.7
+          ],
+          "box_bottom_court_m": [
+            0.708,
+            5.437
+          ],
+          "confidence": 0.78,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1380,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            393.8,
+            370.8,
+            523.3,
+            551.9
+          ],
+          "box_bottom_court_m": [
+            2.162,
+            2.291
+          ],
+          "confidence": 0.91,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            649.1,
+            402.7,
+            770.4,
+            551.2
+          ],
+          "box_bottom_court_m": [
+            4.84,
+            2.308
+          ],
+          "confidence": 0.875,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1037.5,
+            407.1,
+            1110.4,
+            600.5
+          ],
+          "box_bottom_court_m": [
+            8.612,
+            1.106
+          ],
+          "confidence": 0.889,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            408.9,
+            264.4,
+            488.1,
+            411.7
+          ],
+          "box_bottom_court_m": [
+            1.925,
+            6.03
+          ],
+          "confidence": 0.852,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            868.2,
+            341.5,
+            953.3,
+            502.7
+          ],
+          "box_bottom_court_m": [
+            7.055,
+            3.545
+          ],
+          "confidence": 0.912,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            312.2,
+            253.3,
+            364.0,
+            433.8
+          ],
+          "box_bottom_court_m": [
+            0.7,
+            5.407
+          ],
+          "confidence": 0.779,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1386,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            394.9,
+            372.3,
+            522.5,
+            552.1
+          ],
+          "box_bottom_court_m": [
+            2.164,
+            2.285
+          ],
+          "confidence": 0.904,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            643.0,
+            394.0,
+            769.5,
+            551.0
+          ],
+          "box_bottom_court_m": [
+            4.802,
+            2.312
+          ],
+          "confidence": 0.882,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1035.8,
+            399.1,
+            1108.7,
+            595.6
+          ],
+          "box_bottom_court_m": [
+            8.605,
+            1.224
+          ],
+          "confidence": 0.827,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            406.2,
+            258.7,
+            487.1,
+            412.2
+          ],
+          "box_bottom_court_m": [
+            1.904,
+            6.016
+          ],
+          "confidence": 0.859,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            858.6,
+            344.1,
+            945.2,
+            504.7
+          ],
+          "box_bottom_court_m": [
+            6.955,
+            3.492
+          ],
+          "confidence": 0.904,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            312.7,
+            254.8,
+            363.8,
+            432.5
+          ],
+          "box_bottom_court_m": [
+            0.7,
+            5.441
+          ],
+          "confidence": 0.795,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1392,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            396.0,
+            373.8,
+            521.5,
+            552.0
+          ],
+          "box_bottom_court_m": [
+            2.164,
+            2.286
+          ],
+          "confidence": 0.912,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            631.8,
+            387.4,
+            758.0,
+            549.7
+          ],
+          "box_bottom_court_m": [
+            4.682,
+            2.343
+          ],
+          "confidence": 0.842,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1039.3,
+            382.6,
+            1109.5,
+            574.3
+          ],
+          "box_bottom_court_m": [
+            8.674,
+            1.737
+          ],
+          "confidence": 0.86,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            406.8,
+            255.5,
+            487.9,
+            412.6
+          ],
+          "box_bottom_court_m": [
+            1.912,
+            6.006
+          ],
+          "confidence": 0.854,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            852.7,
+            351.6,
+            937.5,
+            505.5
+          ],
+          "box_bottom_court_m": [
+            6.88,
+            3.471
+          ],
+          "confidence": 0.884,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            313.5,
+            255.8,
+            364.1,
+            431.6
+          ],
+          "box_bottom_court_m": [
+            0.705,
+            5.468
+          ],
+          "confidence": 0.8,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1398,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            395.1,
+            375.1,
+            519.2,
+            552.1
+          ],
+          "box_bottom_court_m": [
+            2.147,
+            2.285
+          ],
+          "confidence": 0.911,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            629.8,
+            381.1,
+            749.0,
+            539.3
+          ],
+          "box_bottom_court_m": [
+            4.627,
+            2.605
+          ],
+          "confidence": 0.86,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1036.2,
+            361.8,
+            1104.3,
+            550.3
+          ],
+          "box_bottom_court_m": [
+            8.685,
+            2.33
+          ],
+          "confidence": 0.867,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            408.3,
+            255.5,
+            488.2,
+            413.2
+          ],
+          "box_bottom_court_m": [
+            1.923,
+            5.989
+          ],
+          "confidence": 0.825,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            849.3,
+            356.4,
+            933.8,
+            505.9
+          ],
+          "box_bottom_court_m": [
+            6.841,
+            3.462
+          ],
+          "confidence": 0.872,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            313.8,
+            255.6,
+            364.4,
+            431.3
+          ],
+          "box_bottom_court_m": [
+            0.707,
+            5.476
+          ],
+          "confidence": 0.797,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1404,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            391.7,
+            373.5,
+            516.3,
+            551.4
+          ],
+          "box_bottom_court_m": [
+            2.113,
+            2.301
+          ],
+          "confidence": 0.918,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            625.8,
+            376.9,
+            736.9,
+            526.7
+          ],
+          "box_bottom_court_m": [
+            4.544,
+            2.926
+          ],
+          "confidence": 0.878,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1034.2,
+            357.2,
+            1099.4,
+            540.5
+          ],
+          "box_bottom_court_m": [
+            8.67,
+            2.576
+          ],
+          "confidence": 0.779,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            415.5,
+            262.0,
+            490.6,
+            411.6
+          ],
+          "box_bottom_court_m": [
+            1.976,
+            6.032
+          ],
+          "confidence": 0.653,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            847.1,
+            358.3,
+            932.9,
+            506.2
+          ],
+          "box_bottom_court_m": [
+            6.823,
+            3.452
+          ],
+          "confidence": 0.87,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            313.7,
+            255.1,
+            364.6,
+            431.4
+          ],
+          "box_bottom_court_m": [
+            0.708,
+            5.474
+          ],
+          "confidence": 0.775,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1410,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            391.2,
+            368.7,
+            510.2,
+            538.2
+          ],
+          "box_bottom_court_m": [
+            2.066,
+            2.632
+          ],
+          "confidence": 0.902,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            623.5,
+            372.9,
+            731.9,
+            520.9
+          ],
+          "box_bottom_court_m": [
+            4.507,
+            3.074
+          ],
+          "confidence": 0.89,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1025.3,
+            341.4,
+            1086.2,
+            511.6
+          ],
+          "box_bottom_court_m": [
+            8.616,
+            3.313
+          ],
+          "confidence": 0.853,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            419.4,
+            268.2,
+            498.0,
+            427.5
+          ],
+          "box_bottom_court_m": [
+            2.055,
+            5.583
+          ],
+          "confidence": 0.778,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            846.1,
+            358.6,
+            933.8,
+            506.5
+          ],
+          "box_bottom_court_m": [
+            6.822,
+            3.445
+          ],
+          "confidence": 0.87,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            313.1,
+            255.3,
+            364.1,
+            431.1
+          ],
+          "box_bottom_court_m": [
+            0.702,
+            5.481
+          ],
+          "confidence": 0.774,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1416,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            393.5,
+            368.0,
+            509.3,
+            531.8
+          ],
+          "box_bottom_court_m": [
+            2.069,
+            2.794
+          ],
+          "confidence": 0.929,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            624.1,
+            374.4,
+            728.8,
+            518.4
+          ],
+          "box_bottom_court_m": [
+            4.494,
+            3.138
+          ],
+          "confidence": 0.876,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            1007.7,
+            317.8,
+            1070.8,
+            496.0
+          ],
+          "box_bottom_court_m": [
+            8.472,
+            3.72
+          ],
+          "confidence": 0.718,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            421.5,
+            272.1,
+            491.7,
+            414.4
+          ],
+          "box_bottom_court_m": [
+            2.019,
+            5.954
+          ],
+          "confidence": 0.761,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            846.7,
+            358.5,
+            935.8,
+            506.5
+          ],
+          "box_bottom_court_m": [
+            6.837,
+            3.446
+          ],
+          "confidence": 0.856,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            311.4,
+            255.3,
+            362.9,
+            429.8
+          ],
+          "box_bottom_court_m": [
+            0.683,
+            5.517
+          ],
+          "confidence": 0.784,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1422,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            393.8,
+            366.5,
+            509.8,
+            529.5
+          ],
+          "box_bottom_court_m": [
+            2.071,
+            2.855
+          ],
+          "confidence": 0.918,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            641.4,
+            383.3,
+            742.7,
+            520.2
+          ],
+          "box_bottom_court_m": [
+            4.662,
+            3.091
+          ],
+          "confidence": 0.863,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            991.1,
+            295.5,
+            1051.0,
+            466.0
+          ],
+          "box_bottom_court_m": [
+            8.338,
+            4.519
+          ],
+          "confidence": 0.855,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            412.7,
+            278.1,
+            481.1,
+            413.7
+          ],
+          "box_bottom_court_m": [
+            1.908,
+            5.973
+          ],
+          "confidence": 0.839,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            846.7,
+            358.2,
+            937.4,
+            506.6
+          ],
+          "box_bottom_court_m": [
+            6.845,
+            3.444
+          ],
+          "confidence": 0.885,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            309.2,
+            261.7,
+            360.4,
+            431.8
+          ],
+          "box_bottom_court_m": [
+            0.659,
+            5.463
+          ],
+          "confidence": 0.79,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1428,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            409.5,
+            356.9,
+            527.4,
+            527.1
+          ],
+          "box_bottom_court_m": [
+            2.248,
+            2.916
+          ],
+          "confidence": 0.75,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            664.1,
+            391.7,
+            761.2,
+            523.4
+          ],
+          "box_bottom_court_m": [
+            4.883,
+            3.01
+          ],
+          "confidence": 0.862,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            967.4,
+            273.1,
+            1028.3,
+            445.2
+          ],
+          "box_bottom_court_m": [
+            8.123,
+            5.089
+          ],
+          "confidence": 0.834,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            410.9,
+            286.8,
+            477.3,
+            414.3
+          ],
+          "box_bottom_court_m": [
+            1.877,
+            5.956
+          ],
+          "confidence": 0.521,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            849.2,
+            358.8,
+            941.9,
+            507.5
+          ],
+          "box_bottom_court_m": [
+            6.882,
+            3.419
+          ],
+          "confidence": 0.906,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            308.5,
+            267.8,
+            360.0,
+            434.2
+          ],
+          "box_bottom_court_m": [
+            0.657,
+            5.395
+          ],
+          "confidence": 0.846,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1434,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            438.1,
+            359.0,
+            552.1,
+            527.9
+          ],
+          "box_bottom_court_m": [
+            2.536,
+            2.895
+          ],
+          "confidence": 0.871,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            947.4,
+            257.2,
+            1004.9,
+            417.0
+          ],
+          "box_bottom_court_m": [
+            7.936,
+            5.878
+          ],
+          "confidence": 0.788,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            856.3,
+            359.7,
+            951.2,
+            506.6
+          ],
+          "box_bottom_court_m": [
+            6.973,
+            3.444
+          ],
+          "confidence": 0.895,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            298.6,
+            269.6,
+            352.0,
+            438.5
+          ],
+          "box_bottom_court_m": [
+            0.564,
+            5.275
+          ],
+          "confidence": 0.851,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1440,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            459.3,
+            367.2,
+            575.9,
+            539.4
+          ],
+          "box_bottom_court_m": [
+            2.785,
+            2.602
+          ],
+          "confidence": 0.806,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            920.7,
+            236.3,
+            980.4,
+            399.3
+          ],
+          "box_bottom_court_m": [
+            7.678,
+            6.388
+          ],
+          "confidence": 0.542,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            880.5,
+            357.5,
+            975.7,
+            509.6
+          ],
+          "box_bottom_court_m": [
+            7.233,
+            3.366
+          ],
+          "confidence": 0.838,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            288.5,
+            280.7,
+            345.9,
+            462.4
+          ],
+          "box_bottom_court_m": [
+            0.512,
+            4.617
+          ],
+          "confidence": 0.847,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1446,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            485.8,
+            367.6,
+            603.3,
+            543.0
+          ],
+          "box_bottom_court_m": [
+            3.075,
+            2.512
+          ],
+          "confidence": 0.868,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            898.6,
+            218.4,
+            952.9,
+            365.8
+          ],
+          "box_bottom_court_m": [
+            7.454,
+            7.374
+          ],
+          "confidence": 0.732,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            891.5,
+            348.3,
+            995.2,
+            522.4
+          ],
+          "box_bottom_court_m": [
+            7.377,
+            3.036
+          ],
+          "confidence": 0.731,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            279.2,
+            290.3,
+            335.5,
+            468.7
+          ],
+          "box_bottom_court_m": [
+            0.414,
+            4.447
+          ],
+          "confidence": 0.848,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            783.8,
+            420.8,
+            880.4,
+            574.8
+          ],
+          "box_bottom_court_m": [
+            6.119,
+            1.726
+          ],
+          "confidence": 0.833,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1452,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            519.2,
+            363.8,
+            634.1,
+            542.4
+          ],
+          "box_bottom_court_m": [
+            3.419,
+            2.527
+          ],
+          "confidence": 0.805,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            878.9,
+            209.5,
+            933.0,
+            351.5
+          ],
+          "box_bottom_court_m": [
+            7.249,
+            7.807
+          ],
+          "confidence": 0.845,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            905.2,
+            354.0,
+            1006.8,
+            532.7
+          ],
+          "box_bottom_court_m": [
+            7.496,
+            2.772
+          ],
+          "confidence": 0.85,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            270.4,
+            299.5,
+            327.5,
+            479.8
+          ],
+          "box_bottom_court_m": [
+            0.34,
+            4.149
+          ],
+          "confidence": 0.83,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            805.5,
+            429.8,
+            908.8,
+            595.4
+          ],
+          "box_bottom_court_m": [
+            6.359,
+            1.227
+          ],
+          "confidence": 0.835,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1458,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            547.4,
+            376.3,
+            664.3,
+            561.8
+          ],
+          "box_bottom_court_m": [
+            3.733,
+            2.044
+          ],
+          "confidence": 0.849,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            857.0,
+            205.7,
+            912.8,
+            345.7
+          ],
+          "box_bottom_court_m": [
+            7.01,
+            7.981
+          ],
+          "confidence": 0.885,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            918.3,
+            370.5,
+            1019.8,
+            555.3
+          ],
+          "box_bottom_court_m": [
+            7.597,
+            2.205
+          ],
+          "confidence": 0.798,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            263.9,
+            310.3,
+            321.6,
+            490.0
+          ],
+          "box_bottom_court_m": [
+            0.289,
+            3.877
+          ],
+          "confidence": 0.843,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            829.9,
+            456.7,
+            931.5,
+            620.8
+          ],
+          "box_bottom_court_m": [
+            6.573,
+            0.628
+          ],
+          "confidence": 0.826,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1464,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            575.1,
+            388.7,
+            689.0,
+            576.6
+          ],
+          "box_bottom_court_m": [
+            4.01,
+            1.682
+          ],
+          "confidence": 0.855,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            834.6,
+            199.4,
+            893.6,
+            348.4
+          ],
+          "box_bottom_court_m": [
+            6.76,
+            7.898
+          ],
+          "confidence": 0.826,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            935.2,
+            384.4,
+            1033.8,
+            571.9
+          ],
+          "box_bottom_court_m": [
+            7.731,
+            1.796
+          ],
+          "confidence": 0.876,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            259.4,
+            315.8,
+            319.6,
+            499.7
+          ],
+          "box_bottom_court_m": [
+            0.271,
+            3.622
+          ],
+          "confidence": 0.862,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            834.9,
+            455.0,
+            940.7,
+            627.8
+          ],
+          "box_bottom_court_m": [
+            6.638,
+            0.465
+          ],
+          "confidence": 0.863,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1470,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            600.5,
+            403.9,
+            709.3,
+            589.4
+          ],
+          "box_bottom_court_m": [
+            4.248,
+            1.373
+          ],
+          "confidence": 0.849,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            810.0,
+            192.3,
+            872.4,
+            349.2
+          ],
+          "box_bottom_court_m": [
+            6.489,
+            7.874
+          ],
+          "confidence": 0.831,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            959.3,
+            377.2,
+            1051.4,
+            558.2
+          ],
+          "box_bottom_court_m": [
+            7.977,
+            2.134
+          ],
+          "confidence": 0.847,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            256.2,
+            320.2,
+            315.8,
+            497.5
+          ],
+          "box_bottom_court_m": [
+            0.229,
+            3.682
+          ],
+          "confidence": 0.846,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            823.3,
+            449.0,
+            931.9,
+            630.1
+          ],
+          "box_bottom_court_m": [
+            6.531,
+            0.411
+          ],
+          "confidence": 0.859,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1476,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            614.6,
+            406.4,
+            714.5,
+            582.6
+          ],
+          "box_bottom_court_m": [
+            4.351,
+            1.535
+          ],
+          "confidence": 0.714,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            800.3,
+            189.5,
+            859.5,
+            338.3
+          ],
+          "box_bottom_court_m": [
+            6.37,
+            8.209
+          ],
+          "confidence": 0.706,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            987.0,
+            359.4,
+            1075.0,
+            536.5
+          ],
+          "box_bottom_court_m": [
+            8.295,
+            2.677
+          ],
+          "confidence": 0.843,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            245.5,
+            320.2,
+            303.9,
+            493.1
+          ],
+          "box_bottom_court_m": [
+            0.098,
+            3.796
+          ],
+          "confidence": 0.816,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            813.2,
+            456.1,
+            917.8,
+            633.3
+          ],
+          "box_bottom_court_m": [
+            6.402,
+            0.337
+          ],
+          "confidence": 0.842,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1482,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 1,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            628.4,
+            385.1,
+            719.0,
+            552.2
+          ],
+          "box_bottom_court_m": [
+            4.455,
+            2.283
+          ],
+          "confidence": 0.799,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            784.3,
+            161.4,
+            853.5,
+            333.0
+          ],
+          "box_bottom_court_m": [
+            6.246,
+            8.373
+          ],
+          "confidence": 0.391,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            1004.1,
+            331.5,
+            1091.6,
+            512.0
+          ],
+          "box_bottom_court_m": [
+            8.53,
+            3.303
+          ],
+          "confidence": 0.727,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            237.4,
+            318.4,
+            294.9,
+            490.3
+          ],
+          "box_bottom_court_m": [
+            -0.002,
+            3.871
+          ],
+          "confidence": 0.849,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            779.2,
+            153.0,
+            841.6,
+            310.2
+          ],
+          "box_bottom_court_m": [
+            6.173,
+            9.089
+          ],
+          "confidence": 0.231,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            792.0,
+            447.2,
+            889.0,
+            613.1
+          ],
+          "box_bottom_court_m": [
+            6.167,
+            0.809
+          ],
+          "confidence": 0.802,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1488,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 3,
+      "net_boundary_review_count": 2,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            633.7,
+            355.3,
+            728.5,
+            536.6
+          ],
+          "box_bottom_court_m": [
+            4.538,
+            2.674
+          ],
+          "confidence": 0.506,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            1021.8,
+            311.8,
+            1105.4,
+            484.0
+          ],
+          "box_bottom_court_m": [
+            8.767,
+            4.036
+          ],
+          "confidence": 0.834,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            233.0,
+            302.5,
+            288.9,
+            473.8
+          ],
+          "box_bottom_court_m": [
+            -0.091,
+            4.31
+          ],
+          "confidence": 0.754,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            785.5,
+            158.9,
+            843.0,
+            307.2
+          ],
+          "box_bottom_court_m": [
+            6.222,
+            9.184
+          ],
+          "confidence": 0.523,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            813.9,
+            129.5,
+            867.6,
+            311.2
+          ],
+          "box_bottom_court_m": [
+            6.536,
+            9.058
+          ],
+          "confidence": 0.538,
+          "net_side_status": "net_boundary_review"
+        }
+      ]
+    },
+    {
+      "source_frame": 1494,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 2,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            640.8,
+            330.3,
+            721.6,
+            489.8
+          ],
+          "box_bottom_court_m": [
+            4.554,
+            3.884
+          ],
+          "confidence": 0.727,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            230.5,
+            289.7,
+            285.4,
+            456.9
+          ],
+          "box_bottom_court_m": [
+            -0.158,
+            4.769
+          ],
+          "confidence": 0.818,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            674.3,
+            155.7,
+            752.6,
+            336.0
+          ],
+          "box_bottom_court_m": [
+            4.991,
+            8.282
+          ],
+          "confidence": 0.634,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            790.2,
+            166.7,
+            845.3,
+            309.6
+          ],
+          "box_bottom_court_m": [
+            6.262,
+            9.108
+          ],
+          "confidence": 0.472,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            814.7,
+            109.9,
+            873.1,
+            307.7
+          ],
+          "box_bottom_court_m": [
+            6.579,
+            9.169
+          ],
+          "confidence": 0.545,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            696.5,
+            395.5,
+            802.8,
+            551.7
+          ],
+          "box_bottom_court_m": [
+            5.264,
+            2.294
+          ],
+          "confidence": 0.852,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1500,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 3,
+      "net_boundary_review_count": 1,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            660.2,
+            358.5,
+            739.8,
+            512.3
+          ],
+          "box_bottom_court_m": [
+            4.751,
+            3.294
+          ],
+          "confidence": 0.857,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            790.5,
+            141.5,
+            854.7,
+            310.5
+          ],
+          "box_bottom_court_m": [
+            6.319,
+            9.079
+          ],
+          "confidence": 0.71,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            824.7,
+            160.8,
+            876.7,
+            337.2
+          ],
+          "box_bottom_court_m": [
+            6.618,
+            8.244
+          ],
+          "confidence": 0.687,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            995.2,
+            253.5,
+            1059.7,
+            401.2
+          ],
+          "box_bottom_court_m": [
+            8.558,
+            6.332
+          ],
+          "confidence": 0.798,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1506,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 1,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            643.6,
+            347.2,
+            726.1,
+            510.0
+          ],
+          "box_bottom_court_m": [
+            4.588,
+            3.356
+          ],
+          "confidence": 0.848,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            833.6,
+            192.0,
+            882.3,
+            355.5
+          ],
+          "box_bottom_court_m": [
+            6.678,
+            7.684
+          ],
+          "confidence": 0.782,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            987.7,
+            233.8,
+            1050.4,
+            377.6
+          ],
+          "box_bottom_court_m": [
+            8.517,
+            7.023
+          ],
+          "confidence": 0.823,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 53,
+          "bbox_px": [
+            437.2,
+            174.2,
+            500.9,
+            308.2
+          ],
+          "box_bottom_court_m": [
+            2.063,
+            9.151
+          ],
+          "confidence": 0.807,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            250.3,
+            251.4,
+            315.1,
+            393.3
+          ],
+          "box_bottom_court_m": [
+            -0.004,
+            6.56
+          ],
+          "confidence": 0.798,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1512,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            631.2,
+            339.1,
+            709.5,
+            489.9
+          ],
+          "box_bottom_court_m": [
+            4.435,
+            3.88
+          ],
+          "confidence": 0.856,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            841.4,
+            204.2,
+            889.9,
+            365.2
+          ],
+          "box_bottom_court_m": [
+            6.753,
+            7.391
+          ],
+          "confidence": 0.817,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            975.9,
+            213.6,
+            1038.1,
+            356.4
+          ],
+          "box_bottom_court_m": [
+            8.427,
+            7.656
+          ],
+          "confidence": 0.832,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            270.0,
+            235.7,
+            340.1,
+            387.8
+          ],
+          "box_bottom_court_m": [
+            0.242,
+            6.722
+          ],
+          "confidence": 0.815,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1518,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 1,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            614.2,
+            342.6,
+            687.4,
+            477.6
+          ],
+          "box_bottom_court_m": [
+            4.223,
+            4.209
+          ],
+          "confidence": 0.892,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            850.7,
+            219.7,
+            900.5,
+            384.0
+          ],
+          "box_bottom_court_m": [
+            6.84,
+            6.832
+          ],
+          "confidence": 0.83,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            963.2,
+            213.6,
+            1018.2,
+            339.3
+          ],
+          "box_bottom_court_m": [
+            8.274,
+            8.179
+          ],
+          "confidence": 0.75,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            306.4,
+            211.0,
+            378.5,
+            366.4
+          ],
+          "box_bottom_court_m": [
+            0.639,
+            7.354
+          ],
+          "confidence": 0.861,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            616.3,
+            187.5,
+            685.5,
+            331.1
+          ],
+          "box_bottom_court_m": [
+            4.249,
+            8.432
+          ],
+          "confidence": 0.8,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            731.7,
+            150.7,
+            799.2,
+            306.0
+          ],
+          "box_bottom_court_m": [
+            5.635,
+            9.224
+          ],
+          "confidence": 0.556,
+          "net_side_status": "net_boundary_review"
+        }
+      ]
+    },
+    {
+      "source_frame": 1524,
+      "in_conservative_core": true,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            606.4,
+            333.8,
+            683.7,
+            471.6
+          ],
+          "box_bottom_court_m": [
+            4.16,
+            4.369
+          ],
+          "confidence": 0.913,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            852.1,
+            221.9,
+            903.4,
+            390.7
+          ],
+          "box_bottom_court_m": [
+            6.856,
+            6.638
+          ],
+          "confidence": 0.847,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            953.6,
+            207.4,
+            1013.6,
+            345.6
+          ],
+          "box_bottom_court_m": [
+            8.175,
+            7.984
+          ],
+          "confidence": 0.769,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            342.2,
+            197.2,
+            416.2,
+            357.8
+          ],
+          "box_bottom_court_m": [
+            1.055,
+            7.614
+          ],
+          "confidence": 0.89,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            619.9,
+            207.0,
+            683.7,
+            339.7
+          ],
+          "box_bottom_court_m": [
+            4.259,
+            8.167
+          ],
+          "confidence": 0.705,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            741.1,
+            181.9,
+            802.5,
+            322.1
+          ],
+          "box_bottom_court_m": [
+            5.696,
+            8.714
+          ],
+          "confidence": 0.676,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1530,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            622.9,
+            316.1,
+            704.5,
+            467.3
+          ],
+          "box_bottom_court_m": [
+            4.368,
+            4.484
+          ],
+          "confidence": 0.794,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            850.9,
+            229.3,
+            903.7,
+            403.2
+          ],
+          "box_bottom_court_m": [
+            6.831,
+            6.273
+          ],
+          "confidence": 0.837,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            951.2,
+            204.1,
+            1013.7,
+            350.2
+          ],
+          "box_bottom_court_m": [
+            8.152,
+            7.844
+          ],
+          "confidence": 0.834,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            375.9,
+            192.3,
+            450.7,
+            350.9
+          ],
+          "box_bottom_court_m": [
+            1.447,
+            7.825
+          ],
+          "confidence": 0.74,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            619.3,
+            207.7,
+            676.4,
+            326.7
+          ],
+          "box_bottom_court_m": [
+            4.213,
+            8.568
+          ],
+          "confidence": 0.319,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1536,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            638.8,
+            310.9,
+            723.9,
+            473.8
+          ],
+          "box_bottom_court_m": [
+            4.561,
+            4.311
+          ],
+          "confidence": 0.724,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            845.2,
+            239.1,
+            898.6,
+            410.4
+          ],
+          "box_bottom_court_m": [
+            6.759,
+            6.067
+          ],
+          "confidence": 0.866,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            947.8,
+            221.1,
+            1010.8,
+            370.6
+          ],
+          "box_bottom_court_m": [
+            8.07,
+            7.231
+          ],
+          "confidence": 0.799,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            407.9,
+            184.7,
+            481.9,
+            342.2
+          ],
+          "box_bottom_court_m": [
+            1.81,
+            8.088
+          ],
+          "confidence": 0.795,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            610.1,
+            189.2,
+            676.7,
+            329.7
+          ],
+          "box_bottom_court_m": [
+            4.16,
+            8.476
+          ],
+          "confidence": 0.767,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1542,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            659.3,
+            305.8,
+            744.3,
+            473.5
+          ],
+          "box_bottom_court_m": [
+            4.788,
+            4.318
+          ],
+          "confidence": 0.822,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            836.7,
+            242.5,
+            892.0,
+            411.9
+          ],
+          "box_bottom_court_m": [
+            6.67,
+            6.025
+          ],
+          "confidence": 0.85,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            941.2,
+            241.2,
+            1004.4,
+            393.3
+          ],
+          "box_bottom_court_m": [
+            7.947,
+            6.561
+          ],
+          "confidence": 0.806,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            440.1,
+            186.7,
+            514.0,
+            340.9
+          ],
+          "box_bottom_court_m": [
+            2.189,
+            8.129
+          ],
+          "confidence": 0.849,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            611.1,
+            179.8,
+            684.2,
+            333.5
+          ],
+          "box_bottom_court_m": [
+            4.21,
+            8.357
+          ],
+          "confidence": 0.616,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 67,
+          "bbox_px": [
+            672.9,
+            187.3,
+            732.7,
+            335.3
+          ],
+          "box_bottom_court_m": [
+            4.865,
+            8.303
+          ],
+          "confidence": 0.658,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1548,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 1,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            674.6,
+            297.3,
+            752.5,
+            457.0
+          ],
+          "box_bottom_court_m": [
+            4.926,
+            4.765
+          ],
+          "confidence": 0.73,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 45,
+          "bbox_px": [
+            823.2,
+            245.6,
+            881.8,
+            415.8
+          ],
+          "box_bottom_court_m": [
+            6.531,
+            5.914
+          ],
+          "confidence": 0.867,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            934.5,
+            254.0,
+            995.6,
+            402.4
+          ],
+          "box_bottom_court_m": [
+            7.839,
+            6.297
+          ],
+          "confidence": 0.842,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            480.3,
+            187.4,
+            553.2,
+            341.2
+          ],
+          "box_bottom_court_m": [
+            2.659,
+            8.12
+          ],
+          "confidence": 0.857,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            622.9,
+            181.9,
+            686.5,
+            311.6
+          ],
+          "box_bottom_court_m": [
+            4.298,
+            9.045
+          ],
+          "confidence": 0.613,
+          "net_side_status": "net_boundary_review"
+        },
+        {
+          "raw_track_id": 67,
+          "bbox_px": [
+            683.8,
+            185.5,
+            739.8,
+            324.1
+          ],
+          "box_bottom_court_m": [
+            4.978,
+            8.652
+          ],
+          "confidence": 0.695,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1554,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            684.8,
+            283.8,
+            762.2,
+            445.7
+          ],
+          "box_bottom_court_m": [
+            5.043,
+            5.074
+          ],
+          "confidence": 0.742,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            921.1,
+            264.2,
+            987.4,
+            427.9
+          ],
+          "box_bottom_court_m": [
+            7.666,
+            5.571
+          ],
+          "confidence": 0.843,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            506.7,
+            188.2,
+            579.6,
+            341.4
+          ],
+          "box_bottom_court_m": [
+            2.972,
+            8.113
+          ],
+          "confidence": 0.854,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            607.0,
+            177.6,
+            677.9,
+            324.1
+          ],
+          "box_bottom_court_m": [
+            4.15,
+            8.651
+          ],
+          "confidence": 0.571,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            778.7,
+            236.7,
+            848.6,
+            407.5
+          ],
+          "box_bottom_court_m": [
+            6.097,
+            6.15
+          ],
+          "confidence": 0.73,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1560,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            687.7,
+            275.8,
+            758.6,
+            429.7
+          ],
+          "box_bottom_court_m": [
+            5.049,
+            5.519
+          ],
+          "confidence": 0.684,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            911.8,
+            281.7,
+            976.3,
+            442.0
+          ],
+          "box_bottom_court_m": [
+            7.525,
+            5.179
+          ],
+          "confidence": 0.806,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            540.6,
+            193.1,
+            608.4,
+            336.3
+          ],
+          "box_bottom_court_m": [
+            3.341,
+            8.27
+          ],
+          "confidence": 0.369,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            765.2,
+            243.0,
+            836.5,
+            414.0
+          ],
+          "box_bottom_court_m": [
+            5.944,
+            5.964
+          ],
+          "confidence": 0.818,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1566,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            691.8,
+            269.1,
+            759.5,
+            419.6
+          ],
+          "box_bottom_court_m": [
+            5.083,
+            5.806
+          ],
+          "confidence": 0.811,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            902.2,
+            300.7,
+            970.4,
+            473.9
+          ],
+          "box_bottom_court_m": [
+            7.383,
+            4.308
+          ],
+          "confidence": 0.819,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            757.4,
+            243.7,
+            827.8,
+            412.7
+          ],
+          "box_bottom_court_m": [
+            5.851,
+            6.003
+          ],
+          "confidence": 0.649,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            608.5,
+            196.1,
+            672.4,
+            329.3
+          ],
+          "box_bottom_court_m": [
+            4.125,
+            8.487
+          ],
+          "confidence": 0.582,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1572,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            701.1,
+            264.6,
+            768.6,
+            412.8
+          ],
+          "box_bottom_court_m": [
+            5.192,
+            5.999
+          ],
+          "confidence": 0.688,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            897.8,
+            318.5,
+            962.9,
+            485.7
+          ],
+          "box_bottom_court_m": [
+            7.297,
+            3.992
+          ],
+          "confidence": 0.847,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            612.6,
+            203.9,
+            684.8,
+            356.5
+          ],
+          "box_bottom_court_m": [
+            4.219,
+            7.653
+          ],
+          "confidence": 0.641,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            576.5,
+            204.5,
+            645.6,
+            352.5
+          ],
+          "box_bottom_court_m": [
+            3.776,
+            7.776
+          ],
+          "confidence": 0.762,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1578,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            711.6,
+            243.5,
+            783.1,
+            405.7
+          ],
+          "box_bottom_court_m": [
+            5.34,
+            6.203
+          ],
+          "confidence": 0.494,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            888.1,
+            338.8,
+            957.0,
+            518.9
+          ],
+          "box_bottom_court_m": [
+            7.158,
+            3.125
+          ],
+          "confidence": 0.799,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            628.9,
+            208.2,
+            698.4,
+            354.1
+          ],
+          "box_bottom_court_m": [
+            4.395,
+            7.728
+          ],
+          "confidence": 0.562,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            594.1,
+            214.3,
+            663.9,
+            365.9
+          ],
+          "box_bottom_court_m": [
+            3.986,
+            7.372
+          ],
+          "confidence": 0.539,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1584,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 5,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            713.7,
+            235.6,
+            785.4,
+            402.8
+          ],
+          "box_bottom_court_m": [
+            5.367,
+            6.285
+          ],
+          "confidence": 0.692,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            883.4,
+            357.6,
+            949.6,
+            531.6
+          ],
+          "box_bottom_court_m": [
+            7.073,
+            2.8
+          ],
+          "confidence": 0.849,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 58,
+          "bbox_px": [
+            635.1,
+            214.3,
+            700.0,
+            354.6
+          ],
+          "box_bottom_court_m": [
+            4.44,
+            7.712
+          ],
+          "confidence": 0.432,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            609.2,
+            218.5,
+            680.9,
+            380.2
+          ],
+          "box_bottom_court_m": [
+            4.172,
+            6.946
+          ],
+          "confidence": 0.736,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 88,
+          "bbox_px": [
+            688.7,
+            261.9,
+            737.5,
+            412.0
+          ],
+          "box_bottom_court_m": [
+            4.944,
+            6.021
+          ],
+          "confidence": 0.669,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    },
+    {
+      "source_frame": 1590,
+      "in_conservative_core": false,
+      "near_floor_side_candidate_count": 4,
+      "net_boundary_review_count": 0,
+      "proposals": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            713.1,
+            224.1,
+            788.3,
+            403.3
+          ],
+          "box_bottom_court_m": [
+            5.38,
+            6.27
+          ],
+          "confidence": 0.707,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 49,
+          "bbox_px": [
+            876.8,
+            383.2,
+            944.8,
+            563.5
+          ],
+          "box_bottom_court_m": [
+            6.965,
+            2.003
+          ],
+          "confidence": 0.837,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 54,
+          "bbox_px": [
+            623.4,
+            221.7,
+            695.1,
+            388.0
+          ],
+          "box_bottom_court_m": [
+            4.335,
+            6.716
+          ],
+          "confidence": 0.75,
+          "net_side_status": "near_floor_side_candidate"
+        },
+        {
+          "raw_track_id": 88,
+          "bbox_px": [
+            681.6,
+            261.8,
+            730.9,
+            412.5
+          ],
+          "box_bottom_court_m": [
+            4.866,
+            6.008
+          ],
+          "confidence": 0.678,
+          "net_side_status": "near_floor_side_candidate"
+        }
+      ]
+    }
+  ]
+}

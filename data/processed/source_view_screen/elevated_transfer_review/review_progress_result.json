@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "match_id": "yt_-siJXMXKcbo",
+      "status": "partial_review",
+      "expected_grid_frames": 46,
+      "reviewed_grid_frames": 19,
+      "expected_player_slots": 276,
+      "reviewed_player_slots": 114,
+      "slot_counts": {
+        "reviewed_player_slots": 114,
+        "source_visible": 114,
+        "identity_digit_confirmed": 0,
+        "identity_sequence_consistent": 109,
+        "candidate_selected": 105,
+        "identity_exception_unresolved": 0,
+        "same_player_box": 104,
+        "source_reviewed_plausible_grounded_proxy": 99
+      },
+      "physical_states": {
+        "grounded": 110,
+        "airborne": 4
+      },
+      "gap_reasons": {
+        "box:no_box": 9,
+        "floor:not_applicable": 9,
+        "state:airborne": 4,
+        "box:uncertain": 1,
+        "floor:uncertain": 1
+      },
+      "all_six_same_player_box_frames": 13,
+      "all_six_plausible_grounded_proxy_frames": 9,
+      "limitations": [
+        "Single-reviewer unblinded source and box judgments.",
+        "Grid samples are 5 Hz; intervening source frames have no source review.",
+        "Plausible box bottoms are not independent shoe-position accuracy measurements.",
+        "Court calibration and exact full-video frame alignment are separate gates."
+      ]
+    },
+    {
+      "match_id": "yt__BOwnLLVaPs",
+      "status": "complete_single_reviewer",
+      "expected_grid_frames": 48,
+      "reviewed_grid_frames": 48,
+      "expected_player_slots": 288,
+      "reviewed_player_slots": 288,
+      "slot_counts": {
+        "reviewed_player_slots": 288,
+        "source_visible": 288,
+        "identity_digit_confirmed": 1,
+        "identity_sequence_consistent": 200,
+        "candidate_selected": 253,
+        "identity_exception_unresolved": 0,
+        "same_player_box": 232,
+        "source_reviewed_plausible_grounded_proxy": 184
+      },
+      "physical_states": {
+        "grounded": 285,
+        "airborne": 3
+      },
+      "gap_reasons": {
+        "box:no_box": 35,
+        "floor:not_applicable": 33,
+        "floor:uncertain": 25,
+        "box:uncertain": 21,
+        "state:airborne": 3
+      },
+      "all_six_same_player_box_frames": 18,
+      "all_six_plausible_grounded_proxy_frames": 14,
+      "limitations": [
+        "Single-reviewer unblinded source and box judgments.",
+        "Grid samples are 5 Hz; intervening source frames have no source review.",
+        "Plausible box bottoms are not independent shoe-position accuracy measurements.",
+        "Court calibration and exact full-video frame alignment are separate gates."
+      ]
+    },
+    {
+      "match_id": "yt_b1bJ5WN05Qw",
+      "status": "complete_single_reviewer",
+      "expected_grid_frames": 46,
+      "reviewed_grid_frames": 46,
+      "expected_player_slots": 276,
+      "reviewed_player_slots": 276,
+      "slot_counts": {
+        "reviewed_player_slots": 276,
+        "source_visible": 276,
+        "identity_digit_confirmed": 0,
+        "identity_sequence_consistent": 247,
+        "candidate_selected": 247,
+        "identity_exception_unresolved": 0,
+        "same_player_box": 247,
+        "source_reviewed_plausible_grounded_proxy": 41
+      },
+      "physical_states": {
+        "grounded": 273,
+        "airborne": 3
+      },
+      "gap_reasons": {
+        "box:no_box": 29,
+        "floor:not_applicable": 29,
+        "floor:uncertain": 203,
+        "state:airborne": 3
+      },
+      "all_six_same_player_box_frames": 17,
+      "all_six_plausible_grounded_proxy_frames": 0,
+      "limitations": [
+        "Single-reviewer unblinded source and box judgments.",
+        "Grid samples are 5 Hz; intervening source frames have no source review.",
+        "Plausible box bottoms are not independent shoe-position accuracy measurements.",
+        "Court calibration and exact full-video frame alignment are separate gates."
+      ]
+    }
+  ]
+}

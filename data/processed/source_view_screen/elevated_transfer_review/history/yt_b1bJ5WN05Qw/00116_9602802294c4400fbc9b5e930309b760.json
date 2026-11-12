@@ -1,0 +1,129 @@
+{
+  "revision": 116,
+  "match_id": "yt_b1bJ5WN05Qw",
+  "frame": 708,
+  "prior": {
+    "excerpt_frame": 708,
+    "reviewer_code": "MZ",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270805,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 2,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 3,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270841,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270827,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 4,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      }
+    ]
+  },
+  "new": {
+    "excerpt_frame": 708,
+    "reviewer_code": "MZ_confirmed_jersey_and_box",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270805,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 2,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 2,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 3,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 3,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 4,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270841,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 5,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 270827,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 4,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "MZ confirmed saved jersey/box assignments on 2026-11-07; floor verdict unchanged."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "single_reviewer_exact_snapshot_phase_adjudication",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "review_basis": "Unboxed source video at the exact detector snapshot and 12 source frames before and after; broad near-side phase only, not exact touch or rally boundary",
+  "phase_definitions": {
+    "near_defense": "The far side appears to control or attack the ball while the near side prepares or responds defensively",
+    "near_offense": "The near side appears to control or attack the ball while the far side defends or blocks",
+    "serve_or_reset": "A player appears to prepare a serve or players appear to reset; no active exchange can be confirmed"
+  },
+  "rows": [
+    {"set": 1, "point_number": 5, "source_frame": 1422, "phase": "near_defense", "note": "Near blue side is in a receiving shape below far white net action."},
+    {"set": 1, "point_number": 6, "source_frame": 1758, "phase": "near_defense", "note": "Far white side attacks across the net; near blue side reacts."},
+    {"set": 1, "point_number": 18, "source_frame": 5371, "phase": "near_defense", "note": "Far white net action and near blue defensive formation persist through the three frames."},
+    {"set": 1, "point_number": 27, "source_frame": 7344, "phase": "near_offense", "note": "Near blue player moves toward the net as teammates arrange for an attack."},
+    {"set": 1, "point_number": 34, "source_frame": 9702, "phase": "serve_or_reset", "note": "Both teams are nearly stationary and the far white player is beyond the end line; an active exchange is not visible."},
+    {"set": 1, "point_number": 37, "source_frame": 10488, "phase": "near_offense", "note": "Far white player is down behind the court while near blue side occupies the attacking half."},
+    {"set": 2, "point_number": 2, "source_frame": 12306, "phase": "near_defense", "note": "Far blue attacker approaches the net while near white side sets its defense."},
+    {"set": 2, "point_number": 6, "source_frame": 13566, "phase": "near_offense", "note": "Far blue player dives in response to the near white front-row action."},
+    {"set": 2, "point_number": 14, "source_frame": 16032, "phase": "serve_or_reset", "note": "Near white server is at or behind the end line during the serve motion; this is not a comparable open-play frame."},
+    {"set": 2, "point_number": 26, "source_frame": 18936, "phase": "near_defense", "note": "Far blue side controls the ball close to the net and near white side is in receiving shape."},
+    {"set": 2, "point_number": 28, "source_frame": 19536, "phase": "near_offense", "note": "Near white front-row player attacks against far blue blockers."},
+    {"set": 2, "point_number": 37, "source_frame": 22140, "phase": "near_offense", "note": "Near white side sets the ball while far blue side forms a block."},
+    {"set": 3, "point_number": 11, "source_frame": 29280, "phase": "near_offense", "note": "Near blue attacker approaches a far white block."},
+    {"set": 3, "point_number": 13, "source_frame": 29940, "phase": "near_defense", "note": "Far white side is playing at the net and near blue team holds a defensive shape."},
+    {"set": 3, "point_number": 27, "source_frame": 34122, "phase": "near_defense", "note": "Far white player attacks near the net against near blue defenders."},
+    {"set": 3, "point_number": 33, "source_frame": 35844, "phase": "near_offense", "note": "Far white defender dives while near blue side holds a front-court attacking shape."},
+    {"set": 3, "point_number": 34, "source_frame": 36072, "phase": "near_defense", "note": "Far white side passes or sets near the net; near blue side faces it in defensive shape."}
+  ]
+}

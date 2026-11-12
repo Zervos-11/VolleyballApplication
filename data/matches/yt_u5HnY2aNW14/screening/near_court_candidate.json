@@ -1,0 +1,93 @@
+{
+  "status": "staged_floor_line_homography_not_validated_player_positions",
+  "video_id": "u5HnY2aNW14",
+  "excerpt_sha256": "3719a71775971675989690ece8ed09ffd3ba2bcf6eaef6257dd74f6382efe51f",
+  "source_frame_within_excerpt": 360,
+  "coordinate_rule": "near baseline y=0 m, floor centreline under net y=9 m; x from image left to right",
+  "points_px": [
+    [
+      239,
+      648
+    ],
+    [
+      1122,
+      648
+    ],
+    [
+      1046,
+      313
+    ],
+    [
+      297,
+      313
+    ]
+  ],
+  "points_court_m": [
+    [
+      0,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "homography_image_to_court": [
+    [
+      0.014427701186277644,
+      0.0024979303546391147,
+      -5.066879453326504
+    ],
+    [
+      0.0,
+      -0.032257755786632716,
+      20.903025749738
+    ],
+    [
+      -3.0677273586409463e-19,
+      0.0006412311638345619,
+      1.0
+    ]
+  ],
+  "held_out_attack_line_px": [
+    [
+      285,
+      410
+    ],
+    [
+      1060,
+      410
+    ]
+  ],
+  "held_out_attack_line_projected_m": [
+    [
+      0.0548,
+      6.0791
+    ],
+    [
+      8.9085,
+      6.0791
+    ]
+  ],
+  "held_out_expected_court_y_m": 6,
+  "held_out_y_abs_residual_m": [
+    0.0791,
+    0.0791
+  ],
+  "overlay": "data/matches/yt_u5HnY2aNW14/screening/near_court_candidate_overlay.jpg",
+  "use_for_final_metrics": false,
+  "limitations": [
+    "Four court corners were placed by one reviewer on one frame.",
+    "Held-out attack-line placements are approximate and not independent inter-observer validation.",
+    "The transform is not a test of grounded player box-bottom accuracy.",
+    "Airborne players and off-court positions must remain separately flagged."
+  ]
+}

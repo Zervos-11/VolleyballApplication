@@ -1,0 +1,101 @@
+{
+  "revision": 3,
+  "reviewer_code": "MZ",
+  "frames": {
+    "36073": {
+      "rows": [
+        {
+          "code": "baseline_left",
+          "status": "marked",
+          "x_px": 244.7,
+          "y_px": 646.4,
+          "note": ""
+        },
+        {
+          "code": "baseline_right",
+          "status": "marked",
+          "x_px": 1119.7,
+          "y_px": 639.1,
+          "note": ""
+        },
+        {
+          "code": "attack_left",
+          "status": "marked",
+          "x_px": 288.3,
+          "y_px": 412.7,
+          "note": ""
+        },
+        {
+          "code": "attack_right",
+          "status": "marked",
+          "x_px": 1063.2,
+          "y_px": 406.5,
+          "note": ""
+        },
+        {
+          "code": "net_left",
+          "status": "marked",
+          "x_px": 305.9,
+          "y_px": 314.0,
+          "note": ""
+        },
+        {
+          "code": "net_right",
+          "status": "marked",
+          "x_px": 1041.5,
+          "y_px": 310.3,
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-04T05:46:14.557397+00:00"
+    },
+    "36101": {
+      "rows": [
+        {
+          "code": "baseline_left",
+          "status": "marked",
+          "x_px": 246.4,
+          "y_px": 646.7,
+          "note": ""
+        },
+        {
+          "code": "baseline_right",
+          "status": "marked",
+          "x_px": 1119.2,
+          "y_px": 639.4,
+          "note": ""
+        },
+        {
+          "code": "attack_left",
+          "status": "marked",
+          "x_px": 288.8,
+          "y_px": 413.4,
+          "note": ""
+        },
+        {
+          "code": "attack_right",
+          "status": "marked",
+          "x_px": 1063.4,
+          "y_px": 407.7,
+          "note": ""
+        },
+        {
+          "code": "net_left",
+          "status": "marked",
+          "x_px": 307.5,
+          "y_px": 314.9,
+          "note": ""
+        },
+        {
+          "code": "net_right",
+          "status": "marked",
+          "x_px": 1040.1,
+          "y_px": 310.5,
+          "note": ""
+        }
+      ],
+      "saved_at_utc": "2026-11-04T05:48:05.321669+00:00"
+    }
+  },
+  "scope": "single_reviewer_source_only_calibration_check"
+}

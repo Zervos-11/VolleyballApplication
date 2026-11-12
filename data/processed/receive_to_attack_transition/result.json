@@ -1,0 +1,30 @@
+{
+  "status": "single_reviewer_source_event_transition_metric",
+  "protocol_sha256": "a99f5e4b6a18ee9ad735b3ee15c11a73c532c518a09d2ec771be4f7d59924167",
+  "completed_sha256": "bb547855984486d426b81cf7c28479c65426d652cbf223f51251d2dadd069d51",
+  "cases": [
+    {
+      "match_id": "yt_AoEP-YiWRvc",
+      "rally_id": "point_21m",
+      "receive_to_first_attack_seconds_interval": [
+        2.9363,
+        2.9696
+      ],
+      "status": "reviewed_event_interval",
+      "reviewer_code": "MZ",
+      "note": ""
+    },
+    {
+      "match_id": "yt_FqE5pTJqx8g",
+      "rally_id": "r3",
+      "receive_to_first_attack_seconds_interval": null,
+      "status": "no_near_side_attack",
+      "reviewer_code": "MZ_chat_verdict",
+      "note": "Student reported in chat on 2026-11-07 that the near-side team made no attack in this selected point; reception contact and receive status were not specified."
+    }
+  ],
+  "limitations": [
+    "Event times depend on single-reviewer visual brackets.",
+    "Two selected points do not establish an outcome association or generalisability."
+  ]
+}

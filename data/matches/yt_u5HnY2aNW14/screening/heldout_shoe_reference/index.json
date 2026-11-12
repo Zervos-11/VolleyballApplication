@@ -1,0 +1,451 @@
+{
+  "status": "source_shoe_reference_review_pack_not_ground_truth",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "selected_floor_index_sha256": "414f3b9b00d720536d4dd11368129c3534f069ae85b22347c753f320811cf409",
+  "entries": [
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "sheet": "s1_p34_f9702.jpg",
+      "sha256": "cfd4a0dd3ee6d894ec3a31826e9772eddb2574f0d317de062e72319bfe4dbf56",
+      "boxes": [
+        {
+          "raw_track_id": 33,
+          "bbox_px": [
+            370.9,
+            347.9,
+            445.0,
+            514.3
+          ],
+          "crop_origin_px": [
+            313,
+            444
+          ],
+          "crop_end_px": [
+            503,
+            539
+          ]
+        },
+        {
+          "raw_track_id": 59,
+          "bbox_px": [
+            587.8,
+            174.6,
+            703.8,
+            340.0
+          ],
+          "crop_origin_px": [
+            551,
+            270
+          ],
+          "crop_end_px": [
+            741,
+            365
+          ]
+        },
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            648.3,
+            421.2,
+            709.5,
+            615.1
+          ],
+          "crop_origin_px": [
+            584,
+            545
+          ],
+          "crop_end_px": [
+            774,
+            640
+          ]
+        },
+        {
+          "raw_track_id": 16,
+          "bbox_px": [
+            730.0,
+            174.8,
+            795.9,
+            330.9
+          ],
+          "crop_origin_px": [
+            668,
+            261
+          ],
+          "crop_end_px": [
+            858,
+            356
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            815.1,
+            172.8,
+            870.8,
+            338.6
+          ],
+          "crop_origin_px": [
+            748,
+            269
+          ],
+          "crop_end_px": [
+            938,
+            364
+          ]
+        },
+        {
+          "raw_track_id": 44,
+          "bbox_px": [
+            898.1,
+            291.6,
+            983.9,
+            473.6
+          ],
+          "crop_origin_px": [
+            846,
+            404
+          ],
+          "crop_end_px": [
+            1036,
+            499
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "sheet": "s2_p28_f19536.jpg",
+      "sha256": "28b79a118daadc3a07a46717186b7f6641fd62f28868508a952008df8e65eef9",
+      "boxes": [
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            395.6,
+            252.2,
+            471.0,
+            413.0
+          ],
+          "crop_origin_px": [
+            338,
+            343
+          ],
+          "crop_end_px": [
+            528,
+            438
+          ]
+        },
+        {
+          "raw_track_id": 3,
+          "bbox_px": [
+            437.5,
+            410.6,
+            532.3,
+            557.4
+          ],
+          "crop_origin_px": [
+            390,
+            487
+          ],
+          "crop_end_px": [
+            580,
+            582
+          ]
+        },
+        {
+          "raw_track_id": 12,
+          "bbox_px": [
+            604.1,
+            239.7,
+            670.1,
+            397.1
+          ],
+          "crop_origin_px": [
+            542,
+            327
+          ],
+          "crop_end_px": [
+            732,
+            422
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            633.5,
+            437.9,
+            723.0,
+            586.4
+          ],
+          "crop_origin_px": [
+            583,
+            516
+          ],
+          "crop_end_px": [
+            773,
+            611
+          ]
+        },
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            823.4,
+            427.6,
+            930.3,
+            575.4
+          ],
+          "crop_origin_px": [
+            782,
+            505
+          ],
+          "crop_end_px": [
+            972,
+            600
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            998.2,
+            331.4,
+            1060.2,
+            485.7
+          ],
+          "crop_origin_px": [
+            934,
+            416
+          ],
+          "crop_end_px": [
+            1124,
+            511
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "sheet": "s3_p13_f29940.jpg",
+      "sha256": "75d5bb1128cff6648a11eac28ac35b49025b07a70cc8413c36226ea6a6edcb47",
+      "boxes": [
+        {
+          "raw_track_id": 4,
+          "bbox_px": [
+            361.3,
+            365.8,
+            424.6,
+            513.7
+          ],
+          "crop_origin_px": [
+            298,
+            444
+          ],
+          "crop_end_px": [
+            488,
+            539
+          ]
+        },
+        {
+          "raw_track_id": 14,
+          "bbox_px": [
+            552.0,
+            181.5,
+            624.9,
+            323.2
+          ],
+          "crop_origin_px": [
+            493,
+            253
+          ],
+          "crop_end_px": [
+            683,
+            348
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            655.4,
+            369.8,
+            748.3,
+            548.2
+          ],
+          "crop_origin_px": [
+            607,
+            478
+          ],
+          "crop_end_px": [
+            797,
+            573
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            681.8,
+            184.0,
+            745.4,
+            329.8
+          ],
+          "crop_origin_px": [
+            619,
+            260
+          ],
+          "crop_end_px": [
+            809,
+            355
+          ]
+        },
+        {
+          "raw_track_id": 10,
+          "bbox_px": [
+            835.3,
+            177.2,
+            887.1,
+            342.1
+          ],
+          "crop_origin_px": [
+            766,
+            272
+          ],
+          "crop_end_px": [
+            956,
+            367
+          ]
+        },
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            885.6,
+            297.2,
+            961.0,
+            464.2
+          ],
+          "crop_origin_px": [
+            828,
+            394
+          ],
+          "crop_end_px": [
+            1018,
+            489
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "sheet": "s3_p34_f36072.jpg",
+      "sha256": "d5f7c8d8261050f337698d60b42a7aeb3da469ded3d1bb037b2cc782631604c0",
+      "boxes": [
+        {
+          "raw_track_id": 1,
+          "bbox_px": [
+            294.8,
+            393.6,
+            391.7,
+            535.7
+          ],
+          "crop_origin_px": [
+            248,
+            466
+          ],
+          "crop_end_px": [
+            438,
+            561
+          ]
+        },
+        {
+          "raw_track_id": 5,
+          "bbox_px": [
+            510.6,
+            186.5,
+            574.0,
+            347.2
+          ],
+          "crop_origin_px": [
+            447,
+            277
+          ],
+          "crop_end_px": [
+            637,
+            372
+          ]
+        },
+        {
+          "raw_track_id": 2,
+          "bbox_px": [
+            598.8,
+            400.5,
+            749.8,
+            585.5
+          ],
+          "crop_origin_px": [
+            579,
+            516
+          ],
+          "crop_end_px": [
+            769,
+            611
+          ]
+        },
+        {
+          "raw_track_id": 7,
+          "bbox_px": [
+            658.6,
+            186.6,
+            724.9,
+            346.5
+          ],
+          "crop_origin_px": [
+            597,
+            276
+          ],
+          "crop_end_px": [
+            787,
+            371
+          ]
+        },
+        {
+          "raw_track_id": 10,
+          "bbox_px": [
+            781.4,
+            176.0,
+            846.6,
+            337.3
+          ],
+          "crop_origin_px": [
+            719,
+            267
+          ],
+          "crop_end_px": [
+            909,
+            362
+          ]
+        },
+        {
+          "raw_track_id": 8,
+          "bbox_px": [
+            849.2,
+            306.8,
+            909.1,
+            475.0
+          ],
+          "crop_origin_px": [
+            784,
+            405
+          ],
+          "crop_end_px": [
+            974,
+            500
+          ]
+        }
+      ]
+    }
+  ]
+}

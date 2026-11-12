@@ -1,0 +1,590 @@
+{
+  "status": "image_plane_single_snapshot_diagnostic_not_final_outcome_analysis",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "sample": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+    "visibility": "33791d14d615357db06c2df0113d27d8edef0dedf187d7c72d8b69731d44d7bf",
+    "local_qc": "ee54857ac9509773a57d4615d007e99332ca3fbc5aa56002fb5ea6b8f571f932",
+    "local_boxes": "414f3b9b00d720536d4dd11368129c3534f069ae85b22347c753f320811cf409",
+    "highres_qc": "18f3d6e9c64ba30de2a644c7321207dc70c30a6e1e9245091f34c2fdb8af116b",
+    "highres_boxes": "a26d9b4a6f313b72732b7cc2ae092a5c824b4dfe3e3f69f6aa1e75fbe032ef00",
+    "phase_qc": "6b6c0695228d17372662757c6ca5ecd86d5b48115a968bb10f7a51c8637d9895"
+  },
+  "summary": {
+    "frozen_points": 18,
+    "original_pass_snapshots": 15,
+    "higher_resolution_recoveries": 2,
+    "all_tested_snapshots": 17,
+    "missing_point": {
+      "set": 3,
+      "point_number": 23,
+      "near_team_won": true
+    },
+    "original_group_sizes": {
+      "wins": 6,
+      "losses": 9
+    },
+    "all_tested_group_sizes": {
+      "wins": 8,
+      "losses": 9
+    },
+    "final_outcome_eligible_points": 0
+  },
+  "original_pass_descriptive_contrasts": {
+    "spacing_px": {
+      "by_set": {
+        "1": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": 85.14
+        },
+        "2": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": 37.1
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -24.5
+        }
+      },
+      "equal_set_mean_win_minus_loss": 32.58
+    },
+    "hull_area_px2": {
+      "by_set": {
+        "1": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -5615.46
+        },
+        "2": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": 11131.57
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -19604.73
+        }
+      },
+      "equal_set_mean_win_minus_loss": -4696.21
+    },
+    "dispersion_px": {
+      "by_set": {
+        "1": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": 60.25
+        },
+        "2": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": 26.6
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -18.46
+        }
+      },
+      "equal_set_mean_win_minus_loss": 22.8
+    }
+  },
+  "all_tested_descriptive_contrasts": {
+    "spacing_px": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 97.18
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 13.29
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -24.5
+        }
+      },
+      "equal_set_mean_win_minus_loss": 28.66
+    },
+    "hull_area_px2": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 3096.04
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": -484.55
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -19604.73
+        }
+      },
+      "equal_set_mean_win_minus_loss": -5664.41
+    },
+    "dispersion_px": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 66.04
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 12.07
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -18.46
+        }
+      },
+      "equal_set_mean_win_minus_loss": 19.88
+    }
+  },
+  "all_tested_bottom_anchor_descriptive_contrasts": {
+    "spacing_px": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 96.3
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 13.47
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -24.16
+        }
+      },
+      "equal_set_mean_win_minus_loss": 28.54
+    },
+    "hull_area_px2": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 2373.24
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 924.19
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -18891.72
+        }
+      },
+      "equal_set_mean_win_minus_loss": -5198.1
+    },
+    "dispersion_px": {
+      "by_set": {
+        "1": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 64.54
+        },
+        "2": {
+          "wins": 3,
+          "losses": 3,
+          "mean_win_minus_loss": 11.97
+        },
+        "3": {
+          "wins": 2,
+          "losses": 3,
+          "mean_win_minus_loss": -17.52
+        }
+      },
+      "equal_set_mean_win_minus_loss": 19.66
+    }
+  },
+  "all_tested_leave_one_point_out_contrast_ranges": {
+    "spacing_px": [
+      20.49,
+      36.59
+    ],
+    "hull_area_px2": [
+      -10448.67,
+      -1792.37
+    ],
+    "dispersion_px": [
+      14.83,
+      24.73
+    ]
+  },
+  "missing_win_observed_value_scenario_ranges": {
+    "spacing_px": [
+      19.98,
+      38.89
+    ],
+    "hull_area_px2": [
+      -8691.51,
+      -395.78
+    ],
+    "dispersion_px": [
+      14.96,
+      26.96
+    ]
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "source_frame": 1422,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 347.45,
+        "hull_area_px2": 48310.19,
+        "dispersion_px": 235.34
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 347.53,
+        "hull_area_px2": 48089.98,
+        "dispersion_px": 234.65
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near blue side is in a receiving shape below far white net action."
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 1758,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 280.24,
+        "hull_area_px2": 77695.28,
+        "dispersion_px": 186.03
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 284.19,
+        "hull_area_px2": 81872.39,
+        "dispersion_px": 189.33
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white side attacks across the net; near blue side reacts."
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "source_frame": 5371,
+      "detector_pass": "higher_resolution",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 377.63,
+        "hull_area_px2": 86840.7,
+        "dispersion_px": 247.25
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 380.21,
+        "hull_area_px2": 88290.06,
+        "dispersion_px": 248.77
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white net action and near blue defensive formation persist through the three frames."
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "near_team_won": true,
+      "source_frame": 7344,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 335.57,
+        "hull_area_px2": 73102.22,
+        "dispersion_px": 224.44
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 338.28,
+        "hull_area_px2": 77436.19,
+        "dispersion_px": 225.86
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near blue player moves toward the net as teammates arrange for an attack."
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 9702,
+      "detector_pass": "original",
+      "source_phase_status": "serve_or_reset",
+      "box_centre_metrics": {
+        "spacing_px": 281.49,
+        "hull_area_px2": 83258.27,
+        "dispersion_px": 183.56
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 286.28,
+        "hull_area_px2": 88185.9,
+        "dispersion_px": 187.27
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Both teams are nearly stationary and the far white player is beyond the end line; an active exchange is not visible."
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "near_team_won": false,
+      "source_frame": 10488,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 207.39,
+        "hull_area_px2": 38011.44,
+        "dispersion_px": 139.32
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 206.64,
+        "hull_area_px2": 36638.22,
+        "dispersion_px": 139.06
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white player is down behind the court while near blue side occupies the attacking half."
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "near_team_won": false,
+      "source_frame": 12306,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 292.56,
+        "hull_area_px2": 78429.45,
+        "dispersion_px": 187.59
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 292.81,
+        "hull_area_px2": 78994.82,
+        "dispersion_px": 187.72
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far blue attacker approaches the net while near white side sets its defense."
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 13566,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 283.08,
+        "hull_area_px2": 78018.4,
+        "dispersion_px": 180.9
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 286.5,
+        "hull_area_px2": 82304.75,
+        "dispersion_px": 183.57
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far blue player dives in response to the near white front-row action."
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "near_team_won": true,
+      "source_frame": 16032,
+      "detector_pass": "higher_resolution",
+      "source_phase_status": "serve_or_reset",
+      "box_centre_metrics": {
+        "spacing_px": 265.3,
+        "hull_area_px2": 60735.2,
+        "dispersion_px": 174.34
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 268.06,
+        "hull_area_px2": 65994.64,
+        "dispersion_px": 176.45
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near white server is at or behind the end line during the serve motion; this is not a comparable open-play frame."
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "near_team_won": false,
+      "source_frame": 18936,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 323.21,
+        "hull_area_px2": 96908.15,
+        "dispersion_px": 205.48
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 327.63,
+        "hull_area_px2": 103280.53,
+        "dispersion_px": 209.13
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far blue side controls the ball close to the net and near white side is in receiving shape."
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "source_frame": 19536,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 316.72,
+        "hull_area_px2": 78494.14,
+        "dispersion_px": 205.7
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 314.92,
+        "hull_area_px2": 76187.09,
+        "dispersion_px": 204.5
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near white front-row player attacks against far blue blockers."
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "near_team_won": true,
+      "source_frame": 22140,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 356.71,
+        "hull_area_px2": 112673.0,
+        "dispersion_px": 230.14
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 364.38,
+        "hull_area_px2": 125170.95,
+        "dispersion_px": 235.39
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near white side sets the ball while far blue side forms a block."
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "near_team_won": false,
+      "source_frame": 29280,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 352.36,
+        "hull_area_px2": 80564.6,
+        "dispersion_px": 230.58
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 353.23,
+        "hull_area_px2": 82246.82,
+        "dispersion_px": 230.34
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Near blue attacker approaches a far white block."
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29940,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 279.79,
+        "hull_area_px2": 74428.08,
+        "dispersion_px": 179.49
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 283.27,
+        "hull_area_px2": 78818.16,
+        "dispersion_px": 182.68
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white side is playing at the net and near blue team holds a defensive shape."
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "source_frame": 34122,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 288.38,
+        "hull_area_px2": 89980.92,
+        "dispersion_px": 188.58
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 293.4,
+        "hull_area_px2": 95116.91,
+        "dispersion_px": 192.54
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white player attacks near the net against near blue defenders."
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "near_team_won": true,
+      "source_frame": 35844,
+      "detector_pass": "original",
+      "source_phase_status": "near_offense",
+      "box_centre_metrics": {
+        "spacing_px": 291.2,
+        "hull_area_px2": 56082.49,
+        "dispersion_px": 187.69
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 293.67,
+        "hull_area_px2": 59566.04,
+        "dispersion_px": 190.05
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white defender dives while near blue side holds a front-court attacking shape."
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36072,
+      "detector_pass": "original",
+      "source_phase_status": "near_defense",
+      "box_centre_metrics": {
+        "spacing_px": 289.26,
+        "hull_area_px2": 84034.52,
+        "dispersion_px": 187.0
+      },
+      "box_bottom_image_metrics": {
+        "spacing_px": 291.27,
+        "hull_area_px2": 86887.72,
+        "dispersion_px": 188.78
+      },
+      "final_outcome_eligible": false,
+      "source_phase_note": "Far white side passes or sets near the net; near blue side faces it in defensive shape."
+    }
+  ],
+  "interpretation": "One source-checked, availability-selected image-box snapshot per point. Camera pixels provide a consistent image coordinate system but are not court metres. Box centres are affected by height, posture and detector box shape. Phases and detector settings differ, and the only missing point is a win. Contrasts are method diagnostics, not estimated winner effects; no significance test is valid under these screens."
+}

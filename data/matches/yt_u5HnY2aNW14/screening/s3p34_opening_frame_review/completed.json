@@ -1,0 +1,126 @@
+{
+  "status": "single_reviewer_candidate_assisted_source_and_box_review",
+  "manifest_sha256": "f30ef30ebfc81bcb78ef0343819c1d3189a982a2678c23fa736927e772a9574d",
+  "reviewer": "MZ",
+  "frames": {
+    "35998": {
+      "7": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "12": {
+        "identity": "same_by_sequence",
+        "ground": "airborne",
+        "box": "same",
+        "floor": "not_applicable"
+      },
+      "15": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "19": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "21": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "28": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      }
+    },
+    "35999": {
+      "7": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "12": {
+        "identity": "same_by_sequence",
+        "ground": "airborne",
+        "box": "same",
+        "floor": "not_applicable"
+      },
+      "15": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "19": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "21": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "28": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      }
+    },
+    "36000": {
+      "7": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "12": {
+        "identity": "same_by_sequence",
+        "ground": "airborne",
+        "box": "same",
+        "floor": "not_applicable"
+      },
+      "15": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "19": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "21": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      },
+      "28": {
+        "identity": "same_by_sequence",
+        "ground": "grounded",
+        "box": "same",
+        "floor": "plausible"
+      }
+    }
+  },
+  "limitations": [
+    "Nearest-box slot suggestions were visible to the reviewer.",
+    "No manual shoe coordinate was marked in this opening review.",
+    "Provisional detector boxes are not independent jersey identification."
+  ]
+}

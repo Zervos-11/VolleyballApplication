@@ -1,0 +1,94 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "sampling": "every 60 source seconds",
+  "rows": [
+    {
+      "time_s": 0,
+      "frame": 0
+    },
+    {
+      "time_s": 60,
+      "frame": 1800
+    },
+    {
+      "time_s": 120,
+      "frame": 3600
+    },
+    {
+      "time_s": 180,
+      "frame": 5400
+    },
+    {
+      "time_s": 240,
+      "frame": 7200
+    },
+    {
+      "time_s": 300,
+      "frame": 9000
+    },
+    {
+      "time_s": 360,
+      "frame": 10800
+    },
+    {
+      "time_s": 420,
+      "frame": 12600
+    },
+    {
+      "time_s": 480,
+      "frame": 14400
+    },
+    {
+      "time_s": 540,
+      "frame": 16200
+    },
+    {
+      "time_s": 600,
+      "frame": 18000
+    },
+    {
+      "time_s": 660,
+      "frame": 19800
+    },
+    {
+      "time_s": 720,
+      "frame": 21600
+    },
+    {
+      "time_s": 780,
+      "frame": 23400
+    },
+    {
+      "time_s": 840,
+      "frame": 25200
+    },
+    {
+      "time_s": 900,
+      "frame": 27000
+    },
+    {
+      "time_s": 960,
+      "frame": 28800
+    },
+    {
+      "time_s": 1020,
+      "frame": 30600
+    },
+    {
+      "time_s": 1080,
+      "frame": 32400
+    },
+    {
+      "time_s": 1140,
+      "frame": 34200
+    },
+    {
+      "time_s": 1200,
+      "frame": 36000
+    },
+    {
+      "time_s": 1260,
+      "frame": 37800
+    }
+  ]
+}

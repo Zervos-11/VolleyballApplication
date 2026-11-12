@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>S3 P34 court calibration review</title>
+  <style>
+    :root { color-scheme: dark; font: 16px system-ui, sans-serif; background: #10151b; color: #edf2f7; }
+    body { max-width: 1500px; margin: 0 auto; padding: 12px; }
+    h1 { margin: 4px 0 10px; font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin: 0 0 8px; }
+    p { line-height: 1.35; margin: 8px 0; }
+    a { color: #9bceff; }
+    .panel { background: #1a222b; border: 1px solid #354454; border-radius: 10px; padding: 12px; margin: 10px 0; }
+    .layout { display: grid; grid-template-columns: minmax(0, 720px) minmax(380px, 1fr); gap: 14px; align-items: start; }
+    .image-column { position: sticky; top: 8px; }
+    .stage { position: relative; width: min(100%, 720px); margin: 8px 0; cursor: crosshair; }
+    .stage img { display: block; width: 100%; height: auto; }
+    .stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+    #zoom { display: block; width: min(100%, 480px); height: auto; border: 1px solid #8ba0b6; border-radius: 6px; cursor: crosshair; }
+    #zoom[hidden] { display: none; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+    .rows { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 8px; }
+    .landmark { border: 1px solid #435467; border-radius: 8px; padding: 10px; background: #17212b; }
+    .landmark.selected { border-color: #ffe066; box-shadow: 0 0 0 2px #ffe06666; }
+    .landmark h3 { margin: 0 0 8px; font-size: 1rem; }
+    label { display: flex; flex-direction: column; gap: 4px; }
+    button, select, input { color: inherit; background: #121b25; border: 1px solid #607184; border-radius: 6px; padding: 7px; font: inherit; }
+    button { cursor: pointer; background: #294258; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    input.point { width: 74px; }
+    input.note { width: min(100%, 260px); box-sizing: border-box; }
+    .small { color: #b6c4d1; font-size: .92rem; }
+    .error { color: #ffb1a6; }
+    .good { color: #9fe2af; }
+    #status { min-height: 1.4em; }
+    @media (max-width: 1120px) { .layout { grid-template-columns: 1fr; } .image-column { position: static; } }
+  </style>
+</head>
+<body>
+  <a href="/s3p34-ground-review">Ground review</a>
+  <h1>S3 P34 court-line check</h1>
+  <section class="panel">
+    <div class="controls">
+      <label>Reviewer code<input id="reviewer" maxlength="80" placeholder="e.g. MZ"></label>
+      <label>Source frame<select id="frameSelect"></select></label>
+      <button id="previous" type="button">Previous</button>
+      <button id="next" type="button">Next</button>
+    </div>
+    <p id="progress" class="small">Loading source frames…</p>
+    <p id="status" role="status" aria-live="polite"></p>
+  </section>
+  <section class="panel layout">
+    <div class="image-column">
+      <h2>Unboxed source · <a id="full" target="_blank" rel="noopener">Open full size</a></h2>
+      <p id="marking" class="small">Choose a court intersection below, then click its centre in the source image.</p>
+      <div class="stage"><img id="source" width="1280" height="720" alt="Unboxed source frame for marking court-line intersections"><canvas id="overlay" aria-hidden="true"></canvas></div>
+      <canvas id="zoom" width="640" height="480" hidden aria-label="Enlarged court-intersection crop; click to refine the point"></canvas>
+    </div>
+    <div>
+      <p class="small">Click the centre of each painted-line intersection. If it cannot be located, choose Uncertain or Occluded and leave the point blank. Saved points reload when you return.</p>
+      <div id="rows" class="rows"></div>
+      <p><button id="save" type="button">Save this frame’s six landmarks</button></p>
+      <p><button id="export" type="button" disabled>Freeze completed 12-point review</button></p>
+      <p id="exportStatus" class="small"></p>
+    </div>
+  </section>
+  <script src="/s3p34_calibration_review.js?v=1"></script>
+</body>
+</html>

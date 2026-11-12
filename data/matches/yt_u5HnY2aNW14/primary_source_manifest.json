@@ -1,0 +1,24 @@
+{
+  "video_id": "u5HnY2aNW14",
+  "source_url": "https://www.youtube.com/watch?v=u5HnY2aNW14",
+  "role": "new_primary_analysis_candidate",
+  "video": {
+    "path": "data/matches/yt_u5HnY2aNW14/source_720p.mp4",
+    "size_bytes": 293013535,
+    "sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "frame_count": 39002
+  },
+  "old_development_match": "yt_FqE5pTJqx8g",
+  "point_register_status": "122_visible_score_changes_candidate_pending_source_audit",
+  "point_register": "data/matches/yt_u5HnY2aNW14/screening/point_register_candidate.json",
+  "court_floor_accuracy_status": "not_validated",
+  "sample_status": "score_only_18_point_sample_frozen_and_score_transitions_source_checked_intervals_open",
+  "score_only_sample": "data/matches/yt_u5HnY2aNW14/screening/rally_sample_score_only.json",
+  "selected_point_source_review": "data/matches/yt_u5HnY2aNW14/screening/selected_point_source_review.json",
+  "selected_point_box_screen": "data/matches/yt_u5HnY2aNW14/screening/frozen_sample_box_screen.json",
+  "coarse_live_core_review": "data/matches/yt_u5HnY2aNW14/screening/live_core_second_review.json",
+  "live_core_anchor_visual_qc": "data/matches/yt_u5HnY2aNW14/screening/live_core_anchor_visual_qc.json"
+}

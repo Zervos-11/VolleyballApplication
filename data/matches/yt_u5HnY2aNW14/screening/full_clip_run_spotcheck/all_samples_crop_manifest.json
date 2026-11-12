@@ -1,0 +1,145 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "screen_sha256": "8089dddec4be14e68d03f73edd822ae31d82b197c2d8bac5b401f19535e04dc7",
+  "tracklet_audit_sha256": "a113447b023f7455785fa45201622e19c6d64dc9704242ef5553f8dba2fc65a3",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "page": 1,
+      "frames": [
+        1326,
+        1332,
+        1338,
+        1344,
+        1350,
+        1356
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "image": "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_1.png",
+      "image_sha256": "f23054e3a121ca1f04488907489bf0ad04975f9bd62c825d07e0e437bb18d294"
+    },
+    {
+      "set": 1,
+      "point_number": 5,
+      "page": 2,
+      "frames": [
+        1362,
+        1368,
+        1374,
+        1380,
+        1386,
+        1392
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "image": "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_2.png",
+      "image_sha256": "c61ed558f38afe068299392406298aa1232e5a63f440587dc8cec0d5efec44ce"
+    },
+    {
+      "set": 1,
+      "point_number": 5,
+      "page": 3,
+      "frames": [
+        1398,
+        1404,
+        1410,
+        1416,
+        1422,
+        1428
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "image": "screening/full_clip_run_spotcheck/s1_p05_all_samples_crops_3.png",
+      "image_sha256": "9b37b18382237bcbf643387ebd97e67a2eb1e4a2b1ec88619ddbe54be9ed604f"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "page": 1,
+      "frames": [
+        36000,
+        36006,
+        36012,
+        36018,
+        36024,
+        36030
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        8,
+        11,
+        20,
+        25
+      ],
+      "image": "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_1.png",
+      "image_sha256": "f1b0febcedd9793c7c5208dd0b7e47dba8f204cbb2bea6cd482f6e0cf829b532"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "page": 2,
+      "frames": [
+        36036,
+        36042,
+        36048,
+        36054,
+        36060,
+        36066
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        8,
+        11,
+        20,
+        25
+      ],
+      "image": "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_2.png",
+      "image_sha256": "a3f67f91e2ef0c714b174f5c2b585774cd643ba224641ef2fa89b8e91bc51485"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "page": 3,
+      "frames": [
+        36072,
+        36078,
+        36084,
+        36090,
+        36096,
+        36102
+      ],
+      "raw_track_ids": [
+        1,
+        2,
+        8,
+        11,
+        20,
+        25
+      ],
+      "image": "screening/full_clip_run_spotcheck/s3_p34_all_samples_crops_3.png",
+      "image_sha256": "a96f559b3bce3adf7da1854f8a7746d661495772fd711e4a828cea0ad7241967"
+    }
+  ]
+}

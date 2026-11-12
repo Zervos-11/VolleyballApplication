@@ -1,0 +1,199 @@
+{
+  "status": "coarse_source_still_bracket_detector_availability_not_live_frame_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "candidate_screen_sha256": "dca398e83321ca66432068a4ec85512a44add4e28968d741fef75275ea6a9ead",
+  "coarse_brackets_sha256": "47f4e58be0c2a9efbf6eb3e0ffbcdd4bca22bcde435b1f2ed21f0b41f24f2c78",
+  "counterexample_audit_sha256": "3e5998b3fd525d480c2e350ebd58d5671e36796c4c3eb308788d13a95faf9f7a",
+  "summary": {
+    "frozen_points": 18,
+    "clip_candidate_frames": 177,
+    "within_coarse_bracket_candidate_frames": 126,
+    "points_with_bracketed_candidates": 15,
+    "short_clip_dense_exact_six_frames": 0,
+    "confirmed_non_live_frames_excluded": 4,
+    "validated_metric_frames": 0
+  },
+  "rule": "Keep a geometric six-box candidate only between source-still active-looking marks, allowing one source-frame tolerance for the non-integer clip start. The two short clips have 5 Hz phase brackets but no candidate from the old live-anchor-gated screen, so their dense raw geometric-six availability is reported separately. This is a conservative screen, not an individually reviewed live interval.",
+  "points": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "clip_candidate_frames": 10,
+      "within_coarse_bracket_candidate_frames": 4,
+      "dense_sampled_frames_in_bracket": 11,
+      "dense_exact_six_geometric_frames_in_bracket": 4,
+      "coarse_bracket_first_frame": 1411,
+      "coarse_bracket_last_frame": 1471
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "clip_candidate_frames": 10,
+      "within_coarse_bracket_candidate_frames": 10,
+      "dense_sampled_frames_in_bracket": 26,
+      "dense_exact_six_geometric_frames_in_bracket": 10,
+      "coarse_bracket_first_frame": 1681,
+      "coarse_bracket_last_frame": 1861
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "clip_candidate_frames": 3,
+      "within_coarse_bracket_candidate_frames": 0,
+      "dense_sampled_frames_in_bracket": 6,
+      "dense_exact_six_geometric_frames_in_bracket": 1,
+      "coarse_bracket_first_frame": 5371,
+      "coarse_bracket_last_frame": 5401
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "clip_candidate_frames": 9,
+      "within_coarse_bracket_candidate_frames": 4,
+      "dense_sampled_frames_in_bracket": 11,
+      "dense_exact_six_geometric_frames_in_bracket": 4,
+      "coarse_bracket_first_frame": 7321,
+      "coarse_bracket_last_frame": 7381
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "clip_candidate_frames": 12,
+      "within_coarse_bracket_candidate_frames": 12,
+      "dense_sampled_frames_in_bracket": 26,
+      "dense_exact_six_geometric_frames_in_bracket": 12,
+      "coarse_bracket_first_frame": 9601,
+      "coarse_bracket_last_frame": 9781
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "clip_candidate_frames": 26,
+      "within_coarse_bracket_candidate_frames": 23,
+      "dense_sampled_frames_in_bracket": 81,
+      "dense_exact_six_geometric_frames_in_bracket": 30,
+      "coarse_bracket_first_frame": 10471,
+      "coarse_bracket_last_frame": 10951
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "clip_candidate_frames": 16,
+      "within_coarse_bracket_candidate_frames": 11,
+      "dense_sampled_frames_in_bracket": 46,
+      "dense_exact_six_geometric_frames_in_bracket": 12,
+      "coarse_bracket_first_frame": 12091,
+      "coarse_bracket_last_frame": 12361
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "clip_candidate_frames": 14,
+      "within_coarse_bracket_candidate_frames": 13,
+      "dense_sampled_frames_in_bracket": 81,
+      "dense_exact_six_geometric_frames_in_bracket": 15,
+      "coarse_bracket_first_frame": 13231,
+      "coarse_bracket_last_frame": 13741
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "clip_candidate_frames": 0,
+      "within_coarse_bracket_candidate_frames": 0,
+      "dense_sampled_frames_in_bracket": 2,
+      "dense_exact_six_geometric_frames_in_bracket": 0,
+      "coarse_bracket_first_frame": 16032,
+      "coarse_bracket_last_frame": 16056
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "clip_candidate_frames": 20,
+      "within_coarse_bracket_candidate_frames": 16,
+      "dense_sampled_frames_in_bracket": 41,
+      "dense_exact_six_geometric_frames_in_bracket": 16,
+      "coarse_bracket_first_frame": 18841,
+      "coarse_bracket_last_frame": 19081
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "clip_candidate_frames": 9,
+      "within_coarse_bracket_candidate_frames": 2,
+      "dense_sampled_frames_in_bracket": 6,
+      "dense_exact_six_geometric_frames_in_bracket": 2,
+      "coarse_bracket_first_frame": 19531,
+      "coarse_bracket_last_frame": 19561
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "clip_candidate_frames": 7,
+      "within_coarse_bracket_candidate_frames": 5,
+      "dense_sampled_frames_in_bracket": 16,
+      "dense_exact_six_geometric_frames_in_bracket": 5,
+      "coarse_bracket_first_frame": 22111,
+      "coarse_bracket_last_frame": 22201
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "clip_candidate_frames": 5,
+      "within_coarse_bracket_candidate_frames": 1,
+      "dense_sampled_frames_in_bracket": 11,
+      "dense_exact_six_geometric_frames_in_bracket": 2,
+      "coarse_bracket_first_frame": 29281,
+      "coarse_bracket_last_frame": 29341
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "clip_candidate_frames": 5,
+      "within_coarse_bracket_candidate_frames": 2,
+      "dense_sampled_frames_in_bracket": 21,
+      "dense_exact_six_geometric_frames_in_bracket": 6,
+      "coarse_bracket_first_frame": 29881,
+      "coarse_bracket_last_frame": 30001
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "clip_candidate_frames": 0,
+      "within_coarse_bracket_candidate_frames": 0,
+      "dense_sampled_frames_in_bracket": 1,
+      "dense_exact_six_geometric_frames_in_bracket": 0,
+      "coarse_bracket_first_frame": 32742,
+      "coarse_bracket_last_frame": 32760
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "clip_candidate_frames": 10,
+      "within_coarse_bracket_candidate_frames": 9,
+      "dense_sampled_frames_in_bracket": 30,
+      "dense_exact_six_geometric_frames_in_bracket": 11,
+      "coarse_bracket_first_frame": 34051,
+      "coarse_bracket_last_frame": 34231
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "clip_candidate_frames": 7,
+      "within_coarse_bracket_candidate_frames": 3,
+      "dense_sampled_frames_in_bracket": 26,
+      "dense_exact_six_geometric_frames_in_bracket": 6,
+      "coarse_bracket_first_frame": 35701,
+      "coarse_bracket_last_frame": 35851
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "clip_candidate_frames": 14,
+      "within_coarse_bracket_candidate_frames": 11,
+      "dense_sampled_frames_in_bracket": 16,
+      "dense_exact_six_geometric_frames_in_bracket": 11,
+      "coarse_bracket_first_frame": 36001,
+      "coarse_bracket_last_frame": 36121
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "single_reviewer_approximate_grounded_six_player_frame_unblinded",
+  "source_frame": 36036,
+  "set": 3,
+  "point_number": 34,
+  "source_image": "screening/s3p34_validation_review/source_36036.png",
+  "rule": "Approximate midpoint between visible shoe-floor locations on the source image. One reviewer; source and tracker boxes were seen during this audit, so this is a supplementary, unblinded check. Reading uncertainty is approximately +/-15 source pixels per axis.",
+  "rows": [
+    {"jersey": "28", "shoe_centres_px": [[399, 464], [495, 453]], "midpoint_px": [447, 459]},
+    {"jersey": "21", "shoe_centres_px": [[551, 335], [601, 339]], "midpoint_px": [576, 337]},
+    {"jersey": "15", "shoe_centres_px": [[653, 335], [713, 333]], "midpoint_px": [683, 334]},
+    {"jersey": "7", "shoe_centres_px": [[831, 328], [847, 332]], "midpoint_px": [839, 330]},
+    {"jersey": "19", "shoe_centres_px": [[852, 417], [882, 419]], "midpoint_px": [867, 418]},
+    {"jersey": "12", "shoe_centres_px": [[674, 512], [734, 518]], "midpoint_px": [704, 515]}
+  ]
+}

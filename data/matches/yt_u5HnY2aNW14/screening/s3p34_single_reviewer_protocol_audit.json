@@ -1,0 +1,109 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "reference_audit_sha256": "5fefd4f3170be05bdb5d55091c41ff8357554fd3ddc9031c1de2c862a0132618",
+  "protocol": "single_reviewer_retrospective_timing_stratification",
+  "strict_full_rally_validation": false,
+  "groups": {
+    "pre_comparison_unboxed": {
+      "source_frames": [
+        36066,
+        36078
+      ],
+      "team_frames": 2,
+      "player_pairs": 12,
+      "median_player_discrepancy_m": 0.266,
+      "maximum_observed_player_discrepancy_m": 0.418,
+      "frame_metric_differences": [
+        {
+          "source_frame": 36066,
+          "mean_pairwise_spacing_m": 0.152,
+          "convex_hull_area_m2": 1.303,
+          "centroid_dispersion_m": 0.101
+        },
+        {
+          "source_frame": 36078,
+          "mean_pairwise_spacing_m": 0.028,
+          "convex_hull_area_m2": 0.05,
+          "centroid_dispersion_m": 0.022
+        }
+      ]
+    },
+    "post_comparison_unblinded": {
+      "source_frames": [
+        36036,
+        36096,
+        36138
+      ],
+      "team_frames": 3,
+      "player_pairs": 18,
+      "median_player_discrepancy_m": 0.3065,
+      "maximum_observed_player_discrepancy_m": 0.595,
+      "frame_metric_differences": [
+        {
+          "source_frame": 36036,
+          "mean_pairwise_spacing_m": 0.05,
+          "convex_hull_area_m2": 0.316,
+          "centroid_dispersion_m": 0.043
+        },
+        {
+          "source_frame": 36096,
+          "mean_pairwise_spacing_m": 0.005,
+          "convex_hull_area_m2": -0.101,
+          "centroid_dispersion_m": 0.005
+        },
+        {
+          "source_frame": 36138,
+          "mean_pairwise_spacing_m": 0.073,
+          "convex_hull_area_m2": 0.663,
+          "centroid_dispersion_m": 0.066
+        }
+      ]
+    }
+  },
+  "all_selected_frames": {
+    "source_frames": [
+      36036,
+      36066,
+      36078,
+      36096,
+      36138
+    ],
+    "team_frames": 5,
+    "player_pairs": 30,
+    "median_player_discrepancy_m": 0.298,
+    "maximum_observed_player_discrepancy_m": 0.595,
+    "frame_metric_differences": [
+      {
+        "source_frame": 36036,
+        "mean_pairwise_spacing_m": 0.05,
+        "convex_hull_area_m2": 0.316,
+        "centroid_dispersion_m": 0.043
+      },
+      {
+        "source_frame": 36066,
+        "mean_pairwise_spacing_m": 0.152,
+        "convex_hull_area_m2": 1.303,
+        "centroid_dispersion_m": 0.101
+      },
+      {
+        "source_frame": 36078,
+        "mean_pairwise_spacing_m": 0.028,
+        "convex_hull_area_m2": 0.05,
+        "centroid_dispersion_m": 0.022
+      },
+      {
+        "source_frame": 36096,
+        "mean_pairwise_spacing_m": 0.005,
+        "convex_hull_area_m2": -0.101,
+        "centroid_dispersion_m": 0.005
+      },
+      {
+        "source_frame": 36138,
+        "mean_pairwise_spacing_m": 0.073,
+        "convex_hull_area_m2": 0.663,
+        "centroid_dispersion_m": 0.066
+      }
+    ]
+  },
+  "interpretation": "Pre-comparison unboxed marks are the primary internal positional check. Later unblinded marks are supplementary. Neither group is an independent observer reference, a population error bound, or full-rally ground truth."
+}

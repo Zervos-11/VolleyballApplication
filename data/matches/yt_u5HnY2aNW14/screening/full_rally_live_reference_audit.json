@@ -1,0 +1,824 @@
+{
+  "status": "five_single_reviewer_six_player_frames_not_full_rally_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "manual_36036": "428e4aedb9953d3b1f82a8326d2e0cd228f4ee4e3ab367a3a361889351aff1ce",
+    "manual_36066": "711da2f4c79cc265493bbfe4726ea143952afd962652247e05da50f9ba647572",
+    "manual_36078": "c6e55eb483a19a845f3cd7f1f87a573dcdc193a0c3c14b943fde3c757bc014b4",
+    "manual_36096": "4b4f3e49d40c9a1fddd3c933e2e7dbd880b0767350b71a96d1f3657db79545e2",
+    "manual_36138": "94447569947bb644461672c6d8f687a803b808d1495b5706fbfd374f755b9260",
+    "dense": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+    "identity": "6fb2e278af4f2f96bb348ccf8c047ddfbbdd49acbc794aeacd1a34009efe9932",
+    "calibration": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa"
+  },
+  "set": 3,
+  "point_number": 34,
+  "summary": {
+    "reviewed_players": 30,
+    "six_player_reference_frames": 5,
+    "median_player_position_difference_m": 0.298,
+    "maximum_player_position_difference_m": 0.595
+  },
+  "frames": [
+    {
+      "source_frame": 36036,
+      "input_sha256": {
+        "manual": "428e4aedb9953d3b1f82a8326d2e0cd228f4ee4e3ab367a3a361889351aff1ce",
+        "source_image": "1a59e0e8b7fe70c718b0628b1829fcf0a35d1c918357f9f6ccdca5bc29d39b6e"
+      },
+      "manual_rule": "Approximate midpoint between visible shoe-floor locations on the source image. One reviewer; source and tracker boxes were seen during this audit, so this is a supplementary, unblinded check. Reading uncertainty is approximately +/-15 source pixels per axis.",
+      "rows": [
+        {
+          "jersey": "28",
+          "dense_raw_track_id": 1,
+          "manual_shoe_midpoint_px": [
+            447,
+            459
+          ],
+          "manual_court_m": [
+            1.9538,
+            4.7103
+          ],
+          "box_bottom_px": [
+            449.5,
+            470.3
+          ],
+          "box_bottom_court_m": [
+            1.992,
+            4.405
+          ],
+          "image_position_difference_px": 11.56,
+          "court_position_difference_m": 0.308
+        },
+        {
+          "jersey": "21",
+          "dense_raw_track_id": 13,
+          "manual_shoe_midpoint_px": [
+            576,
+            337
+          ],
+          "manual_court_m": [
+            3.3593,
+            8.2495
+          ],
+          "box_bottom_px": [
+            577.2,
+            341.7
+          ],
+          "box_bottom_court_m": [
+            3.375,
+            8.105
+          ],
+          "image_position_difference_px": 4.85,
+          "court_position_difference_m": 0.145
+        },
+        {
+          "jersey": "15",
+          "dense_raw_track_id": 6,
+          "manual_shoe_midpoint_px": [
+            683,
+            334
+          ],
+          "manual_court_m": [
+            4.6299,
+            8.3423
+          ],
+          "box_bottom_px": [
+            683.8,
+            336.1
+          ],
+          "box_bottom_court_m": [
+            4.639,
+            8.278
+          ],
+          "image_position_difference_px": 2.25,
+          "court_position_difference_m": 0.065
+        },
+        {
+          "jersey": "7",
+          "dense_raw_track_id": 9,
+          "manual_shoe_midpoint_px": [
+            839,
+            330
+          ],
+          "manual_court_m": [
+            6.4891,
+            8.4664
+          ],
+          "box_bottom_px": [
+            833.7,
+            333.9
+          ],
+          "box_bottom_court_m": [
+            6.42,
+            8.346
+          ],
+          "image_position_difference_px": 6.62,
+          "court_position_difference_m": 0.139
+        },
+        {
+          "jersey": "19",
+          "dense_raw_track_id": 10,
+          "manual_shoe_midpoint_px": [
+            867,
+            418
+          ],
+          "manual_court_m": [
+            6.6923,
+            5.851
+          ],
+          "box_bottom_px": [
+            866.5,
+            429.9
+          ],
+          "box_bottom_court_m": [
+            6.67,
+            5.514
+          ],
+          "image_position_difference_px": 11.91,
+          "court_position_difference_m": 0.338
+        },
+        {
+          "jersey": "12",
+          "dense_raw_track_id": 3,
+          "manual_shoe_midpoint_px": [
+            704,
+            515
+          ],
+          "manual_court_m": [
+            4.7936,
+            3.2252
+          ],
+          "box_bottom_px": [
+            702.5,
+            523.6
+          ],
+          "box_bottom_court_m": [
+            4.774,
+            3.004
+          ],
+          "image_position_difference_px": 8.73,
+          "court_position_difference_m": 0.222
+        }
+      ],
+      "median_player_position_difference_m": 0.183,
+      "maximum_player_position_difference_m": 0.338,
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 3.841,
+        "convex_hull_area_m2": 16.844,
+        "centroid_dispersion_m": 2.564
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 3.891,
+        "convex_hull_area_m2": 17.16,
+        "centroid_dispersion_m": 2.607
+      },
+      "proxy_minus_manual_team_metric": {
+        "mean_pairwise_spacing_m": 0.05,
+        "convex_hull_area_m2": 0.316,
+        "centroid_dispersion_m": 0.043
+      },
+      "overlay": "screening/full_rally_validation_frames/s3_p34_f36036_reference_overlay.png"
+    },
+    {
+      "source_frame": 36066,
+      "input_sha256": {
+        "manual": "711da2f4c79cc265493bbfe4726ea143952afd962652247e05da50f9ba647572",
+        "source_image": "c87e69267859b67e2d892e0931754ebac2ad3a645d347692e5dd6224be47a5b3"
+      },
+      "manual_rule": "Approximate midpoint between both visible shoe-floor locations for each near-side UCLA jersey, read from the unboxed full source frame and enlarged source crops before comparing detector boxes. Expected reading uncertainty is about plus or minus 12 source pixels per axis. One reviewer; not a blinded reference.",
+      "rows": [
+        {
+          "jersey": "28",
+          "dense_raw_track_id": 1,
+          "manual_shoe_midpoint_px": [
+            353,
+            516
+          ],
+          "manual_court_m": [
+            0.9881,
+            3.1994
+          ],
+          "box_bottom_px": [
+            351.8,
+            525.9
+          ],
+          "box_bottom_court_m": [
+            0.989,
+            2.945
+          ],
+          "image_position_difference_px": 9.97,
+          "court_position_difference_m": 0.254
+        },
+        {
+          "jersey": "21",
+          "dense_raw_track_id": 13,
+          "manual_shoe_midpoint_px": [
+            548,
+            342
+          ],
+          "manual_court_m": [
+            3.0294,
+            8.0955
+          ],
+          "box_bottom_px": [
+            544.6,
+            351.0
+          ],
+          "box_bottom_court_m": [
+            2.994,
+            7.82
+          ],
+          "image_position_difference_px": 9.6,
+          "court_position_difference_m": 0.278
+        },
+        {
+          "jersey": "15",
+          "dense_raw_track_id": 6,
+          "manual_shoe_midpoint_px": [
+            689,
+            340
+          ],
+          "manual_court_m": [
+            4.6987,
+            8.157
+          ],
+          "box_bottom_px": [
+            691.2,
+            346.7
+          ],
+          "box_bottom_court_m": [
+            4.722,
+            7.953
+          ],
+          "image_position_difference_px": 7.05,
+          "court_position_difference_m": 0.205
+        },
+        {
+          "jersey": "7",
+          "dense_raw_track_id": 9,
+          "manual_shoe_midpoint_px": [
+            816,
+            337
+          ],
+          "manual_court_m": [
+            6.2067,
+            8.2495
+          ],
+          "box_bottom_px": [
+            812.1,
+            329.0
+          ],
+          "box_bottom_court_m": [
+            6.17,
+            8.498
+          ],
+          "image_position_difference_px": 8.9,
+          "court_position_difference_m": 0.251
+        },
+        {
+          "jersey": "19",
+          "dense_raw_track_id": 10,
+          "manual_shoe_midpoint_px": [
+            875,
+            459
+          ],
+          "manual_court_m": [
+            6.7247,
+            4.7103
+          ],
+          "box_bottom_px": [
+            874.2,
+            472.7
+          ],
+          "box_bottom_court_m": [
+            6.698,
+            4.338
+          ],
+          "image_position_difference_px": 13.72,
+          "court_position_difference_m": 0.373
+        },
+        {
+          "jersey": "12",
+          "dense_raw_track_id": 3,
+          "manual_shoe_midpoint_px": [
+            675,
+            565
+          ],
+          "manual_court_m": [
+            4.4654,
+            1.9654
+          ],
+          "box_bottom_px": [
+            668.8,
+            581.6
+          ],
+          "box_bottom_court_m": [
+            4.396,
+            1.559
+          ],
+          "image_position_difference_px": 17.72,
+          "court_position_difference_m": 0.412
+        }
+      ],
+      "median_player_position_difference_m": 0.266,
+      "maximum_player_position_difference_m": 0.412,
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.66,
+        "convex_hull_area_m2": 24.33,
+        "centroid_dispersion_m": 3.141
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.812,
+        "convex_hull_area_m2": 25.634,
+        "centroid_dispersion_m": 3.242
+      },
+      "proxy_minus_manual_team_metric": {
+        "mean_pairwise_spacing_m": 0.152,
+        "convex_hull_area_m2": 1.303,
+        "centroid_dispersion_m": 0.101
+      },
+      "overlay": "screening/full_rally_validation_frames/s3_p34_f36066_reference_overlay.png"
+    },
+    {
+      "source_frame": 36078,
+      "input_sha256": {
+        "manual": "c6e55eb483a19a845f3cd7f1f87a573dcdc193a0c3c14b943fde3c757bc014b4",
+        "source_image": "f09424b940f6e1d40e125f32bcac9aac4d0a530905975dbdaf13482ed901b885"
+      },
+      "manual_rule": "Approximate midpoint between both visible shoe-floor locations for each near-side UCLA jersey, read from the unboxed full source frame and enlarged source crops before comparing detector boxes. Expected reading uncertainty is about plus or minus 12 source pixels per axis. One reviewer; not a blinded reference.",
+      "rows": [
+        {
+          "jersey": "28",
+          "dense_raw_track_id": 1,
+          "manual_shoe_midpoint_px": [
+            349,
+            530
+          ],
+          "manual_court_m": [
+            0.9645,
+            2.8409
+          ],
+          "box_bottom_px": [
+            349.4,
+            542.1
+          ],
+          "box_bottom_court_m": [
+            0.987,
+            2.536
+          ],
+          "image_position_difference_px": 12.11,
+          "court_position_difference_m": 0.306
+        },
+        {
+          "jersey": "21",
+          "dense_raw_track_id": 13,
+          "manual_shoe_midpoint_px": [
+            549,
+            340
+          ],
+          "manual_court_m": [
+            3.0404,
+            8.157
+          ],
+          "box_bottom_px": [
+            542.7,
+            349.9
+          ],
+          "box_bottom_court_m": [
+            2.971,
+            7.855
+          ],
+          "image_position_difference_px": 11.73,
+          "court_position_difference_m": 0.31
+        },
+        {
+          "jersey": "15",
+          "dense_raw_track_id": 6,
+          "manual_shoe_midpoint_px": [
+            690,
+            337
+          ],
+          "manual_court_m": [
+            4.7118,
+            8.2495
+          ],
+          "box_bottom_px": [
+            691.2,
+            343.2
+          ],
+          "box_bottom_court_m": [
+            4.724,
+            8.058
+          ],
+          "image_position_difference_px": 6.32,
+          "court_position_difference_m": 0.192
+        },
+        {
+          "jersey": "7",
+          "dense_raw_track_id": 9,
+          "manual_shoe_midpoint_px": [
+            822,
+            338
+          ],
+          "manual_court_m": [
+            6.2766,
+            8.2186
+          ],
+          "box_bottom_px": [
+            822.5,
+            343.3
+          ],
+          "box_bottom_court_m": [
+            6.276,
+            8.057
+          ],
+          "image_position_difference_px": 5.33,
+          "court_position_difference_m": 0.162
+        },
+        {
+          "jersey": "19",
+          "dense_raw_track_id": 10,
+          "manual_shoe_midpoint_px": [
+            882,
+            457
+          ],
+          "manual_court_m": [
+            6.8056,
+            4.7649
+          ],
+          "box_bottom_px": [
+            881.0,
+            472.4
+          ],
+          "box_bottom_court_m": [
+            6.773,
+            4.348
+          ],
+          "image_position_difference_px": 15.43,
+          "court_position_difference_m": 0.418
+        },
+        {
+          "jersey": "12",
+          "dense_raw_track_id": 3,
+          "manual_shoe_midpoint_px": [
+            698,
+            575
+          ],
+          "manual_court_m": [
+            4.7051,
+            1.7205
+          ],
+          "box_bottom_px": [
+            690.5,
+            583.1
+          ],
+          "box_bottom_court_m": [
+            4.623,
+            1.523
+          ],
+          "image_position_difference_px": 11.04,
+          "court_position_difference_m": 0.214
+        }
+      ],
+      "median_player_position_difference_m": 0.26,
+      "maximum_player_position_difference_m": 0.418,
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.838,
+        "convex_hull_area_m2": 26.103,
+        "centroid_dispersion_m": 3.263
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.865,
+        "convex_hull_area_m2": 26.153,
+        "centroid_dispersion_m": 3.285
+      },
+      "proxy_minus_manual_team_metric": {
+        "mean_pairwise_spacing_m": 0.028,
+        "convex_hull_area_m2": 0.05,
+        "centroid_dispersion_m": 0.022
+      },
+      "overlay": "screening/full_rally_validation_frames/s3_p34_f36078_reference_overlay.png"
+    },
+    {
+      "source_frame": 36096,
+      "input_sha256": {
+        "manual": "4b4f3e49d40c9a1fddd3c933e2e7dbd880b0767350b71a96d1f3657db79545e2",
+        "source_image": "eb13cc2bc3f72585d6a8b8901d72d06694eb5469ff337560dba4d07e5b891151"
+      },
+      "manual_rule": "Approximate midpoint between visible shoe-floor locations on the source image. One reviewer; source and tracker boxes were seen during this audit, so this is a supplementary, unblinded check. Reading uncertainty is approximately +/-15 source pixels per axis.",
+      "rows": [
+        {
+          "jersey": "28",
+          "dense_raw_track_id": 1,
+          "manual_shoe_midpoint_px": [
+            327,
+            517
+          ],
+          "manual_court_m": [
+            0.7078,
+            3.1736
+          ],
+          "box_bottom_px": [
+            328.1,
+            532.1
+          ],
+          "box_bottom_court_m": [
+            0.742,
+            2.788
+          ],
+          "image_position_difference_px": 15.14,
+          "court_position_difference_m": 0.387
+        },
+        {
+          "jersey": "21",
+          "dense_raw_track_id": 13,
+          "manual_shoe_midpoint_px": [
+            509,
+            334
+          ],
+          "manual_court_m": [
+            2.5623,
+            8.3423
+          ],
+          "box_bottom_px": [
+            503.9,
+            348.4
+          ],
+          "box_bottom_court_m": [
+            2.511,
+            7.9
+          ],
+          "image_position_difference_px": 15.29,
+          "court_position_difference_m": 0.445
+        },
+        {
+          "jersey": "15",
+          "dense_raw_track_id": 6,
+          "manual_shoe_midpoint_px": [
+            702,
+            328
+          ],
+          "manual_court_m": [
+            4.8588,
+            8.5287
+          ],
+          "box_bottom_px": [
+            697.6,
+            336.7
+          ],
+          "box_bottom_court_m": [
+            4.802,
+            8.257
+          ],
+          "image_position_difference_px": 9.75,
+          "court_position_difference_m": 0.278
+        },
+        {
+          "jersey": "7",
+          "dense_raw_track_id": 9,
+          "manual_shoe_midpoint_px": [
+            832,
+            324
+          ],
+          "manual_court_m": [
+            6.4138,
+            8.6536
+          ],
+          "box_bottom_px": [
+            834.9,
+            334.8
+          ],
+          "box_bottom_court_m": [
+            6.433,
+            8.317
+          ],
+          "image_position_difference_px": 11.17,
+          "court_position_difference_m": 0.337
+        },
+        {
+          "jersey": "19",
+          "dense_raw_track_id": 10,
+          "manual_shoe_midpoint_px": [
+            893,
+            471
+          ],
+          "manual_court_m": [
+            6.9074,
+            4.3852
+          ],
+          "box_bottom_px": [
+            889.8,
+            487.2
+          ],
+          "box_bottom_court_m": [
+            6.849,
+            3.953
+          ],
+          "image_position_difference_px": 16.51,
+          "court_position_difference_m": 0.436
+        },
+        {
+          "jersey": "12",
+          "dense_raw_track_id": 3,
+          "manual_shoe_midpoint_px": [
+            695,
+            569
+          ],
+          "manual_court_m": [
+            4.6757,
+            1.8671
+          ],
+          "box_bottom_px": [
+            691.2,
+            582.8
+          ],
+          "box_bottom_court_m": [
+            4.631,
+            1.531
+          ],
+          "image_position_difference_px": 14.3,
+          "court_position_difference_m": 0.339
+        }
+      ],
+      "median_player_position_difference_m": 0.363,
+      "maximum_player_position_difference_m": 0.445,
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 5.136,
+        "convex_hull_area_m2": 29.65,
+        "centroid_dispersion_m": 3.458
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 5.141,
+        "convex_hull_area_m2": 29.55,
+        "centroid_dispersion_m": 3.463
+      },
+      "proxy_minus_manual_team_metric": {
+        "mean_pairwise_spacing_m": 0.005,
+        "convex_hull_area_m2": -0.101,
+        "centroid_dispersion_m": 0.005
+      },
+      "overlay": "screening/full_rally_validation_frames/s3_p34_f36096_reference_overlay.png"
+    },
+    {
+      "source_frame": 36138,
+      "input_sha256": {
+        "manual": "94447569947bb644461672c6d8f687a803b808d1495b5706fbfd374f755b9260",
+        "source_image": "622cbdc9e252a56efdad4b521efc9beaec48ed07700aac207e5717a9502df6bd"
+      },
+      "manual_rule": "Approximate midpoint between visible shoe-floor locations on the source image. One reviewer; source and tracker boxes were seen during this audit, so this is a supplementary, unblinded check. Reading uncertainty is approximately +/-15 source pixels per axis. UCLA #7 uses corrected raw ID 78; far-side raw ID 39 is excluded.",
+      "rows": [
+        {
+          "jersey": "28",
+          "dense_raw_track_id": 1,
+          "manual_shoe_midpoint_px": [
+            433,
+            524
+          ],
+          "manual_court_m": [
+            1.8632,
+            2.994
+          ],
+          "box_bottom_px": [
+            438.1,
+            534.0
+          ],
+          "box_bottom_court_m": [
+            1.928,
+            2.738
+          ],
+          "image_position_difference_px": 11.23,
+          "court_position_difference_m": 0.264
+        },
+        {
+          "jersey": "21",
+          "dense_raw_track_id": 13,
+          "manual_shoe_midpoint_px": [
+            576,
+            333
+          ],
+          "manual_court_m": [
+            3.3582,
+            8.3733
+          ],
+          "box_bottom_px": [
+            559.9,
+            340.2
+          ],
+          "box_bottom_court_m": [
+            3.169,
+            8.152
+          ],
+          "image_position_difference_px": 17.68,
+          "court_position_difference_m": 0.291
+        },
+        {
+          "jersey": "15",
+          "dense_raw_track_id": 6,
+          "manual_shoe_midpoint_px": [
+            652,
+            313
+          ],
+          "manual_court_m": [
+            4.2657,
+            9.0
+          ],
+          "box_bottom_px": [
+            647.1,
+            324.1
+          ],
+          "box_bottom_court_m": [
+            4.205,
+            8.652
+          ],
+          "image_position_difference_px": 12.13,
+          "court_position_difference_m": 0.353
+        },
+        {
+          "jersey": "7",
+          "dense_raw_track_id": 78,
+          "manual_shoe_midpoint_px": [
+            854,
+            365
+          ],
+          "manual_court_m": [
+            6.6173,
+            7.3976
+          ],
+          "box_bottom_px": [
+            849.1,
+            363.9
+          ],
+          "box_bottom_court_m": [
+            6.562,
+            7.429
+          ],
+          "image_position_difference_px": 5.02,
+          "court_position_difference_m": 0.064
+        },
+        {
+          "jersey": "19",
+          "dense_raw_track_id": 10,
+          "manual_shoe_midpoint_px": [
+            863,
+            527
+          ],
+          "manual_court_m": [
+            6.5031,
+            2.9173
+          ],
+          "box_bottom_px": [
+            857.5,
+            550.3
+          ],
+          "box_bottom_court_m": [
+            6.415,
+            2.329
+          ],
+          "image_position_difference_px": 23.95,
+          "court_position_difference_m": 0.595
+        },
+        {
+          "jersey": "12",
+          "dense_raw_track_id": 3,
+          "manual_shoe_midpoint_px": [
+            636,
+            556
+          ],
+          "manual_court_m": [
+            4.053,
+            2.1877
+          ],
+          "box_bottom_px": [
+            628.8,
+            568.0
+          ],
+          "box_bottom_court_m": [
+            3.977,
+            1.892
+          ],
+          "image_position_difference_px": 13.97,
+          "court_position_difference_m": 0.305
+        }
+      ],
+      "median_player_position_difference_m": 0.298,
+      "maximum_player_position_difference_m": 0.595,
+      "manual_team_metric": {
+        "mean_pairwise_spacing_m": 4.768,
+        "convex_hull_area_m2": 23.144,
+        "centroid_dispersion_m": 3.283
+      },
+      "proxy_team_metric": {
+        "mean_pairwise_spacing_m": 4.841,
+        "convex_hull_area_m2": 23.807,
+        "centroid_dispersion_m": 3.349
+      },
+      "proxy_minus_manual_team_metric": {
+        "mean_pairwise_spacing_m": 0.073,
+        "convex_hull_area_m2": 0.663,
+        "centroid_dispersion_m": 0.066
+      },
+      "overlay": "screening/full_rally_validation_frames/s3_p34_f36138_reference_overlay.png"
+    }
+  ]
+}

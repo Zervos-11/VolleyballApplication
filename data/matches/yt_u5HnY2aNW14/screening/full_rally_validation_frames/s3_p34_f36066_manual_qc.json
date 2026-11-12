@@ -1,0 +1,16 @@
+{
+  "status": "single_reviewer_approximate_grounded_six_player_frame",
+  "source_frame": 36066,
+  "set": 3,
+  "point_number": 34,
+  "source_image": "screening/full_rally_validation_frames/frame_36066.png",
+  "rule": "Approximate midpoint between both visible shoe-floor locations for each near-side UCLA jersey, read from the unboxed full source frame and enlarged source crops before comparing detector boxes. Expected reading uncertainty is about plus or minus 12 source pixels per axis. One reviewer; not a blinded reference.",
+  "rows": [
+    {"jersey": "28", "shoe_centres_px": [[313, 518], [392, 514]], "midpoint_px": [353, 516]},
+    {"jersey": "21", "shoe_centres_px": [[521, 342], [574, 342]], "midpoint_px": [548, 342]},
+    {"jersey": "15", "shoe_centres_px": [[661, 340], [716, 340]], "midpoint_px": [689, 340]},
+    {"jersey": "7", "shoe_centres_px": [[793, 336], [839, 337]], "midpoint_px": [816, 337]},
+    {"jersey": "19", "shoe_centres_px": [[841, 465], [909, 453]], "midpoint_px": [875, 459]},
+    {"jersey": "12", "shoe_centres_px": [[651, 575], [699, 554]], "midpoint_px": [675, 565]}
+  ]
+}

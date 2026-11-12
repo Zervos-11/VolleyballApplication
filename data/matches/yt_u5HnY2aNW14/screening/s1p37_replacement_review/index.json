@@ -1,0 +1,41 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "core_sha256": "dca398e83321ca66432068a4ec85512a44add4e28968d741fef75275ea6a9ead",
+  "brackets_sha256": "47f4e58be0c2a9efbf6eb3e0ffbcdd4bca22bcde435b1f2ed21f0b41f24f2c78",
+  "pages": [
+    {
+      "path": "page_1.jpg",
+      "sha256": "8c9e1633219e7c99588ff18033ebede433e7ddec9f93eaba9a65a60a2b488ec9",
+      "frames": [
+        10476,
+        10482,
+        10488,
+        10494,
+        10500,
+        10506,
+        10512,
+        10518,
+        10524,
+        10530,
+        10722,
+        10752
+      ]
+    },
+    {
+      "path": "page_2.jpg",
+      "sha256": "2f25274bdb17182a4ed34dc697fef459080634ae0d718670ae8e93234ac862c7",
+      "frames": [
+        10764,
+        10770,
+        10782,
+        10788,
+        10794,
+        10800,
+        10812,
+        10860,
+        10866,
+        10872
+      ]
+    }
+  ]
+}

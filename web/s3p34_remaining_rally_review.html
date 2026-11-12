@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S3 P34 remaining rally review</title>
+<style>
+body{font:14px system-ui,sans-serif;background:#121922;color:#eff4f7;margin:0 auto;padding:10px;max-width:1500px}
+h1{font-size:1.15rem;margin:0 0 6px}h2{font-size:1rem;margin:0 0 6px}
+button,select,input{font:inherit}button{padding:5px 9px;cursor:pointer;background:#dbeaf2;border:1px solid #8ea8b7;border-radius:4px}
+.bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}.bar input{width:80px}
+#workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(430px,530px);gap:10px;align-items:start}
+canvas{display:block;width:100%;height:auto;max-height:calc(100vh - 100px);object-fit:contain;border:1px solid #677785;background:#071014;cursor:crosshair}
+#reviewPanel{min-width:0}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin:6px 0}
+.card{background:#202c36;padding:6px;border:1px solid #556674;border-radius:5px;min-width:0}.card strong{display:block;margin-bottom:3px}
+.card label{display:flex;align-items:center;justify-content:space-between;gap:4px;margin:3px 0}.card select{width:63%;min-width:0}
+.card input{width:63%;min-width:0}.card .point{font-size:12px;color:#c8dce7;overflow-wrap:anywhere}.card button{padding:3px 6px;margin-right:4px}
+.optional{font-size:12px;color:#bcd0dc;margin-top:4px}.optional summary{cursor:pointer}.optional[open]{padding-top:2px}
+#status{min-height:20px;color:#aeeab6;font-weight:600}#sourceSection[hidden],#pairedSection[hidden]{display:none}
+@media(max-width:1050px){#workspace{grid-template-columns:1fr}canvas{max-width:850px}#reviewPanel{max-width:850px}}
+</style>
+</head>
+<body>
+<h1>S3 P34 source-frame review <small style="font-weight:normal;font-size:12px">Numbers and UCLA jerseys are provisional tracker assignments. <a href="?mode=full" style="color:#a7d8ff">Continue full 85-frame packet</a></small></h1>
+<div class="bar"><button id="prev">Previous</button><span id="frameLabel"></span><button id="next">Next</button><button id="nextUnfinished">Next unfinished</button><span id="progress"></span><label>Reviewer <input id="reviewer" autocomplete="off" value="MZ"></label><button id="export">Export when complete</button></div>
+<div class="bar"><button id="toggleBoxes">Hide numbered boxes</button><span>1 = #28 · 2 = #12 · 3 = #15 · 4 = #7 · 5 = #19 · 6 = #21. If you cannot verify a player, choose Uncertain.</span></div>
+<div id="status"></div>
+<div id="workspace"><canvas id="frameCanvas" width="1280" height="720"></canvas>
+<div id="reviewPanel"><div id="sourceSection"><h2>Source state with optional box guide</h2><div id="sourceCards" class="cards"></div><div class="bar"><button id="saveSource">Save source state</button><button id="saveDefaults">All six checked: save defaults and next</button></div></div>
+<div id="pairedSection" hidden><h2>Numbered candidate boxes</h2><div id="pairedCards" class="cards"></div><div class="bar"><button id="editSource">Edit source</button><button id="savePaired">Save boxes and next</button></div></div></div></div>
+<script src="/s3p34_remaining_rally_review.js?v=8"></script>
+</body></html>

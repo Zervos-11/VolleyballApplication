@@ -1,0 +1,24 @@
+{
+  "samples": [
+    {
+      "requested_start_s": 0,
+      "path": "data\\matches\\yt_u5HnY2aNW14\\screening\\coverage_0_6.mp4",
+      "sha256": "4504976c7a2a1dee29946405e6c0281ef5d39b51c08518beccc74af3e1b0b763",
+      "decoded_frames": 181
+    },
+    {
+      "requested_start_s": 600,
+      "path": "data\\matches\\yt_u5HnY2aNW14\\screening\\coverage_600_606.mp4",
+      "sha256": "3014d4b9b70f03c8f484de1881e8c6948e9c11adc5b413f34b73cfa75dc81aab",
+      "decoded_frames": 261
+    },
+    {
+      "requested_start_s": 1260,
+      "path": "data\\matches\\yt_u5HnY2aNW14\\screening\\coverage_1260_1266.mp4",
+      "sha256": "ad0204ab9f3cc9d7f26d5441ad52d47994a1c4ac519b7ed7750d42d6962c7c46",
+      "decoded_frames": 221
+    }
+  ],
+  "sheet": "data\\matches\\yt_u5HnY2aNW14\\screening\\whole_video_spotcheck.jpg",
+  "status": "three_spot_screen_only"
+}

@@ -1,0 +1,2813 @@
+{
+  "status": "source_reviewed_sampled_proxy_diagnostic_not_validated_full_rally",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "screen_sha256": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+  "set": 3,
+  "point_number": 34,
+  "sample_interval_inclusive": [
+    36000,
+    36138
+  ],
+  "sample_stride_source_frames": 6,
+  "sample_rate_hz": 5,
+  "event_boundary_status": "exact_serve_contact_and_dead_ball_not_certified",
+  "calibration_status": "staged_not_validated_for_final_metric_use",
+  "raw_id_correction": "UCLA jersey 7: prefer ID 9 while present, use ID 78 when ID 9 is absent from frame 36117 onward; far-side ID 39 excluded",
+  "interframe_box_motion_screen": {
+    "adjacent_identity_corrected_box_pairs": 771,
+    "maximum_centre_displacement_px": 19.65,
+    "pairs_over_30px": [],
+    "interpretation": "No large one-frame centre jump is a numeric continuity diagnostic, not proof of continuous visual jersey identity or grounded floor position."
+  },
+  "accepted_frame_rule": "six source-reviewed near-side jerseys with grounded, readable box-bottom proxies; no airborne or missing positions held or interpolated",
+  "summary": {
+    "sampled_frames": 24,
+    "sampled_player_slots": 144,
+    "accepted_individual_grounded_proxies": 126,
+    "accepted_exploratory_frames": 11,
+    "excluded_frames": 13,
+    "accepted_fraction_of_samples": 0.4583,
+    "accepted_fraction_of_source_interval": 0.0791,
+    "exploratory_median_team_metrics": {
+      "mean_pairwise_spacing_m": 4.8577,
+      "convex_hull_area_m2": 26.1366,
+      "centroid_dispersion_m": 3.2852
+    }
+  },
+  "frames": [
+    {
+      "source_frame": 36000,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36000.png",
+      "source_image_sha256": "6e6ec83b04586891b79ed3bf4a12cabe85dce04d6f4dd50aa1733c2c96eed651",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "server_12_airborne_after_contact",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            3.426,
+            5.471
+          ],
+          "candidate_bbox_px": [
+            540.0,
+            281.2,
+            619.2,
+            431.5
+          ],
+          "accepted_ground_coordinate_m": [
+            3.426,
+            5.471
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            6.307,
+            1.768
+          ],
+          "candidate_bbox_px": [
+            800.1,
+            388.2,
+            899.4,
+            573.1
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.576,
+            8.248
+          ],
+          "candidate_bbox_px": [
+            648.5,
+            190.6,
+            708.6,
+            337.0
+          ],
+          "accepted_ground_coordinate_m": [
+            4.576,
+            8.248
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            5.481,
+            8.081
+          ],
+          "candidate_bbox_px": [
+            735.1,
+            185.0,
+            775.3,
+            342.5
+          ],
+          "accepted_ground_coordinate_m": [
+            5.481,
+            8.081
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.252,
+            6.591
+          ],
+          "candidate_bbox_px": [
+            797.5,
+            219.8,
+            853.7,
+            392.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.252,
+            6.591
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.682,
+            8.42
+          ],
+          "candidate_bbox_px": [
+            583.8,
+            193.5,
+            622.7,
+            331.5
+          ],
+          "accepted_ground_coordinate_m": [
+            3.682,
+            8.42
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36006,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36006.png",
+      "source_image_sha256": "5569412d2930c60f4efa32afb5d0f28bceb8c360792ee477415f34fa81bca482",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "server_12_landing_not_certified",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            3.255,
+            5.422
+          ],
+          "candidate_bbox_px": [
+            524.5,
+            284.0,
+            604.4,
+            433.2
+          ],
+          "accepted_ground_coordinate_m": [
+            3.255,
+            5.422
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            6.403,
+            2.253
+          ],
+          "candidate_bbox_px": [
+            807.7,
+            382.0,
+            905.6,
+            553.4
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "landing_contact_uncertain"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.571,
+            8.229
+          ],
+          "candidate_bbox_px": [
+            648.3,
+            191.7,
+            708.1,
+            337.7
+          ],
+          "accepted_ground_coordinate_m": [
+            4.571,
+            8.229
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            5.615,
+            8.212
+          ],
+          "candidate_bbox_px": [
+            745.8,
+            183.9,
+            786.6,
+            338.2
+          ],
+          "accepted_ground_coordinate_m": [
+            5.615,
+            8.212
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.325,
+            6.451
+          ],
+          "candidate_bbox_px": [
+            804.3,
+            224.0,
+            860.6,
+            397.1
+          ],
+          "accepted_ground_coordinate_m": [
+            6.325,
+            6.451
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.658,
+            7.944
+          ],
+          "candidate_bbox_px": [
+            579.4,
+            192.4,
+            622.8,
+            346.9
+          ],
+          "accepted_ground_coordinate_m": [
+            3.658,
+            7.944
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36012,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36012.png",
+      "source_image_sha256": "9aa4b6251711624a3d94c173261fc163be66f24fdad442cda89c51440aca30aa",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "server_12_ground_contact_not_certified",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.995,
+            5.353
+          ],
+          "candidate_bbox_px": [
+            504.6,
+            286.8,
+            578.1,
+            435.7
+          ],
+          "accepted_ground_coordinate_m": [
+            2.995,
+            5.353
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            6.135,
+            1.813
+          ],
+          "candidate_bbox_px": [
+            780.6,
+            423.0,
+            885.9,
+            571.2
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "ground_contact_uncertain"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.568,
+            8.201
+          ],
+          "candidate_bbox_px": [
+            647.8,
+            191.7,
+            708.0,
+            338.6
+          ],
+          "accepted_ground_coordinate_m": [
+            4.568,
+            8.201
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            5.748,
+            8.07
+          ],
+          "candidate_bbox_px": [
+            751.1,
+            184.0,
+            804.6,
+            342.8
+          ],
+          "accepted_ground_coordinate_m": [
+            5.748,
+            8.07
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.357,
+            6.296
+          ],
+          "candidate_bbox_px": [
+            806.9,
+            227.6,
+            864.7,
+            402.4
+          ],
+          "accepted_ground_coordinate_m": [
+            6.357,
+            6.296
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.628,
+            7.618
+          ],
+          "candidate_bbox_px": [
+            574.6,
+            191.7,
+            622.2,
+            357.7
+          ],
+          "accepted_ground_coordinate_m": [
+            3.628,
+            7.618
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36018,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36018.png",
+      "source_image_sha256": "608b55c2f8942a11d226337da9e7ebd8ffce9ecfc300d34c1a60a23136b02bdc",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "server_12_ground_contact_not_certified",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.808,
+            4.807
+          ],
+          "candidate_bbox_px": [
+            487.1,
+            293.3,
+            560.5,
+            455.4
+          ],
+          "accepted_ground_coordinate_m": [
+            2.808,
+            4.807
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            5.992,
+            2.212
+          ],
+          "candidate_bbox_px": [
+            773.1,
+            410.4,
+            863.4,
+            555.0
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "ground_contact_uncertain"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.57,
+            8.19
+          ],
+          "candidate_bbox_px": [
+            647.3,
+            188.0,
+            708.9,
+            338.9
+          ],
+          "accepted_ground_coordinate_m": [
+            4.57,
+            8.19
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.028,
+            8.531
+          ],
+          "candidate_bbox_px": [
+            774.0,
+            182.1,
+            826.2,
+            327.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.028,
+            8.531
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.448,
+            6.286
+          ],
+          "candidate_bbox_px": [
+            813.8,
+            231.6,
+            873.8,
+            402.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.448,
+            6.286
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.636,
+            7.666
+          ],
+          "candidate_bbox_px": [
+            573.2,
+            190.1,
+            625.0,
+            356.1
+          ],
+          "accepted_ground_coordinate_m": [
+            3.636,
+            7.666
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36024,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36024.png",
+      "source_image_sha256": "125d850d344754501cf795c8e1ddd8920d66c1ef64aa5734db126bdc61719c0f",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "server_12_ground_contact_not_certified",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.534,
+            4.71
+          ],
+          "candidate_bbox_px": [
+            466.2,
+            301.2,
+            532.0,
+            459.0
+          ],
+          "accepted_ground_coordinate_m": [
+            2.534,
+            4.71
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            5.84,
+            2.921
+          ],
+          "candidate_bbox_px": [
+            756.4,
+            379.7,
+            846.5,
+            526.8
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "ground_contact_uncertain"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.563,
+            8.191
+          ],
+          "candidate_bbox_px": [
+            646.2,
+            183.4,
+            708.9,
+            338.9
+          ],
+          "accepted_ground_coordinate_m": [
+            4.563,
+            8.191
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.216,
+            8.396
+          ],
+          "candidate_bbox_px": [
+            788.8,
+            178.5,
+            843.9,
+            332.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.216,
+            8.396
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.499,
+            5.933
+          ],
+          "candidate_bbox_px": [
+            818.5,
+            239.4,
+            880.8,
+            415.1
+          ],
+          "accepted_ground_coordinate_m": [
+            6.499,
+            5.933
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.558,
+            7.638
+          ],
+          "candidate_bbox_px": [
+            563.1,
+            186.2,
+            621.9,
+            357.0
+          ],
+          "accepted_ground_coordinate_m": [
+            3.558,
+            7.638
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36030,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36030.png",
+      "source_image_sha256": "4942f3e32e8bb41fed5de6a83c296c1bf89b9dead2f65735996ba1e9492132a5",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jersey_7_visible_but_unboxed",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.144,
+            4.654
+          ],
+          "candidate_bbox_px": [
+            427.9,
+            315.7,
+            499.8,
+            461.1
+          ],
+          "accepted_ground_coordinate_m": [
+            2.144,
+            4.654
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            5.317,
+            3.199
+          ],
+          "candidate_bbox_px": [
+            699.0,
+            364.5,
+            805.7,
+            516.0
+          ],
+          "accepted_ground_coordinate_m": [
+            5.317,
+            3.199
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.568,
+            8.203
+          ],
+          "candidate_bbox_px": [
+            646.7,
+            181.3,
+            709.2,
+            338.5
+          ],
+          "accepted_ground_coordinate_m": [
+            4.568,
+            8.203
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "visible_but_unboxed"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.602,
+            5.571
+          ],
+          "candidate_bbox_px": [
+            828.2,
+            249.3,
+            892.2,
+            427.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.602,
+            5.571
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.43,
+            7.637
+          ],
+          "candidate_bbox_px": [
+            550.0,
+            183.4,
+            613.1,
+            357.1
+          ],
+          "accepted_ground_coordinate_m": [
+            3.43,
+            7.637
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36036,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36036.png",
+      "source_image_sha256": "1a59e0e8b7fe70c718b0628b1829fcf0a35d1c918357f9f6ccdca5bc29d39b6e",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.992,
+            4.405
+          ],
+          "candidate_bbox_px": [
+            404.6,
+            326.3,
+            494.3,
+            470.3
+          ],
+          "accepted_ground_coordinate_m": [
+            1.992,
+            4.405
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.774,
+            3.004
+          ],
+          "candidate_bbox_px": [
+            647.8,
+            372.7,
+            757.2,
+            523.6
+          ],
+          "accepted_ground_coordinate_m": [
+            4.774,
+            3.004
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.639,
+            8.278
+          ],
+          "candidate_bbox_px": [
+            651.7,
+            180.6,
+            715.9,
+            336.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.639,
+            8.278
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.42,
+            8.346
+          ],
+          "candidate_bbox_px": [
+            804.7,
+            177.2,
+            862.6,
+            333.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.42,
+            8.346
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.67,
+            5.514
+          ],
+          "candidate_bbox_px": [
+            835.9,
+            254.9,
+            897.1,
+            429.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.67,
+            5.514
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.375,
+            8.105
+          ],
+          "candidate_bbox_px": [
+            547.7,
+            180.0,
+            606.7,
+            341.7
+          ],
+          "accepted_ground_coordinate_m": [
+            3.375,
+            8.105
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 3.8913,
+        "convex_hull_area_m2": 17.1599,
+        "centroid_dispersion_m": 2.6068
+      }
+    },
+    {
+      "source_frame": 36042,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36042.png",
+      "source_image_sha256": "67225b281eea69dc53410dd6444e736c7a941e444cf7b3e0f08c6bd4a3bdc8c3",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.687,
+            4.072
+          ],
+          "candidate_bbox_px": [
+            378.8,
+            339.1,
+            462.7,
+            482.7
+          ],
+          "accepted_ground_coordinate_m": [
+            1.687,
+            4.072
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.543,
+            2.786
+          ],
+          "candidate_bbox_px": [
+            635.0,
+            362.0,
+            727.7,
+            532.2
+          ],
+          "accepted_ground_coordinate_m": [
+            4.543,
+            2.786
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.673,
+            8.178
+          ],
+          "candidate_bbox_px": [
+            651.2,
+            180.8,
+            722.4,
+            339.3
+          ],
+          "accepted_ground_coordinate_m": [
+            4.673,
+            8.178
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.454,
+            8.22
+          ],
+          "candidate_bbox_px": [
+            809.4,
+            176.1,
+            864.5,
+            338.0
+          ],
+          "accepted_ground_coordinate_m": [
+            6.454,
+            8.22
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.752,
+            4.932
+          ],
+          "candidate_bbox_px": [
+            845.1,
+            266.2,
+            907.7,
+            450.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.752,
+            4.932
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.235,
+            8.653
+          ],
+          "candidate_bbox_px": [
+            539.5,
+            179.5,
+            592.3,
+            324.0
+          ],
+          "accepted_ground_coordinate_m": [
+            3.235,
+            8.653
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.2377,
+        "convex_hull_area_m2": 20.6481,
+        "centroid_dispersion_m": 2.8488
+      }
+    },
+    {
+      "source_frame": 36048,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36048.png",
+      "source_image_sha256": "792b9f8e5a2e1ce199e0f21ee697e62528a98bc529fdb51c52caaca0c6c39ef9",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jersey_21_visible_but_unboxed",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.477,
+            3.556
+          ],
+          "candidate_bbox_px": [
+            359.9,
+            348.8,
+            439.3,
+            502.2
+          ],
+          "accepted_ground_coordinate_m": [
+            1.477,
+            3.556
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.347,
+            2.402
+          ],
+          "candidate_bbox_px": [
+            623.0,
+            369.1,
+            703.9,
+            547.4
+          ],
+          "accepted_ground_coordinate_m": [
+            4.347,
+            2.402
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.692,
+            8.1
+          ],
+          "candidate_bbox_px": [
+            650.8,
+            183.2,
+            726.2,
+            341.8
+          ],
+          "accepted_ground_coordinate_m": [
+            4.692,
+            8.1
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.373,
+            7.978
+          ],
+          "candidate_bbox_px": [
+            803.1,
+            176.4,
+            858.9,
+            345.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.373,
+            7.978
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.749,
+            4.828
+          ],
+          "candidate_bbox_px": [
+            845.2,
+            275.1,
+            908.0,
+            454.7
+          ],
+          "accepted_ground_coordinate_m": [
+            6.749,
+            4.828
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "visible_but_unboxed"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36054,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36054.png",
+      "source_image_sha256": "97a19e4037d0ec24554db55ea95d81f0660e786313c28f4aa009b9086796d00a",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.263,
+            3.526
+          ],
+          "candidate_bbox_px": [
+            343.6,
+            361.3,
+            416.0,
+            503.4
+          ],
+          "accepted_ground_coordinate_m": [
+            1.263,
+            3.526
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.332,
+            2.297
+          ],
+          "candidate_bbox_px": [
+            622.8,
+            376.9,
+            701.6,
+            551.6
+          ],
+          "accepted_ground_coordinate_m": [
+            4.332,
+            2.297
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.707,
+            8.063
+          ],
+          "candidate_bbox_px": [
+            652.0,
+            184.7,
+            727.6,
+            343.0
+          ],
+          "accepted_ground_coordinate_m": [
+            4.707,
+            8.063
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.278,
+            7.962
+          ],
+          "candidate_bbox_px": [
+            794.1,
+            177.5,
+            851.9,
+            346.4
+          ],
+          "accepted_ground_coordinate_m": [
+            6.278,
+            7.962
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.721,
+            4.774
+          ],
+          "candidate_bbox_px": [
+            841.8,
+            278.0,
+            907.0,
+            456.7
+          ],
+          "accepted_ground_coordinate_m": [
+            6.721,
+            4.774
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.039,
+            8.187
+          ],
+          "candidate_bbox_px": [
+            517.8,
+            180.3,
+            580.0,
+            339.0
+          ],
+          "accepted_ground_coordinate_m": [
+            3.039,
+            8.187
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.4076,
+        "convex_hull_area_m2": 21.9938,
+        "centroid_dispersion_m": 2.969
+      }
+    },
+    {
+      "source_frame": 36060,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36060.png",
+      "source_image_sha256": "0163fc8187e410d0081c45fd9beab16f1605f56ac68170cd814f0231cb55e9ff",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jersey_21_visible_but_unboxed",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.014,
+            3.122
+          ],
+          "candidate_bbox_px": [
+            311.4,
+            373.5,
+            398.5,
+            519.0
+          ],
+          "accepted_ground_coordinate_m": [
+            1.014,
+            3.122
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.302,
+            1.655
+          ],
+          "candidate_bbox_px": [
+            620.7,
+            381.6,
+            699.0,
+            577.7
+          ],
+          "accepted_ground_coordinate_m": [
+            4.302,
+            1.655
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.714,
+            7.986
+          ],
+          "candidate_bbox_px": [
+            652.1,
+            185.4,
+            728.9,
+            345.6
+          ],
+          "accepted_ground_coordinate_m": [
+            4.714,
+            7.986
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.195,
+            8.109
+          ],
+          "candidate_bbox_px": [
+            785.1,
+            176.2,
+            845.9,
+            341.6
+          ],
+          "accepted_ground_coordinate_m": [
+            6.195,
+            8.109
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.684,
+            4.385
+          ],
+          "candidate_bbox_px": [
+            838.8,
+            288.7,
+            906.9,
+            471.0
+          ],
+          "accepted_ground_coordinate_m": [
+            6.684,
+            4.385
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "visible_but_unboxed"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36066,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36066.png",
+      "source_image_sha256": "c87e69267859b67e2d892e0931754ebac2ad3a645d347692e5dd6224be47a5b3",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.989,
+            2.945
+          ],
+          "candidate_bbox_px": [
+            306.0,
+            383.9,
+            397.6,
+            525.9
+          ],
+          "accepted_ground_coordinate_m": [
+            0.989,
+            2.945
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.396,
+            1.559
+          ],
+          "candidate_bbox_px": [
+            633.8,
+            397.2,
+            703.8,
+            581.6
+          ],
+          "accepted_ground_coordinate_m": [
+            4.396,
+            1.559
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.722,
+            7.953
+          ],
+          "candidate_bbox_px": [
+            652.2,
+            185.1,
+            730.2,
+            346.7
+          ],
+          "accepted_ground_coordinate_m": [
+            4.722,
+            7.953
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.17,
+            8.498
+          ],
+          "candidate_bbox_px": [
+            781.8,
+            175.7,
+            842.4,
+            329.0
+          ],
+          "accepted_ground_coordinate_m": [
+            6.17,
+            8.498
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.698,
+            4.338
+          ],
+          "candidate_bbox_px": [
+            840.2,
+            301.2,
+            908.3,
+            472.7
+          ],
+          "accepted_ground_coordinate_m": [
+            6.698,
+            4.338
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.994,
+            7.82
+          ],
+          "candidate_bbox_px": [
+            513.0,
+            184.8,
+            576.3,
+            351.0
+          ],
+          "accepted_ground_coordinate_m": [
+            2.994,
+            7.82
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.812,
+        "convex_hull_area_m2": 25.6336,
+        "centroid_dispersion_m": 3.2421
+      }
+    },
+    {
+      "source_frame": 36072,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36072.png",
+      "source_image_sha256": "0d44bc84d3562774fccc53f1f205826ccce6af43e70535bf37d2eff8f2186542",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.964,
+            2.68
+          ],
+          "candidate_bbox_px": [
+            301.4,
+            393.6,
+            394.7,
+            536.3
+          ],
+          "accepted_ground_coordinate_m": [
+            0.964,
+            2.68
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.569,
+            1.517
+          ],
+          "candidate_bbox_px": [
+            645.2,
+            402.9,
+            725.5,
+            583.4
+          ],
+          "accepted_ground_coordinate_m": [
+            4.569,
+            1.517
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.722,
+            7.982
+          ],
+          "candidate_bbox_px": [
+            652.4,
+            186.7,
+            730.0,
+            345.7
+          ],
+          "accepted_ground_coordinate_m": [
+            4.722,
+            7.982
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.194,
+            8.279
+          ],
+          "candidate_bbox_px": [
+            782.8,
+            176.3,
+            846.9,
+            336.0
+          ],
+          "accepted_ground_coordinate_m": [
+            6.194,
+            8.279
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.766,
+            4.338
+          ],
+          "candidate_bbox_px": [
+            842.8,
+            307.0,
+            918.1,
+            472.7
+          ],
+          "accepted_ground_coordinate_m": [
+            6.766,
+            4.338
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.984,
+            7.851
+          ],
+          "candidate_bbox_px": [
+            513.4,
+            187.4,
+            574.3,
+            350.0
+          ],
+          "accepted_ground_coordinate_m": [
+            2.984,
+            7.851
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.8577,
+        "convex_hull_area_m2": 26.1366,
+        "centroid_dispersion_m": 3.2786
+      }
+    },
+    {
+      "source_frame": 36078,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36078.png",
+      "source_image_sha256": "f09424b940f6e1d40e125f32bcac9aac4d0a530905975dbdaf13482ed901b885",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.987,
+            2.536
+          ],
+          "candidate_bbox_px": [
+            302.0,
+            398.8,
+            396.9,
+            542.1
+          ],
+          "accepted_ground_coordinate_m": [
+            0.987,
+            2.536
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.623,
+            1.523
+          ],
+          "candidate_bbox_px": [
+            644.7,
+            412.7,
+            736.3,
+            583.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.623,
+            1.523
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.724,
+            8.058
+          ],
+          "candidate_bbox_px": [
+            652.0,
+            182.6,
+            730.5,
+            343.2
+          ],
+          "accepted_ground_coordinate_m": [
+            4.724,
+            8.058
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.276,
+            8.057
+          ],
+          "candidate_bbox_px": [
+            791.2,
+            177.2,
+            853.9,
+            343.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.276,
+            8.057
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.773,
+            4.348
+          ],
+          "candidate_bbox_px": [
+            841.0,
+            309.0,
+            921.1,
+            472.4
+          ],
+          "accepted_ground_coordinate_m": [
+            6.773,
+            4.348
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.971,
+            7.855
+          ],
+          "candidate_bbox_px": [
+            512.7,
+            188.4,
+            572.7,
+            349.9
+          ],
+          "accepted_ground_coordinate_m": [
+            2.971,
+            7.855
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.8652,
+        "convex_hull_area_m2": 26.1529,
+        "centroid_dispersion_m": 3.2852
+      }
+    },
+    {
+      "source_frame": 36084,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36084.png",
+      "source_image_sha256": "1f246cdf31b0c89fe4fd83f0c4da25340d2572ae283511501f9af649adad2c62",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.982,
+            2.605
+          ],
+          "candidate_bbox_px": [
+            300.4,
+            390.5,
+            398.3,
+            539.3
+          ],
+          "accepted_ground_coordinate_m": [
+            0.982,
+            2.605
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.637,
+            1.526
+          ],
+          "candidate_bbox_px": [
+            641.7,
+            413.4,
+            742.0,
+            583.0
+          ],
+          "accepted_ground_coordinate_m": [
+            4.637,
+            1.526
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.727,
+            7.797
+          ],
+          "candidate_bbox_px": [
+            649.2,
+            193.9,
+            734.4,
+            351.8
+          ],
+          "accepted_ground_coordinate_m": [
+            4.727,
+            7.797
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.354,
+            8.04
+          ],
+          "candidate_bbox_px": [
+            798.6,
+            176.6,
+            859.8,
+            343.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.354,
+            8.04
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.771,
+            4.352
+          ],
+          "candidate_bbox_px": [
+            839.3,
+            309.7,
+            922.4,
+            472.2
+          ],
+          "accepted_ground_coordinate_m": [
+            6.771,
+            4.352
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.87,
+            8.653
+          ],
+          "candidate_bbox_px": [
+            509.9,
+            188.5,
+            560.8,
+            324.0
+          ],
+          "accepted_ground_coordinate_m": [
+            2.87,
+            8.653
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.992,
+        "convex_hull_area_m2": 28.4693,
+        "centroid_dispersion_m": 3.3553
+      }
+    },
+    {
+      "source_frame": 36090,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36090.png",
+      "source_image_sha256": "ae7551402747592ddfe802f217525351e9b616f6264a8ed3022a6375a0a8ca84",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.757,
+            2.798
+          ],
+          "candidate_bbox_px": [
+            281.0,
+            378.7,
+            378.0,
+            531.7
+          ],
+          "accepted_ground_coordinate_m": [
+            0.757,
+            2.798
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.623,
+            1.52
+          ],
+          "candidate_bbox_px": [
+            636.8,
+            407.7,
+            744.1,
+            583.2
+          ],
+          "accepted_ground_coordinate_m": [
+            4.623,
+            1.52
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.642,
+            8.131
+          ],
+          "candidate_bbox_px": [
+            641.3,
+            196.2,
+            727.1,
+            340.8
+          ],
+          "accepted_ground_coordinate_m": [
+            4.642,
+            8.131
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.373,
+            8.676
+          ],
+          "candidate_bbox_px": [
+            799.9,
+            175.8,
+            857.1,
+            323.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.373,
+            8.676
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.783,
+            4.335
+          ],
+          "candidate_bbox_px": [
+            840.4,
+            316.9,
+            923.5,
+            472.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.783,
+            4.335
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.706,
+            8.13
+          ],
+          "candidate_bbox_px": [
+            493.9,
+            197.2,
+            547.5,
+            340.9
+          ],
+          "accepted_ground_coordinate_m": [
+            2.706,
+            8.13
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 5.1234,
+        "convex_hull_area_m2": 29.4603,
+        "centroid_dispersion_m": 3.4411
+      }
+    },
+    {
+      "source_frame": 36096,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36096.png",
+      "source_image_sha256": "eb13cc2bc3f72585d6a8b8901d72d06694eb5469ff337560dba4d07e5b891151",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.742,
+            2.788
+          ],
+          "candidate_bbox_px": [
+            278.5,
+            379.5,
+            377.7,
+            532.1
+          ],
+          "accepted_ground_coordinate_m": [
+            0.742,
+            2.788
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.631,
+            1.531
+          ],
+          "candidate_bbox_px": [
+            638.0,
+            411.6,
+            744.5,
+            582.8
+          ],
+          "accepted_ground_coordinate_m": [
+            4.631,
+            1.531
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.802,
+            8.257
+          ],
+          "candidate_bbox_px": [
+            656.5,
+            192.9,
+            738.7,
+            336.7
+          ],
+          "accepted_ground_coordinate_m": [
+            4.802,
+            8.257
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.433,
+            8.317
+          ],
+          "candidate_bbox_px": [
+            802.7,
+            177.6,
+            867.0,
+            334.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.433,
+            8.317
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.849,
+            3.953
+          ],
+          "candidate_bbox_px": [
+            840.9,
+            321.3,
+            938.7,
+            487.2
+          ],
+          "accepted_ground_coordinate_m": [
+            6.849,
+            3.953
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.511,
+            7.9
+          ],
+          "candidate_bbox_px": [
+            472.7,
+            199.4,
+            535.0,
+            348.4
+          ],
+          "accepted_ground_coordinate_m": [
+            2.511,
+            7.9
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 5.141,
+        "convex_hull_area_m2": 29.5496,
+        "centroid_dispersion_m": 3.4631
+      }
+    },
+    {
+      "source_frame": 36102,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36102.png",
+      "source_image_sha256": "25957a95de78b8a341957f3055490d6bebbfb91e4faca6098da7112e2d8b3cad",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            0.773,
+            2.89
+          ],
+          "candidate_bbox_px": [
+            286.5,
+            395.9,
+            376.5,
+            528.1
+          ],
+          "accepted_ground_coordinate_m": [
+            0.773,
+            2.89
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.534,
+            1.635
+          ],
+          "candidate_bbox_px": [
+            628.0,
+            416.2,
+            735.8,
+            578.5
+          ],
+          "accepted_ground_coordinate_m": [
+            4.534,
+            1.635
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.911,
+            8.277
+          ],
+          "candidate_bbox_px": [
+            670.7,
+            186.7,
+            742.8,
+            336.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.911,
+            8.277
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.41,
+            8.284
+          ],
+          "candidate_bbox_px": [
+            801.0,
+            182.1,
+            864.9,
+            335.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.41,
+            8.284
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.896,
+            3.914
+          ],
+          "candidate_bbox_px": [
+            845.0,
+            331.8,
+            943.7,
+            488.6
+          ],
+          "accepted_ground_coordinate_m": [
+            6.896,
+            3.914
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            2.53,
+            8.075
+          ],
+          "candidate_bbox_px": [
+            468.3,
+            170.4,
+            543.2,
+            342.7
+          ],
+          "accepted_ground_coordinate_m": [
+            2.53,
+            8.075
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 5.1217,
+        "convex_hull_area_m2": 29.4138,
+        "centroid_dispersion_m": 3.4572
+      }
+    },
+    {
+      "source_frame": 36108,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36108.png",
+      "source_image_sha256": "ab91cb0ef90fcd414bfb44414adc9be4d768cb92ec5a32035a6ab140a94d4de7",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "front_players_enter_airborne_or_occluded_interval",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.001,
+            2.802
+          ],
+          "candidate_bbox_px": [
+            298.8,
+            402.5,
+            405.6,
+            531.5
+          ],
+          "accepted_ground_coordinate_m": [
+            1.001,
+            2.802
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.432,
+            1.67
+          ],
+          "candidate_bbox_px": [
+            611.5,
+            412.8,
+            732.8,
+            577.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.432,
+            1.67
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.85,
+            8.647
+          ],
+          "candidate_bbox_px": [
+            665.5,
+            147.2,
+            736.6,
+            324.2
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne_or_occluded"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.318,
+            8.318
+          ],
+          "candidate_bbox_px": [
+            795.6,
+            187.8,
+            854.7,
+            334.8
+          ],
+          "accepted_ground_coordinate_m": [
+            6.318,
+            8.318
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.948,
+            3.703
+          ],
+          "candidate_bbox_px": [
+            851.0,
+            338.8,
+            949.2,
+            496.7
+          ],
+          "accepted_ground_coordinate_m": [
+            6.948,
+            3.703
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne_or_occluded"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36114,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36114.png",
+      "source_image_sha256": "4feda0b57d66c5f61d0480121f040ef0c4cd26071ebe62d93c4e129c811debf0",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jerseys_21_and_15_airborne",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.478,
+            2.821
+          ],
+          "candidate_bbox_px": [
+            346.9,
+            405.2,
+            446.3,
+            530.8
+          ],
+          "accepted_ground_coordinate_m": [
+            1.478,
+            2.821
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.07,
+            1.914
+          ],
+          "candidate_bbox_px": [
+            583.0,
+            411.7,
+            692.3,
+            567.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.07,
+            1.914
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.279,
+            8.214
+          ],
+          "candidate_bbox_px": [
+            790.1,
+            187.8,
+            854.4,
+            338.2
+          ],
+          "accepted_ground_coordinate_m": [
+            6.279,
+            8.214
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.818,
+            3.373
+          ],
+          "candidate_bbox_px": [
+            837.9,
+            340.6,
+            941.8,
+            509.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.818,
+            3.373
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36120,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36120.png",
+      "source_image_sha256": "56ce234e95ba8f749647f730b457088a4b616cf4cebc737a700587602b1d2854",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jerseys_21_and_15_airborne",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.013,
+            2.191
+          ],
+          "candidate_bbox_px": [
+            390.4,
+            416.1,
+            497.9,
+            555.9
+          ],
+          "accepted_ground_coordinate_m": [
+            2.013,
+            2.191
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.04,
+            1.903
+          ],
+          "candidate_bbox_px": [
+            582.7,
+            418.9,
+            687.0,
+            567.5
+          ],
+          "accepted_ground_coordinate_m": [
+            4.04,
+            1.903
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne"
+        },
+        "7": {
+          "reviewed_raw_id": 9,
+          "candidate_box_bottom_court_m": [
+            6.275,
+            7.443
+          ],
+          "candidate_bbox_px": [
+            789.4,
+            207.6,
+            859.8,
+            363.5
+          ],
+          "accepted_ground_coordinate_m": [
+            6.275,
+            7.443
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.708,
+            2.883
+          ],
+          "candidate_bbox_px": [
+            827.8,
+            363.7,
+            936.6,
+            528.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.708,
+            2.883
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "airborne"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36126,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36126.png",
+      "source_image_sha256": "df14075d4e8f26e6ad560c9696ddb84993460fa8da777eba19aeff486091fe60",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "front_player_landing_contact_not_certified",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.153,
+            2.178
+          ],
+          "candidate_bbox_px": [
+            404.0,
+            418.3,
+            510.6,
+            556.4
+          ],
+          "accepted_ground_coordinate_m": [
+            2.153,
+            2.178
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            4.021,
+            1.962
+          ],
+          "candidate_bbox_px": [
+            579.1,
+            414.8,
+            686.9,
+            565.2
+          ],
+          "accepted_ground_coordinate_m": [
+            4.021,
+            1.962
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.567,
+            8.675
+          ],
+          "candidate_bbox_px": [
+            648.8,
+            155.6,
+            706.0,
+            323.3
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "landing_contact_uncertain"
+        },
+        "7": {
+          "reviewed_raw_id": 78,
+          "candidate_box_bottom_court_m": null,
+          "candidate_bbox_px": null,
+          "accepted_ground_coordinate_m": null,
+          "status": "visible_but_unboxed"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.662,
+            2.881
+          ],
+          "candidate_bbox_px": [
+            821.6,
+            371.2,
+            934.3,
+            528.4
+          ],
+          "accepted_ground_coordinate_m": [
+            6.662,
+            2.881
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.13,
+            8.706
+          ],
+          "candidate_bbox_px": [
+            515.5,
+            177.3,
+            598.8,
+            322.3
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "landing_contact_uncertain"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36132,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36132.png",
+      "source_image_sha256": "a0906e94d13fa3852d2ca667ab9b6a9a184b262b9ba44561613fa5cf3ea062de",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "excluded",
+      "exclusion_reason": "jersey_7_one_foot_raised_box_bottom_unreliable",
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            2.111,
+            2.215
+          ],
+          "candidate_bbox_px": [
+            394.8,
+            394.2,
+            512.1,
+            554.9
+          ],
+          "accepted_ground_coordinate_m": [
+            2.111,
+            2.215
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            3.938,
+            1.918
+          ],
+          "candidate_bbox_px": [
+            566.6,
+            416.3,
+            683.9,
+            566.9
+          ],
+          "accepted_ground_coordinate_m": [
+            3.938,
+            1.918
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.443,
+            8.592
+          ],
+          "candidate_bbox_px": [
+            639.2,
+            179.2,
+            694.8,
+            326.0
+          ],
+          "accepted_ground_coordinate_m": [
+            4.443,
+            8.592
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 78,
+          "candidate_box_bottom_court_m": [
+            6.549,
+            7.491
+          ],
+          "candidate_bbox_px": [
+            824.4,
+            211.0,
+            871.2,
+            361.9
+          ],
+          "accepted_ground_coordinate_m": null,
+          "status": "one_foot_raised_proxy_unreliable"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.537,
+            2.864
+          ],
+          "candidate_bbox_px": [
+            807.5,
+            371.5,
+            925.3,
+            529.1
+          ],
+          "accepted_ground_coordinate_m": [
+            6.537,
+            2.864
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.341,
+            8.542
+          ],
+          "candidate_bbox_px": [
+            537.4,
+            182.9,
+            612.0,
+            327.6
+          ],
+          "accepted_ground_coordinate_m": [
+            3.341,
+            8.542
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": null
+    },
+    {
+      "source_frame": 36138,
+      "source_image": "data/matches/yt_u5HnY2aNW14/screening/s3p34_validation_review/source_36138.png",
+      "source_image_sha256": "622cbdc9e252a56efdad4b521efc9beaec48ed07700aac207e5717a9502df6bd",
+      "identity_review": "single_reviewer_visual_5hz_source_sheet",
+      "all_six_grounded_proxy_status": "accepted_for_exploratory_comparison",
+      "exclusion_reason": null,
+      "players": {
+        "28": {
+          "reviewed_raw_id": 1,
+          "candidate_box_bottom_court_m": [
+            1.928,
+            2.738
+          ],
+          "candidate_bbox_px": [
+            386.3,
+            369.0,
+            489.9,
+            534.0
+          ],
+          "accepted_ground_coordinate_m": [
+            1.928,
+            2.738
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "reviewed_raw_id": 3,
+          "candidate_box_bottom_court_m": [
+            3.977,
+            1.892
+          ],
+          "candidate_bbox_px": [
+            568.4,
+            418.5,
+            689.3,
+            568.0
+          ],
+          "accepted_ground_coordinate_m": [
+            3.977,
+            1.892
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "reviewed_raw_id": 6,
+          "candidate_box_bottom_court_m": [
+            4.205,
+            8.652
+          ],
+          "candidate_bbox_px": [
+            618.2,
+            167.9,
+            676.0,
+            324.1
+          ],
+          "accepted_ground_coordinate_m": [
+            4.205,
+            8.652
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "reviewed_raw_id": 78,
+          "candidate_box_bottom_court_m": [
+            6.562,
+            7.429
+          ],
+          "candidate_bbox_px": [
+            824.8,
+            206.9,
+            873.4,
+            363.9
+          ],
+          "accepted_ground_coordinate_m": [
+            6.562,
+            7.429
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "reviewed_raw_id": 10,
+          "candidate_box_bottom_court_m": [
+            6.415,
+            2.329
+          ],
+          "candidate_bbox_px": [
+            799.6,
+            368.2,
+            915.3,
+            550.3
+          ],
+          "accepted_ground_coordinate_m": [
+            6.415,
+            2.329
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "reviewed_raw_id": 13,
+          "candidate_box_bottom_court_m": [
+            3.169,
+            8.152
+          ],
+          "candidate_bbox_px": [
+            521.5,
+            180.9,
+            598.2,
+            340.2
+          ],
+          "accepted_ground_coordinate_m": [
+            3.169,
+            8.152
+          ],
+          "status": "reviewed_grounded_box_bottom_proxy"
+        }
+      },
+      "exploratory_team_metrics": {
+        "mean_pairwise_spacing_m": 4.8409,
+        "convex_hull_area_m2": 23.8071,
+        "centroid_dispersion_m": 3.3488
+      }
+    }
+  ]
+}

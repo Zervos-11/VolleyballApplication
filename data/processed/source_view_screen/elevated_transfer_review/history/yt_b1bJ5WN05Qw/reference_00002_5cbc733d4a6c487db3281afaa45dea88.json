@@ -1,0 +1,53 @@
+{
+  "prior": null,
+  "new": {
+    "excerpt_frame": 810,
+    "reviewer_code": "MZ",
+    "checked_unboxed_source": true,
+    "identity_guide_seen": false,
+    "rows": [
+      {
+        "slot": 1,
+        "state": "grounded",
+        "shoe_x_px": 507.9,
+        "shoe_y_px": 760.0,
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "state": "grounded",
+        "shoe_x_px": 711.1,
+        "shoe_y_px": 854.3,
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "state": "grounded",
+        "shoe_x_px": 1240.4,
+        "shoe_y_px": 761.4,
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "state": "grounded",
+        "shoe_x_px": 499.3,
+        "shoe_y_px": 601.4,
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "state": "grounded",
+        "shoe_x_px": 867.0,
+        "shoe_y_px": 577.1,
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "state": "grounded",
+        "shoe_x_px": 1170.3,
+        "shoe_y_px": 578.6,
+        "note": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "status": "one_approximate_non_anchor_six_player_reference_frame_not_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "manual_qc": "0e90825d2523b006bc7ebb8d8b98a6faf415282d2048742dc8a6e86a3076ede2",
+    "previous_manual_qc": "3a7e446d74a5851fc208b4081b084f4de45cbccf40d01d0793667cd19fb81358",
+    "fixed_box_proxy": "a89c2330af321ac4e2e4c7388306c4c6460b2e5a256e9a1ede484d12e6d45c94",
+    "calibration": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa"
+  },
+  "set": 3,
+  "point_number": 13,
+  "source_frame": 29952,
+  "manual_rule": "Approximate midpoint between two visible near-side player shoes at the source frame. Reuse existing two marks for keys 14 and 2. Four additional marks were read from enlarged unboxed crops after checking intended players against the full source frame. Ground contact is visually judged; midpoint reading uncertainty is about plus or minus 12 source pixels per axis. This is not a blinded or independent reference.",
+  "summary": {
+    "reviewed_players": 6,
+    "reused_existing_manual_marks": 2,
+    "new_manual_marks": 4,
+    "median_position_error_m": 0.4676,
+    "maximum_position_error_m": 0.6265,
+    "manual_metric": {
+      "mean_pairwise_spacing_m": 4.5537,
+      "convex_hull_area_m2": 23.5772,
+      "centroid_dispersion_m": 3.0603
+    },
+    "proxy_metric": {
+      "mean_pairwise_spacing_m": 4.985,
+      "convex_hull_area_m2": 27.7677,
+      "centroid_dispersion_m": 3.3681
+    },
+    "proxy_minus_manual_metric": {
+      "mean_pairwise_spacing_m": 0.4313,
+      "convex_hull_area_m2": 4.1904,
+      "centroid_dispersion_m": 0.3077
+    }
+  },
+  "rows": [
+    {
+      "player_key": 4,
+      "manual_shoe_midpoint_px": [
+        392,
+        500
+      ],
+      "manual_court_m": [
+        1.3916,
+        3.6151
+      ],
+      "proxy_court_m": [
+        1.3929,
+        2.9886
+      ],
+      "court_position_error_m": 0.6265,
+      "note": "White near-side libero 28; both shoes visible during a low lateral stance."
+    },
+    {
+      "player_key": 14,
+      "manual_shoe_midpoint_px": [
+        581,
+        346
+      ],
+      "manual_court_m": [
+        3.4209,
+        7.9729
+      ],
+      "proxy_court_m": [
+        3.4338,
+        8.5524
+      ],
+      "court_position_error_m": 0.5796,
+      "note": "Reused existing non-anchor manual mark; blue 21."
+    },
+    {
+      "player_key": 2,
+      "manual_shoe_midpoint_px": [
+        702,
+        542
+      ],
+      "manual_court_m": [
+        4.7607,
+        2.5374
+      ],
+      "proxy_court_m": [
+        4.6955,
+        1.9887
+      ],
+      "court_position_error_m": 0.5526,
+      "note": "Reused existing non-anchor manual mark; blue 12."
+    },
+    {
+      "player_key": 7,
+      "manual_shoe_midpoint_px": [
+        710,
+        326
+      ],
+      "manual_court_m": [
+        4.9553,
+        8.5911
+      ],
+      "proxy_court_m": [
+        5.0232,
+        8.4425
+      ],
+      "court_position_error_m": 0.1634,
+      "note": "Blue 1; both shoes visible in a wide stance."
+    },
+    {
+      "player_key": 10,
+      "manual_shoe_midpoint_px": [
+        859,
+        343
+      ],
+      "manual_court_m": [
+        6.7079,
+        8.0648
+      ],
+      "proxy_court_m": [
+        7.0369,
+        8.0854
+      ],
+      "court_position_error_m": 0.3296,
+      "note": "Blue 7; both shoes visible near the right front court."
+    },
+    {
+      "player_key": 6,
+      "manual_shoe_midpoint_px": [
+        942,
+        451
+      ],
+      "manual_court_m": [
+        7.4857,
+        4.9293
+      ],
+      "proxy_court_m": [
+        7.6066,
+        4.5663
+      ],
+      "court_position_error_m": 0.3826,
+      "note": "Blue 19; both shoes visible near the right back court."
+    }
+  ],
+  "limitations": "One selected clear source frame only. Manual marks are approximate and single-reviewer; two marks are reused from the earlier non-anchor reference. Same-frame team metrics do not validate the other four samples in this window, full rallies, or outcome contrasts."
+}

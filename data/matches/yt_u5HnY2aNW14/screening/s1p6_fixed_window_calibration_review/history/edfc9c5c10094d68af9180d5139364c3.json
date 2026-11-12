@@ -1,0 +1,98 @@
+{
+  "frame": 1783,
+  "previous": {
+    "rows": [
+      {
+        "code": "baseline_left",
+        "status": "marked",
+        "x_px": 247.2,
+        "y_px": 645.3,
+        "note": "copied_from_frame_1759; verify on this image"
+      },
+      {
+        "code": "baseline_right",
+        "status": "marked",
+        "x_px": 1117.2,
+        "y_px": 638.7,
+        "note": "copied_from_frame_1759; verify on this image"
+      },
+      {
+        "code": "attack_left",
+        "status": "marked",
+        "x_px": 289.4,
+        "y_px": 412.5,
+        "note": "copied_from_frame_1759; verify on this image"
+      },
+      {
+        "code": "attack_right",
+        "status": "marked",
+        "x_px": 1061.7,
+        "y_px": 407.2,
+        "note": "copied_from_frame_1759; verify on this image"
+      },
+      {
+        "code": "net_left",
+        "status": "marked",
+        "x_px": 308.3,
+        "y_px": 314.9,
+        "note": "copied_from_frame_1759; verify on this image"
+      },
+      {
+        "code": "net_right",
+        "status": "marked",
+        "x_px": 1041.2,
+        "y_px": 309.4,
+        "note": "copied_from_frame_1759; verify on this image"
+      }
+    ],
+    "saved_at_utc": "2026-11-06T00:42:50.765239+00:00"
+  },
+  "current": {
+    "rows": [
+      {
+        "code": "baseline_left",
+        "status": "marked",
+        "x_px": 246.5,
+        "y_px": 646.0,
+        "note": ""
+      },
+      {
+        "code": "baseline_right",
+        "status": "marked",
+        "x_px": 1117.9,
+        "y_px": 637.4,
+        "note": ""
+      },
+      {
+        "code": "attack_left",
+        "status": "marked",
+        "x_px": 287.9,
+        "y_px": 410.7,
+        "note": ""
+      },
+      {
+        "code": "attack_right",
+        "status": "marked",
+        "x_px": 1062.4,
+        "y_px": 406.1,
+        "note": ""
+      },
+      {
+        "code": "net_left",
+        "status": "marked",
+        "x_px": 307.0,
+        "y_px": 314.4,
+        "note": ""
+      },
+      {
+        "code": "net_right",
+        "status": "marked",
+        "x_px": 1040.5,
+        "y_px": 309.8,
+        "note": ""
+      }
+    ],
+    "saved_at_utc": "2026-11-06T00:45:36.655753+00:00"
+  },
+  "revision": 3
+}

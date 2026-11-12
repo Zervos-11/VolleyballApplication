@@ -1,0 +1,118 @@
+{
+  "revision": 28,
+  "reviewer": "MZ",
+  "verdicts": {
+    "35998": {
+      "status": "contact_visible",
+      "note": ""
+    },
+    "35986": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35987": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35988": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35989": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35990": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35991": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35992": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35993": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35994": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35995": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35996": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35997": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35999": {
+      "status": "after_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "36000": {
+      "status": "after_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "36138": {
+      "status": "dead",
+      "note": ""
+    },
+    "36139": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36140": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36141": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36142": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36143": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36144": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36145": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36146": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36147": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36148": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36149": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36150": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    }
+  }
+}

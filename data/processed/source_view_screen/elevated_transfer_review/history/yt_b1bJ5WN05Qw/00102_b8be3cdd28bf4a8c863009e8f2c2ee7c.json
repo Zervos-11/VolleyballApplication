@@ -1,0 +1,129 @@
+{
+  "revision": 102,
+  "match_id": "yt_b1bJ5WN05Qw",
+  "frame": 798,
+  "prior": {
+    "excerpt_frame": 798,
+    "reviewer_code": "MZ_confirmed_bulk_box_match",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 89,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 88,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 3,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": null,
+        "box_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": null,
+        "box_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 43,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 6,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 4,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      }
+    ]
+  },
+  "new": {
+    "excerpt_frame": 798,
+    "reviewer_code": "MZ",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 89,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 88,
+        "box_alignment": "same_player",
+        "floor_alignment": "uncertain",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 3,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 279803,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": null,
+        "box_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "uncertain",
+        "physical_state": "airborne",
+        "candidate_raw_track_id": 43,
+        "box_alignment": "same_player",
+        "floor_alignment": "not_applicable",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 4,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": "Box match confirmed by MZ on 2026-11-07; identity and floor verdicts unchanged."
+      }
+    ]
+  }
+}

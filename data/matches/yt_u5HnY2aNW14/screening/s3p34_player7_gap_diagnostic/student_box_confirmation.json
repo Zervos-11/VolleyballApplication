@@ -1,0 +1,149 @@
+{
+  "status": "supplemental_single_reviewer_identity_confirmation_not_ground_validation",
+  "reviewer": "student (Michael Zervos)",
+  "review_provenance": "2026-11-08 chat reply: 'Yes, all seven follow player 4' after viewing the larger crop sheet",
+  "review_scope": "collective source-sequence judgment over seven displayed yellow boxes; not seven independent digit readings or per-frame click annotations",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "inputs_sha256": {
+    "diagnostic": "2e68ec94acd98a82a90b91015d59ed1e55f0dfa75fd9cbfd3859554d75d189aa",
+    "reviewed_crop_sheet": "28d117ff895eb1b2a21a409613426d65130a8c930c37e452dee9cc1fcded5050",
+    "gate_audit": "5e5caddb583f22d0892ce18344b6e4f1731dfccee8740d9a74dad627128643e7",
+    "original_ledger": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1"
+  },
+  "interval": {
+    "first_frame": 36001,
+    "last_frame": 36138,
+    "frames": 138,
+    "player_slots": 828
+  },
+  "conditional_candidate_coverage": {
+    "original_slots": 780,
+    "with_12_raw_boundary_boxes_slots": 792,
+    "with_12_raw_boundary_and_7_student_confirmed_boxes_slots": 799,
+    "original_all_six_frames": 104,
+    "with_12_raw_boundary_boxes_all_six_frames": 113,
+    "with_12_raw_boundary_and_7_student_confirmed_boxes_all_six_frames": 120
+  },
+  "confirmed_box_rows": [
+    {
+      "source_frame": 36124,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        814.6,
+        219.1,
+        878.9,
+        380.5
+      ],
+      "detector_confidence": 0.7137,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36126,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        808.7,
+        220.4,
+        880.1,
+        381.7
+      ],
+      "detector_confidence": 0.7173,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36127,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        811.7,
+        220.4,
+        879.6,
+        382.5
+      ],
+      "detector_confidence": 0.6804,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36128,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        815.0,
+        219.6,
+        880.1,
+        383.9
+      ],
+      "detector_confidence": 0.6763,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36129,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        808.4,
+        217.0,
+        879.9,
+        383.7
+      ],
+      "detector_confidence": 0.7043,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36130,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        802.2,
+        215.9,
+        879.1,
+        382.5
+      ],
+      "detector_confidence": 0.7441,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    },
+    {
+      "source_frame": 36131,
+      "player_slot": 4,
+      "ucla_jersey": "7",
+      "selected_bbox_px": [
+        809.6,
+        215.4,
+        879.6,
+        382.6
+      ],
+      "detector_confidence": 0.62,
+      "selection_rule": "highest confidence proposal in the predeclared search region",
+      "source_sequence_identity_verdict": "same_player_by_student_collective_crop_review",
+      "digit_independently_readable_each_frame": null,
+      "ground_status": null,
+      "accepted_floor_court_m": null
+    }
+  ],
+  "limitation": "A source-reviewed person box supports identity continuity. It is not an accepted grounded floor coordinate, and these selected seven frames do not cover the entire rally or certify an event boundary."
+}

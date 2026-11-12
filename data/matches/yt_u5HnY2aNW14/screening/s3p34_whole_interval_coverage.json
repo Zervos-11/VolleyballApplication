@@ -1,0 +1,1125 @@
+{
+  "status": "whole_candidate_interval_coverage_baseline_not_complete_rally_validation",
+  "interval_inclusive": [
+    36001,
+    36138
+  ],
+  "interval_status": "source_bracketed_candidate_interval_not_exact_serve_to_dead_ball",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "inputs_sha256": {
+    "observation_ledger": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1",
+    "single_reviewer_completed_csv": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc",
+    "single_reviewer_score": "5f13619a2c10236f5930ee21c0d0e566315502a9c86cea6e65301c8dd07b1c7d"
+  },
+  "source_frames": 138,
+  "player_slots": 828,
+  "slot_counts": {
+    "candidate_box": 780,
+    "unreviewed_source_slots": 510,
+    "sampled_5hz_review_slots": 138,
+    "accepted_grounded_proxy": 301,
+    "candidate_missing": 48,
+    "single_reviewer_30fps_slots": 180
+  },
+  "frame_counts": {
+    "all_six_candidate_boxes": 104,
+    "all_six_source_state_reviewed": 53,
+    "all_six_grounded_proxy_accepted": 41
+  },
+  "fractions": {
+    "candidate_box_slot_coverage": 0.942029,
+    "all_six_candidate_frame_coverage": 0.753623,
+    "source_reviewed_slot_coverage": 0.384058,
+    "all_six_source_reviewed_frame_coverage": 0.384058,
+    "accepted_grounded_slot_lower_bound": 0.363527,
+    "all_six_grounded_frame_lower_bound": 0.297101
+  },
+  "interpretation": "Unknown source states remain unknown. Lower bounds count only existing human-reviewed accepted positions; they are not estimated 30-fps success rates. Box availability is a separate candidate measure.",
+  "frames": [
+    {
+      "source_frame": 36001,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36002,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36003,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36004,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36005,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36006,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_landing_contact_uncertain": 1
+      }
+    },
+    {
+      "source_frame": 36007,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36008,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36009,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36010,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36011,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36012,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_ground_contact_uncertain": 1
+      }
+    },
+    {
+      "source_frame": 36013,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36014,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36015,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36016,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36017,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36018,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_ground_contact_uncertain": 1
+      }
+    },
+    {
+      "source_frame": 36019,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36020,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36021,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36022,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36023,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36024,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_ground_contact_uncertain": 1
+      }
+    },
+    {
+      "source_frame": 36025,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36026,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36027,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36028,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36029,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36030,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_visible_but_unboxed": 1
+      }
+    },
+    {
+      "source_frame": 36031,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36032,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36033,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36034,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36035,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36036,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36037,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36038,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36039,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36040,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36041,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36042,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36043,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36044,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36045,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36046,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36047,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36048,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_visible_but_unboxed": 1
+      }
+    },
+    {
+      "source_frame": 36049,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36050,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36051,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36052,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36053,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36054,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36055,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36056,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36057,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36058,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36059,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36060,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_visible_but_unboxed": 1
+      }
+    },
+    {
+      "source_frame": 36061,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36062,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36063,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36064,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36065,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36066,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36067,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36068,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36069,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36070,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36071,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36072,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36073,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36074,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36075,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36076,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36077,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36078,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36079,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36080,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36081,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36082,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36083,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36084,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36085,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36086,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36087,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36088,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36089,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36090,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36091,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36092,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36093,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36094,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36095,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36096,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36097,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36098,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36099,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36100,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36101,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "single_reviewer_grounded": 6
+      }
+    },
+    {
+      "source_frame": 36102,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    },
+    {
+      "source_frame": 36103,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36104,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36105,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36106,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36107,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36108,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 4,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 4,
+        "sampled_airborne_or_occluded": 2
+      }
+    },
+    {
+      "source_frame": 36109,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36110,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36111,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36112,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36113,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36114,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 4,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 4,
+        "sampled_airborne": 2
+      }
+    },
+    {
+      "source_frame": 36115,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36116,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36117,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36118,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36119,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36120,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 4,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 4,
+        "sampled_airborne": 2
+      }
+    },
+    {
+      "source_frame": 36121,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36122,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36123,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36124,
+      "candidate_box_slots": 4,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36125,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36126,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 3,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 3,
+        "sampled_landing_contact_uncertain": 2,
+        "sampled_visible_but_unboxed": 1
+      }
+    },
+    {
+      "source_frame": 36127,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36128,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36129,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36130,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36131,
+      "candidate_box_slots": 5,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36132,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 5,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 5,
+        "sampled_one_foot_raised_proxy_unreliable": 1
+      }
+    },
+    {
+      "source_frame": 36133,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36134,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36135,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36136,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36137,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 0,
+      "accepted_grounded_proxy_slots": 0,
+      "source_state_counts": {}
+    },
+    {
+      "source_frame": 36138,
+      "candidate_box_slots": 6,
+      "source_state_reviewed_slots": 6,
+      "accepted_grounded_proxy_slots": 6,
+      "source_state_counts": {
+        "sampled_reviewed_grounded_box_bottom_proxy": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "status": "exploratory_source_reviewed_sample_metric_diagnostic",
+  "five_sample_player_state_record_complete": true,
+  "full_25_frame_player_state_review_complete": false,
+  "calibration_operational_screen_passed": true,
+  "strict_metric_approval": false,
+  "input_sha256": {
+    "calibration_score": "567ef89717cd76fbd50094e9025bd002c7df489ddd5e2ed8e68080095d30fdc5",
+    "source_review": "e6c2bac9d9409a7eec5927cc59256851e4e44062a498b3133006d0287c5016d9",
+    "paired_review": "182ff5567d5fb6dfc86b83b48337e651d33a548a41b64a526c2f3bac52e00a67",
+    "box_and_floor_ledger": "4352541d91ddb31c48cf845ddcbe3aef25413d030ce1e62c3a94eaaaddef9abe",
+    "transform": "4f588eed7c9e14ddfd8530ab4c8cc86e9bf10b070c5f678631c4407f6a66cb0c"
+  },
+  "summary": {
+    "planned_sample_frames": 5,
+    "source_state_reviewed_sample_frames": 5,
+    "complete_six_grounded_frames": 4,
+    "team_metric_null_frames_due_to_observed_airborne_state": 1,
+    "accepted_player_positions": 28,
+    "median_player_proxy_minus_shoe_distance_m": 0.4227625191804145,
+    "maximum_player_proxy_minus_shoe_distance_m": 0.9022205963552286,
+    "manual_shoe_four_frame_median_metrics": {
+      "mean_pairwise_spacing_m": 5.25261050901835,
+      "convex_hull_area_m2": 31.65456421002805,
+      "centroid_dispersion_m": 3.535906495213915
+    },
+    "box_bottom_four_frame_median_metrics": {
+      "mean_pairwise_spacing_m": 5.329915557536259,
+      "convex_hull_area_m2": 32.09383380483785,
+      "centroid_dispersion_m": 3.5921087728594436
+    }
+  },
+  "frames": [
+    {
+      "source_frame": 1759,
+      "accepted_grounded_slots": 6,
+      "complete_six_grounded": true,
+      "manual_shoe_metrics": {
+        "mean_pairwise_spacing_m": 4.809016679513223,
+        "convex_hull_area_m2": 26.5605947351394,
+        "centroid_dispersion_m": 3.2366672702802766
+      },
+      "box_bottom_proxy_metrics": {
+        "mean_pairwise_spacing_m": 5.175021938832555,
+        "convex_hull_area_m2": 29.56997307361041,
+        "centroid_dispersion_m": 3.4785078756218972
+      },
+      "proxy_minus_manual_metrics": {
+        "mean_pairwise_spacing_m": 0.3660052593193317,
+        "convex_hull_area_m2": 3.0093783384710093,
+        "centroid_dispersion_m": 0.24184060534162066
+      },
+      "proxy_positions_outside_0_to_9_m": 1,
+      "players": [
+        {
+          "slot": 1,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            2.249887894778637,
+            8.26246957196847
+          ],
+          "box_bottom_proxy_court_m": [
+            2.3170562454340806,
+            7.874033214082574
+          ],
+          "proxy_minus_shoe_distance_m": 0.3942009531412029
+        },
+        {
+          "slot": 2,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            3.3623086075567366,
+            8.40505390094502
+          ],
+          "box_bottom_proxy_court_m": [
+            3.2192474569121385,
+            9.281815124900067
+          ],
+          "proxy_minus_shoe_distance_m": 0.888356199198783
+        },
+        {
+          "slot": 3,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            5.969841546176964,
+            8.480637450630248
+          ],
+          "box_bottom_proxy_court_m": [
+            6.023143026170038,
+            8.524529112610326
+          ],
+          "proxy_minus_shoe_distance_m": 0.06904727192891484
+        },
+        {
+          "slot": 4,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            1.1040087099639482,
+            4.563024489431643
+          ],
+          "box_bottom_proxy_court_m": [
+            1.1853971729963118,
+            4.200032887276268
+          ],
+          "proxy_minus_shoe_distance_m": 0.37200401227687957
+        },
+        {
+          "slot": 5,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            4.638932231473852,
+            1.6930803053041987
+          ],
+          "box_bottom_proxy_court_m": [
+            4.583326045121961,
+            1.2127231931843026
+          ],
+          "proxy_minus_shoe_distance_m": 0.48356489029370997
+        },
+        {
+          "slot": 6,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            6.8604074707900535,
+            4.3753174180116385
+          ],
+          "box_bottom_proxy_court_m": [
+            6.824771936592566,
+            3.925402383141951
+          ],
+          "proxy_minus_shoe_distance_m": 0.45132408521962614
+        }
+      ]
+    },
+    {
+      "source_frame": 1765,
+      "accepted_grounded_slots": 6,
+      "complete_six_grounded": true,
+      "manual_shoe_metrics": {
+        "mean_pairwise_spacing_m": 5.133372724716152,
+        "convex_hull_area_m2": 30.308300840205128,
+        "centroid_dispersion_m": 3.4551863110842285
+      },
+      "box_bottom_proxy_metrics": {
+        "mean_pairwise_spacing_m": 5.283868497395338,
+        "convex_hull_area_m2": 31.566078557824163,
+        "centroid_dispersion_m": 3.5612927581770637
+      },
+      "proxy_minus_manual_metrics": {
+        "mean_pairwise_spacing_m": 0.15049577267918668,
+        "convex_hull_area_m2": 1.2577777176190352,
+        "centroid_dispersion_m": 0.10610644709283523
+      },
+      "proxy_positions_outside_0_to_9_m": 0,
+      "players": [
+        {
+          "slot": 1,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            1.8697130721389679,
+            8.628696283836266
+          ],
+          "box_bottom_proxy_court_m": [
+            1.8325751238491006,
+            8.375387233271583
+          ],
+          "proxy_minus_shoe_distance_m": 0.2560169961177615
+        },
+        {
+          "slot": 2,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            2.885375323759467,
+            8.592618149039964
+          ],
+          "box_bottom_proxy_court_m": [
+            2.902304643467376,
+            8.294446270651633
+          ],
+          "proxy_minus_shoe_distance_m": 0.29865209011054683
+        },
+        {
+          "slot": 3,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            6.019178419792972,
+            8.662065548197026
+          ],
+          "box_bottom_proxy_court_m": [
+            6.035833772264394,
+            8.330471420187472
+          ],
+          "proxy_minus_shoe_distance_m": 0.33201214811564317
+        },
+        {
+          "slot": 4,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            0.8356534408811385,
+            4.384497688983619
+          ],
+          "box_bottom_proxy_court_m": [
+            0.896178728005244,
+            4.056623935293549
+          ],
+          "proxy_minus_shoe_distance_m": 0.3334134201562258
+        },
+        {
+          "slot": 5,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            4.656921901043117,
+            1.6143256057643653
+          ],
+          "box_bottom_proxy_court_m": [
+            4.572770874889036,
+            0.901978650510632
+          ],
+          "proxy_minus_shoe_distance_m": 0.7173002020507517
+        },
+        {
+          "slot": 6,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            6.998916189724011,
+            4.676014414030424
+          ],
+          "box_bottom_proxy_court_m": [
+            6.907203013888132,
+            3.8622587566314035
+          ],
+          "proxy_minus_shoe_distance_m": 0.8189075506861652
+        }
+      ]
+    },
+    {
+      "source_frame": 1771,
+      "accepted_grounded_slots": 6,
+      "complete_six_grounded": true,
+      "manual_shoe_metrics": {
+        "mean_pairwise_spacing_m": 5.371848293320548,
+        "convex_hull_area_m2": 33.00082757985097,
+        "centroid_dispersion_m": 3.616626679343602
+      },
+      "box_bottom_proxy_metrics": {
+        "mean_pairwise_spacing_m": 5.375962617677178,
+        "convex_hull_area_m2": 32.62158905185154,
+        "centroid_dispersion_m": 3.6229247875418236
+      },
+      "proxy_minus_manual_metrics": {
+        "mean_pairwise_spacing_m": 0.00411432435662995,
+        "convex_hull_area_m2": -0.3792385279994335,
+        "centroid_dispersion_m": 0.00629810819822163
+      },
+      "proxy_positions_outside_0_to_9_m": 0,
+      "players": [
+        {
+          "slot": 1,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            1.3209792661804216,
+            8.410826284857343
+          ],
+          "box_bottom_proxy_court_m": [
+            1.420976113511147,
+            8.1953539089922
+          ],
+          "proxy_minus_shoe_distance_m": 0.23754518356947188
+        },
+        {
+          "slot": 2,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            2.372482551066379,
+            8.48512914772439
+          ],
+          "box_bottom_proxy_court_m": [
+            2.5077646875613606,
+            8.271512963144405
+          ],
+          "proxy_minus_shoe_distance_m": 0.252850016351902
+        },
+        {
+          "slot": 3,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            5.997243574342753,
+            8.662361649415473
+          ],
+          "box_bottom_proxy_court_m": [
+            6.042876392435649,
+            8.19765731163289
+          ],
+          "proxy_minus_shoe_distance_m": 0.4669394774925855
+        },
+        {
+          "slot": 4,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            0.6892109994396639,
+            4.19184986473179
+          ],
+          "box_bottom_proxy_court_m": [
+            0.8217299014221466,
+            3.9667221614452357
+          ],
+          "proxy_minus_shoe_distance_m": 0.2612350324319492
+        },
+        {
+          "slot": 5,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            4.577875855264093,
+            1.355259286534928
+          ],
+          "box_bottom_proxy_court_m": [
+            4.595002904786172,
+            0.8801982214457439
+          ],
+          "proxy_minus_shoe_distance_m": 0.4753696996959333
+        },
+        {
+          "slot": 6,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            7.087871244131071,
+            4.4786794020831255
+          ],
+          "box_bottom_proxy_court_m": [
+            7.002082032283869,
+            3.8795087176310616
+          ],
+          "proxy_minus_shoe_distance_m": 0.6052811726595491
+        }
+      ]
+    },
+    {
+      "source_frame": 1777,
+      "accepted_grounded_slots": 6,
+      "complete_six_grounded": true,
+      "manual_shoe_metrics": {
+        "mean_pairwise_spacing_m": 5.653723576762882,
+        "convex_hull_area_m2": 36.883414451442356,
+        "centroid_dispersion_m": 3.8103689435752437
+      },
+      "box_bottom_proxy_metrics": {
+        "mean_pairwise_spacing_m": 5.687551796532986,
+        "convex_hull_area_m2": 37.45314491157158,
+        "centroid_dispersion_m": 3.83130355933864
+      },
+      "proxy_minus_manual_metrics": {
+        "mean_pairwise_spacing_m": 0.033828219770104084,
+        "convex_hull_area_m2": 0.5697304601292217,
+        "centroid_dispersion_m": 0.02093461576339628
+      },
+      "proxy_positions_outside_0_to_9_m": 0,
+      "players": [
+        {
+          "slot": 1,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            1.2655958204860547,
+            8.69109821714022
+          ],
+          "box_bottom_proxy_court_m": [
+            1.3163506151164353,
+            8.174853137238149
+          ],
+          "proxy_minus_shoe_distance_m": 0.518734066455124
+        },
+        {
+          "slot": 2,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            2.308864342073183,
+            8.428950767574234
+          ],
+          "box_bottom_proxy_court_m": [
+            2.3607736911567945,
+            8.147878228632425
+          ],
+          "proxy_minus_shoe_distance_m": 0.28582573829079616
+        },
+        {
+          "slot": 3,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            6.0479503552995535,
+            8.267027697424687
+          ],
+          "box_bottom_proxy_court_m": [
+            5.844059945770477,
+            8.6036045159525
+          ],
+          "proxy_minus_shoe_distance_m": 0.39351652299266693
+        },
+        {
+          "slot": 4,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            0.18968273351500603,
+            3.7268882595534176
+          ],
+          "box_bottom_proxy_court_m": [
+            0.448775719533406,
+            3.302390174388889
+          ],
+          "proxy_minus_shoe_distance_m": 0.49732062063851945
+        },
+        {
+          "slot": 5,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            4.744966350339087,
+            1.224286014303526
+          ],
+          "box_bottom_proxy_court_m": [
+            4.667513075214962,
+            0.6920253100270258
+          ],
+          "proxy_minus_shoe_distance_m": 0.5378665886113111
+        },
+        {
+          "slot": 6,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            7.339085493524622,
+            4.326621599236531
+          ],
+          "box_bottom_proxy_court_m": [
+            7.2977116324191815,
+            4.1257583203960255
+          ],
+          "proxy_minus_shoe_distance_m": 0.20508011402700868
+        }
+      ]
+    },
+    {
+      "source_frame": 1783,
+      "accepted_grounded_slots": 4,
+      "complete_six_grounded": false,
+      "manual_shoe_metrics": null,
+      "box_bottom_proxy_metrics": null,
+      "proxy_minus_manual_metrics": null,
+      "proxy_positions_outside_0_to_9_m": 0,
+      "players": [
+        {
+          "slot": 1,
+          "source_ground_status": "airborne",
+          "manual_shoe_court_m": null,
+          "box_bottom_proxy_court_m": null,
+          "proxy_minus_shoe_distance_m": null
+        },
+        {
+          "slot": 2,
+          "source_ground_status": "airborne",
+          "manual_shoe_court_m": null,
+          "box_bottom_proxy_court_m": null,
+          "proxy_minus_shoe_distance_m": null
+        },
+        {
+          "slot": 3,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            5.331723902772649,
+            8.12878245288323
+          ],
+          "box_bottom_proxy_court_m": [
+            5.428606329014943,
+            8.253425287071634
+          ],
+          "proxy_minus_shoe_distance_m": 0.1578671613386119
+        },
+        {
+          "slot": 4,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            0.2911470554948068,
+            3.677600177487277
+          ],
+          "box_bottom_proxy_court_m": [
+            0.30787326081235433,
+            3.2111458972575293
+          ],
+          "proxy_minus_shoe_distance_m": 0.466754069600873
+        },
+        {
+          "slot": 5,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            4.877496843987184,
+            1.3063829741438087
+          ],
+          "box_bottom_proxy_court_m": [
+            4.772707064928958,
+            0.8248042130625604
+          ],
+          "proxy_minus_shoe_distance_m": 0.4928478476361867
+        },
+        {
+          "slot": 6,
+          "source_ground_status": "grounded",
+          "manual_shoe_court_m": [
+            7.818400452081914,
+            4.5634862112303125
+          ],
+          "box_bottom_proxy_court_m": [
+            7.5170182973159925,
+            3.71309171379031
+          ],
+          "proxy_minus_shoe_distance_m": 0.9022205963552286
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "seed": 20261102,
+  "times_s": [
+    97,
+    142,
+    258,
+    336,
+    427,
+    790,
+    848,
+    868,
+    977,
+    1078,
+    1184,
+    1289
+  ],
+  "method": "random non-minute seconds, no candidate values drawn on sheet"
+}

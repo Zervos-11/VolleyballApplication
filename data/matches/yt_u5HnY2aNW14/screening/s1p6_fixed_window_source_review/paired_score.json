@@ -1,0 +1,428 @@
+{
+  "status": "frozen_single_reviewer_paired_diagnostic",
+  "input_sha256": {
+    "source_review": "e6c2bac9d9409a7eec5927cc59256851e4e44062a498b3133006d0287c5016d9",
+    "paired_review": "182ff5567d5fb6dfc86b83b48337e651d33a548a41b64a526c2f3bac52e00a67",
+    "detector": "153468ff3c9405fbfd44b5446f858fa921e1a9ff8b2c5b5838fb2948d426e008",
+    "manifest": "e726055c823c0c13ced6961fb63129c5c95ca4aac266d692152cee470cb6896d",
+    "calibration_score": "3a3641b077ac2558454d043866096fd3aba4639d18840f2f70170cba1f0c9f47"
+  },
+  "source_grounded_slots": 28,
+  "paired_verdict_counts": {
+    "same_player": 28,
+    "no_box": 2
+  },
+  "floor_verdict_counts": {
+    "plausible": 28,
+    "not_applicable": 2
+  },
+  "plausible_paired_slots": 28,
+  "airborne_no_box_verdicts_with_hidden_detector_candidates": 2,
+  "plausible_pair_pixel_distance_median": 15.97,
+  "plausible_pair_pixel_distance_maximum": 38.03,
+  "six_plausible_grounded_sample_frames": 4,
+  "calibration_operational_screen_passed": false,
+  "strict_approved_metric_frames": 0,
+  "strict_complete_fixed_window_result": false,
+  "frame_results": [
+    {
+      "source_frame": 1759,
+      "grounded_source_slots": 6,
+      "same_player_plausible_slots": 6,
+      "six_plausible_grounded_slots": true
+    },
+    {
+      "source_frame": 1765,
+      "grounded_source_slots": 6,
+      "same_player_plausible_slots": 6,
+      "six_plausible_grounded_slots": true
+    },
+    {
+      "source_frame": 1771,
+      "grounded_source_slots": 6,
+      "same_player_plausible_slots": 6,
+      "six_plausible_grounded_slots": true
+    },
+    {
+      "source_frame": 1777,
+      "grounded_source_slots": 6,
+      "same_player_plausible_slots": 6,
+      "six_plausible_grounded_slots": true
+    },
+    {
+      "source_frame": 1783,
+      "grounded_source_slots": 4,
+      "same_player_plausible_slots": 4,
+      "six_plausible_grounded_slots": false
+    }
+  ],
+  "rows": [
+    {
+      "source_frame": 1759,
+      "slot": 1,
+      "ground_status": "grounded",
+      "raw_track_id": 5,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 13.24,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1759,
+      "slot": 2,
+      "ground_status": "grounded",
+      "raw_track_id": 13,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 29.32,
+      "passes_geometric_near_gate": false,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1759,
+      "slot": 3,
+      "ground_status": "grounded",
+      "raw_track_id": 9,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 4.47,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1759,
+      "slot": 4,
+      "ground_status": "grounded",
+      "raw_track_id": 4,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 14.41,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1759,
+      "slot": 5,
+      "ground_status": "grounded",
+      "raw_track_id": 2,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 20.33,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1759,
+      "slot": 6,
+      "ground_status": "grounded",
+      "raw_track_id": 1,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 16.62,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 1,
+      "ground_status": "grounded",
+      "raw_track_id": 5,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 8.88,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 2,
+      "ground_status": "grounded",
+      "raw_track_id": 13,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 9.45,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 3,
+      "ground_status": "grounded",
+      "raw_track_id": 9,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 10.67,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 4,
+      "ground_status": "grounded",
+      "raw_track_id": 4,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 12.65,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 5,
+      "ground_status": "grounded",
+      "raw_track_id": 2,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 30.42,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1765,
+      "slot": 6,
+      "ground_status": "grounded",
+      "raw_track_id": 1,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 30.15,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 1,
+      "ground_status": "grounded",
+      "raw_track_id": 5,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 10.12,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 2,
+      "ground_status": "grounded",
+      "raw_track_id": 13,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 12.67,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 3,
+      "ground_status": "grounded",
+      "raw_track_id": 9,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 15.5,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 4,
+      "ground_status": "grounded",
+      "raw_track_id": 4,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 13.54,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 5,
+      "ground_status": "grounded",
+      "raw_track_id": 2,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 19.93,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1771,
+      "slot": 6,
+      "ground_status": "grounded",
+      "raw_track_id": 1,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 22.53,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 1,
+      "ground_status": "grounded",
+      "raw_track_id": 5,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 16.45,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 2,
+      "ground_status": "grounded",
+      "raw_track_id": 13,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 9.62,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 3,
+      "ground_status": "grounded",
+      "raw_track_id": 9,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 20.67,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 4,
+      "ground_status": "grounded",
+      "raw_track_id": 4,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 26.32,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 5,
+      "ground_status": "grounded",
+      "raw_track_id": 2,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 23.34,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1777,
+      "slot": 6,
+      "ground_status": "grounded",
+      "raw_track_id": 1,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 7.81,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 1,
+      "ground_status": "airborne",
+      "raw_track_id": null,
+      "candidate_alignment": "no_box",
+      "floor_alignment": "not_applicable",
+      "shoe_to_box_bottom_px": null,
+      "passes_geometric_near_gate": null,
+      "previously_paired_id_hidden_by_page_filter": 5,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 2,
+      "ground_status": "airborne",
+      "raw_track_id": null,
+      "candidate_alignment": "no_box",
+      "floor_alignment": "not_applicable",
+      "shoe_to_box_bottom_px": null,
+      "passes_geometric_near_gate": null,
+      "previously_paired_id_hidden_by_page_filter": 13,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 3,
+      "ground_status": "grounded",
+      "raw_track_id": 9,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 8.72,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 4,
+      "ground_status": "grounded",
+      "raw_track_id": 4,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 17.86,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 5,
+      "ground_status": "grounded",
+      "raw_track_id": 2,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 22.16,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    },
+    {
+      "source_frame": 1783,
+      "slot": 6,
+      "ground_status": "grounded",
+      "raw_track_id": 1,
+      "candidate_alignment": "same_player",
+      "floor_alignment": "plausible",
+      "shoe_to_box_bottom_px": 38.03,
+      "passes_geometric_near_gate": true,
+      "previously_paired_id_hidden_by_page_filter": null,
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "Single reviewer previously exposed to tracker output; suggested boxes were prefilled.",
+    "The paired page hid two above-cutoff candidate boxes on the final airborne frame. Its no-box defaults there are not evidence of detector omission or verified absence.",
+    "Only five planned instants were paired by a reviewer; intervening source frames remain provisional.",
+    "The fifth planned instant includes airborne players, so the five-sample window is incomplete.",
+    "The original frozen court-calibration screen did not pass."
+  ]
+}

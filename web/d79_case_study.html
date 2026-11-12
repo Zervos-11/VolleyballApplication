@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D79 seeded player review | Volley Analytics</title>
+  <style>
+    :root { color-scheme: dark; font: 16px system-ui, sans-serif; background: #111820; color: #edf3f7; }
+    body { max-width: 1450px; margin: auto; padding: 24px; }
+    a { color: #9bceff; } p { line-height: 1.5; }
+    .muted { color: #b8c5d0; }
+    .notice { padding: 12px 16px; border-left: 4px solid #efad4d; background: #2b281e; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 580px), 1fr)); gap: 18px; }
+    .panel { background: #1b2631; border: 1px solid #3d5262; border-radius: 10px; padding: 16px; }
+    .stage { position: relative; }
+    video, img { display: block; width: 100%; height: auto; background: #0b1015; border-radius: 6px; }
+    canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+    .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 16px 0; }
+    input[type="range"] { flex: 1 1 400px; }
+    button { color: inherit; background: #2a3b4d; border: 1px solid #63788a; border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+    button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #9bceff; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px; border-bottom: 1px solid #415568; text-align: left; }
+    .observed { color: #78db9a; } .held { color: #ffc071; } .excluded { color: #b8c5d0; }
+  </style>
+</head>
+<body>
+  <p><a href="/case-studies">Case-study results</a> · <a href="/players">Player annotation</a></p>
+  <h1>D79 player identities through overlap</h1>
+  <p class="muted">Near-side white team · source excerpt frames 40–336 · candidate point frames 80–336 · 60 fps</p>
+  <p class="notice">Green boxes and points are accepted detector proxies. Orange dashed circles mark each player's <strong>last accepted location</strong> during an uncertain span. The player may have moved; an orange marker is not a current position, floor contact, or movement sample. Saved annotations are separate. Saved player key #4 appears to have jersey 14.</p>
+  <div class="controls">
+    <button id="seed40" type="button">Clear setup: frame 40</button>
+    <button id="seed55" type="button">#98 serve: frame 55</button>
+    <button id="point80" type="button">Point start: frame 80</button>
+    <button id="overlap148" type="button">#9/#23 handoff: frame 148</button>
+    <button id="return289" type="button">False #9 return: frame 289</button>
+  </div>
+  <div class="grid">
+    <section class="panel">
+      <h2>Source video</h2>
+      <video id="video" controls preload="metadata" playsinline src="/api/yt_D79JrsJsFgs/video"></video>
+      <p class="muted">Use the exact still frame beside the video to inspect a handoff. Video time seeks may round to a nearby frame.</p>
+    </section>
+    <section class="panel">
+      <h2>Exact source frame</h2>
+      <div class="stage"><img id="frameImage" alt="Selected source frame"><canvas id="overlay" aria-hidden="true"></canvas></div>
+      <p id="frameCaption" class="muted">Loading…</p>
+    </section>
+  </div>
+  <section class="panel" style="margin-top:18px">
+    <h2>Endpoint-based distance estimates</h2>
+    <p class="muted">Each estimate adds the visible box-bottom proxy path and a straight chord across each gap with two accepted endpoints. It needs no speed assumption. A player may have travelled farther within a gap; provisional court geometry and proxy position errors also affect the number. A trailing hold has no return endpoint.</p>
+    <table aria-label="Endpoint-based candidate distances"><thead><tr><th>Player</th><th>Endpoint estimate</th><th>Frames covered</th><th>Full-point hold scenario</th><th>Remaining gap</th></tr></thead><tbody id="estimates"></tbody></table>
+    <p id="teamScenario" class="notice"></p>
+    <p class="muted">The full-point scenario treats a trailing hold as zero additional travel. For #9, five projected proxy points up to 0.075 m beyond the provisional near-court edge are clipped to that edge. The team figure is a sum under these assumptions, not a measured physical total.</p>
+  </section>
+  <section class="panel" style="margin-top:18px">
+    <div class="controls">
+      <button id="previous" type="button">Previous frame</button>
+      <input id="slider" type="range" min="40" max="336" step="1" value="80" aria-label="Source frame">
+      <button id="next" type="button">Next frame</button>
+      <strong id="frameLabel">Frame 80</strong>
+    </div>
+    <p id="status" role="status">Loading identity record…</p>
+    <table aria-label="Six near-side player states"><thead><tr><th>Saved player</th><th>State</th><th>Raw ID</th></tr></thead><tbody id="slots"></tbody></table>
+  </section>
+  <script src="/d79_case_study.js"></script>
+</body>
+</html>

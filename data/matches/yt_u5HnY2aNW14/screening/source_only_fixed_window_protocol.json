@@ -1,0 +1,367 @@
+{
+  "status": "frozen_source_only_fixed_window_selection_pending_source_frame_review",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "score_only_sample": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+    "source_transition_qc": "d873f56148839693d7e2de44918d74983e52c252f0ad1050b883da443e8f637b"
+  },
+  "selection_rule": "For each of the 18 score-frozen points, take 25 consecutive source frames centred on the arithmetic midpoint of its previously source-reviewed conservative live-looking interior; choose the earlier centre frame for an even-length interior. If fewer than 25 frames are available, retain the point as ineligible. Sample frames at offsets 0, 6, 12, 18, 24 within each window.",
+  "prior_exposure_limit": "Prior detector screens of the same 18 points already exist. This deterministic rule uses no detector fields, but the protocol cannot be described as prospectively blinded.",
+  "metric_status": "no_windows_source_certified_or_approved_for_strict_metric_input",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 1411,
+      "conservative_interior_end_frame_exclusive": 1472,
+      "conservative_interior_length_frames": 61,
+      "window_start_frame_inclusive": 1429,
+      "window_end_frame_exclusive": 1454,
+      "five_sample_frames": [
+        1429,
+        1435,
+        1441,
+        1447,
+        1453
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 1681,
+      "conservative_interior_end_frame_exclusive": 1862,
+      "conservative_interior_length_frames": 181,
+      "window_start_frame_inclusive": 1759,
+      "window_end_frame_exclusive": 1784,
+      "five_sample_frames": [
+        1759,
+        1765,
+        1771,
+        1777,
+        1783
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 5371,
+      "conservative_interior_end_frame_exclusive": 5402,
+      "conservative_interior_length_frames": 31,
+      "window_start_frame_inclusive": 5374,
+      "window_end_frame_exclusive": 5399,
+      "five_sample_frames": [
+        5374,
+        5380,
+        5386,
+        5392,
+        5398
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 7321,
+      "conservative_interior_end_frame_exclusive": 7382,
+      "conservative_interior_length_frames": 61,
+      "window_start_frame_inclusive": 7339,
+      "window_end_frame_exclusive": 7364,
+      "five_sample_frames": [
+        7339,
+        7345,
+        7351,
+        7357,
+        7363
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 9601,
+      "conservative_interior_end_frame_exclusive": 9782,
+      "conservative_interior_length_frames": 181,
+      "window_start_frame_inclusive": 9679,
+      "window_end_frame_exclusive": 9704,
+      "five_sample_frames": [
+        9679,
+        9685,
+        9691,
+        9697,
+        9703
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 10471,
+      "conservative_interior_end_frame_exclusive": 10952,
+      "conservative_interior_length_frames": 481,
+      "window_start_frame_inclusive": 10699,
+      "window_end_frame_exclusive": 10724,
+      "five_sample_frames": [
+        10699,
+        10705,
+        10711,
+        10717,
+        10723
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 12091,
+      "conservative_interior_end_frame_exclusive": 12362,
+      "conservative_interior_length_frames": 271,
+      "window_start_frame_inclusive": 12214,
+      "window_end_frame_exclusive": 12239,
+      "five_sample_frames": [
+        12214,
+        12220,
+        12226,
+        12232,
+        12238
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 13231,
+      "conservative_interior_end_frame_exclusive": 13742,
+      "conservative_interior_length_frames": 511,
+      "window_start_frame_inclusive": 13474,
+      "window_end_frame_exclusive": 13499,
+      "five_sample_frames": [
+        13474,
+        13480,
+        13486,
+        13492,
+        13498
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 16032,
+      "conservative_interior_end_frame_exclusive": 16057,
+      "conservative_interior_length_frames": 25,
+      "window_start_frame_inclusive": 16032,
+      "window_end_frame_exclusive": 16057,
+      "five_sample_frames": [
+        16032,
+        16038,
+        16044,
+        16050,
+        16056
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 18841,
+      "conservative_interior_end_frame_exclusive": 19082,
+      "conservative_interior_length_frames": 241,
+      "window_start_frame_inclusive": 18949,
+      "window_end_frame_exclusive": 18974,
+      "five_sample_frames": [
+        18949,
+        18955,
+        18961,
+        18967,
+        18973
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 19531,
+      "conservative_interior_end_frame_exclusive": 19562,
+      "conservative_interior_length_frames": 31,
+      "window_start_frame_inclusive": 19534,
+      "window_end_frame_exclusive": 19559,
+      "five_sample_frames": [
+        19534,
+        19540,
+        19546,
+        19552,
+        19558
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 22111,
+      "conservative_interior_end_frame_exclusive": 22202,
+      "conservative_interior_length_frames": 91,
+      "window_start_frame_inclusive": 22144,
+      "window_end_frame_exclusive": 22169,
+      "five_sample_frames": [
+        22144,
+        22150,
+        22156,
+        22162,
+        22168
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 29281,
+      "conservative_interior_end_frame_exclusive": 29342,
+      "conservative_interior_length_frames": 61,
+      "window_start_frame_inclusive": 29299,
+      "window_end_frame_exclusive": 29324,
+      "five_sample_frames": [
+        29299,
+        29305,
+        29311,
+        29317,
+        29323
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 29881,
+      "conservative_interior_end_frame_exclusive": 30002,
+      "conservative_interior_length_frames": 121,
+      "window_start_frame_inclusive": 29929,
+      "window_end_frame_exclusive": 29954,
+      "five_sample_frames": [
+        29929,
+        29935,
+        29941,
+        29947,
+        29953
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 32742,
+      "conservative_interior_end_frame_exclusive": 32761,
+      "conservative_interior_length_frames": 19,
+      "window_start_frame_inclusive": null,
+      "window_end_frame_exclusive": null,
+      "five_sample_frames": [],
+      "status": "no_25_frame_window_in_conservative_source_interior",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 34051,
+      "conservative_interior_end_frame_exclusive": 34232,
+      "conservative_interior_length_frames": 181,
+      "window_start_frame_inclusive": 34129,
+      "window_end_frame_exclusive": 34154,
+      "five_sample_frames": [
+        34129,
+        34135,
+        34141,
+        34147,
+        34153
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "winner_scoreboard_side": "left",
+      "conservative_interior_start_frame_inclusive": 35701,
+      "conservative_interior_end_frame_exclusive": 35852,
+      "conservative_interior_length_frames": 151,
+      "window_start_frame_inclusive": 35764,
+      "window_end_frame_exclusive": 35789,
+      "five_sample_frames": [
+        35764,
+        35770,
+        35776,
+        35782,
+        35788
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "winner_scoreboard_side": "right",
+      "conservative_interior_start_frame_inclusive": 36001,
+      "conservative_interior_end_frame_exclusive": 36122,
+      "conservative_interior_length_frames": 121,
+      "window_start_frame_inclusive": 36049,
+      "window_end_frame_exclusive": 36074,
+      "five_sample_frames": [
+        36049,
+        36055,
+        36061,
+        36067,
+        36073
+      ],
+      "status": "frozen_source_navigation_window_pending_frame_review",
+      "source_live_phase_certified": false,
+      "tracking_or_grounding_certified": false
+    }
+  ]
+}

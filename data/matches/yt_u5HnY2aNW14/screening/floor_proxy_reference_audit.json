@@ -1,0 +1,220 @@
+{
+  "status": "single_reviewer_approximate_shoe_reference_diagnostic_not_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "box_screen_sha256": "fd0cb04de13a4e0a8f1ccf8a4db11ccbcdbeb587f6f517cd3a9440490e13269e",
+  "calibration_sha256": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+  "crop_index_sha256": "e836781f41e63a5b0507c32bf4d940c9de4accd552ee7d443bd56cc4373dc230",
+  "manual_reference_rule": "Visible midpoint of grounded shoe pair on unboxed crop; approximate +/-8 px reading uncertainty",
+  "summary": {
+    "reviewed_grounded_boxes": 9,
+    "median_box_bottom_to_shoe_midpoint_m": 0.309,
+    "maximum_box_bottom_to_shoe_midpoint_m": 0.442,
+    "minimum_box_bottom_to_shoe_midpoint_m": 0.16
+  },
+  "rows": [
+    {
+      "source_second": 449,
+      "box_number": 1,
+      "box_bottom_px": [
+        579.3,
+        479.9
+      ],
+      "visual_shoe_midpoint_px": [
+        573,
+        465
+      ],
+      "box_bottom_court_m": [
+        3.433,
+        4.147
+      ],
+      "visual_shoe_midpoint_court_m": [
+        3.36,
+        4.547
+      ],
+      "pixel_distance": 16.18,
+      "court_distance_m": 0.407
+    },
+    {
+      "source_second": 449,
+      "box_number": 2,
+      "box_bottom_px": [
+        806.7,
+        478.2
+      ],
+      "visual_shoe_midpoint_px": [
+        805,
+        466
+      ],
+      "box_bottom_court_m": [
+        5.944,
+        4.192
+      ],
+      "visual_shoe_midpoint_court_m": [
+        5.937,
+        4.52
+      ],
+      "pixel_distance": 12.32,
+      "court_distance_m": 0.328
+    },
+    {
+      "source_second": 449,
+      "box_number": 3,
+      "box_bottom_px": [
+        907.5,
+        405.9
+      ],
+      "visual_shoe_midpoint_px": [
+        909,
+        397
+      ],
+      "box_bottom_court_m": [
+        7.173,
+        6.197
+      ],
+      "visual_shoe_midpoint_court_m": [
+        7.205,
+        6.454
+      ],
+      "pixel_distance": 9.03,
+      "court_distance_m": 0.259
+    },
+    {
+      "source_second": 449,
+      "box_number": 4,
+      "box_bottom_px": [
+        658.3,
+        361.2
+      ],
+      "visual_shoe_midpoint_px": [
+        650,
+        350
+      ],
+      "box_bottom_court_m": [
+        4.33,
+        7.512
+      ],
+      "visual_shoe_midpoint_court_m": [
+        4.235,
+        7.851
+      ],
+      "pixel_distance": 13.94,
+      "court_distance_m": 0.352
+    },
+    {
+      "source_second": 1203,
+      "box_number": 1,
+      "box_bottom_px": [
+        690.2,
+        583.2
+      ],
+      "visual_shoe_midpoint_px": [
+        688,
+        572
+      ],
+      "box_bottom_court_m": [
+        4.62,
+        1.521
+      ],
+      "visual_shoe_midpoint_court_m": [
+        4.601,
+        1.794
+      ],
+      "pixel_distance": 11.41,
+      "court_distance_m": 0.273
+    },
+    {
+      "source_second": 1203,
+      "box_number": 2,
+      "box_bottom_px": [
+        882.2,
+        473.3
+      ],
+      "visual_shoe_midpoint_px": [
+        881,
+        457
+      ],
+      "box_bottom_court_m": [
+        6.784,
+        4.323
+      ],
+      "visual_shoe_midpoint_court_m": [
+        6.794,
+        4.765
+      ],
+      "pixel_distance": 16.34,
+      "court_distance_m": 0.442
+    },
+    {
+      "source_second": 1203,
+      "box_number": 3,
+      "box_bottom_px": [
+        328.1,
+        533.1
+      ],
+      "visual_shoe_midpoint_px": [
+        328,
+        521
+      ],
+      "box_bottom_court_m": [
+        0.744,
+        2.762
+      ],
+      "visual_shoe_midpoint_court_m": [
+        0.725,
+        3.071
+      ],
+      "pixel_distance": 12.1,
+      "court_distance_m": 0.309
+    },
+    {
+      "source_second": 1203,
+      "box_number": 5,
+      "box_bottom_px": [
+        827.8,
+        316.3
+      ],
+      "visual_shoe_midpoint_px": [
+        827,
+        308
+      ],
+      "box_bottom_court_m": [
+        6.374,
+        8.896
+      ],
+      "visual_shoe_midpoint_court_m": [
+        6.375,
+        9.159
+      ],
+      "pixel_distance": 8.34,
+      "court_distance_m": 0.263
+    },
+    {
+      "source_second": 1203,
+      "box_number": 6,
+      "box_bottom_px": [
+        684.7,
+        341.2
+      ],
+      "visual_shoe_midpoint_px": [
+        685,
+        336
+      ],
+      "box_bottom_court_m": [
+        4.647,
+        8.12
+      ],
+      "visual_shoe_midpoint_court_m": [
+        4.653,
+        8.28
+      ],
+      "pixel_distance": 5.21,
+      "court_distance_m": 0.16
+    }
+  ],
+  "limitations": [
+    "One reviewer estimated pixels visually; no second reviewer or adjudication.",
+    "Only clear shoe pairs in two frames were sampled; net actions and occlusions were excluded.",
+    "The staged court transform itself has not been independently validated for player positions.",
+    "The result is proxy disagreement, not ground-truth accuracy or an acceptable-error threshold."
+  ]
+}

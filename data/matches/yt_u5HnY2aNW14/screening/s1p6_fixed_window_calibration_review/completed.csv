@@ -1,0 +1,13 @@
+source_frame,image,image_sha256,landmark_code,court_x_m,court_y_m,status,x_px,y_px,note
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,baseline_left,0,0,marked,247.2,645.3,
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,baseline_right,9,0,marked,1117.2,638.7,
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,attack_left,0,6,marked,289.4,412.5,
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,attack_right,9,6,marked,1061.7,407.2,
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,net_left,0,9,marked,308.3,314.9,
+1759,unboxed_1759.png,efb648dbefe286881b832dfff793c19e24ccdfec148580efcce6303662150c11,net_right,9,9,marked,1041.2,309.4,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,baseline_left,0,0,marked,246.5,646.0,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,baseline_right,9,0,marked,1117.9,637.4,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,attack_left,0,6,marked,287.9,410.7,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,attack_right,9,6,marked,1062.4,406.1,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,net_left,0,9,marked,307.0,314.4,
+1783,unboxed_1783.png,ee5ea6606c15df644a4363e417597e6d35a7415b599d908b2da45500b68841aa,net_right,9,9,marked,1040.5,309.8,

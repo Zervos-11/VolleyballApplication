@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case-study results | Volley Analytics</title>
+  <style>
+    :root { color-scheme: dark; font: 16px system-ui, sans-serif; background: #10151b; color: #edf2f7; }
+    body { max-width: 1100px; margin: auto; padding: 24px; }
+    a { color: #91c9ff; }
+    h1 { margin-bottom: 8px; }
+    p { line-height: 1.5; }
+    .muted { color: #afbdca; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 450px), 1fr)); gap: 18px; }
+    article { background: #1b2530; border: 1px solid #3d5061; border-radius: 10px; padding: 18px; }
+    article h2 { margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px 5px; border-bottom: 1px solid #415160; text-align: left; }
+    th { color: #b9cbd8; }
+    .scope { color: #e9c779; }
+  </style>
+</head>
+<body>
+  <p><a href="/">Pilot review</a></p>
+  <h1>Volleyball case-study results</h1>
+  <p class="muted">Two local examples with source-specific approximate movement. Each value applies only to its stated frames.</p>
+  <p id="status" role="status">Loading case studies…</p>
+  <div id="studies" class="grid"></div>
+  <p><a href="/d79-case-study">Review D79 player identities and marked overlap holds</a></p>
+  <p class="muted">These examples use staged court geometry and single-reviewer development checks. They do not establish full-match player tracking accuracy, speed, or an independently validated dataset. Source-use and privacy decisions remain pending for public release.</p>
+  <script src="/case_studies.js"></script>
+</body>
+</html>

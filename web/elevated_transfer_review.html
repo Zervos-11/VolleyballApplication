@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elevated match transfer review</title>
+<style>
+body{font:14px system-ui,sans-serif;background:#111923;color:#eff4f8;margin:0;padding:8px}
+button,select,input{font:inherit}button{background:#dceaf4;border:1px solid #8ba7ba;border-radius:4px;padding:5px 9px;cursor:pointer}
+select,input{background:#fff;color:#111;border-radius:3px;border:1px solid #8198a7;padding:2px}
+h1{font-size:1.1rem;margin:0 0 5px}.bar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:4px 0}
+#casePicker{max-width:300px}#reviewer{width:65px}#status{min-height:20px;color:#aeeab6;font-weight:600}
+#layout{display:grid;grid-template-columns:minmax(0,1fr) 490px;gap:9px;align-items:start}
+#canvasWrap{min-width:0}canvas{display:block;border:1px solid #617382;background:#071014;cursor:crosshair;max-width:100%}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
+.card{background:#202d38;border:2px solid #5b7080;border-radius:5px;padding:5px;min-width:0}
+.card.active{border-color:#ffdb5c}.card strong{display:block;margin-bottom:3px}
+.card label{display:flex;justify-content:space-between;align-items:center;gap:3px;margin:3px 0;font-size:12px}
+.card select{width:61%;min-width:0;font-size:12px}.card input{width:58%;min-width:0;font-size:12px}
+#smallHelp{color:#b7cbd7;font-size:12px}#progress{font-weight:600}
+@media(max-width:1100px){#layout{grid-template-columns:1fr}#reviewPanel{max-width:760px}}
+</style></head><body>
+<h1>Elevated match: six-player source and box review</h1>
+<div class="bar"><select id="casePicker"></select><button id="prev">Previous</button><span id="frameLabel"></span><button id="next">Next</button><span id="progress"></span><label>Reviewer <input id="reviewer" value="MZ" autocomplete="off"></label></div>
+<div class="bar"><button id="showAll">Show all detector boxes</button><button id="acceptDisplayed" hidden>Accept checked boxes</button><button id="swap34" hidden>Swap P3 #15 / P4 #12 boxes</button><span id="smallHelp">P1–P6 are near-side players only. The detector also sees opponents; those boxes are hidden until you show them. Select a slot, then click its near-side player box to correct it. No shoe clicks here.</span><a href="/calibration" style="color:#9ddcff">Court check</a><a href="/position-reference" style="color:#9ddcff">Shoe reference</a></div>
+<div id="status"></div>
+<div id="layout"><div id="canvasWrap"><canvas id="frameCanvas"></canvas></div>
+<div id="reviewPanel"><div id="cards" class="cards"></div><div class="bar"><label><input id="checked" type="checkbox" checked> I checked all six players in this source frame</label><button id="save">Save and next</button></div></div></div>
+<script src="/elevated_transfer_review.js?v=14"></script>
+</body></html>

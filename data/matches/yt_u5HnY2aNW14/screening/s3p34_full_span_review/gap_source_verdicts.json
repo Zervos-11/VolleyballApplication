@@ -1,0 +1,86 @@
+{
+  "status": "targeted_visual_review_of_missing_jersey_candidates_not_full_30fps_validation",
+  "point": "S3 P34",
+  "interval_inclusive": [36001, 36138],
+  "review_basis": "Paired unboxed source and detector contact sheets, reviewed at the rendered source-frame resolution. Presence and jersey continuity were assessed in context across neighbouring frames; individual floor points were not marked.",
+  "decisive_example": {
+    "source_frame": 36112,
+    "jersey": "15",
+    "observation": "Visible airborne without a jersey-keyed candidate; no grounded floor position can be accepted at this instant.",
+    "evidence_page": "review_page_38.jpg"
+  },
+  "verdicts": [
+    {
+      "jersey": "7",
+      "interval_inclusive": [36015, 36015],
+      "source_visibility": "visible",
+      "floor_status": "not_independently_marked",
+      "assessment": "Near-side blue #7 remains visually present; jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_06.jpg"]
+    },
+    {
+      "jersey": "7",
+      "interval_inclusive": [36026, 36026],
+      "source_visibility": "visible",
+      "floor_status": "not_independently_marked",
+      "assessment": "Near-side blue #7 remains visually present; jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_09.jpg"]
+    },
+    {
+      "jersey": "7",
+      "interval_inclusive": [36030, 36031],
+      "source_visibility": "visible",
+      "floor_status": "not_independently_marked",
+      "assessment": "Near-side blue #7 remains visually present; jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_11.jpg"]
+    },
+    {
+      "jersey": "7",
+      "interval_inclusive": [36124, 36124],
+      "source_visibility": "visible",
+      "floor_status": "not_independently_marked",
+      "assessment": "Near-side blue #7 remains visually present amid front-court overlap; jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_42.jpg"]
+    },
+    {
+      "jersey": "7",
+      "interval_inclusive": [36126, 36131],
+      "source_visibility": "visible",
+      "floor_status": "not_independently_marked",
+      "assessment": "Near-side blue #7 remains visually present after the front-court overlap; jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_43.jpg", "review_page_44.jpg"]
+    },
+    {
+      "jersey": "21",
+      "interval_inclusive": [36047, 36050],
+      "source_visibility": "visible",
+      "floor_status": "apparent_ground_contact_but_no_jersey_candidate",
+      "assessment": "Near-side blue #21 is visibly standing or moving on court; the jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_16.jpg", "review_page_17.jpg"]
+    },
+    {
+      "jersey": "21",
+      "interval_inclusive": [36059, 36060],
+      "source_visibility": "visible",
+      "floor_status": "apparent_ground_contact_but_no_jersey_candidate",
+      "assessment": "Near-side blue #21 is visibly standing near the net; the jersey-keyed candidate is absent.",
+      "evidence_pages": ["review_page_20.jpg", "review_page_21.jpg"]
+    },
+    {
+      "jersey": "21",
+      "interval_inclusive": [36107, 36122],
+      "source_visibility": "visible",
+      "floor_status": "jump_or_contact_uncertain_across_run",
+      "assessment": "Near-side blue #21 is visible during a net attack or block sequence. Airborne and uncertain-contact instants occur within the run; no frame-specific floor position is assigned.",
+      "evidence_pages": ["review_page_36.jpg", "review_page_37.jpg", "review_page_38.jpg", "review_page_39.jpg", "review_page_40.jpg", "review_page_41.jpg"]
+    },
+    {
+      "jersey": "15",
+      "interval_inclusive": [36110, 36124],
+      "source_visibility": "visible",
+      "floor_status": "jump_or_contact_uncertain_across_run",
+      "assessment": "Near-side blue #15 is visible in a front-court jump and landing sequence. The box candidate disappears across that sequence; no frame-specific floor position is assigned.",
+      "evidence_pages": ["review_page_37.jpg", "review_page_38.jpg", "review_page_39.jpg", "review_page_40.jpg", "review_page_41.jpg", "review_page_42.jpg"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elevated court check</title><style>
+body{font:14px system-ui,sans-serif;background:#111923;color:#edf5fa;margin:0;padding:9px}
+h1{font-size:1.1rem;margin:0 0 5px}button,select,input{font:inherit}button{background:#dceaf4;border:1px solid #8ba7ba;border-radius:4px;padding:5px 9px;cursor:pointer}
+select,input{background:#fff;color:#111;border:1px solid #8198a7;border-radius:3px;padding:2px}
+.bar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:5px 0}#layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:10px}
+canvas{display:block;max-width:100%;border:1px solid #617382;cursor:crosshair}.landmark{display:flex;gap:4px;align-items:center;justify-content:space-between;background:#202d38;border:1px solid #5b7080;border-radius:5px;padding:5px;margin:4px 0}.landmark.active{border:2px solid #ffdb5c}
+.landmark span{min-width:92px}#status{color:#aeeab6;min-height:20px;font-weight:600}#help{font-size:12px;color:#bfd2dc;max-width:760px}
+@media(max-width:900px){#layout{grid-template-columns:1fr}}
+</style></head><body>
+<h1>Court landmark check</h1><div class="bar"><select id="casePicker"></select><label>Reviewer <input id="reviewer" value="MZ" size="5"></label><button id="save">Save court marks</button><a href="/" style="color:#9ddcff">Player review</a></div>
+<div id="help">Click the intersection of each court line with the near-side sideline. Use the net-floor centreline, the attack line (3 m from the net) and the baseline. The attack-line clicks check the four-corner mapping.</div><div id="status"></div>
+<div id="layout"><div id="canvasWrap"><canvas id="courtCanvas"></canvas></div><div id="landmarks"></div></div>
+<script src="/elevated_transfer_calibration.js?v=2"></script></body></html>

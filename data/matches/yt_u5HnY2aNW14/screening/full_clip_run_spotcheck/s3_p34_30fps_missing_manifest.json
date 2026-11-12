@@ -1,0 +1,30 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "dense_screen_sha256": "ea7dd010a99508400937e77b3225a16316624697d4b763e70c08916bdee24631",
+  "sheets": [
+    {
+      "page": 1,
+      "frames": [
+        36015,
+        36026,
+        36030,
+        36031,
+        36047
+      ],
+      "image": "screening/full_clip_run_spotcheck/s3_p34_30fps_missing_1.png",
+      "image_sha256": "e48dd70333e4128b0e6da7a3bddf0790c7d9889e27cefbaeab45ad1d51992e3f"
+    },
+    {
+      "page": 2,
+      "frames": [
+        36048,
+        36049,
+        36050,
+        36059,
+        36060
+      ],
+      "image": "screening/full_clip_run_spotcheck/s3_p34_30fps_missing_2.png",
+      "image_sha256": "2d5d44ea11296d35bdb5b2568f784dbcb7ede56ce56f11e0f87830d8446f9dc4"
+    }
+  ]
+}

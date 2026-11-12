@@ -1,0 +1,11 @@
+{
+  "status": "single_reviewer_form_scored_not_strict_approval",
+  "blank_sha256": "83be10c49b76827c84b00441b6add2942b7504ba340a56a0834260724b44ae3c",
+  "required_slots": 180,
+  "strict_metric_approval": false,
+  "completed_sha256": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc",
+  "accepted_intervening_slots": 180,
+  "intervening_frames_with_six_accepted_slots": 30,
+  "exceptions": [],
+  "interpretation": "Single-reviewer verdicts require documented provenance; the selected segment remains diagnostic, and calibration/window gates are separate."
+}

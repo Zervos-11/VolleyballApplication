@@ -1,0 +1,168 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "box_screen_sha256": "fd0cb04de13a4e0a8f1ccf8a4db11ccbcdbeb587f6f517cd3a9440490e13269e",
+  "anchors": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "second": 48,
+      "source_frame": 1440,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "second": 59,
+      "source_frame": 1770,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "second": 178,
+      "source_frame": 5340,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "second": 244,
+      "source_frame": 7320,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "second": 323,
+      "source_frame": 9690,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "second": 358,
+      "source_frame": 10740,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "second": 404,
+      "source_frame": 12120,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "second": 449,
+      "source_frame": 13470,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "second": 536,
+      "source_frame": 16080,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "second": 632,
+      "source_frame": 18960,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "second": 651,
+      "source_frame": 19530,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "second": 740,
+      "source_frame": 22200,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "second": 977,
+      "source_frame": 29310,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "second": 998,
+      "source_frame": 29940,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "second": 1092,
+      "source_frame": 32760,
+      "proposal_count": 5,
+      "selection_status": "no_six_proposal_live_second",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "second": 1137,
+      "source_frame": 34110,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "second": 1192,
+      "source_frame": 35760,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "second": 1203,
+      "source_frame": 36090,
+      "proposal_count": 6,
+      "selection_status": "six_or_more_proposal_candidate",
+      "selection_rule": "exactly six preferred, then closest to candidate-time centre"
+    }
+  ]
+}

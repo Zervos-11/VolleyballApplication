@@ -1,0 +1,163 @@
+{
+  "status": "single_reviewer_selected_edit_cut_source_check",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "cut_register_sha256": "3f208f63c2285dd2b762bafed19e72c571e64a7d7dcfbc9d277c6a38d26aff3e",
+  "cut_sheet_index_sha256": "7955dea7f9d6bc27b93d7b48dff66b0add731be41fc55999f3b57711887bf3c9",
+  "reviewer_count": 1,
+  "summary": {
+    "selected_clips": 18,
+    "visually_confirmed_edit_bounds": 18,
+    "exact_live_ball_boundaries_confirmed": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "clip_start_frame_inclusive": 1321,
+      "clip_end_frame_exclusive": 1591,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 1591,
+      "clip_end_frame_exclusive": 1951,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "clip_start_frame_inclusive": 5281,
+      "clip_end_frame_exclusive": 5461,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 7231,
+      "clip_end_frame_exclusive": 7501,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 9511,
+      "clip_end_frame_exclusive": 9871,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 10381,
+      "clip_end_frame_exclusive": 11041,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "clip_start_frame_inclusive": 12001,
+      "clip_end_frame_exclusive": 12451,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 13141,
+      "clip_end_frame_exclusive": 13831,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "clip_start_frame_inclusive": 15931,
+      "clip_end_frame_exclusive": 16141,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "clip_start_frame_inclusive": 18751,
+      "clip_end_frame_exclusive": 19171,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "clip_start_frame_inclusive": 19441,
+      "clip_end_frame_exclusive": 19621,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 22021,
+      "clip_end_frame_exclusive": 22291,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "clip_start_frame_inclusive": 29191,
+      "clip_end_frame_exclusive": 29461,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "clip_start_frame_inclusive": 29791,
+      "clip_end_frame_exclusive": 30091,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "clip_start_frame_inclusive": 32641,
+      "clip_end_frame_exclusive": 32851,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 33961,
+      "clip_end_frame_exclusive": 34291,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "clip_start_frame_inclusive": 35611,
+      "clip_end_frame_exclusive": 35911,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 35911,
+      "clip_end_frame_exclusive": 36211,
+      "source_review_status": "hard_cut_visible_at_start_and_end",
+      "review_note": "Adjacent source frames show an abrupt change from the previous point aftermath to a new formation at the start, and from this point aftermath to the next formation/score at the end."
+    }
+  ],
+  "limitations": [
+    "Edit cuts bracket the rally clip but include some preparation and/or post-point footage.",
+    "A cut is not a serve-contact or dead-ball annotation.",
+    "All selected cut pairs were reviewed by one analyst only."
+  ]
+}

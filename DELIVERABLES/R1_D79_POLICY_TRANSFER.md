@@ -1,0 +1,78 @@
+# D79 hold-policy transfer to ProVolley vs UTS R1
+
+**Match scope:** R1 is a point from the primary [ProVolley vs UTS match](MAIN_MATCH_SCOPE.md). D79 is SUV X WSV vs NOVA and supplies a validation policy only. The measurements below use the ProVolley source for R1; D79 player results are not part of the ProVolley match analysis.
+
+The [reproducible transfer run](../scripts/transfer_d79_hold_policy_to_r1.py) applies the D79 rule to the previously prepared R1 six-player visual candidate, frames **21050–21463**: use a 15-frame median within each contiguous accepted box segment, add a straight chord across each closed gap, and add zero for an unclosed final hold. Blue #9 starts at frame 21070 after the source-checked serve landing. The R1 staged court calibration is used only as a development projection. The [machine-readable result](../data/processed/fqe_r1_boundary_recheck/r1_d79_hold_policy_transfer.json) hashes both inputs.
+
+Unlike the D79 near-court edge case, R1 has several box bottoms that project materially outside the nominal 9 m court. This run rejects projections more than **0.25 m** beyond the court instead of clipping them. It also withholds paths with known identity conflicts or sparse overlap/airborne coverage.
+
+| R1 player | Accepted proxy frames | Closed gaps | Result under the D79 rule | Assessment |
+|---|---:|---:|---:|---|
+| Blue #9 | 394/394 after serve | 0 | **8.66 m** | Geometry passes; earlier source-specific proxy was about 8.9 m. |
+| Blue #10 | 380/414 | 1, 34 frames | **10.05 m** | Source samples support the same identity, but the box-endpoint chord is 0.39 m while selected shoe pixels suggest about 0.06 m net displacement. |
+| Blue #11 | 230 accepted; 81 rejected off court | 12 after filtering | Withheld | Known raw-ID conflict and materially invalid box bottoms. |
+| Blue #12 | 362 accepted; 6 rejected off court | 8 after filtering | Withheld | Near-net box-bottom errors and large proxy jumps. |
+| Blue #13 | 102 accepted; 40 rejected off court | 3 after filtering | Withheld | 272 missing candidate boxes, overlap and airborne action. |
+| Yellow #20 | 410/414 | 1, 4 frames | **8.11 m** | Box-bottom-only method; earlier shoe-centre/fallback estimate was about 8.5 m. |
+
+This is a **separate-video transfer diagnostic**, not independent ground truth or a validated physical-distance result. #9 and #20 remain broadly similar to their earlier development figures, though their proxy methods differ. #10 shows why an endpoint chord is useful as an explicit assumption but cannot recover movement within the gap or correct a box-bottom offset. The D79 stationary-hold convention does not make the other three R1 paths reportable; a six-player sum is withheld.
+
+The concrete next method change is to replace materially invalid box-bottom points with source-checked shoe/floor points where available and to resolve identity conflicts before summing paths. This transfer check leaves the original R1 annotations, D79 outputs and production metrics unchanged.
+
+## #10 endpoint-chord estimate
+
+The [full source review](../data/processed/fqe_r1_boundary_recheck/r1_p10_full_gap_source_review.json) follows the same blue #10 through all **34 missing-box frames, 21099–21132**. The [sampled shoe review](../data/processed/fqe_r1_boundary_recheck/r1_p10_gap_source_review.json) proposes a left-shoe contact at **(1228, 816) px** on frame 21098 and **(1220, 816) px** on frame 21133, about **0.06 m** apart under the staged calibration. The ending shoe is partly obscured by #9, and this chord omits any movement inside the 0.68 s gap.
+
+Under the user's accepted rule, the **reportable approximate #10 estimate is 9.72 m over frames 21050–21463**: **9.66 m** of smoothed, projected box-bottom path in the two visible segments plus the approximately **0.06 m** source-shoe endpoint chord. The original transfer trial's **10.05 m** used a 0.39 m box-derived chord instead. Both are method estimates, not validated physical travel; the replacement changes only the gap convention, not the visible-segment proxy.
+
+## #12 recovery check
+
+The existing [#12 source contact review](../data/processed/fqe_r1_boundary_recheck/r1_p12_contact_checks.json) contains eight usable sampled shoe-floor points. Their projected separation from the corresponding box-bottom proxy has a **0.595 m median** and spans **0.265–0.906 m**. A single fixed offset would therefore be unreliable. The [#12 handoff audit](../data/processed/fqe_r1_boundary_recheck/r1_player12_handoff_audit.json) also shows that a raw-box path changes from **20.17 m to 12.99 m** when the smoothing window changes from 5 to 31 frames. Holding the six off-court frames alone would leave that much larger source-position problem intact.
+
+The next useful implementation is a shoe-level position method checked on a short, separate set of frames around #12's near-net motion. It should produce a point only when a sole-floor contact is visible and use the endpoint hold rule otherwise. Until that check succeeds, #12 remains withheld.
+
+## Box-centre movement trial
+
+The user's simpler box-centre proposal has been [tested against eight reviewed #12 contacts](../data/processed/fqe_r1_boundary_recheck/r1_p12_box_anchor_comparison.json). A direct projection of the body-box centre onto the court is invalid because it is above the floor: all eight sample projections fall outside the nominal near court, with a median 10.41 m error against the checked floor point. A more sensible version seeds a known floor point at frame 21070, moves it by the subsequent **box-centre displacement**, then projects that translated point. This improves median sample error from **0.595 m** for the box-bottom proxy to **0.404 m** for the seeded translation, although that median includes its zero-error seed. Away from the seed its median is **0.508 m**; the worst errors reach **1.74–1.92 m** at frames 21236 and 21350. Posture, jumping and changes in box size move the body centre independently of the floor point.
+
+The box centre remains useful for matching and following a player through normal motion. This trial does not support treating it as an accurate court-floor position across the whole point. A practical hybrid is to use box-centre motion while posture is stable, re-anchor from a trustworthy floor point when one is visible, and mark the interval unknown or held through a jump or overlap. No #12 distance was added from this trial.
+
+## Hybrid trial on the full R1 point
+
+The [hybrid trial](../data/processed/fqe_r1_boundary_recheck/r1_p12_box_center_hybrid_trial.json) uses five earlier source-reviewed floor anchors (21070, 21200, 21250, 21350, 21463) and newly checked anchors at **21343** and **21374**. Between anchors it moves the floor seed by box-centre displacement only while the box height stays within 15%, its width within 35%, and the translated point stays within 0.25 m of the candidate court. Otherwise it holds the last position. The three other reviewed frames remain outside construction: it predicts 21150 and 21400 within **0.301 m** and **0.508 m**, and withholds 21236 when box posture changes.
+
+The [jump source sheet](../data/processed/fqe_r1_boundary_recheck/r1_p12_jump_contact_sheet.jpg) shows #12 airborne by frame 21354 and a clearly planted left shoe again at 21374. The existing frame-21350 contact is **(1320, 816) px**; the new single-reviewer landing proposal is **(1394, 840) px**. They project to about **(6.915, 4.965) m** and **(7.245, 3.776) m**, giving a **1.234 m grounded endpoint chord**. Varying the landing click by 5 px in each direction changes that chord to **1.02–1.45 m**. Frames 21351–21373 are held; the earlier 2.58 m box-centre jump is removed. This chord includes the short approach from the last checked ground point to takeoff, and does not claim the airborne route or jump height.
+
+The [pre-jump source sheet](../data/processed/fqe_r1_boundary_recheck/r1_p12_prejump_gap_sheet.jpg) shows a planted #12 shoe at frame **21343**; the [close crop](../data/processed/fqe_r1_boundary_recheck/r1_p12_foot_21343_zoom.png) supports a single-reviewer proposal at **(1322, 819) px**. The existing frame-21350 contact is **(1320, 816) px**. Their projected chord is **0.155 m**, with **0.11–0.41 m** across 5 px click shifts, replacing the earlier 1.71 m box-derived reconnect. Frames 21344–21349 are held through the approach posture change.
+
+The next source check found a planted #12 shoe at [21339](../data/processed/fqe_r1_boundary_recheck/p12_foot_21339.png) and [21441](../data/processed/fqe_r1_boundary_recheck/p12_foot_21441.png). Single-reviewer floor proposals of **(1292, 800) px** and **(1410, 805) px** replace box-based reconnects of 1.99 m at 21339→21343 and 2.20 m at 21441→21463 with **1.056 m** and **0.851 m** endpoint chords. Moving either new click by 5 px in both axes gives respective chord ranges of **0.768–1.355 m** and **0.687–1.059 m**. These compare shoe contacts at the two ends, so they do not establish travel between those frames.
+
+The [21423→21436 source sheet](../data/processed/fqe_r1_boundary_recheck/p12_21423_21436_gap_sheet.jpg) and [endpoint](../data/processed/fqe_r1_boundary_recheck/p12_foot_21423_zoom.png) [crops](../data/processed/fqe_r1_boundary_recheck/p12_foot_21436_zoom.png) show #12 stepping while her box changes shape. Approximate contact proposals **(1482, 822) px** and **(1470, 820) px** project to a **0.123 m endpoint chord**, replacing the **0.77 m** box-centre reconnect. A 5 px shift of the first click gives **0.167–0.353 m**; the midpoint estimate and this corner range are sensitive to the exact sole contact. The source shows steps within the interval, so the chord is only a net-displacement assumption, not the length of those steps.
+
+Across the 414 candidate frames, the revised trial accepts **256**, holds **138** after seeding, and leaves the first **20** unseeded. Under the agreed visible-segment plus straight endpoint-chord rule, the **reportable approximate #12 estimate is 13.95 m over frames 21070–21463**. This is a scoped method estimate, not validated physical travel or a full 21050–21463 point measurement. In the [21212→21245 source sheet](../data/processed/fqe_r1_boundary_recheck/p12_second_gap_sheet.jpg), #12 passes behind a teammate and her floor path is not continuously visible. The rule counts the **1.62 m** box-centre endpoint chord across that 32-frame hold; any detour while hidden is omitted. Several accepted segments also use translated box centres rather than observed shoes, and the three held-out checks cover only two accepted positions and one hold. Additional source contacts above are single-reviewer proposals and have not been added to the official annotations. **No R1 six-player sum is reported**, because #11 and #13 remain unresolved.
+
+## #11 and #13 remaining distance gate
+
+The [reproducible audit](../data/processed/fqe_r1_boundary_recheck/r1_p11_p13_distance_gate.json) checks every candidate frame against the staged court, with [#11](../data/processed/fqe_r1_boundary_recheck/r1_p11_distance_gate_source_sheet.jpg) and [#13](../data/processed/fqe_r1_boundary_recheck/r1_p13_distance_gate_source_sheet.jpg) source sheets at the major boundaries. For #11, only **230/414** box bottoms project within 0.25 m of the court; **81** project materially off court and **103** candidate boxes are missing. Existing source review confirms #11 remains visible in the detector gaps, including blocking jumps, but provides no grounded path through them. Raw ID 367 boxes #13 earlier and cannot be assigned wholesale to #11.
+
+For #13, only **102/414** box bottoms pass the same projection gate; **40** project materially off court and **272** candidate boxes are missing. Source review supports the 563→625→563 handoff over frames **21316–21423**. It does not give shoe-floor endpoints for the 127-frame early gap, the 103-frame middle gap, or a confirmed terminal floor position after the last box at 21423. The new sheet shows #13 still appears in the scene at 21440 and 21463, but no floor contact has been checked there; this is not an out-of-frame observation.
+
+The endpoint-chord rule can count a gap only once both player positions are usable. It cannot turn an above-floor box bottom into a ground point or resolve a cross-player identity switch. **#11 and #13 remain without distance estimates, so the six-player sum remains unavailable.** The next source work is to establish planted-shoe anchors around the listed boundaries and repeat the model check, keeping airborne and hidden contacts unknown.
+
+A [closer 25-frame anchor review](../data/processed/fqe_r1_boundary_recheck/r1_p11_p13_anchor_feasibility.json) checks those boundaries against enlarged source crops. For #11, the earlier frame-21064 two-shoe floor proposal at **(1066, 767) px** remains usable as a development anchor, but shoes around 21143–21161 sit too close to the projected net boundary for a stable court position. Frame 21236 is airborne. Enlarged late [21413](../data/processed/fqe_r1_boundary_recheck/p11_foot_21413_zoom.png), [21419](../data/processed/fqe_r1_boundary_recheck/p11_foot_21419_zoom.png) and [21463](../data/processed/fqe_r1_boundary_recheck/p11_foot_21463_zoom.png) crops support single-reviewer floor proposals; the 21419→21463 endpoint chord is **0.509 m**. It is only a local diagnostic, because the middle path lacks grounded anchors. For #13, an enlarged [frame-21316 shoe crop](../data/processed/fqe_r1_boundary_recheck/p13_foot_21316_zoom.png) suggests a floor point near **(665, 817) px**, but its identity is ambiguous behind #20, so it is not used as an anchor. The early #13 shoes are hidden behind #20 and frame 21250 is airborne. No paired floor endpoints survive this review for either player's major gaps. The approximate team total therefore remains withheld rather than treating hidden movement or ambiguous shoes as measured coordinates.
+
+## Optional six-player proxy scenario
+
+The user's chosen convention accepts a straight chord over unobservable movement. To show what a complete *assumption-based* readout would look like, the [reproducible scenario](../data/processed/fqe_r1_boundary_recheck/r1_six_player_proxy_scenario.json) uses the four already reported player estimates, then gives #11 and #13 a deliberately rough box-bottom proxy: project every curated candidate box, clip both court coordinates to **0–9 m**, take a **15-frame median** within visible segments, connect closed gaps by chords, and hold the last position through #13's final **40** frames without a box. The curated #11 slot is treated as the identity decision through the raw-ID switch. This is a model convention; clipping an upper-body box bottom does not turn it into a measured shoe position.
+
+| Player | Scenario contribution |
+| --- | ---: |
+| Blue #9 | 8.90 m |
+| Blue #10 | 9.72 m |
+| Blue #11 | 14.03 m |
+| Blue #12 | 13.95 m |
+| Blue #13 | 10.80 m |
+| Yellow #20 | 8.50 m |
+| **Six-player proxy scenario** | **65.90 m** |
+
+The #11 and #13 figures change to **11.45/9.49 m** with a 31-frame median and **22.60/19.18 m** with a 5-frame median. Holding the other four displayed estimates fixed gives six-player scenario sums of **62.01–82.85 m** from that smoothing choice alone. #11 has **86** clipped projected box-bottom frames, #13 has **40**, and #13's long gaps of **127** and **103** frames are represented only by chords. This spread is too large to call **65.90 m** a measured or reliable approximate physical team distance. It is a transparent proxy scenario under the user's assumptions. The normal point summary still leaves #11 and #13 blank, and no production metric or official annotation was changed.

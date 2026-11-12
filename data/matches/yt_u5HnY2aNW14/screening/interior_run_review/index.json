@@ -1,0 +1,162 @@
+{
+  "status": "three_instants_per_candidate_run_pending_source_review",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "run_audit_sha256": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+  "pages": [
+    {
+      "path": "sheet_1.jpg",
+      "sha256": "a85fa68082741e2e327de58017218cc3dbe10259eefd3147dd691fc0049e7c29",
+      "items": [
+        {
+          "set": 1,
+          "point_number": 6,
+          "run_frames": [
+            1752,
+            1758,
+            1764,
+            1770,
+            1776
+          ],
+          "displayed_frames": [
+            1752,
+            1764,
+            1776
+          ]
+        },
+        {
+          "set": 1,
+          "point_number": 34,
+          "run_frames": [
+            9690,
+            9696,
+            9702,
+            9708,
+            9714,
+            9720,
+            9726
+          ],
+          "displayed_frames": [
+            9690,
+            9708,
+            9726
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sheet_2.jpg",
+      "sha256": "021cb201856cbe35e351110b6662b88442ee30a7be6e46bc03828f36653e3c3c",
+      "items": [
+        {
+          "set": 1,
+          "point_number": 37,
+          "run_frames": [
+            10476,
+            10482,
+            10488,
+            10494,
+            10500,
+            10506,
+            10512,
+            10518,
+            10524,
+            10530
+          ],
+          "displayed_frames": [
+            10476,
+            10506,
+            10530
+          ]
+        },
+        {
+          "set": 2,
+          "point_number": 2,
+          "run_frames": [
+            12294,
+            12300,
+            12306,
+            12312,
+            12318,
+            12324,
+            12330,
+            12336
+          ],
+          "displayed_frames": [
+            12294,
+            12318,
+            12336
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sheet_3.jpg",
+      "sha256": "69a166effba2de7c7407e46d0819b341c18d9c1c16de48c85394fa113d12ebc6",
+      "items": [
+        {
+          "set": 2,
+          "point_number": 6,
+          "run_frames": [
+            13548,
+            13554,
+            13560,
+            13566,
+            13572,
+            13578,
+            13584
+          ],
+          "displayed_frames": [
+            13548,
+            13566,
+            13584
+          ]
+        },
+        {
+          "set": 2,
+          "point_number": 26,
+          "run_frames": [
+            18894,
+            18900,
+            18906,
+            18912,
+            18918,
+            18924,
+            18930
+          ],
+          "displayed_frames": [
+            18894,
+            18912,
+            18930
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sheet_4.jpg",
+      "sha256": "d51d9ace4049532b6538e1f910ead9f78cd356672ddfed62d7f7ebb8437085ec",
+      "items": [
+        {
+          "set": 3,
+          "point_number": 34,
+          "run_frames": [
+            36054,
+            36060,
+            36066,
+            36072,
+            36078,
+            36084,
+            36090,
+            36096,
+            36102
+          ],
+          "displayed_frames": [
+            36054,
+            36078,
+            36102
+          ]
+        }
+      ]
+    }
+  ]
+}

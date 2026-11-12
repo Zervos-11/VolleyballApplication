@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R1 case study | Volley Analytics</title>
+  <style>
+    :root { color-scheme: dark; font: 16px system-ui, sans-serif; background: #10151b; color: #edf2f7; }
+    body { margin: 0 auto; padding: 24px; max-width: 1350px; }
+    h1 { margin: 0 0 8px; font-size: 1.7rem; }
+    h2 { font-size: 1.1rem; margin: 0 0 12px; }
+    p { line-height: 1.5; }
+    a { color: #8bc5ff; }
+    .muted { color: #aebbc9; }
+    .notice { border-left: 4px solid #e8bd66; background: #28251e; padding: 12px 16px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 550px), 1fr)); gap: 18px; margin-top: 20px; }
+    .panel { background: #1a222b; border: 1px solid #33404d; border-radius: 10px; padding: 16px; }
+    video, img { display: block; width: 100%; height: auto; background: #0a0d10; border-radius: 6px; }
+    .frame-stage { position: relative; }
+    .frame-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+    #floorZoom { display: block; width: min(100%, 480px); height: auto; margin-top: 12px; border: 1px solid #536579; cursor: crosshair; }
+    #floorZoom[hidden] { display: none; }
+    .controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    input[type="range"] { flex: 1 1 350px; min-width: 200px; }
+    input[type="text"], select, textarea { color: inherit; background: #111a23; border: 1px solid #536579; border-radius: 6px; padding: 8px; font: inherit; }
+    textarea { width: 100%; min-height: 55px; }
+    label { display: flex; flex-direction: column; gap: 5px; }
+    button { color: inherit; background: #263546; border: 1px solid #536579; padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+    button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #8bc5ff; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 8px; border-bottom: 1px solid #384756; text-align: left; }
+    th { color: #b9c7d5; }
+    .missing { color: #e8bd66; }
+    .candidate { color: #86cce0; }
+    code { font-family: ui-monospace, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <a href="/case-studies">Case-study results</a> · <a href="/">Pilot review</a>
+  <h1>R1 point: development review</h1>
+  <p class="muted">Source frames 21050–21463 · 50 fps · 8.28 seconds · six near-side player slots</p>
+  <p class="notice">Colored boxes and track IDs are candidate matches. A missing box does not mean a player left the court. A dashed circle can show where a player was last seen during a likely crossing, for up to eight frames. Source checks show the player may already be elsewhere; the circle is never a current position, movement sample, or floor point. Court positions, physical distances, and tracking accuracy have not been verified. The point end is a single-reviewer candidate.</p>
+  <p class="muted">Visual review: #9, #10, #11, #12 and #20 look correctly matched. #13 is in front of #20 on the court and moves little for much of the point, so its missing boxes are acceptable in this preview. Identity feedback alone does not fill missing positions.</p>
+  <section class="panel" aria-labelledby="distanceHeading">
+    <h2 id="distanceHeading">#20 approximate distance</h2>
+    <p id="footCentreDistance">Loading the foot-level centre estimateâ€¦</p>
+    <p class="muted">This case-study estimate follows the gold centre point shown below. It uses a staged court calibration, a box-centre fallback, and four short interpolated frames. The smoothing range describes method sensitivity.</p>
+  </section>
+  <section class="panel" aria-labelledby="pointSummaryHeading" style="margin-top:18px">
+    <h2 id="pointSummaryHeading">Point summary by player</h2>
+    <p id="pointSummaryStatus" class="muted">Loading candidate coverageâ€¦</p>
+    <table aria-label="Candidate box coverage and approximate distance by player">
+      <thead><tr><th>Player</th><th>Usable boxes</th><th>Unusable frames</th><th>Approximate distance</th><th>Scope</th></tr></thead>
+      <tbody id="pointSummaryPlayers"></tbody>
+    </table>
+    <p class="muted">Usable boxes are visual candidates, not checked floor positions. A blank distance means this point has no supported path estimate for that player.</p>
+  </section>
+
+  <div class="grid">
+    <section class="panel">
+      <h2>Play the candidate boxes</h2>
+      <video id="preview" controls preload="metadata" playsinline src="/api/case-studies/r1/preview"></video>
+      <p class="muted">The clip is for motion review. Use the still frame on the right for exact source-frame inspection.</p>
+    </section>
+    <section class="panel">
+      <h2>Exact source frame</h2>
+      <div class="frame-stage"><img id="sourceFrame" alt="Source frame selected by the frame slider"><canvas id="boxOverlay" aria-hidden="true"></canvas></div>
+      <canvas id="floorZoom" width="480" height="360" hidden aria-label="Enlarged source crop; click to refine shoe-floor point"></canvas>
+      <p class="muted">Click the source frame to open a 2× crop, then click the crop to refine the shoe-floor point. Save the selected point below.</p>
+      <p class="muted" id="sourceCaption">Loading source frame…</p>
+    </section>
+  </div>
+
+  <section class="panel" style="margin-top:18px">
+    <div class="controls">
+      <button id="previous" type="button">Previous frame</button>
+      <input id="frameSlider" type="range" min="21050" max="21463" step="1" value="21050" aria-label="Source frame">
+      <button id="next" type="button">Next frame</button>
+      <button id="toggleBoxes" type="button" aria-pressed="true">Hide candidate boxes</button>
+      <button id="toggleHolds" type="button" aria-pressed="false" disabled>Show last-seen markers</button>
+      <button id="toggleNetLine" type="button" aria-pressed="false" disabled>Show recorded net-floor line</button>
+      <button id="toggleShoeCues" type="button" aria-pressed="false" disabled>Show #20 shoe cues</button>
+      <strong id="frameLabel">Frame 21050</strong>
+    </div>
+    <p class="muted">The optional red net-floor line comes from staged calibration frames. It is a visual guide, not an in/out decision for a shoe point.</p>
+    <p class="muted" id="shoeCueStatus">#20 shoe cues are loading. Blue rings mark unverified shoe regions; the gold square marks a provisional foot-level centre for distance review.</p>
+    <p class="muted" id="status">Loading six-slot record…</p>
+    <table aria-label="Player box candidates at selected frame">
+      <thead><tr><th>Player</th><th>Box state</th><th>Raw track ID</th></tr></thead>
+      <tbody id="slots"></tbody>
+    </table>
+  </section>
+  <section class="panel" style="margin-top:18px">
+    <h2>Floor-contact review draft</h2>
+    <p class="muted">Choose a player and a state for the exact still frame. When both shoes are planted, click the floor-level midpoint between their sole-floor contacts. When only one planted shoe is visible, click that shoe's floor contact. Do not place the point at ankle height. Use uncertain, hidden, airborne, or out of frame when no trustworthy floor point exists. This separate draft does not edit the pilot labels or publish a distance.</p>
+    <p id="floorProgress" class="muted">Loading saved floor-contact coverage…</p>
+    <p class="muted">Review queue: sample every 10 source frames (0.2 s), with extra frames at known difficult events. It helps spread checks through the point; completing it alone does not establish a continuous or accurate movement path.</p>
+    <div class="controls">
+      <label>Player<select id="floorPlayer"><option value="9">#9</option><option value="10">#10</option><option value="11">#11</option><option value="12">#12</option><option value="13">#13</option><option value="20">#20</option></select></label>
+      <button id="nextReview" type="button">Next unreviewed frame for player</button>
+      <span id="queueProgress" class="muted"></span>
+      <label>Contact state<select id="floorState"><option value="uncertain">Uncertain</option><option value="grounded_contact_visible">Grounded contact visible</option><option value="airborne">Airborne</option><option value="feet_hidden">Feet hidden</option><option value="out_of_frame">Out of frame</option></select></label>
+      <label>Reviewer code<input id="reviewerCode" type="text" maxlength="80" autocomplete="off" placeholder="Your reviewer code"></label>
+      <span id="floorPoint">No floor point</span>
+    </div>
+    <label>Note<textarea id="floorNote" maxlength="2000" placeholder="Optional source-frame observation"></textarea></label>
+    <div class="controls"><button id="saveFloor" type="button">Save this player-frame</button><span id="floorStatus" role="status" aria-live="polite"></span></div>
+  </section>
+  <script src="/r1_case_study.js" defer></script>
+</body>
+</html>

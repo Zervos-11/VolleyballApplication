@@ -1,0 +1,515 @@
+{
+  "status": "one_hz_source_navigation_not_phase_adjudication",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "cut_register_sha256": "3f208f63c2285dd2b762bafed19e72c571e64a7d7dcfbc9d277c6a38d26aff3e",
+  "point_count": 18,
+  "clips": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "clip_start_frame_inclusive": 1321,
+      "clip_end_frame_exclusive": 1591,
+      "sampled_source_frames": [
+        1321,
+        1351,
+        1381,
+        1411,
+        1441,
+        1471,
+        1501,
+        1531,
+        1561,
+        1590
+      ],
+      "pages": [
+        {
+          "path": "s1_p05_1.jpg",
+          "sha256": "bce0aeb7b4f582f10c3e80206bf9214baf48dc8a550708b574a786d731c0dc42",
+          "first_frame": 1321,
+          "last_frame": 1590
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 1591,
+      "clip_end_frame_exclusive": 1951,
+      "sampled_source_frames": [
+        1591,
+        1621,
+        1651,
+        1681,
+        1711,
+        1741,
+        1771,
+        1801,
+        1831,
+        1861,
+        1891,
+        1921,
+        1950
+      ],
+      "pages": [
+        {
+          "path": "s1_p06_1.jpg",
+          "sha256": "169a4e59ee5970dd453ad9a4865c1f83092bfa19b6dc12803d822a21b3496447",
+          "first_frame": 1591,
+          "last_frame": 1950
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "clip_start_frame_inclusive": 5281,
+      "clip_end_frame_exclusive": 5461,
+      "sampled_source_frames": [
+        5281,
+        5311,
+        5341,
+        5371,
+        5401,
+        5431,
+        5460
+      ],
+      "pages": [
+        {
+          "path": "s1_p18_1.jpg",
+          "sha256": "801382eaf2b8a41c50cd0ebf22f67d8123e9e09294859cd02c550439c662f8fd",
+          "first_frame": 5281,
+          "last_frame": 5460
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 7231,
+      "clip_end_frame_exclusive": 7501,
+      "sampled_source_frames": [
+        7231,
+        7261,
+        7291,
+        7321,
+        7351,
+        7381,
+        7411,
+        7441,
+        7471,
+        7500
+      ],
+      "pages": [
+        {
+          "path": "s1_p27_1.jpg",
+          "sha256": "78443cef3225413501ec2cbfdb1b7a8a931dcda4f34bcdf5c282053a32ea20c9",
+          "first_frame": 7231,
+          "last_frame": 7500
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 9511,
+      "clip_end_frame_exclusive": 9871,
+      "sampled_source_frames": [
+        9511,
+        9541,
+        9571,
+        9601,
+        9631,
+        9661,
+        9691,
+        9721,
+        9751,
+        9781,
+        9811,
+        9841,
+        9870
+      ],
+      "pages": [
+        {
+          "path": "s1_p34_1.jpg",
+          "sha256": "fac1f4a0e4985a610850921099215a45c91e24abfc96934f52652d93095dd29a",
+          "first_frame": 9511,
+          "last_frame": 9870
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 10381,
+      "clip_end_frame_exclusive": 11041,
+      "sampled_source_frames": [
+        10381,
+        10411,
+        10441,
+        10471,
+        10501,
+        10531,
+        10561,
+        10591,
+        10621,
+        10651,
+        10681,
+        10711,
+        10741,
+        10771,
+        10801,
+        10831,
+        10861,
+        10891,
+        10921,
+        10951,
+        10981,
+        11011,
+        11040
+      ],
+      "pages": [
+        {
+          "path": "s1_p37_1.jpg",
+          "sha256": "6af0864ed0d9067d74a6f2872ab793f23867a997a84ecdaba32aff81868df2af",
+          "first_frame": 10381,
+          "last_frame": 11040
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "clip_start_frame_inclusive": 12001,
+      "clip_end_frame_exclusive": 12451,
+      "sampled_source_frames": [
+        12001,
+        12031,
+        12061,
+        12091,
+        12121,
+        12151,
+        12181,
+        12211,
+        12241,
+        12271,
+        12301,
+        12331,
+        12361,
+        12391,
+        12421,
+        12450
+      ],
+      "pages": [
+        {
+          "path": "s2_p02_1.jpg",
+          "sha256": "5f925eb0dd6b428d8890ac5b35f69d6b42f1779a2f9c2cceb4a88521d904940d",
+          "first_frame": 12001,
+          "last_frame": 12450
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 13141,
+      "clip_end_frame_exclusive": 13831,
+      "sampled_source_frames": [
+        13141,
+        13171,
+        13201,
+        13231,
+        13261,
+        13291,
+        13321,
+        13351,
+        13381,
+        13411,
+        13441,
+        13471,
+        13501,
+        13531,
+        13561,
+        13591,
+        13621,
+        13651,
+        13681,
+        13711,
+        13741,
+        13771,
+        13801,
+        13830
+      ],
+      "pages": [
+        {
+          "path": "s2_p06_1.jpg",
+          "sha256": "fa8475e93b583a63499fc943c5cca6dc0560ab5925d1a834a7c94df11f797651",
+          "first_frame": 13141,
+          "last_frame": 13830
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "clip_start_frame_inclusive": 15931,
+      "clip_end_frame_exclusive": 16141,
+      "sampled_source_frames": [
+        15931,
+        15961,
+        15991,
+        16021,
+        16051,
+        16081,
+        16111,
+        16140
+      ],
+      "pages": [
+        {
+          "path": "s2_p14_1.jpg",
+          "sha256": "6d7f5db9a40c23b396c85d9716af701e3cda960d73705a8a103ebf41811869de",
+          "first_frame": 15931,
+          "last_frame": 16140
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "clip_start_frame_inclusive": 18751,
+      "clip_end_frame_exclusive": 19171,
+      "sampled_source_frames": [
+        18751,
+        18781,
+        18811,
+        18841,
+        18871,
+        18901,
+        18931,
+        18961,
+        18991,
+        19021,
+        19051,
+        19081,
+        19111,
+        19141,
+        19170
+      ],
+      "pages": [
+        {
+          "path": "s2_p26_1.jpg",
+          "sha256": "4b4033b0d453ff6613c2cc89c62f214850218a612c4a49b04d9dd86c080c8e8d",
+          "first_frame": 18751,
+          "last_frame": 19170
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "clip_start_frame_inclusive": 19441,
+      "clip_end_frame_exclusive": 19621,
+      "sampled_source_frames": [
+        19441,
+        19471,
+        19501,
+        19531,
+        19561,
+        19591,
+        19620
+      ],
+      "pages": [
+        {
+          "path": "s2_p28_1.jpg",
+          "sha256": "90e5102b0fd7775bd3c88fdefb6675fdac3bcd847bb00b06929eea766492551a",
+          "first_frame": 19441,
+          "last_frame": 19620
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 22021,
+      "clip_end_frame_exclusive": 22291,
+      "sampled_source_frames": [
+        22021,
+        22051,
+        22081,
+        22111,
+        22141,
+        22171,
+        22201,
+        22231,
+        22261,
+        22290
+      ],
+      "pages": [
+        {
+          "path": "s2_p37_1.jpg",
+          "sha256": "d945c1f2d475b26b434d5313318cf3bbe98aa39bf57c998f5e8e33a7b916339d",
+          "first_frame": 22021,
+          "last_frame": 22290
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "clip_start_frame_inclusive": 29191,
+      "clip_end_frame_exclusive": 29461,
+      "sampled_source_frames": [
+        29191,
+        29221,
+        29251,
+        29281,
+        29311,
+        29341,
+        29371,
+        29401,
+        29431,
+        29460
+      ],
+      "pages": [
+        {
+          "path": "s3_p11_1.jpg",
+          "sha256": "1dec7d5bc638c13a7a3016fc47300d8e66b7e533aa6476b330db61c871eec099",
+          "first_frame": 29191,
+          "last_frame": 29460
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "clip_start_frame_inclusive": 29791,
+      "clip_end_frame_exclusive": 30091,
+      "sampled_source_frames": [
+        29791,
+        29821,
+        29851,
+        29881,
+        29911,
+        29941,
+        29971,
+        30001,
+        30031,
+        30061,
+        30090
+      ],
+      "pages": [
+        {
+          "path": "s3_p13_1.jpg",
+          "sha256": "3607c3d7e9b174997a41f2b280481939a7bce83ca717bb37fe48e02d72c6bf43",
+          "first_frame": 29791,
+          "last_frame": 30090
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "clip_start_frame_inclusive": 32641,
+      "clip_end_frame_exclusive": 32851,
+      "sampled_source_frames": [
+        32641,
+        32671,
+        32701,
+        32731,
+        32761,
+        32791,
+        32821,
+        32850
+      ],
+      "pages": [
+        {
+          "path": "s3_p23_1.jpg",
+          "sha256": "bc420108c011646c85937ed0c915521fa66d5c28ac5a4bdfcecec1cc01f12900",
+          "first_frame": 32641,
+          "last_frame": 32850
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 33961,
+      "clip_end_frame_exclusive": 34291,
+      "sampled_source_frames": [
+        33961,
+        33991,
+        34021,
+        34051,
+        34081,
+        34111,
+        34141,
+        34171,
+        34201,
+        34231,
+        34261,
+        34290
+      ],
+      "pages": [
+        {
+          "path": "s3_p27_1.jpg",
+          "sha256": "4d243d7cf201a26b80416dd4b53ab68684242689328256a176d34606489b259d",
+          "first_frame": 33961,
+          "last_frame": 34290
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "clip_start_frame_inclusive": 35611,
+      "clip_end_frame_exclusive": 35911,
+      "sampled_source_frames": [
+        35611,
+        35641,
+        35671,
+        35701,
+        35731,
+        35761,
+        35791,
+        35821,
+        35851,
+        35881,
+        35910
+      ],
+      "pages": [
+        {
+          "path": "s3_p33_1.jpg",
+          "sha256": "9710313410b59015f3bff1a4c10425c8a2d783a2dfb3f0c289e712878086dd3c",
+          "first_frame": 35611,
+          "last_frame": 35910
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 35911,
+      "clip_end_frame_exclusive": 36211,
+      "sampled_source_frames": [
+        35911,
+        35941,
+        35971,
+        36001,
+        36031,
+        36061,
+        36091,
+        36121,
+        36151,
+        36181,
+        36210
+      ],
+      "pages": [
+        {
+          "path": "s3_p34_1.jpg",
+          "sha256": "939468dd53ac3b6d9c3bcf5ed3031ebfc11873accb214fe9a544e4a819161cfa",
+          "first_frame": 35911,
+          "last_frame": 36210
+        }
+      ]
+    }
+  ]
+}

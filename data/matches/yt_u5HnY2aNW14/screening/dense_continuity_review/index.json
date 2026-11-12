@@ -1,0 +1,17 @@
+{
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "audit_sha256": "4417fb39caedc024c5b5abc1ddc83dd5bdf53e56216776f9665f2272678ebddf",
+  "video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "sheets": [
+    "sheet_1.jpg",
+    "sheet_2.jpg",
+    "sheet_3.jpg",
+    "sheet_4.jpg",
+    "sheet_5.jpg",
+    "sheet_6.jpg",
+    "sheet_7.jpg",
+    "sheet_8.jpg",
+    "sheet_9.jpg"
+  ],
+  "review_basis": "Three frames from the longest exact-six same-raw-ID run per selected point"
+}

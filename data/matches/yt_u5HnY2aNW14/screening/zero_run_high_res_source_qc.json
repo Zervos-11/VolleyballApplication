@@ -1,0 +1,67 @@
+{
+  "status": "single_reviewer_high_resolution_detector_recovery_not_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "detection_index_sha256": "a26d9b4a6f313b72732b7cc2ae092a5c824b4dfe3e3f69f6aa1e75fbe032ef00",
+  "summary": {
+    "source_visible_detector_zero_wins": 3,
+    "recovered_local_six_box_instants": 2,
+    "remaining_without_correct_six_box_instant": 1,
+    "validated_grounded_trajectories": 0
+  },
+  "limitations": "Two frames have visually distinct near-team boxes after excluding an official. The set-three point-23 overlay still duplicates the server and a front-row player while merging overlapping teammates. Each adjudication is one instant from a changed detector setting, not an independently validated track or floor position.",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frame": 5371,
+      "source_sheet": "s1_p18.jpg",
+      "source_sheet_sha256": "05e278b20b73398f3e0906f6a50fad0c80e151107f6d38969bb5fc55a13de5a6",
+      "full_resolution_overlay": "s1_p18_f5371_full.jpg",
+      "full_resolution_overlay_sha256": "141f0b4942b29b8a1debaff1bfc865a33d2f7b308012d4f0f2fa9625bcb53ca4",
+      "accepted_near_team_proposal_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "local_six_box_status": "six_correct_near_side_boxes_single_instant",
+      "ground_position_validation": "pending",
+      "run_identity_validation": "pending"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_frame": 16032,
+      "source_sheet": "s2_p14.jpg",
+      "source_sheet_sha256": "d891d6b423fde2700a2a53e5068bb39480031161eea248a880d79dbb9d45136d",
+      "full_resolution_overlay": "s2_p14_f16032_full.jpg",
+      "full_resolution_overlay_sha256": "bbf4093ad1f2f9162df6e454a266323687503455077fd8900c68f325fcb5a8d3",
+      "accepted_near_team_proposal_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "local_six_box_status": "six_correct_near_side_boxes_single_instant",
+      "ground_position_validation": "pending",
+      "run_identity_validation": "pending"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_frame": 32757,
+      "source_sheet": "s3_p23.jpg",
+      "source_sheet_sha256": "f18bfd46d0fe2f15f147ad65e95d909e9583dce70cafd52b0c49e6ae0fe279d2",
+      "full_resolution_overlay": "s3_p23_f32757_full.jpg",
+      "full_resolution_overlay_sha256": "e645832ed6905321b2548d40beb9d4417b2fb64ff7b91886145a127215eda1d6",
+      "accepted_near_team_proposal_indices": [],
+      "local_six_box_status": "not_recovered_overlap_duplicates",
+      "ground_position_validation": "pending",
+      "run_identity_validation": "pending"
+    }
+  ]
+}

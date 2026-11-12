@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elevated position reference</title><style>
+body{font:14px system-ui,sans-serif;background:#111923;color:#edf5fa;margin:0;padding:9px}h1{font-size:1.1rem;margin:0 0 5px}
+button,select,input{font:inherit}button{background:#dceaf4;border:1px solid #8ba7ba;border-radius:4px;padding:5px 8px;cursor:pointer}select,input{background:#fff;color:#111;border:1px solid #8198a7;border-radius:3px;padding:2px}
+.bar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:4px 0}#layout{display:grid;grid-template-columns:minmax(0,1fr) 490px;gap:9px}
+canvas{display:block;max-width:100%;border:1px solid #617382;cursor:crosshair}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
+.card{background:#202d38;border:2px solid #5b7080;border-radius:5px;padding:5px;min-width:0}.card.active{border-color:#ffdf55}.card strong{display:block;margin-bottom:3px}
+.card label{display:flex;justify-content:space-between;align-items:center;gap:3px;margin:3px 0;font-size:12px}.card select,.card input{width:60%;min-width:0;font-size:12px}
+.point{font-size:12px;color:#c7dce7}.card button{padding:3px 5px;margin-right:4px;font-size:12px}#status{min-height:20px;color:#aeeab6;font-weight:600}#help{font-size:12px;color:#bfd2dc}
+@media(max-width:1100px){#layout{grid-template-columns:1fr}#cards{max-width:760px}}
+</style></head><body>
+<h1>Selected grounded shoe reference</h1>
+<div class="bar"><select id="casePicker"></select><button id="prev">Previous</button><span id="frameLabel"></span><button id="next">Next</button><span id="progress"></span><label>Reviewer <input id="reviewer" value="MZ" size="5"></label></div>
+<div class="bar"><button id="guide">Show numbered identity guide</button><span id="help">Use the guide to identify a slot. Press Mark shoe to hide boxes, then click the visible midpoint between its shoe contacts. Set airborne or unreadable states to leave a null point.</span><a href="/" style="color:#9ddcff">Player review</a></div>
+<div id="status"></div><div id="layout"><div id="canvasWrap"><canvas id="sourceCanvas"></canvas></div>
+<div><div id="cards" class="cards"></div><div class="bar"><label><input id="checked" type="checkbox" checked> I checked all six source positions</label><button id="save">Save and next</button></div></div></div>
+<script src="/elevated_transfer_position_reference.js?v=3"></script></body></html>

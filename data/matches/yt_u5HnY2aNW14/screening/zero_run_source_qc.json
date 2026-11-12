@@ -1,0 +1,71 @@
+{
+  "status": "single_reviewer_source_visibility_not_ground_position_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "review_index_sha256": "fa58fd61348e6da2891611f919fc8d75a286a64881647242492dfbb45eb1e3dc",
+  "summary": {
+    "winning_points_without_six_id_run": 3,
+    "source_stills_reviewed": 18,
+    "points_with_six_visible_teammates_in_source": 3,
+    "validated_grounded_trajectories": 0
+  },
+  "limitations": "Source stills at approximately 5-frame spacing show team membership, not detector-box correctness, identity continuity, serve-contact timing, or shoe-floor coordinates. Overlap and airborne serving remain unresolved.",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frames": [
+        5371,
+        5376,
+        5381,
+        5386,
+        5391,
+        5396,
+        5401
+      ],
+      "sheet": "s1_p18.jpg",
+      "sha256": "a03fca4005bb08505fffc37409db7c926076f7d35617d5a25177d28d4476ee9f",
+      "near_team": "UCLA",
+      "visual_team_membership": "six_distinct_near_side_teammates_visible_in_source_stills",
+      "visual_evidence": "five blue uniforms and white libero #28; the right-side blue player is close to the sideline",
+      "ground_position_status": "all_six_visible_but_not_all_grounded_court_positions_certified",
+      "detector_six_id_run": false
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_frames": [
+        16032,
+        16037,
+        16042,
+        16047,
+        16052,
+        16056
+      ],
+      "sheet": "s2_p14.jpg",
+      "sha256": "554b1e5e29e84de828cb6350dcba67e63c61b2b95a57a37aa95b79179e12e277",
+      "near_team": "Concordia",
+      "visual_team_membership": "six_distinct_near_side_teammates_visible_in_source_stills",
+      "visual_evidence": "five white uniforms and dark libero #7; three front-row players partially overlap",
+      "ground_position_status": "all_six_visible_but_server_airborne_in_early_stills",
+      "detector_six_id_run": false
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_frames": [
+        32742,
+        32747,
+        32752,
+        32757,
+        32760
+      ],
+      "sheet": "s3_p23.jpg",
+      "sha256": "713aca8b1f190943f5b8062a333cbc2b772202c57bd2a9f44623607ac8a867c8",
+      "near_team": "UCLA",
+      "visual_team_membership": "six_distinct_near_side_teammates_visible_in_source_stills",
+      "visual_evidence": "five blue uniforms and white libero #28; the back-left server is airborne early",
+      "ground_position_status": "all_six_visible_but_server_airborne_in_early_stills",
+      "detector_six_id_run": false
+    }
+  ]
+}

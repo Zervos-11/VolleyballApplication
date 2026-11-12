@@ -1,0 +1,68 @@
+{
+  "revision": 5,
+  "match_id": "yt_b1bJ5WN05Qw",
+  "frame": 744,
+  "prior": null,
+  "new": {
+    "excerpt_frame": 744,
+    "reviewer_code": "MZ",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 28,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 2,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 56,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 9,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 43,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 4,
+        "box_alignment": "uncertain",
+        "floor_alignment": "uncertain",
+        "note": ""
+      }
+    ]
+  }
+}

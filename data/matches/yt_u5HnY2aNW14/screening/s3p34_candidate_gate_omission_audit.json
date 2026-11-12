@@ -1,0 +1,504 @@
+{
+  "status": "candidate_gate_diagnostic_not_floor_validation",
+  "interval_inclusive": [
+    36001,
+    36138
+  ],
+  "denominators": {
+    "frames": 138,
+    "player_slots": 828,
+    "original_missing_jersey_keyed_slots": 48
+  },
+  "counts": {
+    "raw_box_removed_by_net_boundary_gate": 12,
+    "7_raw_box_removed_by_net_boundary_gate": 4,
+    "21_raw_box_removed_by_net_boundary_gate": 6,
+    "no_mapped_raw_id_box": 36,
+    "21_no_mapped_raw_id_box": 16,
+    "15_raw_box_removed_by_net_boundary_gate": 2,
+    "15_no_mapped_raw_id_box": 13,
+    "7_no_mapped_raw_id_box": 7
+  },
+  "six_candidate_frames_original": 104,
+  "six_candidate_frames_if_all_same_id_boundary_boxes_included": 113,
+  "assumptions": [
+    "Known raw IDs are mapped to the six UCLA jerseys as in the frozen review manifest.",
+    "A same-ID raw box in the net-boundary class is a recoverable person-box proposal, not an accepted jersey or floor position.",
+    "No position or identity is imputed for a frame with no mapped raw-ID box."
+  ],
+  "inputs_sha256": {
+    "raw_screen": "10f1a1484a5a573490d9cef1d4e07967021ff5ffcc987f705782a059e8b34535",
+    "original_ledger": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1",
+    "review_manifest": "2c7f3ee87d26c3621fa08cf1eaeae4cdddee71ec7cf02ba12a6ef5862534737f"
+  },
+  "missing_slots": [
+    {
+      "source_frame": 36015,
+      "jersey": "7",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            767.2,
+            183.6,
+            813.3,
+            312.9
+          ],
+          "box_bottom_court_m_staged": [
+            5.927,
+            9.002
+          ],
+          "confidence": 0.727
+        }
+      ]
+    },
+    {
+      "source_frame": 36026,
+      "jersey": "7",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            795.5,
+            177.9,
+            845.7,
+            312.1
+          ],
+          "box_bottom_court_m_staged": [
+            6.293,
+            9.029
+          ],
+          "confidence": 0.682
+        }
+      ]
+    },
+    {
+      "source_frame": 36030,
+      "jersey": "7",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            801.7,
+            178.6,
+            854.2,
+            312.5
+          ],
+          "box_bottom_court_m_staged": [
+            6.381,
+            9.016
+          ],
+          "confidence": 0.71
+        }
+      ]
+    },
+    {
+      "source_frame": 36031,
+      "jersey": "7",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 9,
+          "bbox_px": [
+            803.1,
+            178.8,
+            855.7,
+            312.9
+          ],
+          "box_bottom_court_m_staged": [
+            6.397,
+            9.003
+          ],
+          "confidence": 0.691
+        }
+      ]
+    },
+    {
+      "source_frame": 36047,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            539.5,
+            178.6,
+            587.6,
+            308.0
+          ],
+          "box_bottom_court_m_staged": [
+            3.201,
+            9.158
+          ],
+          "confidence": 0.713
+        }
+      ]
+    },
+    {
+      "source_frame": 36048,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36049,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36050,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36059,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            524.6,
+            181.7,
+            575.1,
+            307.5
+          ],
+          "box_bottom_court_m_staged": [
+            3.036,
+            9.175
+          ],
+          "confidence": 0.589
+        }
+      ]
+    },
+    {
+      "source_frame": 36060,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            523.8,
+            182.2,
+            576.0,
+            312.2
+          ],
+          "box_bottom_court_m_staged": [
+            3.038,
+            9.025
+          ],
+          "confidence": 0.504
+        }
+      ]
+    },
+    {
+      "source_frame": 36107,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            490.1,
+            136.8,
+            559.9,
+            310.4
+          ],
+          "box_bottom_court_m_staged": [
+            2.738,
+            9.083
+          ],
+          "confidence": 0.81
+        }
+      ]
+    },
+    {
+      "source_frame": 36108,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            494.6,
+            130.8,
+            563.7,
+            306.2
+          ],
+          "box_bottom_court_m_staged": [
+            2.785,
+            9.216
+          ],
+          "confidence": 0.807
+        }
+      ]
+    },
+    {
+      "source_frame": 36109,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36110,
+      "jersey": "15",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            664.7,
+            131.5,
+            732.9,
+            312.4
+          ],
+          "box_bottom_court_m_staged": [
+            4.828,
+            9.019
+          ],
+          "confidence": 0.719
+        }
+      ]
+    },
+    {
+      "source_frame": 36110,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36111,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36111,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36112,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36112,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36113,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36113,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36114,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36114,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36115,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36115,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36116,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36116,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36117,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36117,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36118,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36118,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36119,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36119,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36120,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36120,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36121,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36121,
+      "jersey": "21",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36122,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36122,
+      "jersey": "21",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 13,
+          "bbox_px": [
+            503.8,
+            153.1,
+            592.6,
+            308.2
+          ],
+          "box_bottom_court_m_staged": [
+            3.016,
+            9.152
+          ],
+          "confidence": 0.521
+        }
+      ]
+    },
+    {
+      "source_frame": 36123,
+      "jersey": "15",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36124,
+      "jersey": "15",
+      "classification": "raw_box_removed_by_net_boundary_gate",
+      "raw_proposals": [
+        {
+          "raw_track_id": 6,
+          "bbox_px": [
+            649.2,
+            142.7,
+            703.7,
+            309.4
+          ],
+          "box_bottom_court_m_staged": [
+            4.561,
+            9.114
+          ],
+          "confidence": 0.739
+        }
+      ]
+    },
+    {
+      "source_frame": 36124,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36126,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36127,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36128,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36129,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36130,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    },
+    {
+      "source_frame": 36131,
+      "jersey": "7",
+      "classification": "no_mapped_raw_id_box",
+      "raw_proposals": []
+    }
+  ]
+}

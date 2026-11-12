@@ -1,0 +1,40 @@
+{
+  "review_type": "single_reviewer_every_five_hz_sample_identity_atlas",
+  "method": "Inspect all six source-person crops at each of the 18 sampled frames in each selected run, grouped by raw track ID. Read visible jersey numbers and compare adjacent samples.",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "first_source_frame": 1326,
+      "last_source_frame": 1428,
+      "sampled_frames_reviewed": 18,
+      "near_team": "UCLA",
+      "raw_id_to_jersey_number": {"1": "12", "2": "28", "3": "7", "5": "8", "6": "21", "8": "19"},
+      "libero_raw_id": 2,
+      "sampled_identity_status": "six_same_visible_jerseys_at_all_eighteen_samples",
+      "obvious_sampled_identity_switches": 0,
+      "court_floor_position_status": "not_validated_by_identity_crop_review",
+      "exact_live_play_interval_status": "not_certified"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "first_source_frame": 36000,
+      "last_source_frame": 36102,
+      "sampled_frames_reviewed": 18,
+      "near_team": "UCLA",
+      "raw_id_to_jersey_number": {"1": "19", "2": "7", "8": "28", "11": "21", "20": "15", "25": "12"},
+      "libero_raw_id": 8,
+      "sampled_identity_status": "six_same_visible_jerseys_at_all_eighteen_samples",
+      "obvious_sampled_identity_switches": 0,
+      "court_floor_position_status": "not_validated_by_identity_crop_review",
+      "exact_live_play_interval_status": "not_certified"
+    }
+  ],
+  "limitations": [
+    "Single reviewer, with no independent second annotation.",
+    "Only every sixth source frame is displayed; 30 fps frames between samples were not identity-certified.",
+    "Selected runs are the two longest candidates, not a representative random sample.",
+    "Jersey continuity does not measure shoe-to-box-bottom or court-mapping error."
+  ]
+}

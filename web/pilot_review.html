@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volley | Pilot rally review</title>
+<style>
+:root{color-scheme:dark;font:15px system-ui,sans-serif;background:#101722;color:#e8edf5}*{box-sizing:border-box}body{margin:0 auto;max-width:1440px;padding:24px}h1{margin:0;font-size:26px}p{color:#afbed1;line-height:1.5}.layout{display:grid;grid-template-columns:240px 1fr;gap:22px;margin-top:24px}aside button{display:block;width:100%;text-align:left;margin-bottom:9px}button,input,select,textarea{font:inherit;border:1px solid #40516a;border-radius:6px;background:#1c293c;color:inherit;padding:9px}button{cursor:pointer}button:hover,button.active{background:#294a68;border-color:#79baff}button:disabled{opacity:.5;cursor:wait}.controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;align-items:center}.stage{background:#000;min-height:120px}video,img{width:100%;display:block}video[hidden],img[hidden]{display:none}label{display:flex;flex-direction:column;gap:6px}input[type=number]{width:145px}textarea{width:100%;min-height:65px}#status{color:#9bdfbf;white-space:pre-wrap}#frameText{font-family:monospace}#frameRange{width:100%;padding:0}#save{background:#196b55}small{color:#afbed1}a{color:#90caff}@media(max-width:800px){.layout{grid-template-columns:1fr}aside{display:flex;flex-wrap:wrap;gap:8px}aside button{width:auto}body{padding:12px}}
+</style>
+</head>
+<body>
+<h1>Pilot rally review</h1>
+<p><a href="/case-studies">View bounded case-study results →</a></p>
+<p><a id="playerLink" href="/players">Open the r1 player annotation workspace →</a></p>
+<p id="subtitle">Loading the selected rallies…</p>
+<p><a href="/r1-case-study">Open the r1 tracking case study and exact-frame viewer →</a></p>
+<p>Watch the rally, then inspect individual source frames. Mark serve contact as the start and the first frame after the point-ending action as the end. Save only after checking both boundaries.</p>
+<div class="layout"><aside id="rallies"></aside><main>
+<h2 id="rallyTitle"></h2><p id="context"></p>
+<div class="stage"><video id="video" controls preload="metadata"></video><img id="still" hidden alt="Decoded source frame"></div>
+<div class="controls"><button id="watch">Watch from current frame</button><button id="inspect">Inspect paused frame</button><span id="frameText"></span></div>
+<input id="frameRange" type="range" aria-label="Frame within review window" step="1">
+<div class="controls" id="steps"><button data-step="-50">−1 s</button><button data-step="-10">−10 frames</button><button data-step="-1">−1 frame</button><button data-step="1">+1 frame</button><button data-step="10">+10 frames</button><button data-step="50">+1 s</button><input id="jump" type="number" step="1" aria-label="Source frame index"><button id="go">Go to frame</button></div>
+<div class="controls"><label>Start frame (inclusive)<input id="start" type="number" step="1"></label><button id="markStart">Set start to shown frame</button><button id="gotoStart">Inspect start</button></div>
+<div class="controls"><label>End frame (exclusive)<input id="end" type="number" step="1"></label><button id="markEnd">Set end to shown frame</button><button id="gotoEnd">Inspect end</button></div>
+<div class="controls"><label>Your annotator code<input id="annotator" placeholder="e.g. ann01" maxlength="80"></label><label>Rally usability<select id="usable"><option value="true">Usable for the pilot</option><option value="false">Exclude — explain below</option></select></label></div>
+<label>Notes / uncertainty<textarea id="notes" placeholder="Record occlusion, camera movement or a reason for exclusion"></textarea></label>
+<div class="controls"><button id="save">Save my boundary check</button><span id="reviewState"></span></div>
+<p id="status" role="status" aria-live="polite"></p>
+<small>Saved checks stay in this project's pilot folder with a revision history. They do not mark player labels or independent review as complete. The decoded frame image is authoritative; browser playback seeking is approximate.</small>
+</main></div>
+<script src="/pilot_review.js"></script>
+</body></html>

@@ -1,0 +1,12 @@
+# Set-three short-window source review
+
+The [detector screen](HONOURS_DENSE_PROXY_WINDOW_SCREEN.md) samples two visually selected live-play windows at 10-frame (0.2 s) steps. The [indexed source images](../data/processed/honours_dense_proxy_window_candidates/) were inspected at all ten sample positions where the overlap-filtered detector proposed at least six near-court boxes. This is a bounded availability check, not a player annotation or complete-rally analysis.
+
+| Point / winner | Six-box proposal frames | Source-image finding |
+| --- | --- | --- |
+| Set 3 point 5 / ProVolley | 155719, 155749, 155759, 155799 | Six near-side ProVolley players are visually present in the selected images, although the left-side player boxes overlap at 155719 and identities still need temporal review. Only 4 of 21 sampled positions have six proposals; the longest consecutive run is two samples (155749–155759, 0.2 s apart). |
+| Set 3 point 37 / UTS | 204213, 204253, 204263, 204313, 204323, 204333 | The near-side team is visible, but boxes at 204313–204333 include far-side UTS players and miss near-side players. At 204333 the leftmost near-side player is visible outside a detector box. Thus a raw count of six or more is not evidence of six correctly boxed near-side players. The earlier 204213/204253/204263 images offer short candidate snapshots, not a continuous team trajectory. |
+
+The screen covers 201 source frame indices (4.0 s between endpoints at 50 fps) around each selected centre, not exact source-reviewed rally boundaries or matched volleyball phases. The two points also differ in court action within the window. No gap should be filled by holding a player stationary merely because the detector dropped their box; that would be an unobserved movement assumption. The current evidence supports **snapshot-level image-plane demonstrations only**, with a clear separation from the signed court-coordinate, rally-level outcome analysis.
+
+For a defensible next analysis, first establish exact live-play intervals and near-side membership for several frozen points in each winner group, then evaluate whether the six-player position coverage supports matched-phase summaries. Retain missing or occluded positions as missing; only interpolate a bounded gap where the same player's identity is verified on both sides, and label that segment estimated. Validate any box-bottom court coordinates separately before reporting metres.

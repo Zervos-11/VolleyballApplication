@@ -1,0 +1,282 @@
+{
+  "status": "selection_and_posture_sensitivity_not_statistical_inference",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "geometry": "01e204e1df368e3ff55b6507d0b328a2f80557c01cbf72ae06b3290716923cb1",
+    "source_review": "e20eae433a2a080153124a31806ec22d19c84469df759a30e6baaee208b2844e"
+  },
+  "summary": {
+    "candidate_windows": 8,
+    "baseline_matched_cells": 3,
+    "one_point_deletions": 8,
+    "validated_court_metric_windows": 0
+  },
+  "baseline": {
+    "spacing_px": {
+      "matched_cells": 3,
+      "matched_points": 8,
+      "difference": 36.503
+    },
+    "hull_area_px2": {
+      "matched_cells": 3,
+      "matched_points": 8,
+      "difference": -8166.551
+    },
+    "dispersion_px": {
+      "matched_cells": 3,
+      "matched_points": 8,
+      "difference": 23.946
+    }
+  },
+  "one_point_deletions": [
+    {
+      "excluded": {
+        "set": 1,
+        "point_number": 5
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 42.398
+        },
+        "hull_area_px2": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": -1744.8
+        },
+        "dispersion_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 25.909
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 1,
+        "point_number": 6
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": 12.306
+        },
+        "hull_area_px2": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": -7189.912
+        },
+        "dispersion_px": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": 8.252
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 1,
+        "point_number": 18
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 30.608
+        },
+        "hull_area_px2": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": -14588.302
+        },
+        "dispersion_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 21.983
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 2,
+        "point_number": 6
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 37.935
+        },
+        "hull_area_px2": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": -11349.737
+        },
+        "dispersion_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 23.516
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 2,
+        "point_number": 28
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 37.935
+        },
+        "hull_area_px2": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": -11349.737
+        },
+        "dispersion_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 23.516
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 3,
+        "point_number": 13
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": 59.268
+        },
+        "hull_area_px2": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": -5960.005
+        },
+        "dispersion_px": {
+          "matched_cells": 2,
+          "matched_points": 5,
+          "difference": 40.07
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 3,
+        "point_number": 27
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 36.357
+        },
+        "hull_area_px2": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": -7175.484
+        },
+        "dispersion_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 24.209
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 3,
+        "point_number": 34
+      },
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 36.649
+        },
+        "hull_area_px2": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": -9157.619
+        },
+        "dispersion_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 23.683
+        }
+      }
+    }
+  ],
+  "flagged_deletions": [
+    {
+      "excluded": {
+        "set": 1,
+        "point_number": 18
+      },
+      "reason": "player_beyond_sideline",
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 30.608
+        },
+        "hull_area_px2": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": -14588.302
+        },
+        "dispersion_px": {
+          "matched_cells": 3,
+          "matched_points": 7,
+          "difference": 21.983
+        }
+      }
+    },
+    {
+      "excluded": {
+        "set": 2,
+        "point_number": 28
+      },
+      "reason": "low_posture_near_net",
+      "metrics": {
+        "spacing_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 37.935
+        },
+        "hull_area_px2": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": -11349.737
+        },
+        "dispersion_px": {
+          "matched_cells": 2,
+          "matched_points": 6,
+          "difference": 23.516
+        }
+      }
+    }
+  ],
+  "one_point_difference_ranges": {
+    "spacing_px": [
+      12.306,
+      59.268
+    ],
+    "hull_area_px2": [
+      -14588.302,
+      -1744.8
+    ],
+    "dispersion_px": [
+      8.252,
+      40.07
+    ]
+  },
+  "interpretation": "After each point deletion, only cells retaining both outcomes contribute. Thus deletion can change the cells being averaged; these ranges are selection sensitivity, not confidence intervals. All values remain source-image pixels and cannot establish a court-metric winner effect."
+}

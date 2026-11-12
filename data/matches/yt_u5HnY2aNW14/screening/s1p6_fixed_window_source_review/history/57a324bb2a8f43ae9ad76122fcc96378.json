@@ -1,0 +1,59 @@
+{
+  "frame": 1765,
+  "previous": null,
+  "current": {
+    "source_phase": "live",
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 458.5,
+        "shoe_y_px": 324.8,
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 542.3,
+        "shoe_y_px": 325.5,
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 800.1,
+        "shoe_y_px": 322.0,
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 352.1,
+        "shoe_y_px": 469.5,
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 697.0,
+        "shoe_y_px": 574.4,
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": 899.7,
+        "shoe_y_px": 455.3,
+        "note": ""
+      }
+    ],
+    "saved_at_utc": "2026-11-04T23:26:19.359040+00:00"
+  },
+  "revision": 2
+}

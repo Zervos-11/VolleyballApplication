@@ -1,0 +1,7 @@
+# S3 P34 reported live-interval six-player result
+
+[Machine-readable joined score](../data/matches/yt_u5HnY2aNW14/screening/s3p34_reported_live_interval_score.json). The single-reviewer event record marks serve contact at **35998** and the first reviewed dead frame at **36138**. The reviewer stated that play was live before 36138, but no individual last-live event verdict was saved, so the exact point-ending instant is uncertified. The working live interval is **35998–36137**, inclusive.
+
+All **140 source frames** in that interval have six source/box state records (**840 player slots**). There are **792/840** accepted same-player candidate-box slots and **774/840** accepted grounded box-bottom proxies. All six candidate boxes are present in **106/140** frames; all six grounded proxies are accepted in **92/140** frames. The serving player #12 is airborne in all three newly reviewed opening frames; his box remains a valid identity observation while his floor coordinate is null.
+
+This is a **complete six-player state and candidate-box review over the reported live interval**, with explicit missing or airborne floor coordinates. It is not a continuous six-grounded-floor-point trajectory or independently adjudicated positional ground truth. The last-live boundary is based on a broad reviewer statement; source timing, the camera transform and box-floor accuracy remain separate qualifications. The opening-frame packet was added after contact timing was reviewed.

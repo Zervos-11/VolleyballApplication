@@ -1,0 +1,20 @@
+{
+  "selection_sha256": "1160ad769600b31d70cf1abd3d7bb358f288fb61014d373f9798767da75f3d13",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "offset_frames": [
+    -12,
+    0,
+    12
+  ],
+  "sheets": [
+    "context_1.jpg",
+    "context_2.jpg",
+    "context_3.jpg",
+    "context_4.jpg",
+    "context_5.jpg",
+    "context_6.jpg",
+    "context_7.jpg",
+    "context_8.jpg",
+    "context_9.jpg"
+  ]
+}

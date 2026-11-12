@@ -1,0 +1,19 @@
+{
+  "match_id": "yt__BOwnLLVaPs",
+  "status": "user_flagged_and_source_image_checked_identity_swap",
+  "date_local": "2026-11-06",
+  "stable_slots": {
+    "3": "USC #15",
+    "4": "USC #12"
+  },
+  "source_evidence_excerpt_frames": [270, 354, 360, 366, 372, 390],
+  "source_excerpt_sha256": "5e012eaa4f29e137ce2ec3c2aa42fa00c57d76e293ca34b67136e8a3e5f673aa",
+  "finding": "P3/#15 and P4/#12 cross. At frames 366 and 372, previously saved P3->raw 2 and P4->raw 4 assignments follow the opposite jerseys. The two saved annotations are retained unchanged for audit, but these four slot decisions are excluded from accepted identity and floor-proxy counts until individually corrected in the review page.",
+  "affected_saved_rows": [
+    {"excerpt_frame": 366, "slot": 3, "unresolved_raw_id": 2},
+    {"excerpt_frame": 366, "slot": 4, "unresolved_raw_id": 4},
+    {"excerpt_frame": 372, "slot": 3, "unresolved_raw_id": 2},
+    {"excerpt_frame": 372, "slot": 4, "unresolved_raw_id": 4}
+  ],
+  "future_grid_rule": "For unsaved Pepperdine frames from 366 onward, P3 and P4 load as no box and uncertain identity. The reviewer may reassign a near-side detector box to each fixed jersey slot or leave the position null. This does not rewrite raw tracker IDs or earlier human annotations."
+}

@@ -1,0 +1,62 @@
+{
+  "status": "backup_validation_candidate_extended_excerpt_and_dense_screened",
+  "video_id": "u5HnY2aNW14",
+  "source_url": "https://www.youtube.com/watch?v=u5HnY2aNW14",
+  "title": "CONCORDIA v UCLA (1) | JAN 11 | 2026 NCAA | MEN'S VOLLEYBALL | TOP 5 - PRESEASON",
+  "uploader": "Volleyball Watchdog",
+  "upload_date": "20260129",
+  "duration_s": 1300,
+  "metadata_selected_format": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "screened_thumbnail": "data/matches/yt_u5HnY2aNW14/screening/thumbnail.webp",
+  "screened_thumbnail_sha256": "b16a70e7bae35a149e6f05023300cde88a1076bf3914a5bbf06e1dbd0777c3f1",
+  "excerpt_file": "data/matches/yt_u5HnY2aNW14/screening/clip_5m.mp4",
+  "excerpt_requested_source_time_s": [300, 310],
+  "excerpt_sha256": "a72f57eab9d238f78c97ca67875726e97bb095c645b24b860acad6b29003ade7",
+  "excerpt_measured": {"width": 1280, "height": 720, "fps": 30, "decoded_frames": 341},
+  "extended_excerpt_file": "data/matches/yt_u5HnY2aNW14/screening/clip_4m50.mp4",
+  "extended_excerpt_requested_source_time_s": [290, 310],
+  "extended_excerpt_sha256": "3719a71775971675989690ece8ed09ffd3ba2bcf6eaef6257dd74f6382efe51f",
+  "extended_excerpt_measured": {"width": 1280, "height": 720, "fps": 30, "decoded_frames": 661},
+  "candidate_action_navigation_frame_range_approximate": [285, 455],
+  "candidate_boundary_status": "serve contact and dead ball not exact-frame adjudicated; segment-edge padding prevents simple source-time offset",
+  "near_court_calibration_candidate": "data/matches/yt_u5HnY2aNW14/screening/near_court_candidate.json",
+  "near_court_calibration_status": "staged floor-line mapping only; player floor error unvalidated",
+  "dense_track_screen": "data/matches/yt_u5HnY2aNW14/screening/live_track_screen_300_435.json",
+  "dense_track_screen_summary": {
+    "inclusive_excerpt_frames": [300, 435],
+    "total_frames": 136,
+    "gated_box_count_histogram": {"4": 9, "5": 15, "6": 80, "7": 32},
+    "stable_six_box_raw_id_window_inclusive": [340, 392],
+    "stable_window_frames": 53,
+    "net_jump_detection_gap_inclusive": [393, 413],
+    "review_montage": "data/matches/yt_u5HnY2aNW14/screening/live_track_screen_frames/broader_window_review.jpg"
+  },
+  "excerpt_contact_sheet": "data/matches/yt_u5HnY2aNW14/screening/clip_5m_contact.jpg",
+  "excerpt_contact_sheet_sha256": "22c55ebd3832153495468c95f2885f8160e20f1628dddb8830c2bbe44a056cc9",
+  "six_frame_detector_screen": "data/matches/yt_u5HnY2aNW14/screening/box_screen.json",
+  "six_frame_detector_screen_sha256": "19c196ab427e0b107db2cb755c719a8a057d155d806e385a7057a99f502ae4f4",
+  "excerpt_visual_findings": [
+    "The camera stays in the elevated full-court view across the decoded excerpt.",
+    "The excerpt shows active play, a point ending, a scoreboard change from 22-09 to 22-10, and the next point setup.",
+    "The person detector proposes six distinct near-side boxes in some inspected live frames, but raw totals include opponents and officials.",
+    "The near-side team later has a white-shirted libero while opponents also wear white, so jersey colour alone cannot determine team membership."
+  ],
+  "thumbnail_visual_findings": [
+    "High elevated near-overhead fixed-court perspective in the selected thumbnail.",
+    "Near- and far-side players and major court lines are visible in the selected thumbnail.",
+    "Score graphic is visible in the selected thumbnail."
+  ],
+  "not_yet_checked": [
+    "Continuous camera view and complete rallies across the entire 1300-second source.",
+    "Exact serve-contact and dead-ball frames and independent full-rally jersey identity review.",
+    "Grounded player floor-position accuracy of the staged homography and box-bottom proxy."
+  ],
+  "intended_role": "new primary analysis candidate selected by user on 2026-11-02",
+  "previous_primary_development_match": "yt_FqE5pTJqx8g",
+  "previous_frozen_18_point_sample_unchanged": true,
+  "new_score_only_sample": "data/matches/yt_u5HnY2aNW14/screening/rally_sample_score_only.json"
+}

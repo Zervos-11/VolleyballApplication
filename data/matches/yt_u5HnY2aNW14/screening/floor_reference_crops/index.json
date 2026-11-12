@@ -1,0 +1,172 @@
+{
+  "rows": [
+    {
+      "second": 449,
+      "box_number": 1,
+      "crop_origin_px": [
+        454,
+        340
+      ],
+      "bbox_px": [
+        515.4,
+        321.0,
+        643.2,
+        479.9
+      ]
+    },
+    {
+      "second": 449,
+      "box_number": 2,
+      "crop_origin_px": [
+        682,
+        338
+      ],
+      "bbox_px": [
+        765.5,
+        319.4,
+        847.9,
+        478.2
+      ]
+    },
+    {
+      "second": 449,
+      "box_number": 3,
+      "crop_origin_px": [
+        783,
+        266
+      ],
+      "bbox_px": [
+        868.2,
+        269.0,
+        946.8,
+        405.9
+      ]
+    },
+    {
+      "second": 449,
+      "box_number": 4,
+      "crop_origin_px": [
+        533,
+        221
+      ],
+      "bbox_px": [
+        622.5,
+        199.5,
+        694.1,
+        361.2
+      ]
+    },
+    {
+      "second": 449,
+      "box_number": 5,
+      "crop_origin_px": [
+        184,
+        276
+      ],
+      "bbox_px": [
+        273.3,
+        260.1,
+        345.3,
+        416.4
+      ]
+    },
+    {
+      "second": 449,
+      "box_number": 6,
+      "crop_origin_px": [
+        621,
+        286
+      ],
+      "bbox_px": [
+        711.2,
+        283.3,
+        781.0,
+        425.9
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 1,
+      "crop_origin_px": [
+        565,
+        443
+      ],
+      "bbox_px": [
+        635.6,
+        407.4,
+        744.8,
+        583.2
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 2,
+      "crop_origin_px": [
+        757,
+        333
+      ],
+      "bbox_px": [
+        836.6,
+        317.6,
+        927.7,
+        473.3
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 3,
+      "crop_origin_px": [
+        203,
+        393
+      ],
+      "bbox_px": [
+        279.8,
+        378.8,
+        376.4,
+        533.1
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 4,
+      "crop_origin_px": [
+        395,
+        202
+      ],
+      "bbox_px": [
+        491.2,
+        198.2,
+        549.2,
+        341.8
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 5,
+      "crop_origin_px": [
+        703,
+        176
+      ],
+      "bbox_px": [
+        793.5,
+        176.0,
+        862.1,
+        316.3
+      ]
+    },
+    {
+      "second": 1203,
+      "box_number": 6,
+      "crop_origin_px": [
+        560,
+        201
+      ],
+      "bbox_px": [
+        638.2,
+        195.4,
+        731.2,
+        341.2
+      ]
+    }
+  ]
+}

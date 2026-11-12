@@ -1,0 +1,401 @@
+{
+  "status": "single_reviewer_coarse_source_navigation_not_exact_live_intervals",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "review_index_sha256": "655b5dd59b527ddce5d910145e96e814292630d3fa6e01a8f71fe2882a33782f",
+  "focus_index_sha256": "bc86881fc4bfe7f57f32ff8fa3aacc04ccfeac21ac7d53c6f90bbb0c92e0ab4c",
+  "summary": {
+    "frozen_clips": 18,
+    "clips_with_navigation_active_marks": 18,
+    "short_clips_with_five_hz_marks": 2,
+    "clips_without_active_marks": 0
+  },
+  "interpretation": "A mark identifies a source still that looks pre-play, active or post-play. The unobserved frames between marks are not adjudicated. No serve-contact or dead-ball frame is certified; do not use this register as a final metric gate.",
+  "points": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "clip_start_frame_inclusive": 1321,
+      "clip_end_frame_exclusive": 1591,
+      "last_obvious_pre_play_frame": 1351,
+      "first_obvious_active_frame": 1411,
+      "last_obvious_active_frame": 1471,
+      "first_obvious_post_play_frame": 1531,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p05_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "bce0aeb7b4f582f10c3e80206bf9214baf48dc8a550708b574a786d731c0dc42"
+      ],
+      "focus_sheet_paths": [
+        "s1_p05_1.jpg",
+        "s1_p05_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "cd35ba6acbeddc2e4d860b5cfa26731458eea91cd31693343953123f2ddee281",
+        "227dccb280e5209710ea5883dcd93ecda257f0234ab1152ccd029e9a9f43ba79"
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 1591,
+      "clip_end_frame_exclusive": 1951,
+      "last_obvious_pre_play_frame": 1651,
+      "first_obvious_active_frame": 1681,
+      "last_obvious_active_frame": 1861,
+      "first_obvious_post_play_frame": 1921,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p06_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "169a4e59ee5970dd453ad9a4865c1f83092bfa19b6dc12803d822a21b3496447"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "clip_start_frame_inclusive": 5281,
+      "clip_end_frame_exclusive": 5461,
+      "last_obvious_pre_play_frame": 5341,
+      "first_obvious_active_frame": 5371,
+      "last_obvious_active_frame": 5401,
+      "first_obvious_post_play_frame": 5431,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p18_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "801382eaf2b8a41c50cd0ebf22f67d8123e9e09294859cd02c550439c662f8fd"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 7231,
+      "clip_end_frame_exclusive": 7501,
+      "last_obvious_pre_play_frame": 7261,
+      "first_obvious_active_frame": 7321,
+      "last_obvious_active_frame": 7381,
+      "first_obvious_post_play_frame": 7441,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p27_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "78443cef3225413501ec2cbfdb1b7a8a931dcda4f34bcdf5c282053a32ea20c9"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 9511,
+      "clip_end_frame_exclusive": 9871,
+      "last_obvious_pre_play_frame": 9571,
+      "first_obvious_active_frame": 9601,
+      "last_obvious_active_frame": 9781,
+      "first_obvious_post_play_frame": 9841,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p34_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "fac1f4a0e4985a610850921099215a45c91e24abfc96934f52652d93095dd29a"
+      ],
+      "focus_sheet_paths": [
+        "s1_p34_1.jpg",
+        "s1_p34_2.jpg",
+        "s1_p34_3.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "79e8fe84ee85c7f7b4c848e6422b0ecb33e97ca52c8b5eda1032e292a85bb17d",
+        "f3489b673bb621d0ea45e0d8526bd5b78e0c9dbb010c88b6394b4b655300a4fe",
+        "80787b2fd289cb0ac67b325b89d56ac0aa16650900d4202ddad11211f61d0cbb"
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 10381,
+      "clip_end_frame_exclusive": 11041,
+      "last_obvious_pre_play_frame": 10441,
+      "first_obvious_active_frame": 10471,
+      "last_obvious_active_frame": 10951,
+      "first_obvious_post_play_frame": 11011,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s1_p37_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "6af0864ed0d9067d74a6f2872ab793f23867a997a84ecdaba32aff81868df2af"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "clip_start_frame_inclusive": 12001,
+      "clip_end_frame_exclusive": 12451,
+      "last_obvious_pre_play_frame": 12061,
+      "first_obvious_active_frame": 12091,
+      "last_obvious_active_frame": 12361,
+      "first_obvious_post_play_frame": 12421,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s2_p02_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "5f925eb0dd6b428d8890ac5b35f69d6b42f1779a2f9c2cceb4a88521d904940d"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "clip_start_frame_inclusive": 13141,
+      "clip_end_frame_exclusive": 13831,
+      "last_obvious_pre_play_frame": 13201,
+      "first_obvious_active_frame": 13231,
+      "last_obvious_active_frame": 13741,
+      "first_obvious_post_play_frame": 13801,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s2_p06_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "fa8475e93b583a63499fc943c5cca6dc0560ab5925d1a834a7c94df11f797651"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "clip_start_frame_inclusive": 15931,
+      "clip_end_frame_exclusive": 16141,
+      "last_obvious_pre_play_frame": 15991,
+      "first_obvious_active_frame": 16032,
+      "last_obvious_active_frame": 16056,
+      "first_obvious_post_play_frame": 16111,
+      "phase_status": "five_hz_short_point_navigation_bracket",
+      "evidence_sheet_paths": [
+        "s2_p14_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "6d7f5db9a40c23b396c85d9716af701e3cda960d73705a8a103ebf41811869de"
+      ],
+      "focus_sheet_paths": [
+        "s2_p14_1.jpg",
+        "s2_p14_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "aa86092610ffcfbec5c11326b674b9740ac2731953c9e1c995eaab951f376f65",
+        "80024319930763ffde6638ead84eb82a6d3bb8b7c72be7b15006b66bb6e1d644"
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "clip_start_frame_inclusive": 18751,
+      "clip_end_frame_exclusive": 19171,
+      "last_obvious_pre_play_frame": 18811,
+      "first_obvious_active_frame": 18841,
+      "last_obvious_active_frame": 19081,
+      "first_obvious_post_play_frame": 19141,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s2_p26_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "4b4033b0d453ff6613c2cc89c62f214850218a612c4a49b04d9dd86c080c8e8d"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "clip_start_frame_inclusive": 19441,
+      "clip_end_frame_exclusive": 19621,
+      "last_obvious_pre_play_frame": 19501,
+      "first_obvious_active_frame": 19531,
+      "last_obvious_active_frame": 19561,
+      "first_obvious_post_play_frame": 19591,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s2_p28_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "90e5102b0fd7775bd3c88fdefb6675fdac3bcd847bb00b06929eea766492551a"
+      ],
+      "focus_sheet_paths": [
+        "s2_p28_1.jpg",
+        "s2_p28_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "31e0713a79eaf41a631cb6450c2ce82d303f6dce7b47d041bc6e3b1667db3ce2",
+        "9b694703e1a951258abbeffebe2ecbf1bf0ab46bfb371bff935b275500892936"
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "clip_start_frame_inclusive": 22021,
+      "clip_end_frame_exclusive": 22291,
+      "last_obvious_pre_play_frame": 22081,
+      "first_obvious_active_frame": 22111,
+      "last_obvious_active_frame": 22201,
+      "first_obvious_post_play_frame": 22261,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s2_p37_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "d945c1f2d475b26b434d5313318cf3bbe98aa39bf57c998f5e8e33a7b916339d"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "clip_start_frame_inclusive": 29191,
+      "clip_end_frame_exclusive": 29461,
+      "last_obvious_pre_play_frame": 29251,
+      "first_obvious_active_frame": 29281,
+      "last_obvious_active_frame": 29341,
+      "first_obvious_post_play_frame": 29431,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s3_p11_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "1dec7d5bc638c13a7a3016fc47300d8e66b7e533aa6476b330db61c871eec099"
+      ],
+      "focus_sheet_paths": [
+        "s3_p11_1.jpg",
+        "s3_p11_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "c351f6811ce0ce23b9ce085e995060b11b99f7876ed2860881f6a7831adb201c",
+        "1ab9e9b2335f431f21bc86c3a31b81be218eef5ac8afc0b55d29cf76b998a707"
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "clip_start_frame_inclusive": 29791,
+      "clip_end_frame_exclusive": 30091,
+      "last_obvious_pre_play_frame": 29851,
+      "first_obvious_active_frame": 29881,
+      "last_obvious_active_frame": 30001,
+      "first_obvious_post_play_frame": 30061,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s3_p13_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "3607c3d7e9b174997a41f2b280481939a7bce83ca717bb37fe48e02d72c6bf43"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "clip_start_frame_inclusive": 32641,
+      "clip_end_frame_exclusive": 32851,
+      "last_obvious_pre_play_frame": 32701,
+      "first_obvious_active_frame": 32742,
+      "last_obvious_active_frame": 32760,
+      "first_obvious_post_play_frame": 32791,
+      "phase_status": "five_hz_short_point_navigation_bracket",
+      "evidence_sheet_paths": [
+        "s3_p23_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "bc420108c011646c85937ed0c915521fa66d5c28ac5a4bdfcecec1cc01f12900"
+      ],
+      "focus_sheet_paths": [
+        "s3_p23_1.jpg",
+        "s3_p23_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "34c45f8f4a4a0b5f8c937732dfe225d8d050010e991a7e673a4858f336adcefa",
+        "d684b983a16c2a8ca1700f37bacd75f451e6f28f1a1551df9c5c6964cb08b803"
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "clip_start_frame_inclusive": 33961,
+      "clip_end_frame_exclusive": 34291,
+      "last_obvious_pre_play_frame": 34021,
+      "first_obvious_active_frame": 34051,
+      "last_obvious_active_frame": 34231,
+      "first_obvious_post_play_frame": 34288,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s3_p27_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "4d243d7cf201a26b80416dd4b53ab68684242689328256a176d34606489b259d"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "clip_start_frame_inclusive": 35611,
+      "clip_end_frame_exclusive": 35911,
+      "last_obvious_pre_play_frame": 35671,
+      "first_obvious_active_frame": 35701,
+      "last_obvious_active_frame": 35851,
+      "first_obvious_post_play_frame": 35908,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s3_p33_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "9710313410b59015f3bff1a4c10425c8a2d783a2dfb3f0c289e712878086dd3c"
+      ],
+      "focus_sheet_paths": [],
+      "focus_sheet_sha256": []
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "clip_start_frame_inclusive": 35911,
+      "clip_end_frame_exclusive": 36211,
+      "last_obvious_pre_play_frame": 35971,
+      "first_obvious_active_frame": 36001,
+      "last_obvious_active_frame": 36121,
+      "first_obvious_post_play_frame": 36181,
+      "phase_status": "one_hz_navigation_bracket_only",
+      "evidence_sheet_paths": [
+        "s3_p34_1.jpg"
+      ],
+      "evidence_sheet_sha256": [
+        "939468dd53ac3b6d9c3bcf5ed3031ebfc11873accb214fe9a544e4a819161cfa"
+      ],
+      "focus_sheet_paths": [
+        "s3_p34_1.jpg",
+        "s3_p34_2.jpg"
+      ],
+      "focus_sheet_sha256": [
+        "01d0d6bc8bcfdb0f84314045221b5320a82e8a58d49146a864a684a9d328ac87",
+        "212dd38820c9fae41e34cb0bb431239116034994ffb07457325a509c3fdc175f"
+      ]
+    }
+  ]
+}

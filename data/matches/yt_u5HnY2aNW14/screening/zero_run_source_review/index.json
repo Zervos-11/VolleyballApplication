@@ -1,0 +1,50 @@
+{
+  "status": "source_only_full_image_stills_no_detector_boxes",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "runs_sha256": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+  "intervals_sha256": "d873f56148839693d7e2de44918d74983e52c252f0ad1050b883da443e8f637b",
+  "entries": [
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frames": [
+        5371,
+        5376,
+        5381,
+        5386,
+        5391,
+        5396,
+        5401
+      ],
+      "sheet": "s1_p18.jpg",
+      "sha256": "a03fca4005bb08505fffc37409db7c926076f7d35617d5a25177d28d4476ee9f"
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_frames": [
+        16032,
+        16037,
+        16042,
+        16047,
+        16052,
+        16056
+      ],
+      "sheet": "s2_p14.jpg",
+      "sha256": "554b1e5e29e84de828cb6350dcba67e63c61b2b95a57a37aa95b79179e12e277"
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_frames": [
+        32742,
+        32747,
+        32752,
+        32757,
+        32760
+      ],
+      "sheet": "s3_p23.jpg",
+      "sha256": "713aca8b1f190943f5b8062a333cbc2b772202c57bd2a9f44623607ac8a867c8"
+    }
+  ]
+}

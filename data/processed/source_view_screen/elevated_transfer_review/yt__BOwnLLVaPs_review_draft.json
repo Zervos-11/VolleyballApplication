@@ -1,0 +1,2983 @@
+{
+  "revision": 53,
+  "scope": "single_reviewer_unblinded_5hz_transfer",
+  "frames": {
+    "270": {
+      "excerpt_frame": 270,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "276": {
+      "excerpt_frame": 276,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "282": {
+      "excerpt_frame": 282,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "288": {
+      "excerpt_frame": 288,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "294": {
+      "excerpt_frame": 294,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "300": {
+      "excerpt_frame": 300,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "306": {
+      "excerpt_frame": 306,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "312": {
+      "excerpt_frame": 312,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "318": {
+      "excerpt_frame": 318,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "324": {
+      "excerpt_frame": 324,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "330": {
+      "excerpt_frame": 330,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "336": {
+      "excerpt_frame": 336,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "342": {
+      "excerpt_frame": 342,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "348": {
+      "excerpt_frame": 348,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "354": {
+      "excerpt_frame": 354,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "360": {
+      "excerpt_frame": 360,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "366": {
+      "excerpt_frame": 366,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "372": {
+      "excerpt_frame": 372,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "378": {
+      "excerpt_frame": 378,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "384": {
+      "excerpt_frame": 384,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 9,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "not_visible",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "390": {
+      "excerpt_frame": 390,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "digit_confirmed",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "396": {
+      "excerpt_frame": 396,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "402": {
+      "excerpt_frame": 402,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "408": {
+      "excerpt_frame": 408,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "414": {
+      "excerpt_frame": 414,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "420": {
+      "excerpt_frame": 420,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "426": {
+      "excerpt_frame": 426,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "432": {
+      "excerpt_frame": 432,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "438": {
+      "excerpt_frame": 438,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 3,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        }
+      ]
+    },
+    "444": {
+      "excerpt_frame": 444,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        }
+      ]
+    },
+    "450": {
+      "excerpt_frame": 450,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "456": {
+      "excerpt_frame": 456,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 2,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "462": {
+      "excerpt_frame": 462,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "uncertain",
+          "floor_alignment": "uncertain",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "468": {
+      "excerpt_frame": 468,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 62,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "474": {
+      "excerpt_frame": 474,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "airborne",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "480": {
+      "excerpt_frame": 480,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "airborne",
+          "candidate_raw_track_id": 5,
+          "box_alignment": "same_player",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "486": {
+      "excerpt_frame": 486,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "airborne",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "492": {
+      "excerpt_frame": 492,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "498": {
+      "excerpt_frame": 498,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 107,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "504": {
+      "excerpt_frame": 504,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "510": {
+      "excerpt_frame": 510,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "516": {
+      "excerpt_frame": 516,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 11,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "522": {
+      "excerpt_frame": 522,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 56,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 92,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "528": {
+      "excerpt_frame": 528,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "534": {
+      "excerpt_frame": 534,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 132,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 131,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "540": {
+      "excerpt_frame": 540,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 132,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 131,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "546": {
+      "excerpt_frame": 546,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 132,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    },
+    "552": {
+      "excerpt_frame": 552,
+      "reviewer_code": "MZ",
+      "checked_all_six_in_source": true,
+      "source_boxes_visible_during_review": true,
+      "rows": [
+        {
+          "slot": 1,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": null,
+          "box_alignment": "no_box",
+          "floor_alignment": "not_applicable",
+          "note": ""
+        },
+        {
+          "slot": 2,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 132,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 3,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 4,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 4,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 70,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 5,
+          "identity_status": "sequence_consistent",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 23,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        },
+        {
+          "slot": 6,
+          "identity_status": "uncertain",
+          "physical_state": "grounded",
+          "candidate_raw_track_id": 6,
+          "box_alignment": "same_player",
+          "floor_alignment": "plausible",
+          "note": ""
+        }
+      ]
+    }
+  },
+  "status": "complete_single_reviewer"
+}

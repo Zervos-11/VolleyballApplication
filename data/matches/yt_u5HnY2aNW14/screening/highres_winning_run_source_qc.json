@@ -1,0 +1,46 @@
+{
+  "status": "single_reviewer_short_winning_run_team_identity_not_ground_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "run_audit_sha256": "4fc4176419a759cb7a14fea1877d6bc406394e6b082e95d4ac3ed2b196a11053",
+  "review_index_sha256": "1d4bcdb5467a92021e2e8933183f2d40863a532ebce1b610667235a1e0dd0e1b",
+  "set": 3,
+  "point_number": 13,
+  "near_team": "UCLA",
+  "near_team_won": true,
+  "source_frames": [
+    29881,
+    29887,
+    29893,
+    29899,
+    29905,
+    29911,
+    29917,
+    29923,
+    29929,
+    29935,
+    29941,
+    29947,
+    29953
+  ],
+  "raw_id_to_jersey": {
+    "2": "UCLA_12",
+    "4": "UCLA_1",
+    "6": "UCLA_19",
+    "7": "UCLA_libero_28",
+    "10": "UCLA_7",
+    "14": "UCLA_21"
+  },
+  "source_team_membership_status": "six_correct_near_side_teammates_all_13_sampled_frames",
+  "earliest_five_active_looking_frames": [
+    29881,
+    29887,
+    29893,
+    29899,
+    29905
+  ],
+  "active_looking_span_s": 0.8,
+  "later_phase_status": "uncertain_after_far_side_dive_point_end_not_exactly_frame_certified",
+  "ground_position_validation": "pending",
+  "validated_metric_frames": 0,
+  "limitations": "The first five samples show active-looking far-side defense; this is not an exact serve-to-dead-ball interval. Later frames may include point-end/recovery movement. Jerseys and boxes were checked in the rendered source sheets by one reviewer. The six box bottoms remain unvalidated floor anchors, and unsampled source frames remain unobserved."
+}

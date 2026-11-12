@@ -1,0 +1,241 @@
+{
+  "status": "scored_out_of_point_single_reviewer_calibration_check",
+  "protocol_sha256": "5b3b01387867d34b742451169321f5f02859931e6d6659d04a2f990fff6eeda2",
+  "candidate_transform_sha256": "4f588eed7c9e14ddfd8530ab4c8cc86e9bf10b070c5f678631c4407f6a66cb0c",
+  "strict_metric_approval": false,
+  "input_sha256": {
+    "completed_form": "c0fc4ae68f87303ae389f4bb234f7c799c9d52626738a4dabcd99beb901a5a3b",
+    "registration": "0dfd9f22dd4530afd80423d941f82da205359ca494f5d7121bf2cecc7343a9b5"
+  },
+  "marked_landmarks": 12,
+  "required_landmarks": 12,
+  "median_projected_error_m": 0.0316,
+  "maximum_projected_error_m": 0.0506,
+  "maximum_registered_static_shift_px": 0.293,
+  "operational_screen_passed": true,
+  "decision_rule": {
+    "required_visible_landmarks": 12,
+    "maximum_projected_landmark_error_m": 0.2,
+    "maximum_static_camera_registration_shift_px": 2.0,
+    "scope": "single_camera_near_court_operational_check_only",
+    "interpretation": "Passing is an out-of-point single-reviewer check of mapping stability, not independent player-position truth or full-rally validation."
+  },
+  "rows": [
+    {
+      "source_frame": 1759,
+      "landmark_code": "baseline_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        0
+      ],
+      "source_px": [
+        247.2,
+        645.3
+      ],
+      "projected_court_m": [
+        0.0235,
+        0.0246
+      ],
+      "projected_error_m": 0.034
+    },
+    {
+      "source_frame": 1759,
+      "landmark_code": "baseline_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        0
+      ],
+      "source_px": [
+        1117.2,
+        638.7
+      ],
+      "projected_court_m": [
+        8.9751,
+        0.0097
+      ],
+      "projected_error_m": 0.0267
+    },
+    {
+      "source_frame": 1759,
+      "landmark_code": "attack_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        6
+      ],
+      "source_px": [
+        289.4,
+        412.5
+      ],
+      "projected_court_m": [
+        0.0188,
+        5.9944
+      ],
+      "projected_error_m": 0.0196
+    },
+    {
+      "source_frame": 1759,
+      "landmark_code": "attack_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        6
+      ],
+      "source_px": [
+        1061.7,
+        407.2
+      ],
+      "projected_court_m": [
+        8.9668,
+        6.0136
+      ],
+      "projected_error_m": 0.0359
+    },
+    {
+      "source_frame": 1759,
+      "landmark_code": "net_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        9
+      ],
+      "source_px": [
+        308.3,
+        314.9
+      ],
+      "projected_court_m": [
+        0.0312,
+        8.9706
+      ],
+      "projected_error_m": 0.0429
+    },
+    {
+      "source_frame": 1759,
+      "landmark_code": "net_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        9
+      ],
+      "source_px": [
+        1041.2,
+        309.4
+      ],
+      "projected_court_m": [
+        8.9989,
+        9.0293
+      ],
+      "projected_error_m": 0.0293
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "baseline_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        0
+      ],
+      "source_px": [
+        246.5,
+        646.0
+      ],
+      "projected_court_m": [
+        0.0176,
+        0.0088
+      ],
+      "projected_error_m": 0.0197
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "baseline_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        0
+      ],
+      "source_px": [
+        1117.9,
+        637.4
+      ],
+      "projected_court_m": [
+        8.9855,
+        0.0394
+      ],
+      "projected_error_m": 0.042
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "attack_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        6
+      ],
+      "source_px": [
+        287.9,
+        410.7
+      ],
+      "projected_court_m": [
+        -0.0023,
+        6.0468
+      ],
+      "projected_error_m": 0.0469
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "attack_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        6
+      ],
+      "source_px": [
+        1062.4,
+        406.1
+      ],
+      "projected_court_m": [
+        8.978,
+        6.0456
+      ],
+      "projected_error_m": 0.0506
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "net_left",
+      "status": "marked",
+      "target_court_m": [
+        0,
+        9
+      ],
+      "source_px": [
+        307.0,
+        314.4
+      ],
+      "projected_court_m": [
+        0.0143,
+        8.9869
+      ],
+      "projected_error_m": 0.0194
+    },
+    {
+      "source_frame": 1783,
+      "landmark_code": "net_right",
+      "status": "marked",
+      "target_court_m": [
+        9,
+        9
+      ],
+      "source_px": [
+        1040.5,
+        309.8
+      ],
+      "projected_court_m": [
+        8.9892,
+        9.0164
+      ],
+      "projected_error_m": 0.0197
+    }
+  ]
+}

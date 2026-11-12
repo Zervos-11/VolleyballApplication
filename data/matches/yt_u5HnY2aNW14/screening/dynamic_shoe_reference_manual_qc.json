@@ -1,0 +1,23 @@
+{
+  "status": "single_reviewer_approximate_non_anchor_clear_shoe_reference",
+  "review_index_sha256": "9b1eefd3c504db2cdf20ab17dcc1f6d3dae1476d7a430baf69283970b1d71d3e",
+  "rule": "Read the approximate midpoint of two clearly visible shoes on the unboxed source crop. Use the companion identity crop only to identify the intended player. If either shoe or ground contact is uncertain, mark missing. Approximate visual reading uncertainty is plus or minus 12 image pixels per axis; these marks are not independent of the reviewer's choice of player.",
+  "rows": [
+    {"set": 1, "point_number": 5, "source_frame": 1434, "player_key": 6, "status": "missing", "shoe_midpoint_px": null, "note": "Front player lunges and one shoe is obscured by the foreground teammate."},
+    {"set": 1, "point_number": 5, "source_frame": 1434, "player_key": 2, "status": "approximate_clear_pair", "shoe_midpoint_px": [509, 517], "note": "Both foreground shoes visible."},
+    {"set": 1, "point_number": 6, "source_frame": 1770, "player_key": 15, "status": "approximate_clear_pair", "shoe_midpoint_px": [501, 330], "note": "Two front-row shoes visible near the UCLA logo."},
+    {"set": 1, "point_number": 6, "source_frame": 1770, "player_key": 4, "status": "missing", "shoe_midpoint_px": null, "note": "Rear player's right shoe may be lifted; grounded midpoint uncertain."},
+    {"set": 1, "point_number": 18, "source_frame": 5383, "player_key": "proposal_3", "status": "missing", "shoe_midpoint_px": null, "note": "Front player overlaps another near the net; second shoe assignment uncertain."},
+    {"set": 1, "point_number": 18, "source_frame": 5383, "player_key": "proposal_6", "status": "approximate_clear_pair", "shoe_midpoint_px": [1171, 634], "note": "Both shoes visible beyond the right sideline."},
+    {"set": 2, "point_number": 6, "source_frame": 13578, "player_key": 8, "status": "approximate_clear_pair", "shoe_midpoint_px": [708, 330], "note": "Both front-row shoes visible; nearby players make the reading approximate."},
+    {"set": 2, "point_number": 6, "source_frame": 13578, "player_key": 76, "status": "approximate_clear_pair", "shoe_midpoint_px": [715, 578], "note": "Both rear-player shoes visible."},
+    {"set": 2, "point_number": 28, "source_frame": 19548, "player_key": 12, "status": "missing", "shoe_midpoint_px": null, "note": "Front player is low and obscured near the net; two grounded shoes cannot be assigned."},
+    {"set": 2, "point_number": 28, "source_frame": 19548, "player_key": 5, "status": "approximate_clear_pair", "shoe_midpoint_px": [679, 579], "note": "Both rear-player shoes visible."},
+    {"set": 3, "point_number": 13, "source_frame": 29952, "player_key": 14, "status": "approximate_clear_pair", "shoe_midpoint_px": [581, 346], "note": "Both front-row shoes visible."},
+    {"set": 3, "point_number": 13, "source_frame": 29952, "player_key": 2, "status": "approximate_clear_pair", "shoe_midpoint_px": [702, 542], "note": "Both rear-player shoes visible."},
+    {"set": 3, "point_number": 27, "source_frame": 34134, "player_key": 17, "status": "approximate_clear_pair", "shoe_midpoint_px": [763, 334], "note": "Both front-row shoes visible."},
+    {"set": 3, "point_number": 27, "source_frame": 34134, "player_key": 21, "status": "missing", "shoe_midpoint_px": null, "note": "Rear player has one clearly visible shoe; the other is occluded behind the leg."},
+    {"set": 3, "point_number": 34, "source_frame": 36084, "player_key": 10, "status": "approximate_clear_pair", "shoe_midpoint_px": [814, 338], "note": "Both front-row shoes visible."},
+    {"set": 3, "point_number": 34, "source_frame": 36084, "player_key": 2, "status": "approximate_clear_pair", "shoe_midpoint_px": [700, 563], "note": "Both rear-player shoes visible."}
+  ]
+}

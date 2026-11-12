@@ -1,0 +1,323 @@
+{
+  "status": "unboxed_source_crop_index_for_single_reviewer_non_anchor_reference",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "proxy_sha256": "a89c2330af321ac4e2e4c7388306c4c6460b2e5a256e9a1ede484d12e6d45c94",
+  "pilot_sha256": "a42d9a2e086fcf5d14e7794e0cf1a55a7e38a542161ab0c77a937d92e3e679cb",
+  "video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "selection_rule": "frontmost and rearmost anchor box by image bottom; evaluate at +12 frames",
+  "annotation_rule": "manual midpoint of two visible grounded shoes; uncertain contact is null",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame": 1434,
+      "sheet": "s1_p05_f1434.jpg",
+      "sheet_sha256": "a79094f966f7a6eaf1083e97aac0d5f2238d4d2f862868ea83432c8de5006694",
+      "identity_sheet": "s1_p05_f1434_identity.jpg",
+      "identity_sheet_sha256": "be9988646dd69423e9b79527df369a310ab640ca519f7a4c73cb99485185528a",
+      "selected": [
+        {
+          "player_index": 2,
+          "player_key": 6,
+          "crop": {
+            "left": 345,
+            "top": 329,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            469.96,
+            429.42
+          ]
+        },
+        {
+          "player_index": 1,
+          "player_key": 2,
+          "crop": {
+            "left": 362,
+            "top": 426,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            486.79,
+            525.74
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_frame": 1770,
+      "sheet": "s1_p06_f1770.jpg",
+      "sheet_sha256": "d5faf3f519557e99b6a8e0efebb94fdbf9d00ff72924100f9ed4c33638198be4",
+      "identity_sheet": "s1_p06_f1770_identity.jpg",
+      "identity_sheet_sha256": "814bc2663d2794d6375b723bda290b86d3db8410a4e4f222e853d705daaf76e6",
+      "selected": [
+        {
+          "player_index": 2,
+          "player_key": 15,
+          "crop": {
+            "left": 394,
+            "top": 230,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            519.13,
+            330.08
+          ]
+        },
+        {
+          "player_index": 3,
+          "player_key": 4,
+          "crop": {
+            "left": 549,
+            "top": 504,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            674.0,
+            604.11
+          ]
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frame": 5383,
+      "sheet": "s1_p18_f5383.jpg",
+      "sheet_sha256": "5fa3a59e8ccb83ee5ca5d8bcb600b823e67b4c4b962919390d876115644a3d0b",
+      "identity_sheet": "s1_p18_f5383_identity.jpg",
+      "identity_sheet_sha256": "61728a02b3657ca965d8cf06bac1b24cf52caa7fa776adc2b5a42b1463bace29",
+      "selected": [
+        {
+          "player_index": 2,
+          "player_key": "proposal_3",
+          "crop": {
+            "left": 451,
+            "top": 233,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            576.25,
+            332.68
+          ]
+        },
+        {
+          "player_index": 5,
+          "player_key": "proposal_6",
+          "crop": {
+            "left": 1030,
+            "top": 530,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            1184.22,
+            649.83
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_frame": 13578,
+      "sheet": "s2_p06_f13578.jpg",
+      "sheet_sha256": "9c0c53b11cdcecea2a349c23228752f2bb71ec35700f33f6350026e3aecf358e",
+      "identity_sheet": "s2_p06_f13578_identity.jpg",
+      "identity_sheet_sha256": "0f62fd9053aff45c1b41a8c8eb4dc3f3bf176d168a51a49126fe3e5073312dcf",
+      "selected": [
+        {
+          "player_index": 2,
+          "player_key": 8,
+          "crop": {
+            "left": 590,
+            "top": 229,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            715.12,
+            329.38
+          ]
+        },
+        {
+          "player_index": 3,
+          "player_key": 76,
+          "crop": {
+            "left": 584,
+            "top": 479,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            708.69,
+            579.42
+          ]
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19548,
+      "sheet": "s2_p28_f19548.jpg",
+      "sheet_sha256": "8bbc9f6c5226e840f509ca3ab5ec93d047a80faae1ad1308b2ae4d3ad465a8af",
+      "identity_sheet": "s2_p28_f19548_identity.jpg",
+      "identity_sheet_sha256": "9875296a6b73a5cba175ae42de7149a8a6e9d1c933595327d1034f32ef126d74",
+      "selected": [
+        {
+          "player_index": 2,
+          "player_key": 12,
+          "crop": {
+            "left": 514,
+            "top": 297,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            639.23,
+            396.81
+          ]
+        },
+        {
+          "player_index": 3,
+          "player_key": 5,
+          "crop": {
+            "left": 568,
+            "top": 479,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            693.13,
+            579.44
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29952,
+      "sheet": "s3_p13_f29952.jpg",
+      "sheet_sha256": "d6fa8c119a416f0a1d5d1cff6280778c9701546e420eea9af48860190db19051",
+      "identity_sheet": "s3_p13_f29952_identity.jpg",
+      "identity_sheet_sha256": "aa99452774a6078fc89eb50544ecf4b1d10a98f2168cc339f6a57478faf523d1",
+      "selected": [
+        {
+          "player_index": 1,
+          "player_key": 14,
+          "crop": {
+            "left": 457,
+            "top": 227,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            582.48,
+            327.24
+          ]
+        },
+        {
+          "player_index": 2,
+          "player_key": 2,
+          "crop": {
+            "left": 572,
+            "top": 464,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            696.7,
+            564.05
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_frame": 34134,
+      "sheet": "s3_p27_f34134.jpg",
+      "sheet_sha256": "c1a8b3119d3672832510eb5c6a40e4e163d390b1a9fa199c6092183de3d509bf",
+      "identity_sheet": "s3_p27_f34134_identity.jpg",
+      "identity_sheet_sha256": "a8c9869c96c0b6415e2887e0d714c461992b05429ecd6ccfba77cee3be308e0b",
+      "selected": [
+        {
+          "player_index": 3,
+          "player_key": 17,
+          "crop": {
+            "left": 635,
+            "top": 238,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            760.28,
+            338.18
+          ]
+        },
+        {
+          "player_index": 2,
+          "player_key": 21,
+          "crop": {
+            "left": 558,
+            "top": 530,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            683.45,
+            646.38
+          ]
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36084,
+      "sheet": "s3_p34_f36084.jpg",
+      "sheet_sha256": "87faca077fb7a36599e91e013b13e58bba5cb3285b1e819607f81ff128812fc3",
+      "identity_sheet": "s3_p34_f36084_identity.jpg",
+      "identity_sheet_sha256": "4ba730d659b6d7e2ddfbfb5ca535967118c425a87b0df9088e1ff270f72e2a86",
+      "selected": [
+        {
+          "player_index": 4,
+          "player_key": 10,
+          "crop": {
+            "left": 696,
+            "top": 236,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            820.6,
+            336.4
+          ]
+        },
+        {
+          "player_index": 2,
+          "player_key": 2,
+          "crop": {
+            "left": 568,
+            "top": 493,
+            "width": 250,
+            "height": 190
+          },
+          "proxy_bottom_px": [
+            692.87,
+            592.79
+          ]
+        }
+      ]
+    }
+  ]
+}

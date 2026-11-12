@@ -1,0 +1,52 @@
+{
+  "status": "validation_readiness_audit_no_approved_full_rally_or_fixed_window",
+  "point": "S3 P34",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_six_player_observation_ledger.json": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1",
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_reviewed_sample_ledger.json": "80a87cef21d7d0fd44f6a8cbcfb0998d1857a95a75a85959d2d6a852aa384546",
+    "data/matches/yt_u5HnY2aNW14/screening/near_court_candidate.json": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "data/matches/yt_u5HnY2aNW14/screening/full_rally_validation_frames/source_event_brackets.json": "34f195bd6600e329c56ebef8a060e0755cfdddfd0b155e255032783314f7a609",
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_full_span_review/candidate_identity_source_review.json": "81169630850b83f738bc539c22a14ba4a6c8b8c1ff0eac956054d06a50c1ba09",
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_30fps_ground_review/single_reviewer_score.json": "5f13619a2c10236f5930ee21c0d0e566315502a9c86cea6e65301c8dd07b1c7d",
+    "data/matches/yt_u5HnY2aNW14/screening/s3p34_30fps_ground_review/single_reviewer_unsampled_completed.csv": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc"
+  },
+  "strict_gate": {
+    "near_roster_source_review": "existing_source_review",
+    "candidate_identity_sequence_review": "AI_assisted_no_independent_human_adjudication",
+    "exact_full_rally_boundaries": "unresolved",
+    "court_transform_validated_for_metric_use": false,
+    "ground_positions_all_30fps_source_frames": false,
+    "diagnostic_segment_all_37_frames_six_source_reviewed_proxies": true,
+    "continuous_six_grounded_positions": false,
+    "approved_full_rally_trajectory": false,
+    "approved_fixed_window_result": false
+  },
+  "availability": {
+    "candidate_frames_with_six": 104,
+    "candidate_frames_total": 138,
+    "missing_candidate_slots": 48,
+    "longest_consecutive_six_candidate_run_inclusive": [
+      36061,
+      36106
+    ],
+    "longest_consecutive_six_candidate_run_frames": 46,
+    "longest_consecutive_5hz_six_grounded_sample_run_inclusive": [
+      36066,
+      36102
+    ],
+    "consecutive_grounded_sample_count": 7,
+    "candidate_complete_frames_in_sample_run_span": 37,
+    "sampled_source_reviewed_ground_frames_in_segment": 7,
+    "additional_single_reviewer_ground_frames_in_segment": 30,
+    "additional_single_reviewer_ground_player_slots_in_segment": 180,
+    "source_reviewed_six_grounded_frames_in_segment": 37
+  },
+  "decisive_counterexample": {
+    "source_frame": 36112,
+    "jersey": "15",
+    "observation": "airborne_without_jersey_keyed_candidate",
+    "consequence": "no_observed_ground_floor_coordinate_at_this_frame"
+  },
+  "interpretation": "The 36066-36102 segment is selected after tracking availability was known and therefore is a diagnostic target, not a prespecified strict fixed window. The one available human reviewer has now marked all 180 intervening player slots grounded with matching, plausible boxes; this supports a 37-frame source-reviewed diagnostic segment but is not independent adjudication. A full-rally six-grounded-position trajectory cannot be validated while airborne and missing positions remain null. A full-rally descriptive metric input could retain null frames only after exact interval and calibration review, but it would not be a continuous six-grounded trajectory."
+}

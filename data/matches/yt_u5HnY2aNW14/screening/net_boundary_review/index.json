@@ -1,0 +1,39 @@
+{
+  "screen_sha256": "664f30f1ad8c0aa8ab51119cd991d13b21b8a7b78088e1bc85dd3115f92cbb6a",
+  "video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "boundary_frames": 24,
+  "boundary_boxes": 28,
+  "sheets": [
+    "sheet_1.jpg",
+    "sheet_2.jpg",
+    "sheet_3.jpg",
+    "sheet_4.jpg",
+    "boundary_crops.jpg"
+  ],
+  "seconds": [
+    50,
+    246,
+    247,
+    353,
+    354,
+    359,
+    364,
+    404,
+    412,
+    445,
+    446,
+    447,
+    451,
+    739,
+    979,
+    996,
+    997,
+    1000,
+    1135,
+    1137,
+    1192,
+    1193,
+    1201,
+    1204
+  ]
+}

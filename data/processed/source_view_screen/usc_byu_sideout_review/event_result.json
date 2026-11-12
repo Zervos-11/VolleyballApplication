@@ -1,0 +1,41 @@
+{
+  "status": "single_reviewer_source_event_exemplar",
+  "case_id": "yt_b1bJ5WN05Qw_byu_sideout_0754",
+  "source_clip_sha256": "19a22a123595bb95d2d033c798692c975572f169bf11f34f06d4d3a52501e072",
+  "protocol_sha256": "e3cedd00399b437a40bcc77448aaca937545215db2712af102d3ffec3e90469a",
+  "review_sha256": "1b1dff2632725a413b709aa1212a00b4876837e7bc5f93b1c68c8a7076a0f6e8",
+  "reviewer_code": "MZ",
+  "usc_served": true,
+  "byu_won": true,
+  "score_before_byu_usc": "",
+  "score_after_byu_usc": "",
+  "score_review_status": "not_entered_by_reviewer",
+  "event_clip_frame_intervals": {
+    "serve": [
+      98,
+      98
+    ],
+    "reception": [
+      134,
+      134
+    ],
+    "set": [
+      186,
+      186
+    ],
+    "attack": [
+      200,
+      200
+    ],
+    "point_end": [
+      267,
+      267
+    ]
+  },
+  "receive_to_first_attack_seconds_interval": [
+    2.2,
+    2.2
+  ],
+  "selection_kind": "post_hoc_source_selected_after_outcome_inspection",
+  "limitation": "One source-selected, single-reviewer event example; no validated six-player floor trajectory or outcome association."
+}

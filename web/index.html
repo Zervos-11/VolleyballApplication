@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Volley Analytics — Local</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+      :root { --bg:#0b0d10; --fg:#e8eaed; --muted:#9aa0a6; --card:#111418; --hl:#1a73e8; }
+      * { box-sizing: border-box; }
+      body { background:var(--bg); color:var(--fg); font-family: system-ui, Arial; margin: 24px; }
+      h1 { margin: 0 0 12px; font-size: 22px; }
+      .row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin: 8px 0 16px; }
+      .card { background:var(--card); padding:16px; border-radius:12px; margin:12px 0; }
+      label { display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+      input[type="text"] { padding:10px 12px; background:#0f1317; border:1px solid #1f262d; color:var(--fg); border-radius:8px; min-width:220px; }
+      input[type="file"] { color:var(--muted); }
+      textarea { width:100%; min-height:220px; background:#0f1317; border:1px solid #1f262d; color:var(--fg); border-radius:8px; padding:12px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      button { padding:10px 14px; border-radius:10px; border:1px solid #2b3440; background:#171b20; color:var(--fg); cursor:pointer; }
+      button:hover { border-color:#364150; }
+      .ok { color:#34a853; }
+      .err { color:#ea4335; }
+      pre { background:#0f1317; border:1px solid #1f262d; padding:12px; border-radius:8px; overflow:auto; max-height: 40vh; }
+      small { color:var(--muted); }
+    </style>
+  </head>
+  <body>
+    <h1>Volley Analytics — Local</h1>
+    <div class="row">
+      <div>Status: <span id="status">checking...</span></div>
+      <small>API URL: <code id="apiUrl">http://127.0.0.1:8000</code></small>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div>
+          <label for="matchId">Match ID</label>
+          <input id="matchId" type="text" value="uts_demo"/>
+        </div>
+        <div>
+          <label>&nbsp;</label>
+          <button onclick="init()">1) Init Match</button>
+          <button onclick="processMatch()">4) Process</button>
+          <button onclick="getMetrics()">5) Get Metrics</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <label>2) Upload Video (.mp4)</label>
+      <div class="row">
+        <input id="videoFile" type="file" accept="video/mp4"/>
+        <button onclick="uploadVideo()">Upload</button>
+      </div>
+      <small>Uploads to: <code>/v1/matches/{match_id}/upload</code></small>
+    </div>
+
+    <div class="card">
+      <label>3) Metadata JSON (sent as <code>payload</code> form field)</label>
+      <textarea id="metaBox"></textarea>
+      <div class="row">
+        <button onclick="sendMetadata()">Send Metadata</button>
+        <button onclick="fillTemplate()">Reset Template</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <label>Output</label>
+      <div id="metricsSummary"></div>
+      <pre id="out"></pre>
+    </div>
+
+    <script>
+      // --- config ---
+      const API = 'http://127.0.0.1:8000';
+      document.getElementById('apiUrl').textContent = API;
+
+      const out = document.getElementById('out');
+      const matchInput = document.getElementById('matchId');
+      const metaBox = document.getElementById('metaBox');
+      function log(obj) {
+        document.getElementById('metricsSummary').replaceChildren();
+        out.textContent = (typeof obj === 'string') ? obj : JSON.stringify(obj, null, 2);
+      }
+
+      function showMetricsSummary(data) {
+        const panel = document.getElementById('metricsSummary');
+        if (!Array.isArray(data.per_rally)) return;
+        for (const rally of data.per_rally) {
+          const q = rally.quality || {};
+          const c = rally.coverage || {};
+          const card = document.createElement('div');
+          card.className = 'card';
+          const heading = document.createElement('strong');
+          heading.textContent = `${rally.rally_id}: ${q.status || 'unknown status'}`;
+          const detail = document.createElement('p');
+          detail.textContent = `${q.frames_with_track_observations ?? 0}/${q.expected_frames ?? '?'} frames have detector observations; ${q.retained_track_observations ?? 0} retained points. Team identity and ground contact: unverified.`;
+          const spacing = document.createElement('p');
+          spacing.textContent = q.metric_revision !== 'same_frame_mpd_v2'
+            ? 'This saved result uses the older spacing calculation. Run Process again for a same-frame value.'
+            : c.mpd == null
+              ? 'Same-frame spacing: unavailable (fewer than two retained detections together).'
+              : `Same-frame box-bottom spacing: ${Number(c.mpd).toFixed(2)} ${c.units === 'meters' ? 'm' : 'px'} across ${q.simultaneous_pairs ?? '?'} pairs in ${q.simultaneous_pair_frames ?? '?'} frames. Exploratory only.`;
+          card.append(heading, detail, spacing);
+          panel.append(card);
+        }
+      }
+
+      async function check() {
+        try {
+          const r = await fetch(API + '/healthz');
+          const j = await r.json();
+          document.getElementById('status').innerHTML = `<span class="ok">OK</span> (v${j.version})`;
+        } catch {
+          document.getElementById('status').innerHTML = '<span class="err">API not running</span>';
+        }
+      }
+
+      async function init() {
+        const match_id = matchInput.value.trim();
+        const r = await fetch(API + '/v1/matches/init', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ match_id, set_number: 1 })
+        });
+        log(await r.json());
+      }
+
+      async function uploadVideo() {
+        const f = document.getElementById('videoFile').files[0];
+        if (!f) { return log('Choose a .mp4 first'); }
+        const match_id = matchInput.value.trim();
+        const form = new FormData();
+        form.append('file', f, f.name);
+        const r = await fetch(API + `/v1/matches/${encodeURIComponent(match_id)}/upload`, {
+          method: 'POST',
+          body: form
+        });
+        log(await r.json());
+      }
+
+      async function sendMetadata() {
+        const match_id = document.getElementById('matchId').value.trim();
+        const metaBox = document.getElementById('metaBox');
+        const out = document.getElementById('out');
+
+        function log(x){ out.textContent = typeof x==='string'? x : JSON.stringify(x,null,2); }
+
+        let text = metaBox.value.trim();
+
+        // validate JSON before sending
+        try { JSON.parse(text); }
+        catch(e) { return log('Metadata must be valid JSON: ' + e.message); }
+
+        const form = new FormData();
+        form.append('payload', text); // <-- IMPORTANT: send as plain text field, not a Blob/file
+
+        const r = await fetch('http://127.0.0.1:8000' + `/v1/matches/${encodeURIComponent(match_id)}/metadata`, {
+            method: 'POST',
+            body: form
+        });
+        log(await r.json());
+        }
+
+      async function processMatch() {
+        const match_id = matchInput.value.trim();
+        const r = await fetch(API + `/v1/matches/${encodeURIComponent(match_id)}/process`, { method: 'POST' });
+        log(await r.json());
+      }
+
+      async function getMetrics() {
+        const match_id = matchInput.value.trim();
+        const r = await fetch(API + `/v1/matches/${encodeURIComponent(match_id)}/metrics`);
+        const data = await r.json();
+        log(data);
+        showMetricsSummary(data);
+      }
+
+      function fillTemplate() {
+        const match_id = matchInput.value.trim() || "uts_demo";
+        metaBox.value = JSON.stringify({
+            schema_version: "v1",
+            match_id,
+            set_number: 1,
+            camera: { fps: 30, width: 1920, height: 1080, mount: "baseline" },
+            homography: null,
+            rallies: [
+            { rally_id: "r1", t_start: 0.0, t_end: 10.5, context: "unknown", outcome: null }
+            ],
+            teams: {
+            home: { name: "UTS", roster: [] },
+            away: { name: "Opp", roster: [] }
+            }
+        }, null, 2);
+        }
+
+
+      fillTemplate();
+      check();
+    </script>
+  </body>
+  </html>
+

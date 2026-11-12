@@ -1,0 +1,252 @@
+{
+  "status": "matched_window_pilot_source_review_pack",
+  "selection_rule": "Revised exploratory phase candidate: five consecutive 5 Hz frames ending near observed opponent front-court action in each point; this revision follows the first-window failure, and cannot support a prespecified outcome test.",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "data\\matches\\yt_u5HnY2aNW14\\screening\\dense_live_track_screen.json": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+    "data\\matches\\yt_u5HnY2aNW14\\screening\\interior_identity_run_availability.json": "33a9502ec0cc4f38cd216a1e6d5649d2af961b8650998446f222947a78324336",
+    "data\\matches\\yt_u5HnY2aNW14\\screening\\highres_winning_run_screen.json": "4fc4176419a759cb7a14fea1877d6bc406394e6b082e95d4ac3ed2b196a11053"
+  },
+  "rows": [
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29917,
+      "raw_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ],
+      "files": {
+        "source": "s3_p13_f29917_source.jpg",
+        "overlay": "s3_p13_f29917_overlay.jpg",
+        "feet": "s3_p13_f29917_feet.jpg"
+      },
+      "sha256": {
+        "source": "f54df52807cf26420543f503a457795e89bb6240e62eba5964aff1bbf2bbfd7d",
+        "overlay": "7b8b88766f7af21ae5b5878841de530e1a5dc465ef5e7ee9505cad3455a828ab",
+        "feet": "4b6eb86a08a3820ef4a7b3e1e1870ea61e1a23c5511e5836f43016083ce9fad5"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29923,
+      "raw_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ],
+      "files": {
+        "source": "s3_p13_f29923_source.jpg",
+        "overlay": "s3_p13_f29923_overlay.jpg",
+        "feet": "s3_p13_f29923_feet.jpg"
+      },
+      "sha256": {
+        "source": "f51393a60ffc043c891c57562fd5dc633b0aa632f917bbdf402f154fbee238c0",
+        "overlay": "5056c58fd1b5e5ab4d671a82899a4d8134b81645082214517d6033a507ce60d3",
+        "feet": "9751b38b5b4ca868f07afbc6fb8217019dfea1281252128d55d73ae095a17a6f"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29929,
+      "raw_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ],
+      "files": {
+        "source": "s3_p13_f29929_source.jpg",
+        "overlay": "s3_p13_f29929_overlay.jpg",
+        "feet": "s3_p13_f29929_feet.jpg"
+      },
+      "sha256": {
+        "source": "dee052af06b52589da8e54a745797cc6458b8882d7ebb6d6ac09f413a5b08b9a",
+        "overlay": "9a34b108476b785de820de7b3ecb553ec0a94b0344cfe5f0a5b90025e8432594",
+        "feet": "3c6fb3770d5be81350b5b1c28a80af8ce82dbf73e3d1973535e046bde330b6dc"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29935,
+      "raw_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ],
+      "files": {
+        "source": "s3_p13_f29935_source.jpg",
+        "overlay": "s3_p13_f29935_overlay.jpg",
+        "feet": "s3_p13_f29935_feet.jpg"
+      },
+      "sha256": {
+        "source": "abb3d9f9d9f028e819da8031002a1d18966f5eac8a684e3c2b050482693a0027",
+        "overlay": "d4980ba902733627cdca8834fb43ae626d1cb55c8e6df4a5b4bba89990f4215e",
+        "feet": "6b64a78000bcd1faca2350f7dec9a90e45dec3689ac3d7aa17a32f7a72fb1f71"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29941,
+      "raw_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ],
+      "files": {
+        "source": "s3_p13_f29941_source.jpg",
+        "overlay": "s3_p13_f29941_overlay.jpg",
+        "feet": "s3_p13_f29941_feet.jpg"
+      },
+      "sha256": {
+        "source": "b97f7817b6e0e5315d4b556a9ae971329dd10b56bff7931181048f4f5bd0567f",
+        "overlay": "113bc3d536fba212c91676f668901c0415b7e7c77b546234b5419e3497704518",
+        "feet": "928d269aa40b919accc8239fd281bd0e9a1b54d7444b3226b952c04443cb2360"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36054,
+      "raw_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "files": {
+        "source": "s3_p34_f36054_source.jpg",
+        "overlay": "s3_p34_f36054_overlay.jpg",
+        "feet": "s3_p34_f36054_feet.jpg"
+      },
+      "sha256": {
+        "source": "16573dafdcf4dc32ddf6e75b51128e8d7077e8183eb3e44d5458ac91c8e5cf98",
+        "overlay": "74ce6af9230f0e17eddad8fae61a5da1f2cb6730662360f800955e9e2e5e1f6c",
+        "feet": "cc924c20f3b165b67f4540948f396a34493a75b86940d269d74a78ca23bde771"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36060,
+      "raw_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "files": {
+        "source": "s3_p34_f36060_source.jpg",
+        "overlay": "s3_p34_f36060_overlay.jpg",
+        "feet": "s3_p34_f36060_feet.jpg"
+      },
+      "sha256": {
+        "source": "01a30712a32e9d1a8fb6bc37df4825d1d5f9c26c0726adb1e42371b9f6998e26",
+        "overlay": "4c2223f9e1105ec646132c463275a4a7f2977bf13467fbcbc75a69a3f097a97e",
+        "feet": "c94c6d5ee0cc373cee0912a19208199a5d13a23182432bf39aa073ffa53756c6"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36066,
+      "raw_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "files": {
+        "source": "s3_p34_f36066_source.jpg",
+        "overlay": "s3_p34_f36066_overlay.jpg",
+        "feet": "s3_p34_f36066_feet.jpg"
+      },
+      "sha256": {
+        "source": "f7d6d7dff5efccc3a9bb6246a69a2bc2b21bd01e77370565cc94c68fa34804fe",
+        "overlay": "f796e129db42b8acf2d3428d9f35436c25af75429eba389950e4dbdc19defad8",
+        "feet": "06ec820655f8e7d9ea9ecb8409ea94bb826465d7c4c9a8ce576d5bdce6fd2681"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36072,
+      "raw_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "files": {
+        "source": "s3_p34_f36072_source.jpg",
+        "overlay": "s3_p34_f36072_overlay.jpg",
+        "feet": "s3_p34_f36072_feet.jpg"
+      },
+      "sha256": {
+        "source": "3cf02d1fe24548d05e48c3f839c50464da13f1acd8ed7f2df66574c58a4a7b0c",
+        "overlay": "967e4e0ead2fba7eebd361eacba70f836641545406f056ea7bf2fa6c4bc853e7",
+        "feet": "667284815ac04ba25e1dd90cde67f10e5e85f3bd3d86abacfd9c4f4eac4dc818"
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36078,
+      "raw_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ],
+      "files": {
+        "source": "s3_p34_f36078_source.jpg",
+        "overlay": "s3_p34_f36078_overlay.jpg",
+        "feet": "s3_p34_f36078_feet.jpg"
+      },
+      "sha256": {
+        "source": "cde68eff93b691e6da4645141e5c8298daa4682cddf71e022ed9aa8b6c4fa7e5",
+        "overlay": "532f73b2584be7ff9bfd7ef5fef8d1586f818be5a8f117c9990acc0ef546e5fc",
+        "feet": "dcabf251fc70313274e1a0ae20e646b0a260e6db8df814a3cf7a4befd7f687e7"
+      }
+    }
+  ]
+}

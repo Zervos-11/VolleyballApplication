@@ -1,0 +1,119 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "pilot_sha256": "a42d9a2e086fcf5d14e7794e0cf1a55a7e38a542161ab0c77a937d92e3e679cb",
+  "window_sha256": "01e204e1df368e3ff55b6507d0b328a2f80557c01cbf72ae06b3290716923cb1",
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "source_frames": [
+        1410,
+        1416,
+        1422,
+        1428,
+        1434
+      ],
+      "sheet": "s1_p05.jpg",
+      "sha256": "707fe59acfac338e12213a68f4ddee27661319946939827fdb3cde33d2771105"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frames": [
+        1746,
+        1752,
+        1758,
+        1764,
+        1770
+      ],
+      "sheet": "s1_p06.jpg",
+      "sha256": "6e1617a18944ebf6f7e0a24b1124c5a2ed0264f68a9f2569990ceb5f23b48cfb"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "source_frames": [
+        5359,
+        5365,
+        5371,
+        5377,
+        5383
+      ],
+      "sheet": "s1_p18.jpg",
+      "sha256": "0e038838b43724ee74d3aacd8cc6eda3c9be0371f3597aacb008372ea08d2433"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frames": [
+        13554,
+        13560,
+        13566,
+        13572,
+        13578
+      ],
+      "sheet": "s2_p06.jpg",
+      "sha256": "6075ae44c53c330ba57f381f6290cdc60779bc1df04e3b28b2e1103a1cfbab94"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "source_frames": [
+        19524,
+        19530,
+        19536,
+        19542,
+        19548
+      ],
+      "sheet": "s2_p28.jpg",
+      "sha256": "5843e267d8d2726bdd51ff2f55606e47c74a9f64b7598d95df5dbe6fe7ba4da1"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frames": [
+        29928,
+        29934,
+        29940,
+        29946,
+        29952
+      ],
+      "sheet": "s3_p13.jpg",
+      "sha256": "1e2bc38cf04eb1cec39efea6d45e4f9a3657d278867cd3153e0d365cf3372b60"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "source_frames": [
+        34110,
+        34116,
+        34122,
+        34128,
+        34134
+      ],
+      "sheet": "s3_p27.jpg",
+      "sha256": "1d3f519c1f835195aff769271d71d2d057ab80a233faa34b5459b6b598677745"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frames": [
+        36060,
+        36066,
+        36072,
+        36078,
+        36084
+      ],
+      "sheet": "s3_p34.jpg",
+      "sha256": "7e958f47b906f08884a58151d2f235e3a517352bc93dc0b1440415accdb0a0fa"
+    }
+  ]
+}

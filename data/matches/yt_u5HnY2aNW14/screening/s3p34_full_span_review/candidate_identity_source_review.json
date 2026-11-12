@@ -1,0 +1,34 @@
+{
+  "status": "single_pass_visual_sequence_review_of_candidate_identity_not_ground_position_validation",
+  "point": "S3 P34",
+  "interval_inclusive": [36001, 36138],
+  "reviewer_provenance": "Codex AI-assisted single-pass visual inspection; no independent human adjudication of this new pass",
+  "review_basis": "Paired 640 x 360 unboxed source and raw-ID detector panels were inspected in frame order across all 47 three-frame contact sheets. A candidate is sequence-consistent when its box follows the expected near-side UCLA player through neighbouring source frames. This is a visual continuity verdict, not an independently legible jersey-digit verdict at each frame or a floor-contact verdict.",
+  "reviewed_pages": [
+    "review_page_01.jpg", "review_page_02.jpg", "review_page_03.jpg",
+    "review_page_04.jpg", "review_page_05.jpg", "review_page_06.jpg",
+    "review_page_07.jpg", "review_page_08.jpg", "review_page_09.jpg",
+    "review_page_10.jpg", "review_page_11.jpg", "review_page_12.jpg",
+    "review_page_13.jpg", "review_page_14.jpg", "review_page_15.jpg",
+    "review_page_16.jpg", "review_page_17.jpg", "review_page_18.jpg",
+    "review_page_19.jpg", "review_page_20.jpg", "review_page_21.jpg",
+    "review_page_22.jpg", "review_page_23.jpg", "review_page_24.jpg",
+    "review_page_25.jpg", "review_page_26.jpg", "review_page_27.jpg",
+    "review_page_28.jpg", "review_page_29.jpg", "review_page_30.jpg",
+    "review_page_31.jpg", "review_page_32.jpg", "review_page_33.jpg",
+    "review_page_34.jpg", "review_page_35.jpg", "review_page_36.jpg",
+    "review_page_37.jpg", "review_page_38.jpg", "review_page_39.jpg",
+    "review_page_40.jpg", "review_page_41.jpg", "review_page_42.jpg",
+    "review_page_43.jpg", "review_page_44.jpg", "review_page_45.jpg",
+    "review_page_46.jpg", "review_page_47.jpg"
+  ],
+  "candidate_verdict_for_reviewed_pages": "sequence_consistent_at_contact_sheet_resolution",
+  "source_review_exceptions": [],
+  "known_limits": [
+    "A visible sequence-consistent candidate is not a source-reviewed grounded court position.",
+    "Jersey digits are not independently readable in every source panel; roster identity is assessed by continuity across adjacent frames.",
+    "The late raw ID 78 association with UCLA #7 and exclusion of far-side raw ID 39 rely on the separately documented source correction.",
+    "Missing candidates retain null court coordinates and their separate targeted gap-source verdicts.",
+    "Serve-contact and point-ending boundaries remain bracketed rather than exact."
+  ]
+}

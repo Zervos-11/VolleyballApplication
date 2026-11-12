@@ -1,0 +1,303 @@
+{
+  "status": "existing_single_reviewer_anchor_reference_not_dynamic_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "pilot": "a89c2330af321ac4e2e4c7388306c4c6460b2e5a256e9a1ede484d12e6d45c94",
+    "manual_reference": "672a93dfe69bcd4ec5f8b11d598b23af2917b7f0aa33bdb67ad89b2f3ad92e7a"
+  },
+  "summary": {
+    "matching_clear_shoe_players": 16,
+    "anchor_frames_with_any_match": 3,
+    "complete_six_player_reference_frames": 2,
+    "median_position_error_m": 0.2769,
+    "maximum_position_error_m": 0.632,
+    "independently_labelled_dynamic_frames": 0
+  },
+  "matching_pairs": [
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 3,
+      "proxy_court_m": [
+        2.4469,
+        2.153
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        2.336,
+        2.337
+      ],
+      "position_error_m": 0.2148
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 5,
+      "proxy_court_m": [
+        4.4938,
+        1.4441
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        4.661,
+        1.599
+      ],
+      "position_error_m": 0.2279
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 1,
+      "proxy_court_m": [
+        6.5899,
+        1.7107
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        6.259,
+        2.039
+      ],
+      "position_error_m": 0.4661
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 7,
+      "proxy_court_m": [
+        8.3841,
+        3.9921
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        8.013,
+        4.358
+      ],
+      "position_error_m": 0.5212
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 4,
+      "proxy_court_m": [
+        1.4184,
+        3.2588
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        1.292,
+        3.878
+      ],
+      "position_error_m": 0.632
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 14,
+      "proxy_court_m": [
+        3.5042,
+        8.6787
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        3.526,
+        8.188
+      ],
+      "position_error_m": 0.4912
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 2,
+      "proxy_court_m": [
+        4.7565,
+        2.382
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        4.759,
+        2.437
+      ],
+      "position_error_m": 0.0551
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 7,
+      "proxy_court_m": [
+        4.996,
+        8.4726
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        4.955,
+        8.56
+      ],
+      "position_error_m": 0.0965
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 10,
+      "proxy_court_m": [
+        6.7353,
+        8.0924
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        6.771,
+        7.912
+      ],
+      "position_error_m": 0.1839
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 6,
+      "proxy_court_m": [
+        7.2544,
+        4.569
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        7.065,
+        4.82
+      ],
+      "position_error_m": 0.3144
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 1,
+      "proxy_court_m": [
+        0.9107,
+        2.6963
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        0.954,
+        2.841
+      ],
+      "position_error_m": 0.151
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 5,
+      "proxy_court_m": [
+        2.9645,
+        7.9362
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        3.171,
+        8.126
+      ],
+      "position_error_m": 0.2805
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 2,
+      "proxy_court_m": [
+        4.4526,
+        1.4658
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        4.694,
+        1.696
+      ],
+      "position_error_m": 0.3336
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 7,
+      "proxy_court_m": [
+        4.7284,
+        7.9576
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        4.82,
+        8.342
+      ],
+      "position_error_m": 0.3952
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 10,
+      "proxy_court_m": [
+        6.1826,
+        8.2402
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        6.147,
+        8.249
+      ],
+      "position_error_m": 0.0367
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 8,
+      "proxy_court_m": [
+        6.7483,
+        4.2777
+      ],
+      "manual_clear_shoe_midpoint_court_m": [
+        6.794,
+        4.547
+      ],
+      "position_error_m": 0.2732
+    }
+  ],
+  "complete_team_frames": [
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "near_team_won": true,
+      "six_player_proxy_metrics": {
+        "mean_pairwise_spacing_m": 4.7222,
+        "convex_hull_area_m2": 24.8386,
+        "centroid_dispersion_m": 3.196
+      },
+      "six_player_manual_clear_shoe_metrics": {
+        "mean_pairwise_spacing_m": 4.4874,
+        "convex_hull_area_m2": 22.958,
+        "centroid_dispersion_m": 3.0174
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.2348,
+        "convex_hull_area_m2": 1.8806,
+        "centroid_dispersion_m": 0.1786
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "near_team_won": false,
+      "six_player_proxy_metrics": {
+        "mean_pairwise_spacing_m": 4.8851,
+        "convex_hull_area_m2": 26.5243,
+        "centroid_dispersion_m": 3.3003
+      },
+      "six_player_manual_clear_shoe_metrics": {
+        "mean_pairwise_spacing_m": 4.8371,
+        "convex_hull_area_m2": 25.8431,
+        "centroid_dispersion_m": 3.2774
+      },
+      "proxy_minus_manual": {
+        "mean_pairwise_spacing_m": 0.048,
+        "convex_hull_area_m2": 0.6812,
+        "centroid_dispersion_m": 0.0229
+      }
+    }
+  ],
+  "interpretation": "This joins existing clear-shoe labels to fixed-box pilot anchor frames; it is not new independent annotation. Two complete team frames allow direct proxy-versus-manual geometry checks. All references are single-reviewer, clearly grounded instances; dynamic flow propagation, low posture and airborne frames are not validated."
+}

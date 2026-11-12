@@ -1,0 +1,52 @@
+{
+  "frame": 1777,
+  "previous": null,
+  "current": {
+    "rows": [
+      {
+        "slot": 1,
+        "raw_track_id": 5,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "raw_track_id": 13,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "raw_track_id": 9,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "raw_track_id": 4,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "raw_track_id": 2,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "raw_track_id": 1,
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      }
+    ],
+    "saved_at_utc": "2026-11-05T01:29:06.337648+00:00"
+  },
+  "revision": 4
+}

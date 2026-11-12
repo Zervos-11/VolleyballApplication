@@ -1,0 +1,5 @@
+-r requirements.txt
+matplotlib==3.10.7
+scipy==1.16.3
+ultralytics==8.3.227
+yt-dlp==2026.8.19

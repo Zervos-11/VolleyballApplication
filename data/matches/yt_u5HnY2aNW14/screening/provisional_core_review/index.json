@@ -1,0 +1,118 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "metrics_sha256": "dca398e83321ca66432068a4ec85512a44add4e28968d741fef75275ea6a9ead",
+  "pages": [
+    {
+      "path": "sheet_1.jpg",
+      "sha256": "265b5030a6aadd99a1c0e385a7e2cdb593e30398adfeeee63300640dce92dbf1",
+      "points": [
+        {
+          "set": 1,
+          "point_number": 5
+        },
+        {
+          "set": 1,
+          "point_number": 6
+        }
+      ]
+    },
+    {
+      "path": "sheet_2.jpg",
+      "sha256": "67ae62f0d4e410993534130cf765c891911b682dc80a4de51d98a5a65b979470",
+      "points": [
+        {
+          "set": 1,
+          "point_number": 18
+        },
+        {
+          "set": 1,
+          "point_number": 27
+        }
+      ]
+    },
+    {
+      "path": "sheet_3.jpg",
+      "sha256": "c60b8de2fa34e70a93b0bfe7182fc020f313a766c0005549aab993e1b7f11ac5",
+      "points": [
+        {
+          "set": 1,
+          "point_number": 34
+        },
+        {
+          "set": 1,
+          "point_number": 37
+        }
+      ]
+    },
+    {
+      "path": "sheet_4.jpg",
+      "sha256": "bdaad52862044403af49b5767eba8a2ccfef17ccf933304badf041b037ea4d6a",
+      "points": [
+        {
+          "set": 2,
+          "point_number": 2
+        },
+        {
+          "set": 2,
+          "point_number": 6
+        }
+      ]
+    },
+    {
+      "path": "sheet_5.jpg",
+      "sha256": "4e87c630ff3f0d0697eac27407e7fa9aa5f371c6abcab7c173c8056da57554e3",
+      "points": [
+        {
+          "set": 2,
+          "point_number": 26
+        },
+        {
+          "set": 2,
+          "point_number": 28
+        }
+      ]
+    },
+    {
+      "path": "sheet_6.jpg",
+      "sha256": "cedb48b13dbd85d7c538383e96e8f04a0d9021ce92c0aecbd012567478e6852f",
+      "points": [
+        {
+          "set": 2,
+          "point_number": 37
+        },
+        {
+          "set": 3,
+          "point_number": 11
+        }
+      ]
+    },
+    {
+      "path": "sheet_7.jpg",
+      "sha256": "6bf72fb6d25713d212dc38aa54d7e6bdd5f797335c23bf04b9c4e3562cd83f67",
+      "points": [
+        {
+          "set": 3,
+          "point_number": 13
+        },
+        {
+          "set": 3,
+          "point_number": 27
+        }
+      ]
+    },
+    {
+      "path": "sheet_8.jpg",
+      "sha256": "d5881aa43f57774c326413843607d06f5a1e2b4cbe912d49efde40b58cdf5f7d",
+      "points": [
+        {
+          "set": 3,
+          "point_number": 33
+        },
+        {
+          "set": 3,
+          "point_number": 34
+        }
+      ]
+    }
+  ]
+}

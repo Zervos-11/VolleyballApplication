@@ -1,0 +1,46 @@
+{
+  "status": "illustrative_hold_last_grounded_position_sensitivity",
+  "input_sha256": {
+    "source": "e6c2bac9d9409a7eec5927cc59256851e4e44062a498b3133006d0287c5016d9",
+    "paired": "182ff5567d5fb6dfc86b83b48337e651d33a548a41b64a526c2f3bac52e00a67",
+    "detector": "153468ff3c9405fbfd44b5446f858fa921e1a9ff8b2c5b5838fb2948d426e008",
+    "exploratory_transform": "4f588eed7c9e14ddfd8530ab4c8cc86e9bf10b070c5f678631c4407f6a66cb0c"
+  },
+  "last_grounded_source_frame": 1777,
+  "airborne_source_frame": 1783,
+  "elapsed_frames": 6,
+  "strict_metric_approval": false,
+  "comparisons": [
+    {
+      "slot": 1,
+      "raw_track_id_from_last_grounded_pair": 5,
+      "last_grounded_shoe_px": [
+        408.8,
+        323.1
+      ],
+      "airborne_box_bottom_px": [
+        423.65,
+        296.6
+      ],
+      "box_center_horizontal_shift_px": 12.65,
+      "box_bottom_vertical_shift_px": -42.8,
+      "exploratory_mapped_separation_m": 0.869
+    },
+    {
+      "slot": 2,
+      "raw_track_id_from_last_grounded_pair": 13,
+      "last_grounded_shoe_px": [
+        494.3,
+        330.9
+      ],
+      "airborne_box_bottom_px": [
+        492.45000000000005,
+        307.4
+      ],
+      "box_center_horizontal_shift_px": -5.5,
+      "box_bottom_vertical_shift_px": -32.4,
+      "exploratory_mapped_separation_m": 0.756
+    }
+  ],
+  "interpretation": "The last grounded shoe click is an observed position at frame 1777, not an observed landing point or true floor point at frame 1783. The mapped separation is between two proxy choices under an unapproved transform, not physical movement or measured error."
+}

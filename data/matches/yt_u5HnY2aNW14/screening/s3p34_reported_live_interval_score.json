@@ -1,0 +1,5360 @@
+{
+  "status": "complete_single_reviewer_six_player_state_record_over_reported_live_interval",
+  "interval_inclusive": [
+    35998,
+    36137
+  ],
+  "first_reviewed_dead_frame": 36138,
+  "last_live_frame_from_reviewer_statement_not_individual_event_verdict": 36137,
+  "exact_point_end_certified": false,
+  "strict_all_six_grounded_floor_trajectory": false,
+  "counts": {
+    "source_frames": 140,
+    "player_slots": 840,
+    "candidate_box_slots": 792,
+    "accepted_grounded_proxy_slots": 774,
+    "six_candidate_box_frames": 106,
+    "six_accepted_grounded_frames": 92,
+    "opening_airborne_slots": 3
+  },
+  "rates": {
+    "candidate_box_slot_fraction": 0.9428571428571428,
+    "accepted_grounded_proxy_slot_fraction": 0.9214285714285714,
+    "six_grounded_frame_fraction": 0.6571428571428571
+  },
+  "inputs_sha256": {
+    "opening_review": "4987148954ea3e97c444382415ef540996d0216c8ef5370d51d635cec4be9d7e",
+    "opening_manifest": "f30ef30ebfc81bcb78ef0343819c1d3189a982a2678c23fa736927e772a9574d",
+    "candidate_interval_score": "1aba2c37da02a4db6f03ed5915ced184d6cc13a8302f63d2e567da898a395364",
+    "event_review": "ae62f046060dd7907228395f9f8f60cc00ce89c418c64763b67c79b42139c09a"
+  },
+  "limitations": [
+    "Point ending was given as a reviewer statement, without an individually marked last-live event frame.",
+    "The opening three frames were chosen and reviewed after the serve-contact judgment.",
+    "The source and box review was candidate-assisted and completed by one reviewer.",
+    "Airborne, missing or uncertain floor positions remain null; all-six floor geometry exists only in eligible frames.",
+    "Court transform approval is a separate issue; this report scores state and proxy eligibility only."
+  ],
+  "frames": [
+    {
+      "source_frame": 35998,
+      "review_tier": "opening_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 35999,
+      "review_tier": "opening_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36000,
+      "review_tier": "opening_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36001,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36002,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36003,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36004,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36005,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36006,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "landing_contact_uncertain"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36007,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36008,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36009,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36010,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36011,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36012,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "ground_contact_uncertain"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36013,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36014,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36015,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36016,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36017,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36018,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "ground_contact_uncertain"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36019,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36020,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36021,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36022,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36023,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36024,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "ground_contact_uncertain"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36025,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36026,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36027,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36028,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36029,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36030,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "visible_but_unboxed"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36031,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36032,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36033,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36034,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36035,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36036,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36037,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36038,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36039,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36040,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36041,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36042,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36043,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36044,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36045,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36046,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36047,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36048,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "visible_but_unboxed"
+        }
+      }
+    },
+    {
+      "source_frame": 36049,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36050,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36051,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36052,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36053,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36054,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36055,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36056,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36057,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36058,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36059,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36060,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "visible_but_unboxed"
+        }
+      }
+    },
+    {
+      "source_frame": 36061,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36062,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36063,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36064,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36065,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36066,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36067,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36068,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36069,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36070,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36071,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36072,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36073,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36074,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36075,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36076,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36077,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36078,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36079,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36080,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36081,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36082,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36083,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36084,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36085,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36086,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36087,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36088,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36089,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36090,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36091,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36092,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36093,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36094,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36095,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36096,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36097,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36098,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36099,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36100,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36101,
+      "review_tier": "dense_30fps",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36102,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36103,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36104,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36105,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36106,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36107,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36108,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne_or_occluded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne_or_occluded"
+        }
+      }
+    },
+    {
+      "source_frame": 36109,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36110,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36111,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36112,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36113,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36114,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36115,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36116,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36117,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36118,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36119,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36120,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        }
+      }
+    },
+    {
+      "source_frame": 36121,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36122,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36123,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "airborne"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36124,
+      "review_tier": "full_packet",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36125,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36126,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 3,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "landing_contact_uncertain"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "visible_but_unboxed"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "landing_contact_uncertain"
+        }
+      }
+    },
+    {
+      "source_frame": 36127,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36128,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36129,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36130,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36131,
+      "review_tier": "full_packet",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": false,
+          "accepted_grounded_proxy": false,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36132,
+      "review_tier": "sampled_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": false,
+          "source_state": "one_foot_raised_proxy_unreliable"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "reviewed_grounded_box_bottom_proxy"
+        }
+      }
+    },
+    {
+      "source_frame": 36133,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36134,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36135,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36136,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    },
+    {
+      "source_frame": 36137,
+      "review_tier": "full_packet",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6,
+      "players": {
+        "28": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "12": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "15": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "7": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "19": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        },
+        "21": {
+          "candidate_box": true,
+          "accepted_grounded_proxy": true,
+          "source_state": "grounded"
+        }
+      }
+    }
+  ]
+}

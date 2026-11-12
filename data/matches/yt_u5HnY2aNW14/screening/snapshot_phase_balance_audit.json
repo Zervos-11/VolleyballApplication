@@ -1,0 +1,374 @@
+{
+  "status": "phase_balanced_image_plane_diagnostic_not_outcome_inference",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "image_plane_snapshot_screen": "fb075abc1750e9d7accdcb5b8f0aac3b6cec4e00e1b1e0cb3301a4e3a086a3f3",
+    "snapshot_phase_source_qc": "6b6c0695228d17372662757c6ca5ecd86d5b48115a968bb10f7a51c8637d9895",
+    "snapshot_phase_context_index": "4a0de796609066ea3e6ebbcd679f0de287aadae91e4113c8923c0f66e08527d4"
+  },
+  "review_basis": "Unboxed source video at the exact detector snapshot and 12 source frames before and after; broad near-side phase only, not exact touch or rally boundary",
+  "phase_definitions": {
+    "near_defense": "The far side appears to control or attack the ball while the near side prepares or responds defensively",
+    "near_offense": "The near side appears to control or attack the ball while the far side defends or blocks",
+    "serve_or_reset": "A player appears to prepare a serve or players appear to reset; no active exchange can be confirmed"
+  },
+  "summary": {
+    "frozen_points": 18,
+    "source_checked_snapshots": 17,
+    "missing_point": {
+      "set": 3,
+      "point_number": 23,
+      "near_team_won": true
+    },
+    "near_defense": 8,
+    "near_offense": 7,
+    "serve_or_reset": 2,
+    "same_set_same_phase_cells_with_both_outcomes": 5,
+    "snapshots_in_those_cells": 13,
+    "strict_court_metric_eligible_points": 0
+  },
+  "strata": [
+    {
+      "set": 1,
+      "phase": "near_defense",
+      "wins": 2,
+      "losses": 1,
+      "both_outcomes_present": true,
+      "descriptive_win_minus_loss": {
+        "spacing_px": 82.3,
+        "hull_area_px2": -10119.83,
+        "dispersion_px": 55.27
+      }
+    },
+    {
+      "set": 1,
+      "phase": "near_offense",
+      "wins": 1,
+      "losses": 1,
+      "both_outcomes_present": true,
+      "descriptive_win_minus_loss": {
+        "spacing_px": 128.18,
+        "hull_area_px2": 35090.78,
+        "dispersion_px": 85.12
+      }
+    },
+    {
+      "set": 1,
+      "phase": "serve_or_reset",
+      "wins": 0,
+      "losses": 1,
+      "both_outcomes_present": false,
+      "descriptive_win_minus_loss": null
+    },
+    {
+      "set": 2,
+      "phase": "near_defense",
+      "wins": 0,
+      "losses": 2,
+      "both_outcomes_present": false,
+      "descriptive_win_minus_loss": null
+    },
+    {
+      "set": 2,
+      "phase": "near_offense",
+      "wins": 2,
+      "losses": 1,
+      "both_outcomes_present": true,
+      "descriptive_win_minus_loss": {
+        "spacing_px": 53.64,
+        "hull_area_px2": 17565.17,
+        "dispersion_px": 37.02
+      }
+    },
+    {
+      "set": 2,
+      "phase": "serve_or_reset",
+      "wins": 1,
+      "losses": 0,
+      "both_outcomes_present": false,
+      "descriptive_win_minus_loss": null
+    },
+    {
+      "set": 3,
+      "phase": "near_defense",
+      "wins": 1,
+      "losses": 2,
+      "both_outcomes_present": true,
+      "descriptive_win_minus_loss": {
+        "spacing_px": -9.03,
+        "hull_area_px2": -12579.64,
+        "dispersion_px": -8.3
+      }
+    },
+    {
+      "set": 3,
+      "phase": "near_offense",
+      "wins": 1,
+      "losses": 1,
+      "both_outcomes_present": true,
+      "descriptive_win_minus_loss": {
+        "spacing_px": -61.16,
+        "hull_area_px2": -24482.11,
+        "dispersion_px": -42.89
+      }
+    }
+  ],
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "source_frame": 1422,
+      "phase": "near_defense",
+      "note": "Near blue side is in a receiving shape below far white net action.",
+      "context_sheet": "sheet_1.jpg",
+      "context_sheet_sha256": "323e30002cf45ca44bdc752b5b5eafbf815d4e7ee22feadd4160a8b9fe71c681",
+      "box_centre_metrics": {
+        "spacing_px": 347.45,
+        "hull_area_px2": 48310.19,
+        "dispersion_px": 235.34
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 1758,
+      "phase": "near_defense",
+      "note": "Far white side attacks across the net; near blue side reacts.",
+      "context_sheet": "sheet_1.jpg",
+      "context_sheet_sha256": "323e30002cf45ca44bdc752b5b5eafbf815d4e7ee22feadd4160a8b9fe71c681",
+      "box_centre_metrics": {
+        "spacing_px": 280.24,
+        "hull_area_px2": 77695.28,
+        "dispersion_px": 186.03
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "source_frame": 5371,
+      "phase": "near_defense",
+      "note": "Far white net action and near blue defensive formation persist through the three frames.",
+      "context_sheet": "sheet_1.jpg",
+      "context_sheet_sha256": "323e30002cf45ca44bdc752b5b5eafbf815d4e7ee22feadd4160a8b9fe71c681",
+      "box_centre_metrics": {
+        "spacing_px": 377.63,
+        "hull_area_px2": 86840.7,
+        "dispersion_px": 247.25
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "near_team_won": true,
+      "source_frame": 7344,
+      "phase": "near_offense",
+      "note": "Near blue player moves toward the net as teammates arrange for an attack.",
+      "context_sheet": "sheet_1.jpg",
+      "context_sheet_sha256": "323e30002cf45ca44bdc752b5b5eafbf815d4e7ee22feadd4160a8b9fe71c681",
+      "box_centre_metrics": {
+        "spacing_px": 335.57,
+        "hull_area_px2": 73102.22,
+        "dispersion_px": 224.44
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 9702,
+      "phase": "serve_or_reset",
+      "note": "Both teams are nearly stationary and the far white player is beyond the end line; an active exchange is not visible.",
+      "context_sheet": "sheet_2.jpg",
+      "context_sheet_sha256": "21a4b7da4511b2b54b5746606dfc228723b93adf0c225906fa7f3047d8ecd8a6",
+      "box_centre_metrics": {
+        "spacing_px": 281.49,
+        "hull_area_px2": 83258.27,
+        "dispersion_px": 183.56
+      }
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "near_team_won": false,
+      "source_frame": 10488,
+      "phase": "near_offense",
+      "note": "Far white player is down behind the court while near blue side occupies the attacking half.",
+      "context_sheet": "sheet_2.jpg",
+      "context_sheet_sha256": "21a4b7da4511b2b54b5746606dfc228723b93adf0c225906fa7f3047d8ecd8a6",
+      "box_centre_metrics": {
+        "spacing_px": 207.39,
+        "hull_area_px2": 38011.44,
+        "dispersion_px": 139.32
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "near_team_won": false,
+      "source_frame": 12306,
+      "phase": "near_defense",
+      "note": "Far blue attacker approaches the net while near white side sets its defense.",
+      "context_sheet": "sheet_2.jpg",
+      "context_sheet_sha256": "21a4b7da4511b2b54b5746606dfc228723b93adf0c225906fa7f3047d8ecd8a6",
+      "box_centre_metrics": {
+        "spacing_px": 292.56,
+        "hull_area_px2": 78429.45,
+        "dispersion_px": 187.59
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "source_frame": 13566,
+      "phase": "near_offense",
+      "note": "Far blue player dives in response to the near white front-row action.",
+      "context_sheet": "sheet_2.jpg",
+      "context_sheet_sha256": "21a4b7da4511b2b54b5746606dfc228723b93adf0c225906fa7f3047d8ecd8a6",
+      "box_centre_metrics": {
+        "spacing_px": 283.08,
+        "hull_area_px2": 78018.4,
+        "dispersion_px": 180.9
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "near_team_won": true,
+      "source_frame": 16032,
+      "phase": "serve_or_reset",
+      "note": "Near white server is at or behind the end line during the serve motion; this is not a comparable open-play frame.",
+      "context_sheet": "sheet_3.jpg",
+      "context_sheet_sha256": "190e49af33339fd964bd458e4af93acbdb39f9c9ce04e84c0e3179b39d389953",
+      "box_centre_metrics": {
+        "spacing_px": 265.3,
+        "hull_area_px2": 60735.2,
+        "dispersion_px": 174.34
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "near_team_won": false,
+      "source_frame": 18936,
+      "phase": "near_defense",
+      "note": "Far blue side controls the ball close to the net and near white side is in receiving shape.",
+      "context_sheet": "sheet_3.jpg",
+      "context_sheet_sha256": "190e49af33339fd964bd458e4af93acbdb39f9c9ce04e84c0e3179b39d389953",
+      "box_centre_metrics": {
+        "spacing_px": 323.21,
+        "hull_area_px2": 96908.15,
+        "dispersion_px": 205.48
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "source_frame": 19536,
+      "phase": "near_offense",
+      "note": "Near white front-row player attacks against far blue blockers.",
+      "context_sheet": "sheet_3.jpg",
+      "context_sheet_sha256": "190e49af33339fd964bd458e4af93acbdb39f9c9ce04e84c0e3179b39d389953",
+      "box_centre_metrics": {
+        "spacing_px": 316.72,
+        "hull_area_px2": 78494.14,
+        "dispersion_px": 205.7
+      }
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "near_team_won": true,
+      "source_frame": 22140,
+      "phase": "near_offense",
+      "note": "Near white side sets the ball while far blue side forms a block.",
+      "context_sheet": "sheet_3.jpg",
+      "context_sheet_sha256": "190e49af33339fd964bd458e4af93acbdb39f9c9ce04e84c0e3179b39d389953",
+      "box_centre_metrics": {
+        "spacing_px": 356.71,
+        "hull_area_px2": 112673.0,
+        "dispersion_px": 230.14
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "near_team_won": false,
+      "source_frame": 29280,
+      "phase": "near_offense",
+      "note": "Near blue attacker approaches a far white block.",
+      "context_sheet": "sheet_4.jpg",
+      "context_sheet_sha256": "b8905c708ed53dc22ee04b5dafb349b55da1832c5018a1cc7ede6a9370db0aea",
+      "box_centre_metrics": {
+        "spacing_px": 352.36,
+        "hull_area_px2": 80564.6,
+        "dispersion_px": 230.58
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "source_frame": 29940,
+      "phase": "near_defense",
+      "note": "Far white side is playing at the net and near blue team holds a defensive shape.",
+      "context_sheet": "sheet_4.jpg",
+      "context_sheet_sha256": "b8905c708ed53dc22ee04b5dafb349b55da1832c5018a1cc7ede6a9370db0aea",
+      "box_centre_metrics": {
+        "spacing_px": 279.79,
+        "hull_area_px2": 74428.08,
+        "dispersion_px": 179.49
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "source_frame": 34122,
+      "phase": "near_defense",
+      "note": "Far white player attacks near the net against near blue defenders.",
+      "context_sheet": "sheet_4.jpg",
+      "context_sheet_sha256": "b8905c708ed53dc22ee04b5dafb349b55da1832c5018a1cc7ede6a9370db0aea",
+      "box_centre_metrics": {
+        "spacing_px": 288.38,
+        "hull_area_px2": 89980.92,
+        "dispersion_px": 188.58
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "near_team_won": true,
+      "source_frame": 35844,
+      "phase": "near_offense",
+      "note": "Far white defender dives while near blue side holds a front-court attacking shape.",
+      "context_sheet": "sheet_4.jpg",
+      "context_sheet_sha256": "b8905c708ed53dc22ee04b5dafb349b55da1832c5018a1cc7ede6a9370db0aea",
+      "box_centre_metrics": {
+        "spacing_px": 291.2,
+        "hull_area_px2": 56082.49,
+        "dispersion_px": 187.69
+      }
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "source_frame": 36072,
+      "phase": "near_defense",
+      "note": "Far white side passes or sets near the net; near blue side faces it in defensive shape.",
+      "context_sheet": "sheet_5.jpg",
+      "context_sheet_sha256": "f630215e0fe1cd3823684d7653a5f9b117c642c94034312084c891549906d5bd",
+      "box_centre_metrics": {
+        "spacing_px": 289.26,
+        "hull_area_px2": 84034.52,
+        "dispersion_px": 187.0
+      }
+    }
+  ],
+  "interpretation": "Source review at exact frames identifies gross phase imbalance. Even same-set same-phase cells contain only 1-2 observations per outcome and availability-selected single snapshots with no validated court positions or temporal summaries. Cell differences are descriptive screens, not a statistical association with winning."
+}

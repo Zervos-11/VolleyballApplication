@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homography & Referee Tool</title>
+  <style>
+    body { font-family: system-ui, Arial; background: #111; color: #eee; margin: 16px; }
+    h2 { text-align:center; margin-bottom:4px; }
+    p { text-align:center; margin-top:0; }
+    canvas { border: 2px solid #555; margin: 10px auto; display:block; cursor: crosshair; max-width: 100%; height: auto; }
+    button { margin: 6px; padding: 8px 14px; border-radius:8px; border:1px solid #333; background:#1d232b; color:#fff; cursor:pointer; }
+    button:hover { border-color:#4a90e2; }
+    .row { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; align-items:center; margin:10px 0; }
+    label { display:flex; align-items:center; gap:4px; }
+    input[type="text"] { padding:6px 10px; border-radius:6px; border:1px solid #333; background:#0f1216; color:#fff; }
+    input[type="number"] { padding:4px 6px; width:90px; border-radius:6px; border:1px solid #333; background:#0f1216; color:#fff; }
+    input[type="file"] { color:#ccc; }
+    .section { border:1px solid #222; border-radius:12px; padding:12px; margin:12px auto; max-width:980px; background:#15191f; }
+    .section h3 { margin-top:0; text-align:center; }
+  </style>
+</head>
+<body>
+  <h2>Homography Calibration & Referee Selection</h2>
+  <p>Modes: <b>Homography</b> (click LB → RB → RF → LF), <b>Ref Anchor</b> (single click), <b>Ref ROI</b> (drag rectangle).</p>
+
+  <div class="section">
+    <div class="row">
+      <label>Match ID: <input id="matchId" value="M1" /></label>
+      <input type="file" id="fileInput" accept="image/*" />
+      <label><input type="radio" name="mode" value="homography" checked> Homography</label>
+      <label><input type="radio" name="mode" value="ref_anchor"> Ref Anchor</label>
+      <label><input type="radio" name="mode" value="ref_roi"> Ref ROI</label>
+    </div>
+    <div class="row">
+      <label><input type="radio" name="courtShape" value="half" checked> Half (9×9)</label>
+      <label><input type="radio" name="courtShape" value="full"> Full (18×9)</label>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="row">
+      <button id="clear">Clear Points</button>
+      <button id="save">Download JSON</button>
+      <button id="saveApi">Save Homography to API</button>
+      <button id="clearRef">Clear Ref</button>
+      <button id="saveRef">Save Ref Selection</button>
+      <button id="analyzeRef">Analyze Referee</button>
+      <button id="overlayRef">Export Ref Overlay</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Players (Home side)</h3>
+    <div class="row">
+      <label><input type="radio" name="mode" value="players"> Players Mode (click up to 6)</label>
+      <button id="clearPlayers">Clear Players</button>
+      <button id="savePlayers">Save Players to API</button>
+    </div>
+    <div class="row" id="playersForm"></div>
+  </div>
+
+  <script>
+    const API = 'http://127.0.0.1:8000';
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let img = new Image();
+    let points = [];
+    let refAnchor = null;
+    let refRoi = null;
+    let dragging = false;
+    let dragStart = null;
+    let players = []; // {slot, x, y, jersey}
+
+    function currentMode(){
+      return document.querySelector('input[name="mode"]:checked')?.value || 'homography';
+    }
+    function selectedCourtMeters(){
+      const v = document.querySelector('input[name="courtShape"]:checked')?.value || 'half';
+      if (v === 'full') return [[0,0],[18,0],[18,9],[0,9]];
+      return [[0,0],[9,0],[9,9],[0,9]];
+    }
+    function redraw(){
+      if (!img.src) return;
+      ctx.drawImage(img, 0, 0);
+      // homography points
+      for(let i=0;i<points.length;i++){
+        const [x,y]=points[i];
+        ctx.fillStyle='lime';
+        ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle='#0cf';
+        ctx.font='16px sans-serif'; ctx.fillText((i+1).toString(), x+8, y-8);
+      }
+      // players
+      for(let i=0;i<players.length;i++){
+        const p=players[i];
+        ctx.fillStyle='#ffca28';
+        ctx.beginPath(); ctx.arc(p.x,p.y,6,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle='#ffd740'; ctx.font='14px sans-serif';
+        ctx.fillText(`#${p.jersey??'?'} (${p.slot})`, p.x+8, p.y-8);
+      }
+      // ref anchor
+      if(refAnchor){
+        const [ax,ay]=refAnchor;
+        ctx.strokeStyle='#ffd54f'; ctx.lineWidth=2;
+        ctx.beginPath(); ctx.moveTo(ax-8,ay); ctx.lineTo(ax+8,ay); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(ax,ay-8); ctx.lineTo(ax,ay+8); ctx.stroke();
+      }
+      // ref ROI
+      if(refRoi){
+        const [x1,y1,x2,y2]=refRoi;
+        ctx.strokeStyle='#ff8a65'; ctx.lineWidth=2;
+        ctx.strokeRect(Math.min(x1,x2),Math.min(y1,y2),Math.abs(x2-x1),Math.abs(y2-y1));
+      }
+    }
+
+    document.getElementById('fileInput').addEventListener('change', e=>{
+      const file=e.target.files[0];
+      if(!file)return;
+      const url=URL.createObjectURL(file);
+      img.onload=()=>{
+        canvas.width=img.naturalWidth;
+        canvas.height=img.naturalHeight;
+        points=[]; refAnchor=null; refRoi=null; dragging=false; dragStart=null;
+        redraw();
+      };
+      img.src=url;
+    });
+
+    function eventToCanvas(e){
+      const rect = canvas.getBoundingClientRect();
+      const scaleX = canvas.width / rect.width;
+      const scaleY = canvas.height / rect.height;
+      return [
+        (e.clientX - rect.left) * scaleX,
+        (e.clientY - rect.top) * scaleY,
+      ];
+    }
+
+    canvas.addEventListener('mousedown', e=>{
+      if(!img.src) return;
+      if(currentMode()!=='ref_roi') return;
+      dragStart=eventToCanvas(e);
+      dragging=true;
+      refRoi=[dragStart[0], dragStart[1], dragStart[0], dragStart[1]];
+      redraw();
+    });
+    canvas.addEventListener('mousemove', e=>{
+      if(!img.src || !dragging || currentMode()!=='ref_roi') return;
+      const [x,y]=eventToCanvas(e);
+      refRoi=[dragStart[0], dragStart[1], x, y];
+      redraw();
+    });
+    canvas.addEventListener('mouseup', e=>{
+      if(!img.src) return;
+      if(dragging && currentMode()==='ref_roi'){
+        dragging=false; redraw();
+      }
+    });
+
+    canvas.addEventListener('click', e=>{
+      if(!img.src) return;
+      const [x,y]=eventToCanvas(e);
+      const mode=currentMode();
+      if(mode==='homography'){
+        if(points.length>=4){ alert('Already have 4 points. Clear to reset.'); return; }
+        points.push([x,y]);
+      } else if(mode==='ref_anchor'){
+        refAnchor=[x,y];
+      } else if(mode==='players'){
+        if(players.length>=6){ alert('Already have 6 players. Clear to reset.'); return; }
+        const slot = players.length+1;
+        players.push({slot, x, y, jersey: ''});
+        renderPlayersForm();
+      }
+      redraw();
+    });
+
+    document.getElementById('clear').addEventListener('click',()=>{ points=[]; redraw(); });
+    document.getElementById('clearRef').addEventListener('click',()=>{ refAnchor=null; refRoi=null; dragging=false; dragStart=null; redraw(); });
+
+    document.getElementById('save').addEventListener('click',()=>{
+      if(points.length!==4){ alert('Click LB → RB → RF → LF first.'); return; }
+      const homography={ schema_version:'v1', image_size:[img.naturalWidth,img.naturalHeight], points_px:points, points_court_m:selectedCourtMeters() };
+      const blob=new Blob([JSON.stringify(homography,null,2)],{type:'application/json'});
+      const a=document.createElement('a');
+      a.href=URL.createObjectURL(blob); a.download='homography.json'; a.click();
+    });
+
+    document.getElementById('saveApi').addEventListener('click', async ()=>{
+      const mid=document.getElementById('matchId').value.trim();
+      if(!mid){ alert('Enter Match ID'); return; }
+      if(!img.src){ alert('Load a frame PNG first'); return; }
+      if(points.length!==4){ alert('Click LB → RB → RF → LF'); return; }
+      const homography={ schema_version:'v1', image_size:[img.naturalWidth,img.naturalHeight], points_px:points, points_court_m:selectedCourtMeters() };
+      try{
+        const r=await fetch(API+`/v1/matches/${encodeURIComponent(mid)}/homography`,{ method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(homography) });
+        const j=await r.json(); if(!r.ok) throw new Error(j.error||JSON.stringify(j));
+        alert('Homography saved.');
+      }catch(err){ alert('Failed: '+err.message); }
+    });
+
+    document.getElementById('saveRef').addEventListener('click', async ()=>{
+      const mid=document.getElementById('matchId').value.trim();
+      if(!mid){ alert('Enter Match ID'); return; }
+      if(!refAnchor && !refRoi){ alert('Set an anchor click or draw an ROI'); return; }
+      const body={};
+      if(refAnchor){ body.anchor_x=Math.round(refAnchor[0]); body.anchor_y=Math.round(refAnchor[1]); }
+      if(refRoi){
+        const [x1,y1,x2,y2]=refRoi;
+        body.roi_x1=Math.round(Math.min(x1,x2));
+        body.roi_y1=Math.round(Math.min(y1,y2));
+        body.roi_x2=Math.round(Math.max(x1,x2));
+        body.roi_y2=Math.round(Math.max(y1,y2));
+      }
+      try{
+        const r=await fetch(API+`/v1/matches/${encodeURIComponent(mid)}/referee/select`,{ method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+        const j=await r.json(); if(!r.ok) throw new Error(j.error||JSON.stringify(j));
+        alert('Ref selection saved.');
+      }catch(err){ alert('Save failed: '+err.message); }
+    });
+
+    document.getElementById('analyzeRef').addEventListener('click', async ()=>{
+      const mid=document.getElementById('matchId').value.trim();
+      if(!mid){ alert('Enter Match ID'); return; }
+      const body={
+        max_frames: 1200,
+        step: 1,
+        use_pose_gestures: true,
+        fuse_whistles: true,
+        z_thresh: 2.8,
+        merge_ms: 350,
+        bp_low_khz: 2.7,
+        bp_high_khz: 5.5,
+        ratio_min: 0.25,
+      };
+      try{
+        const r=await fetch(API+`/v1/matches/${encodeURIComponent(mid)}/referee/analyze`,{ method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+        const j=await r.json(); if(!r.ok) throw new Error(j.error||JSON.stringify(j));
+        alert(`Analyze OK. Events: ${(j.events||[]).length}, whistles: ${(j.whistles||[]).length}`);
+      }catch(err){ alert('Analyze failed: '+err.message); }
+    });
+
+    document.getElementById('overlayRef').addEventListener('click', async ()=>{
+      const mid=document.getElementById('matchId').value.trim();
+      if(!mid){ alert('Enter Match ID'); return; }
+      const body={ max_frames: 600, step: 1, draw_whistles: true };
+      try{
+        const r=await fetch(API+`/v1/matches/${encodeURIComponent(mid)}/referee/overlay`,{ method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body) });
+        const j=await r.json(); if(!r.ok) throw new Error(j.error||JSON.stringify(j));
+        alert('Overlay saved to '+j.path);
+      }catch(err){ alert('Overlay failed: '+err.message); }
+    });
+
+    function renderPlayersForm(){
+      const form = document.getElementById('playersForm');
+      form.innerHTML = '';
+      for(const p of players){
+        const wrap = document.createElement('div');
+        wrap.style.display='flex'; wrap.style.gap='6px'; wrap.style.alignItems='center';
+        wrap.innerHTML = `<span>Slot ${p.slot}</span><span>@ (${Math.round(p.x)},${Math.round(p.y)})</span>`;
+        const inp = document.createElement('input');
+        inp.type='number'; inp.placeholder='Jersey'; inp.value=p.jersey; inp.style.width='90px';
+        inp.oninput = ()=>{ p.jersey = inp.value; };
+        wrap.appendChild(inp);
+        form.appendChild(wrap);
+      }
+    }
+
+    document.getElementById('clearPlayers').addEventListener('click', ()=>{
+      players = []; renderPlayersForm(); redraw();
+    });
+
+    document.getElementById('savePlayers').addEventListener('click', async ()=>{
+      const mid = document.getElementById('matchId').value.trim();
+      if(!mid){ alert('Enter Match ID'); return; }
+      if(players.length===0){ alert('Click players in Players mode first'); return; }
+      // Build payload
+      const payload = {
+        schema_version:'v1', team:'home', image_size:[img.naturalWidth, img.naturalHeight],
+        players: players.map(p=>({ slot:p.slot, jersey: parseInt(p.jersey||'0',10), position_px:[p.x,p.y] }))
+      };
+      try{
+        const r = await fetch(API+`/v1/matches/${encodeURIComponent(mid)}/players/lineup`, {
+          method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)
+        });
+        const j = await r.json(); if(!r.ok) throw new Error(j.error||JSON.stringify(j));
+        alert(`Saved ${j.count} players lineup`);
+      }catch(err){ alert('Save players failed: '+err.message); }
+    });
+  </script>
+</body>
+</html>

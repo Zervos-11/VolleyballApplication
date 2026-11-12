@@ -1,0 +1,19 @@
+{
+  "status": "single_reviewer_approximate_six_player_non_anchor_frame",
+  "source_frame": 29952,
+  "set": 3,
+  "point_number": 13,
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "source_frame_image": "dynamic_shoe_reference_sheets/full_f29952.jpg",
+  "source_frame_image_sha256": "08896789283519a475dcf44ffbd41564ad01188850dc018b459cefaae37d2db7",
+  "existing_two_player_manual_sha256": "3a7e446d74a5851fc208b4081b084f4de45cbccf40d01d0793667cd19fb81358",
+  "rule": "Approximate midpoint between two visible near-side player shoes at the source frame. Reuse existing two marks for keys 14 and 2. Four additional marks were read from enlarged unboxed crops after checking intended players against the full source frame. Ground contact is visually judged; midpoint reading uncertainty is about plus or minus 12 source pixels per axis. This is not a blinded or independent reference.",
+  "rows": [
+    {"player_key": 4, "shoe_midpoint_px": [392, 500], "note": "White near-side libero 28; both shoes visible during a low lateral stance."},
+    {"player_key": 14, "shoe_midpoint_px": [581, 346], "note": "Reused existing non-anchor manual mark; blue 21."},
+    {"player_key": 2, "shoe_midpoint_px": [702, 542], "note": "Reused existing non-anchor manual mark; blue 12."},
+    {"player_key": 7, "shoe_midpoint_px": [710, 326], "note": "Blue 1; both shoes visible in a wide stance."},
+    {"player_key": 10, "shoe_midpoint_px": [859, 343], "note": "Blue 7; both shoes visible near the right front court."},
+    {"player_key": 6, "shoe_midpoint_px": [942, 451], "note": "Blue 19; both shoes visible near the right back court."}
+  ]
+}

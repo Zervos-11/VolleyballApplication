@@ -1,0 +1,38 @@
+{
+  "frame": 36099,
+  "stage": "paired",
+  "previous": null,
+  "current": [
+    {
+      "jersey": "28",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    },
+    {
+      "jersey": "12",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    },
+    {
+      "jersey": "15",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    },
+    {
+      "jersey": "7",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    },
+    {
+      "jersey": "19",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    },
+    {
+      "jersey": "21",
+      "candidate_alignment": "same_player",
+      "proxy_floor_alignment": "plausible"
+    }
+  ],
+  "revision": 61
+}

@@ -1,0 +1,115 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "clip_register_sha256": "3f208f63c2285dd2b762bafed19e72c571e64a7d7dcfbc9d277c6a38d26aff3e",
+  "pages": [
+    {
+      "path": "sheet_1.jpg",
+      "sha256": "dd913231340160164ad130142080eab8e648243296ae09b6e091e9c03ead62a0",
+      "points": [
+        {
+          "set": 1,
+          "point_number": 5
+        },
+        {
+          "set": 1,
+          "point_number": 6
+        },
+        {
+          "set": 1,
+          "point_number": 18
+        }
+      ]
+    },
+    {
+      "path": "sheet_2.jpg",
+      "sha256": "5aed5c5b5605094caa051216fc1d58d41a352a38ef2cc0a12701af085dc85b40",
+      "points": [
+        {
+          "set": 1,
+          "point_number": 27
+        },
+        {
+          "set": 1,
+          "point_number": 34
+        },
+        {
+          "set": 1,
+          "point_number": 37
+        }
+      ]
+    },
+    {
+      "path": "sheet_3.jpg",
+      "sha256": "6c0e19441507ada793817dfcccc1705a41e4fb2284fb17c458790d2174a30c07",
+      "points": [
+        {
+          "set": 2,
+          "point_number": 2
+        },
+        {
+          "set": 2,
+          "point_number": 6
+        },
+        {
+          "set": 2,
+          "point_number": 14
+        }
+      ]
+    },
+    {
+      "path": "sheet_4.jpg",
+      "sha256": "0aa8dedc8e59f4a4d98b88e34da6f45c0b36c593250aabd5420b972138e2ebf6",
+      "points": [
+        {
+          "set": 2,
+          "point_number": 26
+        },
+        {
+          "set": 2,
+          "point_number": 28
+        },
+        {
+          "set": 2,
+          "point_number": 37
+        }
+      ]
+    },
+    {
+      "path": "sheet_5.jpg",
+      "sha256": "038c13babda9ba673a7c5193e21e2562e805f9d09d78e3269be656e87aa8c437",
+      "points": [
+        {
+          "set": 3,
+          "point_number": 11
+        },
+        {
+          "set": 3,
+          "point_number": 13
+        },
+        {
+          "set": 3,
+          "point_number": 23
+        }
+      ]
+    },
+    {
+      "path": "sheet_6.jpg",
+      "sha256": "fb3d1a7fb0161c2f28f794b689a39c647d89bf96e0016d135438cba475a9bc10",
+      "points": [
+        {
+          "set": 3,
+          "point_number": 27
+        },
+        {
+          "set": 3,
+          "point_number": 33
+        },
+        {
+          "set": 3,
+          "point_number": 34
+        }
+      ]
+    }
+  ],
+  "review_rule": "Four source frames per selected clip: before and after each hard-cut boundary"
+}

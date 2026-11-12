@@ -1,0 +1,651 @@
+{
+  "status": "provisional_detector_supplement_pending_source_review",
+  "match_id": "yt_b1bJ5WN05Qw",
+  "excerpt_sha256": "873de902460784652506226a5adbc4725e0be0f178c07178e66c1a6c6932ab45",
+  "original_raw_candidate_sha256": "333472d54e2895a7fa4dd329c4885421850f2570de30decf72c541da0b14f73b",
+  "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "method": {
+    "detector": "YOLOv8n person, independent single-frame pass",
+    "image_size": 1600,
+    "confidence": 0.1,
+    "retained_confidence": 0.2,
+    "existing_box_iou_exclusion": 0.5,
+    "red_torso_screen": 0.3
+  },
+  "limitations": [
+    "Colour and geometric screens are heuristic and can reject BYU or retain USC.",
+    "Extra IDs label one-frame proposals only; they do not imply identity continuity.",
+    "The earlier source review and saved candidate IDs are unchanged."
+  ],
+  "rows": [
+    {
+      "excerpt_frame": 660,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 666,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 672,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 678,
+      "proposals": [
+        {
+          "raw_track_id": 267827,
+          "bbox_px": [
+            905.8,
+            373.5,
+            984.0,
+            602.2
+          ],
+          "confidence": 0.3858,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 684,
+      "proposals": [
+        {
+          "raw_track_id": 268407,
+          "bbox_px": [
+            287.0,
+            858.3,
+            417.0,
+            1076.6
+          ],
+          "confidence": 0.7808,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 268424,
+          "bbox_px": [
+            906.4,
+            372.5,
+            976.2,
+            520.6
+          ],
+          "confidence": 0.4815,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 690,
+      "proposals": [
+        {
+          "raw_track_id": 269004,
+          "bbox_px": [
+            318.4,
+            868.1,
+            485.4,
+            1076.6
+          ],
+          "confidence": 0.8015,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 269021,
+          "bbox_px": [
+            362.1,
+            668.2,
+            401.1,
+            706.6
+          ],
+          "confidence": 0.4986,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 696,
+      "proposals": [
+        {
+          "raw_track_id": 269606,
+          "bbox_px": [
+            362.7,
+            794.0,
+            480.8,
+            1076.4
+          ],
+          "confidence": 0.8042,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 702,
+      "proposals": [
+        {
+          "raw_track_id": 270204,
+          "bbox_px": [
+            378.4,
+            715.5,
+            480.2,
+            1025.9
+          ],
+          "confidence": 0.7848,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 270234,
+          "bbox_px": [
+            414.3,
+            515.6,
+            452.2,
+            554.3
+          ],
+          "confidence": 0.3406,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 708,
+      "proposals": [
+        {
+          "raw_track_id": 270805,
+          "bbox_px": [
+            404.2,
+            544.3,
+            506.5,
+            963.0
+          ],
+          "confidence": 0.7907,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 270827,
+          "bbox_px": [
+            935.9,
+            377.8,
+            995.0,
+            582.1
+          ],
+          "confidence": 0.4088,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 270841,
+          "bbox_px": [
+            899.6,
+            386.5,
+            941.4,
+            536.9
+          ],
+          "confidence": 0.2891,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 714,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 780,
+      "proposals": [
+        {
+          "raw_track_id": 278005,
+          "bbox_px": [
+            670.8,
+            360.3,
+            761.8,
+            585.3
+          ],
+          "confidence": 0.7974,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 786,
+      "proposals": [
+        {
+          "raw_track_id": 278603,
+          "bbox_px": [
+            635.6,
+            405.0,
+            705.2,
+            582.5
+          ],
+          "confidence": 0.8365,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 792,
+      "proposals": [
+        {
+          "raw_track_id": 279200,
+          "bbox_px": [
+            625.4,
+            662.5,
+            809.0,
+            872.0
+          ],
+          "confidence": 0.9122,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 279203,
+          "bbox_px": [
+            448.4,
+            579.7,
+            569.3,
+            763.3
+          ],
+          "confidence": 0.8606,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 279209,
+          "bbox_px": [
+            1148.9,
+            592.0,
+            1341.6,
+            788.3
+          ],
+          "confidence": 0.7202,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 798,
+      "proposals": [
+        {
+          "raw_track_id": 279803,
+          "bbox_px": [
+            1135.2,
+            619.6,
+            1310.8,
+            788.3
+          ],
+          "confidence": 0.8608,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 279804,
+          "bbox_px": [
+            543.7,
+            410.7,
+            630.4,
+            588.3
+          ],
+          "confidence": 0.8496,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 804,
+      "proposals": [
+        {
+          "raw_track_id": 280408,
+          "bbox_px": [
+            831.7,
+            379.6,
+            898.4,
+            583.3
+          ],
+          "confidence": 0.686,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 280412,
+          "bbox_px": [
+            513.8,
+            336.6,
+            609.0,
+            586.2
+          ],
+          "confidence": 0.5989,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 810,
+      "proposals": [
+        {
+          "raw_track_id": 281009,
+          "bbox_px": [
+            470.4,
+            433.0,
+            562.0,
+            792.3
+          ],
+          "confidence": 0.7014,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 816,
+      "proposals": [
+        {
+          "raw_track_id": 281604,
+          "bbox_px": [
+            433.6,
+            441.8,
+            520.7,
+            652.0
+          ],
+          "confidence": 0.8117,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 281606,
+          "bbox_px": [
+            479.5,
+            526.2,
+            564.6,
+            796.3
+          ],
+          "confidence": 0.7352,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 281609,
+          "bbox_px": [
+            1154.8,
+            350.4,
+            1318.8,
+            597.2
+          ],
+          "confidence": 0.6449,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 281623,
+          "bbox_px": [
+            1091.0,
+            721.6,
+            1185.1,
+            871.9
+          ],
+          "confidence": 0.4015,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 822,
+      "proposals": [
+        {
+          "raw_track_id": 282202,
+          "bbox_px": [
+            1212.7,
+            439.2,
+            1389.0,
+            626.8
+          ],
+          "confidence": 0.8782,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 282208,
+          "bbox_px": [
+            396.7,
+            446.0,
+            484.3,
+            647.6
+          ],
+          "confidence": 0.8009,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 282210,
+          "bbox_px": [
+            502.0,
+            521.9,
+            576.3,
+            675.2
+          ],
+          "confidence": 0.708,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 828,
+      "proposals": [
+        {
+          "raw_track_id": 282805,
+          "bbox_px": [
+            343.0,
+            470.6,
+            449.2,
+            697.2
+          ],
+          "confidence": 0.8182,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 282807,
+          "bbox_px": [
+            1306.7,
+            449.4,
+            1468.5,
+            627.1
+          ],
+          "confidence": 0.8128,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 834,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 840,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 846,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 852,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 858,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 864,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 870,
+      "proposals": [
+        {
+          "raw_track_id": 287006,
+          "bbox_px": [
+            423.1,
+            437.1,
+            517.6,
+            668.4
+          ],
+          "confidence": 0.7897,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 876,
+      "proposals": [
+        {
+          "raw_track_id": 287606,
+          "bbox_px": [
+            477.4,
+            572.2,
+            553.2,
+            799.8
+          ],
+          "confidence": 0.7826,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 882,
+      "proposals": [
+        {
+          "raw_track_id": 288200,
+          "bbox_px": [
+            1088.6,
+            689.7,
+            1204.0,
+            968.8
+          ],
+          "confidence": 0.9188,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 288208,
+          "bbox_px": [
+            379.3,
+            599.5,
+            491.8,
+            846.3
+          ],
+          "confidence": 0.7654,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 288209,
+          "bbox_px": [
+            483.5,
+            429.4,
+            551.8,
+            633.8
+          ],
+          "confidence": 0.7372,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 888,
+      "proposals": [
+        {
+          "raw_track_id": 288800,
+          "bbox_px": [
+            1113.4,
+            705.1,
+            1216.5,
+            972.0
+          ],
+          "confidence": 0.8949,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 894,
+      "proposals": [
+        {
+          "raw_track_id": 289406,
+          "bbox_px": [
+            513.6,
+            414.7,
+            618.7,
+            629.4
+          ],
+          "confidence": 0.8613,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 900,
+      "proposals": [
+        {
+          "raw_track_id": 290009,
+          "bbox_px": [
+            542.4,
+            407.5,
+            622.7,
+            618.7
+          ],
+          "confidence": 0.7519,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 290017,
+          "bbox_px": [
+            295.1,
+            519.7,
+            374.1,
+            862.0
+          ],
+          "confidence": 0.5549,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 906,
+      "proposals": [
+        {
+          "raw_track_id": 290625,
+          "bbox_px": [
+            267.7,
+            563.4,
+            335.4,
+            862.4
+          ],
+          "confidence": 0.4468,
+          "proposal_source": "high_resolution_single_frame"
+        },
+        {
+          "raw_track_id": 290649,
+          "bbox_px": [
+            270.5,
+            563.5,
+            330.9,
+            705.6
+          ],
+          "confidence": 0.2319,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    },
+    {
+      "excerpt_frame": 912,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 918,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 924,
+      "proposals": []
+    },
+    {
+      "excerpt_frame": 930,
+      "proposals": [
+        {
+          "raw_track_id": 293007,
+          "bbox_px": [
+            1400.9,
+            407.5,
+            1480.4,
+            620.4
+          ],
+          "confidence": 0.8178,
+          "proposal_source": "high_resolution_single_frame"
+        }
+      ]
+    }
+  ]
+}

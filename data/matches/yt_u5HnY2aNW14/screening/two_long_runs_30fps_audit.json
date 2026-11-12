@@ -1,0 +1,165 @@
+{
+  "status": "dense_raw_id_coverage_audit_not_all_frame_jersey_or_floor_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "dense_screen": "ea7dd010a99508400937e77b3225a16316624697d4b763e70c08916bdee24631",
+    "five_hz_screen": "8089dddec4be14e68d03f73edd822ae31d82b197c2d8bac5b401f19535e04dc7",
+    "every_sample_identity_audit": "bafae4857118923cd522681bbdeee6b53753ae139dad097d293c23d56fffdfea",
+    "manual_gap_qc": "0d2e3fa176d41afbf28c290559bd097c0c499cbd0e6e96dad5adac9c58b1cae2",
+    "gap_image_manifest": "020a6fb8143d805ecee5255e5148f3cb87661aeebefe17cc384f36bc858c4f69"
+  },
+  "summary": {
+    "runs_screened": 2,
+    "source_frames_screened": 206,
+    "exactly_six_near_candidate_frames": 196,
+    "frames_with_temporary_missing_candidate": 10,
+    "source_visible_unboxed_missing_frames_reviewed": 10,
+    "new_near_raw_ids_after_first_frame": 0,
+    "all_source_frames_jersey_reviewed": 0,
+    "validated_full_rally_court_trajectories": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame_first": 1326,
+      "source_frame_last": 1428,
+      "source_frames_screened": 103,
+      "exactly_six_near_candidate_frames": 103,
+      "frames_with_fewer_than_six_candidates": 0,
+      "new_near_raw_ids_after_first_frame": 0,
+      "players": [
+        {
+          "dense_raw_track_id": 1,
+          "five_hz_raw_track_id": 1,
+          "reviewed_jersey_number": "12",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 2,
+          "five_hz_raw_track_id": 2,
+          "reviewed_jersey_number": "28",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 3,
+          "five_hz_raw_track_id": 3,
+          "reviewed_jersey_number": "7",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 5,
+          "five_hz_raw_track_id": 5,
+          "reviewed_jersey_number": "8",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 6,
+          "five_hz_raw_track_id": 6,
+          "reviewed_jersey_number": "21",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 8,
+          "five_hz_raw_track_id": 8,
+          "reviewed_jersey_number": "19",
+          "first_frame_box_iou": 1.0,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame_first": 36000,
+      "source_frame_last": 36102,
+      "source_frames_screened": 103,
+      "exactly_six_near_candidate_frames": 93,
+      "frames_with_fewer_than_six_candidates": 10,
+      "new_near_raw_ids_after_first_frame": 0,
+      "players": [
+        {
+          "dense_raw_track_id": 1,
+          "five_hz_raw_track_id": 8,
+          "reviewed_jersey_number": "28",
+          "first_frame_box_iou": 0.89,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 3,
+          "five_hz_raw_track_id": 25,
+          "reviewed_jersey_number": "12",
+          "first_frame_box_iou": 0.57,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 6,
+          "five_hz_raw_track_id": 20,
+          "reviewed_jersey_number": "15",
+          "first_frame_box_iou": 0.806,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 9,
+          "five_hz_raw_track_id": 2,
+          "reviewed_jersey_number": "7",
+          "first_frame_box_iou": 0.742,
+          "source_frames_with_near_candidate": 99,
+          "missing_frame_intervals": [
+            [
+              36015,
+              36015
+            ],
+            [
+              36026,
+              36026
+            ],
+            [
+              36030,
+              36031
+            ]
+          ]
+        },
+        {
+          "dense_raw_track_id": 10,
+          "five_hz_raw_track_id": 1,
+          "reviewed_jersey_number": "19",
+          "first_frame_box_iou": 0.843,
+          "source_frames_with_near_candidate": 103,
+          "missing_frame_intervals": []
+        },
+        {
+          "dense_raw_track_id": 13,
+          "five_hz_raw_track_id": 11,
+          "reviewed_jersey_number": "21",
+          "first_frame_box_iou": 0.753,
+          "source_frames_with_near_candidate": 97,
+          "missing_frame_intervals": [
+            [
+              36047,
+              36050
+            ],
+            [
+              36059,
+              36060
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

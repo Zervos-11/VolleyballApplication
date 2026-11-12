@@ -1,0 +1,693 @@
+{
+  "status": "exploratory_image_plane_five_sample_geometry_not_contract_outcome_analysis",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "pilot": "a42d9a2e086fcf5d14e7794e0cf1a55a7e38a542161ab0c77a937d92e3e679cb",
+    "endpoint_audit": "afb3a0e8c972a08ddaf8a2868dc48f52c653d09b6d8e71a5ca4a4409ff7af8e8"
+  },
+  "summary": {
+    "frozen_points": 18,
+    "source_screened_candidate_windows": 8,
+    "wins": 4,
+    "losses": 4,
+    "matched_set_phase_cells": 3,
+    "five_hz_samples_per_window": 5,
+    "source_frame_instances": 40,
+    "validated_court_metric_windows": 0
+  },
+  "comparisons": {
+    "spacing_px": {
+      "equal_cell_median_window_win_minus_loss": 36.503,
+      "equal_cell_anchor_win_minus_loss": 35.638,
+      "five_offset_differences": [
+        {
+          "offset_frames": -12,
+          "equal_cell_win_minus_loss": 48.957
+        },
+        {
+          "offset_frames": -6,
+          "equal_cell_win_minus_loss": 40.568
+        },
+        {
+          "offset_frames": 0,
+          "equal_cell_win_minus_loss": 35.638
+        },
+        {
+          "offset_frames": 6,
+          "equal_cell_win_minus_loss": 31.205
+        },
+        {
+          "offset_frames": 12,
+          "equal_cell_win_minus_loss": 28.057
+        }
+      ]
+    },
+    "hull_area_px2": {
+      "equal_cell_median_window_win_minus_loss": -8166.551,
+      "equal_cell_anchor_win_minus_loss": -7407.911,
+      "five_offset_differences": [
+        {
+          "offset_frames": -12,
+          "equal_cell_win_minus_loss": -6354.848
+        },
+        {
+          "offset_frames": -6,
+          "equal_cell_win_minus_loss": -8559.215
+        },
+        {
+          "offset_frames": 0,
+          "equal_cell_win_minus_loss": -7407.911
+        },
+        {
+          "offset_frames": 6,
+          "equal_cell_win_minus_loss": -9476.973
+        },
+        {
+          "offset_frames": 12,
+          "equal_cell_win_minus_loss": -11094.059
+        }
+      ]
+    },
+    "dispersion_px": {
+      "equal_cell_median_window_win_minus_loss": 23.946,
+      "equal_cell_anchor_win_minus_loss": 23.923,
+      "five_offset_differences": [
+        {
+          "offset_frames": -12,
+          "equal_cell_win_minus_loss": 32.4
+        },
+        {
+          "offset_frames": -6,
+          "equal_cell_win_minus_loss": 27.151
+        },
+        {
+          "offset_frames": 0,
+          "equal_cell_win_minus_loss": 23.923
+        },
+        {
+          "offset_frames": 6,
+          "equal_cell_win_minus_loss": 20.832
+        },
+        {
+          "offset_frames": 12,
+          "equal_cell_win_minus_loss": 19.294
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        1410,
+        1416,
+        1422,
+        1428,
+        1434
+      ],
+      "median_image_metrics": {
+        "spacing_px": 347.449,
+        "hull_area_px2": 48310.195,
+        "dispersion_px": 235.475
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 347.449,
+        "hull_area_px2": 48310.195,
+        "dispersion_px": 235.338
+      },
+      "median_six_player_sampled_polyline_px": 52.01,
+      "samples": [
+        {
+          "source_frame": 1410,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 359.538,
+            "hull_area_px2": 40868.149,
+            "dispersion_px": 239.772
+          }
+        },
+        {
+          "source_frame": 1416,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 355.723,
+            "hull_area_px2": 45789.648,
+            "dispersion_px": 238.665
+          }
+        },
+        {
+          "source_frame": 1422,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 347.449,
+            "hull_area_px2": 48310.195,
+            "dispersion_px": 235.338
+          }
+        },
+        {
+          "source_frame": 1428,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 342.504,
+            "hull_area_px2": 49694.641,
+            "dispersion_px": 235.475
+          }
+        },
+        {
+          "source_frame": 1434,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 340.658,
+            "hull_area_px2": 55500.476,
+            "dispersion_px": 235.461
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        1746,
+        1752,
+        1758,
+        1764,
+        1770
+      ],
+      "median_image_metrics": {
+        "spacing_px": 280.237,
+        "hull_area_px2": 77695.278,
+        "dispersion_px": 186.029
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 280.237,
+        "hull_area_px2": 77695.278,
+        "dispersion_px": 186.029
+      },
+      "median_six_player_sampled_polyline_px": 64.47,
+      "samples": [
+        {
+          "source_frame": 1746,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 266.44,
+            "hull_area_px2": 70176.724,
+            "dispersion_px": 176.973
+          }
+        },
+        {
+          "source_frame": 1752,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 272.004,
+            "hull_area_px2": 73555.851,
+            "dispersion_px": 180.212
+          }
+        },
+        {
+          "source_frame": 1758,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 280.237,
+            "hull_area_px2": 77695.278,
+            "dispersion_px": 186.029
+          }
+        },
+        {
+          "source_frame": 1764,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 298.623,
+            "hull_area_px2": 88913.548,
+            "dispersion_px": 199.862
+          }
+        },
+        {
+          "source_frame": 1770,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 318.165,
+            "hull_area_px2": 96155.781,
+            "dispersion_px": 212.954
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "higher_resolution",
+      "source_window_frames": [
+        5359,
+        5365,
+        5371,
+        5377,
+        5383
+      ],
+      "median_image_metrics": {
+        "spacing_px": 382.819,
+        "hull_area_px2": 86840.701,
+        "dispersion_px": 247.252
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 377.628,
+        "hull_area_px2": 86840.701,
+        "dispersion_px": 247.252
+      },
+      "median_six_player_sampled_polyline_px": 46.24,
+      "samples": [
+        {
+          "source_frame": 5359,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 389.139,
+            "hull_area_px2": 82096.9,
+            "dispersion_px": 257.003
+          }
+        },
+        {
+          "source_frame": 5365,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 382.819,
+            "hull_area_px2": 81803.223,
+            "dispersion_px": 251.884
+          }
+        },
+        {
+          "source_frame": 5371,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 377.628,
+            "hull_area_px2": 86840.701,
+            "dispersion_px": 247.252
+          }
+        },
+        {
+          "source_frame": 5377,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 377.312,
+            "hull_area_px2": 93660.329,
+            "dispersion_px": 244.441
+          }
+        },
+        {
+          "source_frame": 5383,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 383.736,
+            "hull_area_px2": 104360.871,
+            "dispersion_px": 245.951
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "near_team_won": false,
+      "phase": "near_offense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        13554,
+        13560,
+        13566,
+        13572,
+        13578
+      ],
+      "median_image_metrics": {
+        "spacing_px": 283.081,
+        "hull_area_px2": 78018.398,
+        "dispersion_px": 180.898
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 283.081,
+        "hull_area_px2": 78018.398,
+        "dispersion_px": 180.898
+      },
+      "median_six_player_sampled_polyline_px": 39.57,
+      "samples": [
+        {
+          "source_frame": 13554,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 260.666,
+            "hull_area_px2": 67568.435,
+            "dispersion_px": 168.084
+          }
+        },
+        {
+          "source_frame": 13560,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 274.735,
+            "hull_area_px2": 73949.886,
+            "dispersion_px": 176.186
+          }
+        },
+        {
+          "source_frame": 13566,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 283.081,
+            "hull_area_px2": 78018.398,
+            "dispersion_px": 180.898
+          }
+        },
+        {
+          "source_frame": 13572,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 287.457,
+            "hull_area_px2": 81095.869,
+            "dispersion_px": 183.288
+          }
+        },
+        {
+          "source_frame": 13578,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 293.042,
+            "hull_area_px2": 83613.13,
+            "dispersion_px": 187.018
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "near_team_won": true,
+      "phase": "near_offense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        19524,
+        19530,
+        19536,
+        19542,
+        19548
+      ],
+      "median_image_metrics": {
+        "spacing_px": 316.72,
+        "hull_area_px2": 76218.218,
+        "dispersion_px": 205.704
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 316.72,
+        "hull_area_px2": 78494.138,
+        "dispersion_px": 205.704
+      },
+      "median_six_player_sampled_polyline_px": 37.3,
+      "samples": [
+        {
+          "source_frame": 19524,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 310.766,
+            "hull_area_px2": 68121.955,
+            "dispersion_px": 202.598
+          }
+        },
+        {
+          "source_frame": 19530,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 311.929,
+            "hull_area_px2": 71522.213,
+            "dispersion_px": 203.041
+          }
+        },
+        {
+          "source_frame": 19536,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 316.72,
+            "hull_area_px2": 78494.138,
+            "dispersion_px": 205.704
+          }
+        },
+        {
+          "source_frame": 19542,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 324.956,
+            "hull_area_px2": 81113.228,
+            "dispersion_px": 211.513
+          }
+        },
+        {
+          "source_frame": 19548,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 333.611,
+            "hull_area_px2": 76218.218,
+            "dispersion_px": 219.625
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "near_team_won": true,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        29928,
+        29934,
+        29940,
+        29946,
+        29952
+      ],
+      "median_image_metrics": {
+        "spacing_px": 279.792,
+        "hull_area_px2": 74428.078,
+        "dispersion_px": 179.488
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 279.792,
+        "hull_area_px2": 74428.078,
+        "dispersion_px": 179.488
+      },
+      "median_six_player_sampled_polyline_px": 34.07,
+      "samples": [
+        {
+          "source_frame": 29928,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 265.019,
+            "hull_area_px2": 68105.091,
+            "dispersion_px": 170.888
+          }
+        },
+        {
+          "source_frame": 29934,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 270.498,
+            "hull_area_px2": 69877.868,
+            "dispersion_px": 173.712
+          }
+        },
+        {
+          "source_frame": 29940,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 279.792,
+            "hull_area_px2": 74428.078,
+            "dispersion_px": 179.488
+          }
+        },
+        {
+          "source_frame": 29946,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 290.608,
+            "hull_area_px2": 79897.755,
+            "dispersion_px": 186.483
+          }
+        },
+        {
+          "source_frame": 29952,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 299.879,
+            "hull_area_px2": 84025.931,
+            "dispersion_px": 192.678
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        34110,
+        34116,
+        34122,
+        34128,
+        34134
+      ],
+      "median_image_metrics": {
+        "spacing_px": 288.382,
+        "hull_area_px2": 89980.924,
+        "dispersion_px": 188.578
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 288.382,
+        "hull_area_px2": 89980.924,
+        "dispersion_px": 188.578
+      },
+      "median_six_player_sampled_polyline_px": 45.81,
+      "samples": [
+        {
+          "source_frame": 34110,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 276.007,
+            "hull_area_px2": 82857.899,
+            "dispersion_px": 180.89
+          }
+        },
+        {
+          "source_frame": 34116,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 282.086,
+            "hull_area_px2": 86112.924,
+            "dispersion_px": 184.47
+          }
+        },
+        {
+          "source_frame": 34122,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 288.382,
+            "hull_area_px2": 89980.924,
+            "dispersion_px": 188.578
+          }
+        },
+        {
+          "source_frame": 34128,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 296.96,
+            "hull_area_px2": 94094.568,
+            "dispersion_px": 193.779
+          }
+        },
+        {
+          "source_frame": 34134,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 304.909,
+            "hull_area_px2": 98579.865,
+            "dispersion_px": 199.035
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "near_team_won": false,
+      "phase": "near_defense",
+      "detector_pass": "original",
+      "source_window_frames": [
+        36060,
+        36066,
+        36072,
+        36078,
+        36084
+      ],
+      "median_image_metrics": {
+        "spacing_px": 289.256,
+        "hull_area_px2": 84034.52,
+        "dispersion_px": 187.003
+      },
+      "anchor_image_metrics": {
+        "spacing_px": 289.256,
+        "hull_area_px2": 84034.52,
+        "dispersion_px": 187.003
+      },
+      "median_six_player_sampled_polyline_px": 19.04,
+      "samples": [
+        {
+          "source_frame": 36060,
+          "offset_frames": -12,
+          "metrics": {
+            "spacing_px": 276.289,
+            "hull_area_px2": 75200.01,
+            "dispersion_px": 178.344
+          }
+        },
+        {
+          "source_frame": 36066,
+          "offset_frames": -6,
+          "metrics": {
+            "spacing_px": 284.422,
+            "hull_area_px2": 80623.927,
+            "dispersion_px": 183.884
+          }
+        },
+        {
+          "source_frame": 36072,
+          "offset_frames": 0,
+          "metrics": {
+            "spacing_px": 289.256,
+            "hull_area_px2": 84034.52,
+            "dispersion_px": 187.003
+          }
+        },
+        {
+          "source_frame": 36078,
+          "offset_frames": 6,
+          "metrics": {
+            "spacing_px": 294.594,
+            "hull_area_px2": 88125.371,
+            "dispersion_px": 190.837
+          }
+        },
+        {
+          "source_frame": 36084,
+          "offset_frames": 12,
+          "metrics": {
+            "spacing_px": 295.711,
+            "hull_area_px2": 88796.312,
+            "dispersion_px": 191.277
+          }
+        }
+      ],
+      "source_screen_status": "no_obvious_wrong_person_transfer_at_displayed_endpoints",
+      "named_identity_and_floor_status": "not_validated"
+    }
+  ],
+  "interpretation": "Eight availability-selected windows have no obvious wrong-person transfer at three displayed source instants and share set-and-phase cells with both outcomes. Unsampled-frame identities, full-window phase and court-floor coordinates remain unvalidated. Pixel-space geometry and sampled polylines are method diagnostics, not winner effects or court movement distances."
+}

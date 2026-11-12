@@ -1,0 +1,222 @@
+{
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "sample_sha256": "8c32c0f026fc7f217c0f32e1c1ccb2c60213927e5a880a2bbfbb9a8935ef10f6",
+  "source_seconds": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "previous_score_change_s": 45,
+      "score_change_s": 54,
+      "context_picks_s": [
+        46,
+        49,
+        52,
+        55
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "previous_score_change_s": 54,
+      "score_change_s": 66,
+      "context_picks_s": [
+        56,
+        60,
+        64,
+        67
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "previous_score_change_s": 177,
+      "score_change_s": 183,
+      "context_picks_s": [
+        178,
+        180,
+        181,
+        184
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "previous_score_change_s": 242,
+      "score_change_s": 251,
+      "context_picks_s": [
+        243,
+        246,
+        249,
+        252
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "previous_score_change_s": 318,
+      "score_change_s": 330,
+      "context_picks_s": [
+        320,
+        324,
+        328,
+        331
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "previous_score_change_s": 347,
+      "score_change_s": 369,
+      "context_picks_s": [
+        351,
+        358,
+        367,
+        370
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "previous_score_change_s": 401,
+      "score_change_s": 416,
+      "context_picks_s": [
+        404,
+        408,
+        414,
+        417
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "previous_score_change_s": 439,
+      "score_change_s": 462,
+      "context_picks_s": [
+        443,
+        450,
+        460,
+        463
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "previous_score_change_s": 532,
+      "score_change_s": 539,
+      "context_picks_s": [
+        533,
+        535,
+        537,
+        540
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "previous_score_change_s": 626,
+      "score_change_s": 640,
+      "context_picks_s": [
+        628,
+        633,
+        638,
+        641
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "previous_score_change_s": 649,
+      "score_change_s": 655,
+      "context_picks_s": [
+        650,
+        652,
+        653,
+        656
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "previous_score_change_s": 735,
+      "score_change_s": 744,
+      "context_picks_s": [
+        736,
+        739,
+        742,
+        745
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "previous_score_change_s": 974,
+      "score_change_s": 983,
+      "context_picks_s": [
+        975,
+        978,
+        981,
+        984
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "previous_score_change_s": 994,
+      "score_change_s": 1004,
+      "context_picks_s": [
+        996,
+        999,
+        1002,
+        1005
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "previous_score_change_s": 1089,
+      "score_change_s": 1096,
+      "context_picks_s": [
+        1090,
+        1092,
+        1094,
+        1097
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "previous_score_change_s": 1133,
+      "score_change_s": 1144,
+      "context_picks_s": [
+        1135,
+        1138,
+        1142,
+        1145
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "previous_score_change_s": 1188,
+      "score_change_s": 1198,
+      "context_picks_s": [
+        1190,
+        1193,
+        1196,
+        1199
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "previous_score_change_s": 1198,
+      "score_change_s": 1208,
+      "context_picks_s": [
+        1200,
+        1203,
+        1206,
+        1209
+      ]
+    }
+  ]
+}

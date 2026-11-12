@@ -1,0 +1,22 @@
+{
+  "status": "staged_single_reviewer_calibration_not_approved_for_strict_metrics",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "court": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "registration": "0dfd9f22dd4530afd80423d941f82da205359ca494f5d7121bf2cecc7343a9b5"
+  },
+  "held_out_intersection_errors_m": [
+    0.0962,
+    0.121
+  ],
+  "maximum_held_out_intersection_error_m": 0.121,
+  "selected_frames_registered": 24,
+  "maximum_static_landmark_shift_px": 0.293,
+  "s3p34_frame_36072_static_landmark_shift_px": 0.288,
+  "metric_use_approved": false,
+  "limits": [
+    "Only two held-out intersections on one attack line were marked.",
+    "Court corners and held-out points were marked by one reviewer.",
+    "Static image registration does not validate player floor anchors."
+  ]
+}

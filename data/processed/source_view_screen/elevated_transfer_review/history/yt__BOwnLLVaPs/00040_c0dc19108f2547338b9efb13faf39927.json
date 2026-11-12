@@ -1,0 +1,68 @@
+{
+  "revision": 40,
+  "match_id": "yt__BOwnLLVaPs",
+  "frame": 504,
+  "prior": null,
+  "new": {
+    "excerpt_frame": 504,
+    "reviewer_code": "MZ",
+    "checked_all_six_in_source": true,
+    "source_boxes_visible_during_review": true,
+    "rows": [
+      {
+        "slot": 1,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 11,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 2,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": null,
+        "box_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      },
+      {
+        "slot": 3,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 56,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 4,
+        "identity_status": "uncertain",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 70,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 5,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 92,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "slot": 6,
+        "identity_status": "sequence_consistent",
+        "physical_state": "grounded",
+        "candidate_raw_track_id": 6,
+        "box_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "status": "systematic_10hz_source_sample_single_reviewer_candidate_assisted",
+  "interval_inclusive": [
+    36001,
+    36138
+  ],
+  "exact_serve_to_dead_ball": false,
+  "denominators": {
+    "sampled_frames": 46,
+    "sampled_player_slots": 276,
+    "paired_review_slots": 138,
+    "new_review_frames": 17
+  },
+  "counts": {
+    "candidate_boxes": 260,
+    "new_focused_slots": 102,
+    "paired_same_player_boxes": 131,
+    "new_sequence_consistent_identities": 102,
+    "new_boxes_seen_before_source": 102,
+    "accepted_grounded_proxies": 250,
+    "airborne": 11,
+    "six_candidate_frames": 34,
+    "six_accepted_grounded_frames": 27,
+    "prior_5hz_slots": 138,
+    "unresolved_or_unboxed_floor": 13,
+    "new_missing_boxes": 7,
+    "prior_dense_slots": 36
+  },
+  "rates": {
+    "candidate_box_slots": 0.942,
+    "accepted_grounded_proxy_slots": 0.9058,
+    "six_candidate_frames": 0.7391,
+    "six_accepted_grounded_frames": 0.587
+  },
+  "inputs_sha256": {
+    "focused_review": "4bec34819cf04772ec58cd76319fc95ab5ca79316e63b6d60d61ce186f998fda",
+    "prior_dense_review": "1f36b7573d4eb6e58728c7806986bee3aca79c6f43edf6a4974076ea9d8a44fc",
+    "prior_5hz_ledger": "f080c1da3f479362912998cca54b6b765944d8009121b7d258fd6abca4cdf7a1",
+    "manifest": "2c7f3ee87d26c3621fa08cf1eaeae4cdddee71ec7cf02ba12a6ef5862534737f",
+    "protocol": "7786a21f15e16ec17353ed81d604dfdeb6b2f9f367355df856903ab02f211539"
+  },
+  "limitations": [
+    "Systematic sample across a source-bracketed interval, not continuous 30-fps validation.",
+    "Candidate-assisted, single-reviewer identity and floor judgments are not independent ground truth.",
+    "Accepted box bottoms are visual floor proxies, not measured shoe-position accuracy.",
+    "Court calibration and exact serve/end events remain separate validation questions."
+  ],
+  "frames": [
+    {
+      "source_frame": 36003,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36006,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36009,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36012,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36015,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36018,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36021,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36024,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36027,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36030,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36033,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36036,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36039,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36042,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36045,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36048,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36051,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36054,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36057,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36060,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36063,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36066,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36069,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36072,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36075,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36078,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36081,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36084,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36087,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36090,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36093,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36096,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36099,
+      "evidence_tier": "prior_dense",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36102,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36105,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36108,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 4
+    },
+    {
+      "source_frame": 36111,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4
+    },
+    {
+      "source_frame": 36114,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4
+    },
+    {
+      "source_frame": 36117,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4
+    },
+    {
+      "source_frame": 36120,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 4,
+      "accepted_grounded_proxies": 4
+    },
+    {
+      "source_frame": 36123,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36126,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 3
+    },
+    {
+      "source_frame": 36129,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 5,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36132,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 5
+    },
+    {
+      "source_frame": 36135,
+      "evidence_tier": "new_focused",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    },
+    {
+      "source_frame": 36138,
+      "evidence_tier": "prior_5hz",
+      "candidate_boxes": 6,
+      "accepted_grounded_proxies": 6
+    }
+  ]
+}

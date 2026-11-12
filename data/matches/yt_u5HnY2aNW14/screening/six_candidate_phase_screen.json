@@ -1,0 +1,1075 @@
+{
+  "status": "phase_navigation_suggestions_not_source_reviewed",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "dense_track_screen_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "model_weights_sha256": "801b8d1fba0f139c2f2c2e64732831b8b642b4e382c496502142bef1fec8f7dc",
+  "selection_rule": "one six-geometric-candidate frame closest to half second per source second",
+  "results": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "candidate_seconds": 3,
+      "rows": [
+        {
+          "source_second": 46,
+          "source_frame": 1392,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 47,
+          "source_frame": 1422,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 50,
+          "source_frame": 1524,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "candidate_seconds": 4,
+      "rows": [
+        {
+          "source_second": 57,
+          "source_frame": 1728,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 58,
+          "source_frame": 1752,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 59,
+          "source_frame": 1776,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 61,
+          "source_frame": 1836,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "candidate_seconds": 3,
+      "rows": [
+        {
+          "source_second": 178,
+          "source_frame": 5352,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 179,
+          "source_frame": 5370,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 181,
+          "source_frame": 5436,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "no-play",
+          "probabilities": {
+            "no-play": 1.0,
+            "play": 0.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "candidate_seconds": 3,
+      "rows": [
+        {
+          "source_second": 243,
+          "source_frame": 7302,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 244,
+          "source_frame": 7338,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 245,
+          "source_frame": 7350,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "candidate_seconds": 4,
+      "rows": [
+        {
+          "source_second": 321,
+          "source_frame": 9630,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 322,
+          "source_frame": 9672,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 323,
+          "source_frame": 9702,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 324,
+          "source_frame": 9738,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "candidate_seconds": 12,
+      "rows": [
+        {
+          "source_second": 348,
+          "source_frame": 10458,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 349,
+          "source_frame": 10482,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 350,
+          "source_frame": 10512,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 351,
+          "source_frame": 10530,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 353,
+          "source_frame": 10602,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 354,
+          "source_frame": 10626,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 357,
+          "source_frame": 10722,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 358,
+          "source_frame": 10752,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 359,
+          "source_frame": 10782,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 360,
+          "source_frame": 10812,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 362,
+          "source_frame": 10872,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 365,
+          "source_frame": 10962,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "candidate_seconds": 6,
+      "rows": [
+        {
+          "source_second": 402,
+          "source_frame": 12072,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 403,
+          "source_frame": 12108,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 409,
+          "source_frame": 12288,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 410,
+          "source_frame": 12312,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 411,
+          "source_frame": 12336,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 412,
+          "source_frame": 12384,
+          "six_geometric_candidate_count": 7,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "candidate_seconds": 8,
+      "rows": [
+        {
+          "source_second": 442,
+          "source_frame": 13260,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 446,
+          "source_frame": 13398,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 450,
+          "source_frame": 13512,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 451,
+          "source_frame": 13548,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 452,
+          "source_frame": 13572,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 453,
+          "source_frame": 13608,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 455,
+          "source_frame": 13650,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 458,
+          "source_frame": 13752,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "candidate_seconds": 2,
+      "rows": [
+        {
+          "source_second": 535,
+          "source_frame": 16074,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 536,
+          "source_frame": 16092,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "candidate_seconds": 8,
+      "rows": [
+        {
+          "source_second": 628,
+          "source_frame": 18840,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 629,
+          "source_frame": 18894,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 630,
+          "source_frame": 18912,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 631,
+          "source_frame": 18942,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 632,
+          "source_frame": 18972,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 633,
+          "source_frame": 18990,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 637,
+          "source_frame": 19122,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 638,
+          "source_frame": 19152,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "no-play",
+          "probabilities": {
+            "no-play": 1.0,
+            "play": 0.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "candidate_seconds": 3,
+      "rows": [
+        {
+          "source_second": 650,
+          "source_frame": 19512,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 651,
+          "source_frame": 19536,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 652,
+          "source_frame": 19578,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "candidate_seconds": 5,
+      "rows": [
+        {
+          "source_second": 737,
+          "source_frame": 22116,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 738,
+          "source_frame": 22146,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 739,
+          "source_frame": 22194,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 740,
+          "source_frame": 22218,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 741,
+          "source_frame": 22230,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "candidate_seconds": 3,
+      "rows": [
+        {
+          "source_second": 975,
+          "source_frame": 29262,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 976,
+          "source_frame": 29280,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 977,
+          "source_frame": 29310,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "candidate_seconds": 4,
+      "rows": [
+        {
+          "source_second": 996,
+          "source_frame": 29892,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 997,
+          "source_frame": 29928,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 998,
+          "source_frame": 29940,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1000,
+          "source_frame": 30012,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "candidate_seconds": 1,
+      "rows": [
+        {
+          "source_second": 1092,
+          "source_frame": 32784,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "candidate_seconds": 7,
+      "rows": [
+        {
+          "source_second": 1134,
+          "source_frame": 34026,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 1135,
+          "source_frame": 34074,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1136,
+          "source_frame": 34098,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1137,
+          "source_frame": 34122,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1138,
+          "source_frame": 34152,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1139,
+          "source_frame": 34176,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1140,
+          "source_frame": 34224,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "candidate_seconds": 4,
+      "rows": [
+        {
+          "source_second": 1189,
+          "source_frame": 35682,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "service",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 0.0,
+            "service": 1.0
+          }
+        },
+        {
+          "source_second": 1190,
+          "source_frame": 35724,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1194,
+          "source_frame": 35832,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1195,
+          "source_frame": 35856,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "candidate_seconds": 5,
+      "rows": [
+        {
+          "source_second": 1201,
+          "source_frame": 36042,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1202,
+          "source_frame": 36072,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1203,
+          "source_frame": 36102,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1204,
+          "source_frame": 36132,
+          "six_geometric_candidate_count": 7,
+          "predicted_class": "play",
+          "probabilities": {
+            "no-play": 0.0,
+            "play": 1.0,
+            "service": 0.0
+          }
+        },
+        {
+          "source_second": 1205,
+          "source_frame": 36168,
+          "six_geometric_candidate_count": 6,
+          "predicted_class": "no-play",
+          "probabilities": {
+            "no-play": 1.0,
+            "play": 0.0,
+            "service": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Six geometric candidates may contain opponents or duplicates.",
+    "The phase model is not validated on this source.",
+    "A one-second clip may cross play boundaries."
+  ]
+}

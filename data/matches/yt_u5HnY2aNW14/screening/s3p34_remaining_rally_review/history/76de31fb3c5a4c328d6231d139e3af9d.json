@@ -1,0 +1,98 @@
+{
+  "frame": 36112,
+  "stage": "source",
+  "previous": {
+    "source": [
+      {
+        "jersey": "28",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "12",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "15",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "7",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "19",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      },
+      {
+        "jersey": "21",
+        "identity_status": "sequence_consistent",
+        "ground_status": "grounded",
+        "shoe_x_px": null,
+        "shoe_y_px": null,
+        "note": ""
+      }
+    ],
+    "paired": [
+      {
+        "jersey": "28",
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "jersey": "12",
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "jersey": "15",
+        "candidate_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      },
+      {
+        "jersey": "7",
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "jersey": "19",
+        "candidate_alignment": "same_player",
+        "floor_alignment": "plausible",
+        "note": ""
+      },
+      {
+        "jersey": "21",
+        "candidate_alignment": "no_box",
+        "floor_alignment": "not_applicable",
+        "note": ""
+      }
+    ],
+    "candidate_boxes_shown_before_source": true,
+    "source_saved_at_utc": "2026-11-08T03:56:49.483687+00:00",
+    "paired_saved_at_utc": "2026-11-08T04:31:07.726208+00:00"
+  },
+  "revision": 180
+}

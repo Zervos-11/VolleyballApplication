@@ -1,0 +1,9 @@
+# S1 P6 box continuity and floor eligibility
+
+The [25-frame ledger](../data/matches/yt_u5HnY2aNW14/screening/s1p6_fixed_window_source_review/box_and_floor_ledger.json) keeps six candidate raw-ID boxes on every source frame from 1759 through 1783: **150/150** frame-player slots. The six IDs were established from the four human-paired grounded samples; presence of those IDs between samples is candidate continuity, not a human identity verdict on every frame.
+
+Floor eligibility is a separate field. The source and paired forms support **28/150** grounded box-bottom proxy slots at the planned samples and **four** samples eligible for a six-player floor metric. All five planned samples have six source-reviewed player states. The two blockers at frame 1783 are source-reviewed **airborne**: their candidate boxes remain in the ledger, but both reviewed floor-proxy values are **null**. The intervening **120** player slots have unreviewed ground contact and also carry null reviewed floor positions. A future extension would keep an airborne floor exclusion open until a reviewed grounded contact closes it; the current window ends at frame 1783.
+
+No box bottom is silently used as a court position during a jump. A carried-forward takeoff location could be analysed as a separately labelled imputation scenario, as [shown here](HONOURS_U5_S1P6_BLOCK_TAKEOFF_SENSITIVITY.md), but it is not an observed frame-1783 floor point. A later out-of-point court-line check passed its operational screen, but this ledger still carries no formal strict metric-use approval. The airborne final sample is a valid state observation with an undefined six-player floor metric; the 20 intervening source frames also lack ground-contact review.
+
+Reproduce with `.\.venv\Scripts\python.exe scripts/build_u5_s1p6_box_and_floor_ledger.py`.

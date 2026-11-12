@@ -1,0 +1,39 @@
+﻿# r1 source-frame validation queue
+
+This source-frame feasibility screen was completed on 27 October 2026; the [visual decisions](../data/processed/fqe_r1_boundary_recheck/r1_floor_feasibility_review.json) remain separate from the saved `unreviewed` annotations. The links below open original-resolution frames without tracker boxes through the running local viewer at `http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/<frame>`. The [bounded readout](R1_CASE_STUDY_READOUT.md) contains the overall development findings. No shoe-floor pixel points were added by this screen.
+
+## 1. Exact point end
+
+Inspect [21462](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21462), [21463](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21463), and [21464](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21464). Record the first floor contact and the exclusive end frame. The current candidate is `[21050, 21464)`; the official reviewed selection still ends at 21490 and includes a saved post-point frame at 21489. The [contact sheet](../data/processed/fqe_r1_boundary_recheck/r1_contact_floor_evidence.jpg) provides context but the full-resolution frames decide.
+
+## 2. Ground-position feasibility check
+
+For each frame below, record the named player's state as `grounded_contact_visible`, `airborne`, `feet_hidden`, `out_of_frame`, or `uncertain`. A floor point is valid only when a shoe sole visibly touches the floor; use the midpoint when both planted feet are clear. Keep uncertain positions empty. The existing box-bottom estimate is a proposal, not a floor label.
+
+| Player and event | Original source frames | Decision needed |
+| --- | --- | --- |
+| #9 serve landing | [21065](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21065), [21070](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21070), [21100](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21100) | First grounded frame and sole location; compare [shoe sheet](../data/processed/fqe_r1_boundary_recheck/p9_ground_proxy_review_sheet.jpg). |
+| #13 in front of #20 on court; image overlap | [21150](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21150), [21200](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21200), [21300](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21300) | Can #13's shoes be separated from #20's? Withhold any ambiguous contact. |
+| #11/#13 block | [21245](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21245), [21250](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21250), [21265](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21265) | Airborne versus landed state; confirm raw ID 367 is not a continuous #11 identity. |
+| #20 truncated box | [21308](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21308), [21310](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21310), [21313](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21313) | Verify visible shoes on either side; frame 21310's raw box bottom is invalid. |
+| #12 near-net motion | [21304](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21304), [21308](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21308), [21311](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21311) | Check whether apparent court jumps come from shoe contact, jumping, or a changing box bottom. |
+| Later separation | [21400](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21400), [21450](http://127.0.0.1:8011/api/yt_FqE5pTJqx8g/frame/21450) | Check #13 visibility and #9/#20 grounded positions before the point ends. |
+
+This is a **feasibility screen**, not a full-rally floor annotation. If these hard frames do not support repeatable sole contacts, keep distance as an estimated box-bottom proxy and release only the bounded identity/zone readout. If the contacts are clear, extend the same state and point review across the chosen player path before publishing a movement estimate; report frame coverage and every interpolated gap. The staged calibration must be explicitly approved for metric use before converting contacts into metres.
+
+## 3. Identity follow-up
+
+The [#12 gap audit](../data/processed/fqe_r1_boundary_recheck/r1_player12_gap_source_review.json) checks all 46 missing raw-box frames and leaves their positions unknown. The [#10 gap source check](../data/processed/fqe_r1_boundary_recheck/r1_p10_gap_source_review.json) samples five moments across her 34-frame raw-box gap, supporting local identity continuity but no path length. The user's [qualitative review](../data/processed/fqe_r1_boundary_recheck/r1_user_visual_review.json) confirms the displayed candidates for #9, #10, #11, #12 and #20 and accepts #13's missing box while she is mostly stationary in front of #20 on the court. The source [identity sheets](../data/processed/fqe_r1_boundary_recheck/r1_remaining_identity_audit.json) still define the safe raw-ID scope; #11's cross-player ID switch has no automatic position. The user has saved [five shoe contacts at frame 21064](../data/processed/fqe_r1_boundary_recheck/r1_floor_contact_review.json); the [draft audit](../data/processed/fqe_r1_boundary_recheck/r1_saved_floor_contact_audit.json) flags #11 near the projected net boundary. The later [#9](../data/processed/fqe_r1_boundary_recheck/r1_p9_contact_checks.json), [#20](../data/processed/fqe_r1_boundary_recheck/r1_p20_contact_checks.json) and [#12](../data/processed/fqe_r1_boundary_recheck/r1_p12_contact_checks.json) sampled contact checks are separate analyst proposals. Keep #13's missing positions unknown rather than zero movement.
+
+## 4. #20 ground-path breakpoints
+
+The local shoe-region trials and pose check identify the smallest outstanding #20 decisions. Open the [r1 viewer](http://127.0.0.1:8011/r1-case-study?frame=21333) and keep #20 selected. For each breakpoint, record a contact state and a sole-floor point only if the source visibly supports it. Record anatomical foot continuity separately; left/right image order can change through a turn. These decisions have not been entered into the saved floor-contact draft.
+
+| Source interval | Evidence | Decision required |
+| --- | --- | --- |
+| [21333](http://127.0.0.1:8011/r1-case-study?frame=21333)–[21343](http://127.0.0.1:8011/r1-case-study?frame=21343) | The [early trial](../data/processed/fqe_r1_boundary_recheck/r1_p20_foot_identity_trial.json) loses the two seed feet when the shoes merge; pose ankles also fail to separate them at 21343. | Determine whether either anatomical foot can be linked across the overlap. Otherwise keep the two segments separate. |
+| [21393](http://127.0.0.1:8011/r1-case-study?frame=21393)–[21402](http://127.0.0.1:8011/r1-case-study?frame=21402) | The [21343 trial](../data/processed/fqe_r1_boundary_recheck/r1_p20_local_reseed_trial.json) ends as #20 turns; the 21402 trial starts with new local names. | Check foot identity and actual sole-floor contact during the turn. Do not join image-left/right labels by position alone. |
+| [21430](http://127.0.0.1:8011/r1-case-study?frame=21430) and [21440](http://127.0.0.1:8011/r1-case-study?frame=21440) | The [stillness sheet](../data/processed/fqe_r1_boundary_recheck/r1_p20_stationary_shoe_cue_sheet_2.jpg) disagrees with the 21430 floor proposal by 90.7 px and has no cue at uncertain 21440. | Verify which sole, if any, touches the floor. Leave the point empty where the contact cannot be seen. |
+| [21457](http://127.0.0.1:8011/r1-case-study?frame=21457)–[21463](http://127.0.0.1:8011/r1-case-study?frame=21463) | The [source recheck](../data/processed/fqe_r1_boundary_recheck/r1_p20_breakpoint_source_review.json) shows both #20 shoes visible, and the revised detector now selects two regions on all ten late review frames. | Mark the actual planted sole, if repeatable, from the source; two detected shoes do not establish floor contact. |
+
+This queue is a source-review plan, not an inferred path. Even resolved breakpoints need dense checked floor positions between them before #20 physical distance can be reported.

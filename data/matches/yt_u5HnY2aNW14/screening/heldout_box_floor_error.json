@@ -1,0 +1,638 @@
+{
+  "status": "heldout_single_reviewer_clear_shoe_proxy_error_not_final_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "input_sha256": {
+    "review_index": "73b51f3005f86ac9fca0a6d1f0db71219992782f0d594230cdfda5baaf1efdeb",
+    "calibration": "b66c58b62c35db3d0f0dc102bdbeed18fc63d5fe7446ce2be069c00978b472fa",
+    "earlier_reference": "ec13a169289d10aa888030e005e418c1b430c0e8dac6e42470b2e47a49f690ce"
+  },
+  "manual_reference_rule": "Approximate midpoint of two visible grounded shoes; \u00b18 px visual reading uncertainty.",
+  "summary": {
+    "source_frames": 4,
+    "reviewed_clear_grounded_shoe_pairs": 21,
+    "excluded_unclear_shoe_pairs": 3,
+    "median_box_to_shoe_distance_m": 0.273,
+    "maximum_box_to_shoe_distance_m": 0.632,
+    "median_signed_box_minus_shoe_dx_m": -0.003,
+    "median_signed_box_minus_shoe_dy_m": -0.155,
+    "earlier_clear_shoe_reference_boxes": 9,
+    "validated_six_player_metric_frames": 0
+  },
+  "rows": [
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "raw_track_id": 59,
+      "box_bottom_px": [
+        645.8,
+        340.0
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        665,
+        339
+      ],
+      "box_bottom_court_m": [
+        4.187,
+        8.157
+      ],
+      "shoe_midpoint_court_m": [
+        4.415,
+        8.188
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.228,
+        -0.031
+      ],
+      "pixel_distance": 19.23,
+      "court_distance_m": 0.23
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "raw_track_id": 4,
+      "box_bottom_px": [
+        678.9,
+        615.1
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        678,
+        613
+      ],
+      "box_bottom_court_m": [
+        4.493,
+        0.761
+      ],
+      "shoe_midpoint_court_m": [
+        4.484,
+        0.81
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.009,
+        -0.049
+      ],
+      "pixel_distance": 2.28,
+      "court_distance_m": 0.05
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "raw_track_id": 16,
+      "box_bottom_px": [
+        763.0,
+        330.9
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        785,
+        326
+      ],
+      "box_bottom_court_m": [
+        5.583,
+        8.438
+      ],
+      "shoe_midpoint_court_m": [
+        5.85,
+        8.591
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.268,
+        -0.153
+      ],
+      "pixel_distance": 22.59,
+      "court_distance_m": 0.308
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "raw_track_id": 6,
+      "box_bottom_px": [
+        843.0,
+        338.6
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        830,
+        338
+      ],
+      "box_bottom_court_m": [
+        6.524,
+        8.2
+      ],
+      "shoe_midpoint_court_m": [
+        6.371,
+        8.219
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.153,
+        -0.018
+      ],
+      "pixel_distance": 12.96,
+      "court_distance_m": 0.154
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9702,
+      "raw_track_id": 44,
+      "box_bottom_px": [
+        941.0,
+        473.6
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        937,
+        459
+      ],
+      "box_bottom_court_m": [
+        7.435,
+        4.315
+      ],
+      "shoe_midpoint_court_m": [
+        7.416,
+        4.71
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.019,
+        -0.395
+      ],
+      "pixel_distance": 15.14,
+      "court_distance_m": 0.396
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 3,
+      "box_bottom_px": [
+        484.9,
+        557.4
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        475,
+        550
+      ],
+      "box_bottom_court_m": [
+        2.447,
+        2.153
+      ],
+      "shoe_midpoint_court_m": [
+        2.336,
+        2.337
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.111,
+        -0.184
+      ],
+      "pixel_distance": 12.36,
+      "court_distance_m": 0.215
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 5,
+      "box_bottom_px": [
+        678.2,
+        586.4
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        694,
+        580
+      ],
+      "box_bottom_court_m": [
+        4.494,
+        1.444
+      ],
+      "shoe_midpoint_court_m": [
+        4.661,
+        1.599
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.167,
+        -0.155
+      ],
+      "pixel_distance": 17.0,
+      "court_distance_m": 0.228
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 1,
+      "box_bottom_px": [
+        876.8,
+        575.4
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        844,
+        562
+      ],
+      "box_bottom_court_m": [
+        6.59,
+        1.711
+      ],
+      "shoe_midpoint_court_m": [
+        6.259,
+        2.039
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.331,
+        -0.329
+      ],
+      "pixel_distance": 35.48,
+      "court_distance_m": 0.467
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "raw_track_id": 7,
+      "box_bottom_px": [
+        1029.2,
+        485.7
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        993,
+        472
+      ],
+      "box_bottom_court_m": [
+        8.384,
+        3.992
+      ],
+      "shoe_midpoint_court_m": [
+        8.013,
+        4.358
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.371,
+        -0.366
+      ],
+      "pixel_distance": 38.71,
+      "court_distance_m": 0.521
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 4,
+      "box_bottom_px": [
+        393.0,
+        513.7
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        384,
+        490
+      ],
+      "box_bottom_court_m": [
+        1.418,
+        3.259
+      ],
+      "shoe_midpoint_court_m": [
+        1.292,
+        3.878
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.127,
+        -0.619
+      ],
+      "pixel_distance": 25.33,
+      "court_distance_m": 0.632
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 14,
+      "box_bottom_px": [
+        588.5,
+        323.2
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        590,
+        339
+      ],
+      "box_bottom_court_m": [
+        3.504,
+        8.679
+      ],
+      "shoe_midpoint_court_m": [
+        3.526,
+        8.188
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.022,
+        0.491
+      ],
+      "pixel_distance": 15.88,
+      "court_distance_m": 0.491
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 2,
+      "box_bottom_px": [
+        701.8,
+        548.2
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        702,
+        546
+      ],
+      "box_bottom_court_m": [
+        4.757,
+        2.382
+      ],
+      "shoe_midpoint_court_m": [
+        4.759,
+        2.437
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.003,
+        -0.055
+      ],
+      "pixel_distance": 2.21,
+      "court_distance_m": 0.055
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 7,
+      "box_bottom_px": [
+        713.6,
+        329.8
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        710,
+        327
+      ],
+      "box_bottom_court_m": [
+        4.996,
+        8.473
+      ],
+      "shoe_midpoint_court_m": [
+        4.955,
+        8.56
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.041,
+        -0.087
+      ],
+      "pixel_distance": 4.56,
+      "court_distance_m": 0.097
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 10,
+      "box_bottom_px": [
+        861.2,
+        342.1
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        865,
+        348
+      ],
+      "box_bottom_court_m": [
+        6.735,
+        8.092
+      ],
+      "shoe_midpoint_court_m": [
+        6.771,
+        7.912
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.036,
+        0.181
+      ],
+      "pixel_distance": 7.02,
+      "court_distance_m": 0.184
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29940,
+      "raw_track_id": 6,
+      "box_bottom_px": [
+        923.3,
+        464.2
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        905,
+        455
+      ],
+      "box_bottom_court_m": [
+        7.254,
+        4.569
+      ],
+      "shoe_midpoint_court_m": [
+        7.065,
+        4.82
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.189,
+        -0.251
+      ],
+      "pixel_distance": 20.48,
+      "court_distance_m": 0.314
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 1,
+      "box_bottom_px": [
+        343.2,
+        535.7
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        348,
+        530
+      ],
+      "box_bottom_court_m": [
+        0.911,
+        2.696
+      ],
+      "shoe_midpoint_court_m": [
+        0.954,
+        2.841
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.043,
+        -0.145
+      ],
+      "pixel_distance": 7.42,
+      "court_distance_m": 0.151
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 5,
+      "box_bottom_px": [
+        542.3,
+        347.2
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        560,
+        341
+      ],
+      "box_bottom_court_m": [
+        2.965,
+        7.936
+      ],
+      "shoe_midpoint_court_m": [
+        3.171,
+        8.126
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.207,
+        -0.19
+      ],
+      "pixel_distance": 18.75,
+      "court_distance_m": 0.281
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 2,
+      "box_bottom_px": [
+        674.3,
+        585.5
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        697,
+        576
+      ],
+      "box_bottom_court_m": [
+        4.453,
+        1.466
+      ],
+      "shoe_midpoint_court_m": [
+        4.694,
+        1.696
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.242,
+        -0.23
+      ],
+      "pixel_distance": 24.61,
+      "court_distance_m": 0.334
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 7,
+      "box_bottom_px": [
+        691.8,
+        346.5
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        699,
+        334
+      ],
+      "box_bottom_court_m": [
+        4.728,
+        7.958
+      ],
+      "shoe_midpoint_court_m": [
+        4.82,
+        8.342
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.092,
+        -0.385
+      ],
+      "pixel_distance": 14.45,
+      "court_distance_m": 0.395
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 10,
+      "box_bottom_px": [
+        814.0,
+        337.3
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        811,
+        337
+      ],
+      "box_bottom_court_m": [
+        6.183,
+        8.24
+      ],
+      "shoe_midpoint_court_m": [
+        6.147,
+        8.249
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        0.035,
+        -0.009
+      ],
+      "pixel_distance": 3.01,
+      "court_distance_m": 0.036
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "raw_track_id": 8,
+      "box_bottom_px": [
+        879.2,
+        475.0
+      ],
+      "reviewed_shoe_pair_midpoint_px": [
+        882,
+        465
+      ],
+      "box_bottom_court_m": [
+        6.748,
+        4.278
+      ],
+      "shoe_midpoint_court_m": [
+        6.794,
+        4.547
+      ],
+      "box_minus_shoe_court_dx_dy_m": [
+        -0.046,
+        -0.27
+      ],
+      "pixel_distance": 10.4,
+      "court_distance_m": 0.273
+    }
+  ],
+  "excluded_boxes": [
+    {
+      "set": 1,
+      "point_number": 34,
+      "raw_track_id": 33,
+      "reason": "running_single_or_unclear_contact"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "raw_track_id": 2,
+      "reason": "one_shoe_raised_no_clear_pair_midpoint"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "raw_track_id": 12,
+      "reason": "running_motion_and_overlap_no_clear_pair_midpoint"
+    }
+  ],
+  "limitations": [
+    "Chosen frames were held out from the earlier nine-box reference, but the same reviewer marked both.",
+    "Only clear shoe pairs enter the error distribution; jumping, motion and overlap are underrepresented.",
+    "A midpoint between shoes is an operational ground anchor, not a physical centre of mass.",
+    "The staged court homography and shoe markings lack independent inter-observer validation.",
+    "No full point interval or six-player trajectory is validated by this bounded check."
+  ]
+}

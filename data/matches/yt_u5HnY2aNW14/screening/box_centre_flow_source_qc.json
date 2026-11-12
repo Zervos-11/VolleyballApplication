@@ -1,0 +1,25 @@
+{
+  "status": "single_reviewer_endpoint_visual_screen_not_full_trajectory_validation",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "pilot_sha256": "a42d9a2e086fcf5d14e7794e0cf1a55a7e38a542161ab0c77a937d92e3e679cb",
+  "review_basis": "Unboxed source and rigidly translated six-box overlays at anchor minus 12 frames, anchor and anchor plus 12 frames; intermediate five-sample paths and named identity not manually certified",
+  "rows": [
+    {"set": 1, "point_number": 5, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain visually separated at both endpoints."},
+    {"set": 1, "point_number": 6, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain in the translated boxes during the far-side attack."},
+    {"set": 1, "point_number": 18, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain in view, including a player close to the right sideline."},
+    {"set": 1, "point_number": 27, "endpoint_status": "uncertain_overlap", "note": "Near blue right-side movement and libero crossing create overlapping translated boxes at the later endpoint."},
+    {"set": 1, "point_number": 34, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue players remain separated; this is a serve/reset phase rather than comparable open play."},
+    {"set": 1, "point_number": 37, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain visually associated at the two displayed endpoints."},
+    {"set": 2, "point_number": 2, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near white teammates remain separated through the far-side approach."},
+    {"set": 2, "point_number": 6, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near white teammates remain visible through the far-side defensive dive."},
+    {"set": 2, "point_number": 14, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "The near white server and five teammates remain visually associated; this is a serve phase."},
+    {"set": 2, "point_number": 26, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near white teammates remain visually separated at both endpoints."},
+    {"set": 2, "point_number": 28, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near white teammates remain identifiable; one front-row player changes pose markedly during the attack."},
+    {"set": 2, "point_number": 37, "endpoint_status": "uncertain_overlap", "note": "Two near white players converge in the central backcourt at the later endpoint."},
+    {"set": 3, "point_number": 11, "endpoint_status": "uncertain_overlap", "note": "Near blue attacker and far white blocker overlap at the net, so the translated box's person assignment is uncertain."},
+    {"set": 3, "point_number": 13, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain visually separated over the displayed short interval."},
+    {"set": 3, "point_number": 27, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain visually associated through the far-side attack."},
+    {"set": 3, "point_number": 33, "endpoint_status": "uncertain_overlap", "note": "Near blue front-row teammate overlaps the opposing white player near the net; translated box membership is uncertain."},
+    {"set": 3, "point_number": 34, "endpoint_status": "no_obvious_wrong_person_transfer", "note": "Six near blue teammates remain separated at both displayed endpoints."}
+  ]
+}

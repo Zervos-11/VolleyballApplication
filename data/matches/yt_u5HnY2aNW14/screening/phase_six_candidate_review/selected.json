@@ -1,0 +1,314 @@
+{
+  "status": "phase_model_navigation_frames_pending_source_review",
+  "tracks_sha256": "efdc00ccc7a008d3c0ad5904bc22bdcb907898808177df9449e5c3c4cb562ae7",
+  "phase_sha256": "c9da420459b5b9fbd58f8fc594f5034e267c1caa39ab6b5fd453f54aecf269d4",
+  "selection_rule": "model play class, exactly six geometric candidates preferred, then nearest median play candidate frame",
+  "selected": [
+    {
+      "set": 1,
+      "point_number": 5,
+      "source_frame": 1422,
+      "source_second": 47.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 6,
+      "source_frame": 1752,
+      "source_second": 58.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        4,
+        14,
+        23,
+        15
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 18,
+      "source_frame": 5370,
+      "source_second": 179.0,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        19
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 27,
+      "source_frame": 7338,
+      "source_second": 244.6,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        3,
+        6,
+        8,
+        36,
+        37
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 34,
+      "source_frame": 9672,
+      "source_second": 322.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        4,
+        6,
+        16,
+        33,
+        36,
+        44
+      ]
+    },
+    {
+      "set": 1,
+      "point_number": 37,
+      "source_frame": 10722,
+      "source_second": 357.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        74,
+        87,
+        102,
+        79,
+        116,
+        118
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 2,
+      "source_frame": 12312,
+      "source_second": 410.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        5,
+        43,
+        107,
+        112,
+        3,
+        26
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 6,
+      "source_frame": 13548,
+      "source_second": 451.6,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        87,
+        8,
+        76,
+        121,
+        126,
+        3
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 14,
+      "source_frame": 16074,
+      "source_second": 535.8,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        22
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_frame": 18942,
+      "source_second": 631.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        3,
+        6,
+        12,
+        35,
+        42,
+        13
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19536,
+      "source_second": 651.2,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        12
+      ]
+    },
+    {
+      "set": 2,
+      "point_number": 37,
+      "source_frame": 22194,
+      "source_second": 739.8,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        8,
+        32,
+        41,
+        44,
+        9,
+        31
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 11,
+      "source_frame": 29280,
+      "source_second": 976.0,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        14
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frame": 29928,
+      "source_second": 997.6,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 23,
+      "source_frame": 32784,
+      "source_second": 1092.8,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        4,
+        5,
+        11,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 27,
+      "source_frame": 34122,
+      "source_second": 1137.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        4,
+        5,
+        21,
+        17,
+        44,
+        14
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 33,
+      "source_frame": 35832,
+      "source_second": 1194.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 1,
+      "raw_track_ids": [
+        38,
+        51,
+        9,
+        11,
+        58,
+        25
+      ]
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36072,
+      "source_second": 1202.4,
+      "predicted_class": "play",
+      "geometric_candidate_count": 6,
+      "net_boundary_review_count": 0,
+      "raw_track_ids": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        10
+      ]
+    }
+  ]
+}

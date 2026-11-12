@@ -1,0 +1,53 @@
+{
+  "status": "single_reviewer_source_visible_counterexamples_not_exhaustive_phase_review",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "candidate_screen_sha256": "dca398e83321ca66432068a4ec85512a44add4e28968d741fef75275ea6a9ead",
+  "review_index_sha256": "84edf5c920dd3fbdec530e3c04cf87de0b87bab2b0f9c75b4147d04f8fa19d1e",
+  "candidate_frames": 177,
+  "confirmed_non_live_candidate_frames": 4,
+  "distinct_affected_points": 3,
+  "decision": "Quarantine clip-wide and winner-stratified medians; inspected counterexamples prove the current gate admits non-live frames.",
+  "limitations": "Only these four illustrated frames were phase-adjudicated here; the other candidate frames have not been cleared.",
+  "counterexamples": [
+    {
+      "set": 2,
+      "point_number": 26,
+      "source_frame": 19152,
+      "source_second": 638.4,
+      "source_visible_phase": "after_point",
+      "visual_evidence": "Players have gathered at the net after the exchange.",
+      "review_sheet": "sheet_5.jpg",
+      "review_sheet_sha256": "4e87c630ff3f0d0697eac27407e7fa9aa5f371c6abcab7c173c8056da57554e3"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19500,
+      "source_second": 650.0,
+      "source_visible_phase": "before_serve",
+      "visual_evidence": "Near-side players are in static serve-receive formation before the serve.",
+      "review_sheet": "sheet_5.jpg",
+      "review_sheet_sha256": "4e87c630ff3f0d0697eac27407e7fa9aa5f371c6abcab7c173c8056da57554e3"
+    },
+    {
+      "set": 2,
+      "point_number": 28,
+      "source_frame": 19584,
+      "source_second": 652.8,
+      "source_visible_phase": "after_point",
+      "visual_evidence": "Players are walking and regrouping after the exchange.",
+      "review_sheet": "sheet_5.jpg",
+      "review_sheet_sha256": "4e87c630ff3f0d0697eac27407e7fa9aa5f371c6abcab7c173c8056da57554e3"
+    },
+    {
+      "set": 3,
+      "point_number": 34,
+      "source_frame": 36174,
+      "source_second": 1205.8,
+      "source_visible_phase": "after_point",
+      "visual_evidence": "Line judge has raised the flag and players are dispersing.",
+      "review_sheet": "sheet_8.jpg",
+      "review_sheet_sha256": "d5881aa43f57774c326413843607d06f5a1e2b4cbe912d49efde40b58cdf5f7d"
+    }
+  ]
+}

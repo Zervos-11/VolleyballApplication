@@ -1,0 +1,52 @@
+{
+  "status": "all_frames_long_highres_winning_run_review_pack",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "run_audit_sha256": "4fc4176419a759cb7a14fea1877d6bc406394e6b082e95d4ac3ed2b196a11053",
+  "entries": [
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frames": [
+        29881,
+        29887,
+        29893,
+        29899
+      ],
+      "sheet": "s3_p13_00.jpg",
+      "sha256": "8855fc4f38054dc8a69ab96af529de50ce28c3b9b47494d70bb2a07226aa831f"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frames": [
+        29905,
+        29911,
+        29917,
+        29923
+      ],
+      "sheet": "s3_p13_04.jpg",
+      "sha256": "0ce3f78aae9caf6d8cfa421e4500adc733b71c60b0005652691756e6864e24b9"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frames": [
+        29929,
+        29935,
+        29941,
+        29947
+      ],
+      "sheet": "s3_p13_08.jpg",
+      "sha256": "b0c5fc6f8d3cc7ee7917593535a023c85c0bbc4adc06d7fb6682f1b2b2de904d"
+    },
+    {
+      "set": 3,
+      "point_number": 13,
+      "source_frames": [
+        29953
+      ],
+      "sheet": "s3_p13_12.jpg",
+      "sha256": "b4ecc0759f4d513a6d5f0a61a49a564d31089fac31bf1d79d24dd6f8b8500069"
+    }
+  ]
+}

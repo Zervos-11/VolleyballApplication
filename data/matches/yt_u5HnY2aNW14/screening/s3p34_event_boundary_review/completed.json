@@ -1,0 +1,135 @@
+{
+  "status": "single_reviewer_event_review_not_independent_adjudication",
+  "manifest_sha256": "d62eeefa50afed3cc98270fcf29fc59434bca5bb5ecffd10e02fa39fcc223855",
+  "source_video_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "reviewer": "MZ",
+  "verdicts": {
+    "35998": {
+      "status": "contact_visible",
+      "note": ""
+    },
+    "35986": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35987": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35988": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35989": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35990": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35991": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35992": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35993": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35994": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35995": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35996": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35997": {
+      "status": "before_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "35999": {
+      "status": "after_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "36000": {
+      "status": "after_contact",
+      "note": "Batch entered from reviewer statement: all frames before 35998 are before contact and all after are after contact; individual frames not clicked."
+    },
+    "36138": {
+      "status": "dead",
+      "note": ""
+    },
+    "36139": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36140": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36141": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36142": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36143": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36144": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36145": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36146": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36147": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36148": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36149": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    },
+    "36150": {
+      "status": "dead",
+      "note": "Batch entered from reviewer statement: live before frame 36138, dead from frame 36138 onward; individual frames not clicked."
+    }
+  },
+  "summary": {
+    "serve_contact_visible_frames": [
+      35998
+    ],
+    "last_reviewed_before_contact": 35997,
+    "first_reviewed_after_contact": 35999,
+    "last_reviewed_live": null,
+    "first_reviewed_dead": 36138,
+    "exact_serve_contact_certified": true,
+    "exact_point_end_certified": false
+  },
+  "limitations": [
+    "No whistle or ball-ground event can be inferred solely from player disengagement.",
+    "Uncertain frames remain uncertain; this export does not manufacture exact boundaries."
+  ]
+}

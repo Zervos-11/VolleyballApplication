@@ -1,0 +1,102 @@
+{
+  "status": "exploratory_5hz_proxy_displacement_not_actual_travel",
+  "source_sha256": "da50eba82e7e9366eb7a93db169b42065dea790c3f335bf26397d9241a2f437b",
+  "ledger_sha256": "80a87cef21d7d0fd44f6a8cbcfb0998d1857a95a75a85959d2d6a852aa384546",
+  "set": 3,
+  "point_number": 34,
+  "sample_frames_inclusive": [
+    36000,
+    36138
+  ],
+  "sample_stride_source_frames": 6,
+  "scenario_per_position_error_radius_m": 0.595,
+  "scenario_basis": "largest observed selected S3 P34 manual-position discrepancy; not a guaranteed error bound",
+  "players": [
+    {
+      "jersey": "28",
+      "accepted_samples": 24,
+      "first_accepted_frame": 36000,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 7.08,
+      "gap_bridge_chords_m": 0,
+      "gap_bridge_links": 0,
+      "all_sampled_chords_m": 7.08,
+      "first_to_last_accepted_chord_m": 3.117
+    },
+    {
+      "jersey": "12",
+      "accepted_samples": 19,
+      "first_accepted_frame": 36030,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 3.406,
+      "gap_bridge_chords_m": 0,
+      "gap_bridge_links": 0,
+      "all_sampled_chords_m": 3.406,
+      "first_to_last_accepted_chord_m": 1.872
+    },
+    {
+      "jersey": "15",
+      "accepted_samples": 20,
+      "first_accepted_frame": 36000,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 1.79,
+      "gap_bridge_chords_m": 0.564,
+      "gap_bridge_links": 1,
+      "all_sampled_chords_m": 2.354,
+      "first_to_last_accepted_chord_m": 0.549
+    },
+    {
+      "jersey": "7",
+      "accepted_samples": 21,
+      "first_accepted_frame": 36000,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 4.751,
+      "gap_bridge_chords_m": 0.497,
+      "gap_bridge_links": 2,
+      "all_sampled_chords_m": 5.248,
+      "first_to_last_accepted_chord_m": 1.262
+    },
+    {
+      "jersey": "19",
+      "accepted_samples": 24,
+      "first_accepted_frame": 36000,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 4.771,
+      "gap_bridge_chords_m": 0,
+      "gap_bridge_links": 0,
+      "all_sampled_chords_m": 4.771,
+      "first_to_last_accepted_chord_m": 4.265
+    },
+    {
+      "jersey": "21",
+      "accepted_samples": 18,
+      "first_accepted_frame": 36000,
+      "last_accepted_frame": 36138,
+      "observed_adjacent_sample_chords_m": 4.403,
+      "gap_bridge_chords_m": 1.811,
+      "gap_bridge_links": 3,
+      "all_sampled_chords_m": 6.214,
+      "first_to_last_accepted_chord_m": 0.579
+    }
+  ],
+  "summary": {
+    "accepted_player_samples": 126,
+    "sampled_chord_links": 120,
+    "adjacent_sample_links": 114,
+    "gap_bridge_links": 6,
+    "adjacent_sample_proxy_chords_m": 26.2,
+    "gap_bridge_chords_m": 2.873,
+    "all_sampled_proxy_chords_m": 29.073,
+    "sum_first_to_last_accepted_chords_m": 11.643,
+    "conditional_discrete_chord_sum_range_m": [
+      0.0,
+      171.873
+    ],
+    "conditional_endpoint_chord_sum_range_m": [
+      5.756,
+      18.783
+    ],
+    "largest_single_sampled_chord_m": 0.936
+  },
+  "interpretation": "The displayed chord sums describe the sampled court-position proxies. A bridge chord connects the nearest accepted positions on opposite sides of missing samples, without observing the path inside the gap. The conditional ranges apply only to sums of discrete chords if every position error is no greater than the chosen radius. They do not bound physical distance travelled between samples or over uncovered rally endpoints."
+}
